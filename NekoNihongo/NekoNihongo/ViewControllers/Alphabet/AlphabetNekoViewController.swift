@@ -5,22 +5,36 @@
 //  Created by Bao on 9/19/17.
 //  Copyright © 2017 ViBao. All rights reserved.
 //
+
 import UIKit
 import AVFoundation
 
 class AlphabetNekoViewController: UIViewController {
     
     // MARK: IBOutlets
+    
     @IBOutlet weak var alphabetSelectionCollectionView: UICollectionView!
-    // MARK: Properties
+    
+    @IBOutlet weak var speakerButton: UIBarButtonItem!
+    
+    // MARK: Variables
+    
     struct StoryBoard {
+        
         static let alphabetSelectionCellIdentifier = "AlphabetSelectionCellIdentifier"
+        
         static let alphabetCollectionReusableCellIdentifier = "AlphabetCollectionReusableCellIdentifier"
+        
         static let leftAndRightPaddings: CGFloat = 10.0
+        
         static let numberOfItemsPerRow: CGFloat = 5.0
+        
     }
+    
     var titleAlphabet = ""
+    
     var alphabetArray = [[NekoAlphabetModel]]()
+    
     let alphabetHeaderArray = [ "Basic letters", "Dakuon", "Yōon" ]
     
 //    deinit {
@@ -29,17 +43,34 @@ class AlphabetNekoViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
         self.title = titleAlphabet
+        
         self.initView()
+        
         if self.titleAlphabet == "Hiragana" {
+            
             self.initDataHiragana()
+            
         } else {
+            
             self.initDataKatakana()
+            
         }
+        
     }
     
-    // MARK: Methods
+    override func didReceiveMemoryWarning() {
+        super.didReceiveMemoryWarning()
+        // Dispose of any resources that can be recreated.
+    }
+    
+    // MARK: IBActions
+    
+    // MARK: Functions
+    
     func initDataHiragana() {
+        
         let higaranaCharacter = [
             NekoAlphabetModel(nekoJapaneseCharacter: "あ", nekoLatinCharacter: "a"),
             NekoAlphabetModel(nekoJapaneseCharacter: "い", nekoLatinCharacter: "i"),
@@ -206,11 +237,15 @@ class AlphabetNekoViewController: UIViewController {
             NekoAlphabetModel(nekoJapaneseCharacter: "りょ", nekoLatinCharacter: "ryo") ]
         
         self.alphabetArray.append(higaranaCharacter)
+        
         self.alphabetArray.append(combinationHiragana01)
+        
         self.alphabetArray.append(combinationHiragana02)
+        
     }
     
     func initDataKatakana() {
+        
         let katakanaCharacter = [
             NekoAlphabetModel(nekoJapaneseCharacter: "ア", nekoLatinCharacter: "a"),
             NekoAlphabetModel(nekoJapaneseCharacter: "イ", nekoLatinCharacter: "i"),
@@ -377,64 +412,108 @@ class AlphabetNekoViewController: UIViewController {
             NekoAlphabetModel(nekoJapaneseCharacter: "リョ", nekoLatinCharacter: "ryo") ]
         
         self.alphabetArray.append(katakanaCharacter)
+        
         self.alphabetArray.append(katakanaCombination01)
+        
         self.alphabetArray.append(katakanaCombination02)
+        
     }
     
     func initView() {
+        
         let bounds = UIScreen.main.bounds.width
+        
         let width = (bounds - ((StoryBoard.numberOfItemsPerRow + 1) * StoryBoard.leftAndRightPaddings)) / StoryBoard.numberOfItemsPerRow
+        
         let height = width
+        
         (self.alphabetSelectionCollectionView.collectionViewLayout as! UICollectionViewFlowLayout).itemSize = CGSize(width: width, height: height)
+        
     }
+    
 }
 
 extension AlphabetNekoViewController: UICollectionViewDataSource {
+    
     func numberOfSections(in collectionView: UICollectionView) -> Int {
+        
         return 3
+        
     }
     
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+        
         return self.alphabetArray[section].count
+        
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+        
         let alphabetCell = collectionView.dequeueReusableCell(withReuseIdentifier: StoryBoard.alphabetSelectionCellIdentifier, for: indexPath) as! AlphabetSelectionCollectionViewCell
+        
         let alphabetItem = self.alphabetArray[indexPath.section][indexPath.item]
+        
         alphabetCell.alphabetLabel.text = ""
         alphabetCell.alphabetLabel.text = alphabetItem.nekoJapaneseCharacter
+        
         alphabetCell.delegate = self
+        
         return alphabetCell
+        
     }
+    
 }
 
 extension AlphabetNekoViewController: UICollectionViewDelegate {
+    
     func collectionView(_ collectionView: UICollectionView, viewForSupplementaryElementOfKind kind: String, at indexPath: IndexPath) -> UICollectionReusableView {
+        
         let headerView = collectionView.dequeueReusableSupplementaryView(ofKind: kind, withReuseIdentifier: StoryBoard.alphabetCollectionReusableCellIdentifier, for: indexPath) as! AlphabetCollectionReusableView
+        
         let category = alphabetHeaderArray[indexPath.section]
+        
         headerView.alphabetHeaderCollectionView.text = category
         return headerView
+        
     }
+    
 }
 
 extension AlphabetNekoViewController: AlphabetSelectionDelegate {
+    
     func pushToAlphabetDetailView(cell: AlphabetSelectionCollectionViewCell) {
-        let AlphabetDetailViewController = Constant.mainStoryBoard.instantiateViewController(withIdentifier: "AlphabetDetailViewController") as! AlphabetDetailViewController
+        
+        let AlphabetDetailViewController = AppDelegate.mainStoryBoard.instantiateViewController(withIdentifier: "AlphabetDetailViewController") as! AlphabetDetailViewController
+        
         guard let indexPath = self.alphabetSelectionCollectionView.indexPath(for: cell) else {
             return
         }
+        
         let alphabetItem = self.alphabetArray[indexPath.section][indexPath.item]
+        
         if alphabetItem.nekoJapaneseCharacter != "" && alphabetItem.nekoLatinCharacter != "" {
+            
             AlphabetDetailViewController.alphabetItemDetail = alphabetItem
             AlphabetDetailViewController.titleAlphabet = self.titleAlphabet
+            
             let start = (indexPath.row / 5) * 5
+            
             for alphabetIndex in start...(start + 4) {
+                
                 let alphabetItem = self.alphabetArray[indexPath.section][alphabetIndex]
+                
                 if alphabetItem.nekoJapaneseCharacter != "" && alphabetItem.nekoLatinCharacter != "" {
+                    
                      AlphabetDetailViewController.alphabetFlipArray.append(alphabetItem)
+                    
                 }
+                
             }
+            
             self.navigationController?.pushViewController(AlphabetDetailViewController, animated: true)
+            
         }
+        
     }
+    
 }

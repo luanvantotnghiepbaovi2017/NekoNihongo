@@ -13,17 +13,20 @@ import AppKit
 #endif
 
 internal class Constraint {
+    // Set to weak to avoid a retain cycle on the associated view.
+    weak var view: View?
     let layoutConstraint: NSLayoutConstraint
 
     func install() {
-        layoutConstraint.isActive = true
+        view?.addConstraint(layoutConstraint)
     }
 
     func uninstall() {
-        layoutConstraint.isActive = false
+        view?.removeConstraint(layoutConstraint)
     }
 
-    init(_ layoutConstraint: NSLayoutConstraint) {
+    init(view: View, layoutConstraint: NSLayoutConstraint) {
+        self.view = view
         self.layoutConstraint = layoutConstraint
     }
 }

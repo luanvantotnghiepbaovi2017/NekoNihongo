@@ -6,7 +6,8 @@
 //  Copyright © 2017 ViBao. All rights reserved.
 //
 
-struct NekoModel: Decodable {
+struct NekoModel {
+    
     var nekoJapanese: String
     var nekoLatin: String
     var nekoKanji: String
@@ -16,6 +17,7 @@ struct NekoModel: Decodable {
     var nekoSound: String
     
     init(nekoJapanese: String, nekoLatin: String, nekoKanji: String, nekoKanjiHanViet: String, nekoVietNamese: String, nekoEnglish: String, nekoSound: String) {
+        
         self.nekoJapanese = nekoJapanese
         self.nekoLatin = nekoLatin
         self.nekoKanji = nekoKanji
@@ -23,5 +25,7 @@ struct NekoModel: Decodable {
         self.nekoVietNamese = nekoVietNamese
         self.nekoEnglish = nekoEnglish
         self.nekoSound = nekoSound
+        
     }
+    
 }

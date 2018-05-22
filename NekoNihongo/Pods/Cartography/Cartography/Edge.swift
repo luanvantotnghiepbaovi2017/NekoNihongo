@@ -13,13 +13,13 @@ import AppKit
 #endif
 
 public struct Edge : Property, RelativeEquality, RelativeInequality, Addition, Multiplication {
-    public let attribute: LayoutAttribute
+    public let attribute: NSLayoutAttribute
     public let context: Context
-    public let item: AnyObject
+    public let view: View
 
-    internal init(_ context: Context, _ item: AnyObject, _ attribute: LayoutAttribute) {
+    internal init(_ context: Context, _ view: View, _ attribute: NSLayoutAttribute) {
         self.attribute = attribute
         self.context = context
-        self.item = item
+        self.view = view
     }
 }

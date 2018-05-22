@@ -7,56 +7,50 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		033E20123508ACA1151479485BEC8D90 /* LayoutProxy+TypeErasure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B53D234C815302422B1AEC102F4D6A6 /* LayoutProxy+TypeErasure.swift */; };
-		0739B8BF39538E41B6C747EDE71114F3 /* Constrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C7FCE04234FA1426EA1F990D51FE83F /* Constrain.swift */; };
-		078D75FC8795FA3EBD22377BC890520B /* Distribute.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5909BB1764C5E777F5BF901E820481C /* Distribute.swift */; };
-		0C68D7B170FD1CABA87A1A4D2FA0A4FB /* Pods-NekoNihongoTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 41218307D9FA80C0AC589AE953D8FDB9 /* Pods-NekoNihongoTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		18993D91D32AF5FACC7B6482052302D8 /* Pods-NekoNihongoTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 585C8DFD247D0C635C240252E31536A3 /* Pods-NekoNihongoTests-dummy.m */; };
-		1C92A98E34D0E29E787071F0B75401E5 /* Cartography-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A7777445AF2999115817097BD8CFE1EC /* Cartography-dummy.m */; };
-		1D76B7F032F2990C54D426934ACCF366 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		22C18133E55CC4E0633B633F3912F097 /* Cartography-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CFC9EA16D14EADBE3C6031E8765E8FA5 /* Cartography-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		26D9D26B1D4A7C48E1DFE6C4697A7EB3 /* Size.swift in Sources */ = {isa = PBXBuildFile; fileRef = 673AC09A273AACCAA1A691875F742D2E /* Size.swift */; };
-		27BEB6D60B638B2F7E7086598B419CB3 /* LayoutGuideProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD58302C82C3BDBBD5F840FC93BDDF59 /* LayoutGuideProxy.swift */; };
-		32025B2B8DE425356C4FF9098105F7AF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		33E91E78F43301F168B42DB67C04CDC4 /* Coefficients.swift in Sources */ = {isa = PBXBuildFile; fileRef = 711136E74A56A6B4BE60F68013FCC067 /* Coefficients.swift */; };
-		370EA4B00C3E1F71C87314271179D06D /* Property.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D6F890ED93E176F89120C999F79961D /* Property.swift */; };
-		3718B119B21834212893837F66A3AA63 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		3E6984611C4C0E4851A1D35B76BF6959 /* Pods-NekoNihongo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6BCEDE8DF357284BE82EFECFECF1B75E /* Pods-NekoNihongo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		44279488206961A71665C70FD3BD9FCD /* Point.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFB28887316457F9ABF03F677EF8CF88 /* Point.swift */; };
-		52C3E8081BB80AA34FEF1659F24533C2 /* ViewProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DE4FBF593B7A21CC028B8D7FEEA8D62 /* ViewProxy.swift */; };
-		551EDA7C2AEF5DBDE54A1E04D3B66DEF /* ConstraintGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = E36BF9C470CC0D18FD3FBA9F4AA4A957 /* ConstraintGroup.swift */; };
-		58B00C7BCF27BE64587847CA77E9DD11 /* Align.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79B0FF24609109A37ACA90A01CEF4D7F /* Align.swift */; };
-		5C223C4998ED4083E3D46FD3D9EDA7A5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		6303953B4072C1B9B5BE9038CD1A5858 /* LayoutProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44444F5FF677E2085D934627391F127E /* LayoutProxy.swift */; };
-		64C1C1BBD53C2B17073E4473687A853A /* LayoutGuide.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0B1FBAE971FE1DA9DE332792C34FDC6 /* LayoutGuide.swift */; };
-		6E8FA2D5F7707285718A471BA8E3F869 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		6F4FE3B61F3F4136F1C403AD21C331D7 /* Context.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0AEB612C05796AAC4CE757F3D0A513F /* Context.swift */; };
-		7248F23C3AEBDEC04945A4AF60D7C23B /* ASExtendedCircularMenu-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D1D6E82DDC9ADEE453901D32462F69A /* ASExtendedCircularMenu-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		75A09744CB87DB237A3D3FA76FC9AB9A /* Edges.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3A1F71194316C202778E2A251724CA5 /* Edges.swift */; };
-		7BBAA7D5001ABB0D1516ACAF7F51F4B5 /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0947400FE8708B2AFB06BBFD71FCD590 /* View.swift */; };
-		869BF762B9D0699ABF4024F1DED0AD0E /* AutoresizingMaskLayoutProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = E770BB84C93CC2340310639B0A185135 /* AutoresizingMaskLayoutProxy.swift */; };
-		8907F698C02A1E3DD5CA2DD4B7387AFB /* Version.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F9EE90461BDE54344FA71E9E0B77D53 /* Version.swift */; };
-		8CF381CFE809227EEDE92995264EE90D /* Size.swift in Sources */ = {isa = PBXBuildFile; fileRef = 381E816C91B8BDE26DD4D0001BA365F3 /* Size.swift */; };
-		94C7D2A64168F83FDD3F1FDD86309462 /* Edge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E93FCB87D4A0163975D6E3A907231FF /* Edge.swift */; };
-		95D1804FEDC921E2224BC58D9425255A /* Device-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C0CA3C28169B5533DD9BFC6B0E613E78 /* Device-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		96C9EC67684C394A2222067091E32366 /* Device.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9A7A91D47BA30D281FABD719B3282E9 /* Device.swift */; };
-		9C6E1370B7332CEA8408E407F24570B5 /* Expression.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CE7CE5FC8B157EB872EC9E680348F34 /* Expression.swift */; };
-		9CE346360FF9A0AD5675FF2F4B3C3D26 /* Pods-NekoNihongo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A22A215A9FBC494D518AE234A494FBF0 /* Pods-NekoNihongo-dummy.m */; };
-		9DE7AC7E9424287CE00664C9EA68D2D2 /* LayoutSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2016917571EF6073B8B7ECF9FD772E65 /* LayoutSupport.swift */; };
-		A37DED66695DC9C57FD67849B88A3B7C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		B27B163CFCBEEC45948AEC1EDA74B5C4 /* Device-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5799C22C0FAD225B2D5DD3FE67592ADE /* Device-dummy.m */; };
-		B4DBC3F172AFEA9A0F86A1428D235BAB /* Dimension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD40C8D9D44EE827735B834228A8BA2A /* Dimension.swift */; };
-		B5F81BD16E814012A6BE0FCF45D42F5B /* ASExtendedCircularMenu-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AF7CD64A5E8E3342523A2AB481A2BC1 /* ASExtendedCircularMenu-dummy.m */; };
-		B85B1947D34D7BF22A52F1693890FFC4 /* ASExtendedCircularMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFBC06281BAF34CACB5D808F6C1B72FB /* ASExtendedCircularMenu.swift */; };
-		BA5A1AB64D6209E02457F74F3914AEE1 /* Pods-NekoNihongoUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 91129FCFCA72533D96E79DAEAD9A62F2 /* Pods-NekoNihongoUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BAA82517E186455BBE3B74D44E5EDD5D /* LayoutItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC42E47070CAA18E9A7EF465DFCC93B /* LayoutItem.swift */; };
-		DB9F3857E166A3EAC8EC5646023E7B8E /* Compound.swift in Sources */ = {isa = PBXBuildFile; fileRef = 700EE87088E938D1EABDE9FE9C4FB3BC /* Compound.swift */; };
-		DD14B8ECC2DFA91E25604F654803A64B /* Type.swift in Sources */ = {isa = PBXBuildFile; fileRef = 358BDFD6BAA1FC21ECA896ACD8508BA1 /* Type.swift */; };
-		E2F636932DC549ECAC060149AE2925A8 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7976D82DC330CDBF58B7133B92039932 /* Extensions.swift */; };
-		E79C8C2851495884D91FEFFFC53FAB45 /* LayoutSupportProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CA4FF1FB11CDE530032CB3600C7A4BA /* LayoutSupportProxy.swift */; };
-		F0C6BDB3EC166BAB0EBEE4D562B0CF38 /* Pods-NekoNihongoUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C33581AAD40E0909FB6BECCEDFDAA0FB /* Pods-NekoNihongoUITests-dummy.m */; };
-		F14347E3AC3A254F7A424CCB7FCF512B /* Priority.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39B4345E7E5F2208B0D940A520E7990E /* Priority.swift */; };
-		F435B4C2D5E6E7B34471B69DAC6D5E51 /* Constraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF3C0885CA73A2D972C9B2F301D4F650 /* Constraint.swift */; };
+		05C1C6C0B246E3C5FDF06B2A0BB63F0D /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = B590BBE78061D5CED2663F5E0825E489 /* View.swift */; };
+		067B84F7E9EFBEAFDC824931CAAD2051 /* Align.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B7C45D9AC1D41539338A3DF43F24B2A /* Align.swift */; };
+		1431619A2565DD8EAB817240E078707C /* LayoutProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89668940D5DEAC22A48D21E0F270B93D /* LayoutProxy.swift */; };
+		22B60CFF6E57EB6DF8CCA5D2CAC3178C /* Priority.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74F7E3396672AF8CE2986AD6316A5929 /* Priority.swift */; };
+		24EF682ACFF8F1CEA8BDDAA340220AC3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		264466553371E2D66695AE325D5A7568 /* Pods-NekoNihongoUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A9B567B0162854DEF847B6A219AB355C /* Pods-NekoNihongoUITests-dummy.m */; };
+		3E6984611C4C0E4851A1D35B76BF6959 /* Pods-NekoNihongo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5363F3132E83F303AEEDFC5204B3ADFD /* Pods-NekoNihongo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3F2391D80C5AE124D6E13AD3FABFFE01 /* Constrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81C45E83E762D621FEC8528F4A3F4608 /* Constrain.swift */; };
+		3FB97FE471EF22356BD2D0D1448F3F45 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		5525AB611F8B04ECB8E50291DFE20C3E /* Pods-NekoNihongoTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DB25BB3BFBEA3665C668BE023270458 /* Pods-NekoNihongoTests-dummy.m */; };
+		56EBA0C77344F63CA6A36265A6496A71 /* LayoutSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 892DA78FCFCEB4AC99283E2556C91CE4 /* LayoutSupport.swift */; };
+		5911A18E5FE1A6D1E7FEC1F9CF445CD9 /* Pods-NekoNihongoTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C2781A5FDD0D0DB5B6604515A4FA099E /* Pods-NekoNihongoTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5CAA19E0EB7CA9EB6047A3E43EC1FC8F /* ConstraintGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48DC2E730EC91222B197555CDAC28F41 /* ConstraintGroup.swift */; };
+		5F5D3FB5718F4673DC293DA7D97EF046 /* Compound.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FA154E8660EC759B50DCF0B2933B29 /* Compound.swift */; };
+		697414FCC3C6F8176768FFDDEC73A108 /* Expression.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42DE1C5CEB3E7C5140F5E31AE29E6EB5 /* Expression.swift */; };
+		7248F23C3AEBDEC04945A4AF60D7C23B /* ASExtendedCircularMenu-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9EFE86055713F50889CBB849D5149217 /* ASExtendedCircularMenu-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		74BD0664EEC77366D314DA22DD4E721F /* Size.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B64328643FC0BB1EE352A6F77546875 /* Size.swift */; };
+		7965A04590F67375EC65249F774B3F6B /* Distribute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2725887487F750C741E6C46943AB123D /* Distribute.swift */; };
+		822686179633E83E08AA18E677F16AAF /* Pods-NekoNihongoUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4EBE8A09835FA00640EA701D430DE701 /* Pods-NekoNihongoUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		88B21B225B2D6BFAB3F50B88495299F1 /* Point.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4ECDB5C8F4C78EE81B3204B88AE4811 /* Point.swift */; };
+		8907F698C02A1E3DD5CA2DD4B7387AFB /* Version.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBDA4F6D8C2CCDA88A58C9C5742DEABB /* Version.swift */; };
+		8CF381CFE809227EEDE92995264EE90D /* Size.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F2E4EBA73938C81343A347CA23D6532 /* Size.swift */; };
+		95D1804FEDC921E2224BC58D9425255A /* Device-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AD95015E4B68CFAAA1561F9F9A73C3FD /* Device-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		96C9EC67684C394A2222067091E32366 /* Device.swift in Sources */ = {isa = PBXBuildFile; fileRef = 366ED1434CE71FA86F7D1C64FBAE466B /* Device.swift */; };
+		9B71D4856DF9CFE5715EDF4E5B3B2844 /* ViewUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FEC175B405E26C96160B04E9826DD32 /* ViewUtils.swift */; };
+		9C7E8D85506FA06C506A330B200FCEE7 /* Context.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF404C2A50D2B4F6E2EB387345448859 /* Context.swift */; };
+		9CE346360FF9A0AD5675FF2F4B3C3D26 /* Pods-NekoNihongo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 80DD0283A8708E2BA0D6758326FCFDF6 /* Pods-NekoNihongo-dummy.m */; };
+		A084DDD7233A950676D60FCB4FA8BE74 /* Edges.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5420929DA4A0A240F3CB9B52FCAB3434 /* Edges.swift */; };
+		A67286FF819C5C943D027E9C40DF456D /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA76D90521B60B5293F1430F2FF9E46E /* Extensions.swift */; };
+		A7BD4B74A484170A23FF6C7611A11B40 /* Property.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CDD7D089CF4CB27E86E3FB34D9F2CE8 /* Property.swift */; };
+		AE6AB8D9D76665174209676D0A680206 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		AE7ACD648B84D1C8645049118FE42D54 /* Cartography-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3069B2F2A201C4BF4E5AC781AA8A7D75 /* Cartography-dummy.m */; };
+		B15ECCE2786A89E43D685CB6DE0DE0AF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		B27B163CFCBEEC45948AEC1EDA74B5C4 /* Device-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 11ED711E1D0E269137EAE63C35746E0D /* Device-dummy.m */; };
+		B2888C7C90E04333602D28A38A282E55 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		B5F81BD16E814012A6BE0FCF45D42F5B /* ASExtendedCircularMenu-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 79BF91E3F30F7F0A3617ECEFF4AADA71 /* ASExtendedCircularMenu-dummy.m */; };
+		B85B1947D34D7BF22A52F1693890FFC4 /* ASExtendedCircularMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE4EF5C24BB9A86059927A13D97348FF /* ASExtendedCircularMenu.swift */; };
+		C2E2993258D9072061A389E518053F8B /* Constraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B68FD6591A397FF832B4F8B4B57919D /* Constraint.swift */; };
+		CD587D5E28B0428E3B4163F1604D26BF /* Edge.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC94DEEEA45B06F30E5C62C52E05CB3 /* Edge.swift */; };
+		DBC0D8FEB6A8101C977332E8BC16E641 /* Dimension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 240B5AAA919E6539B0C6941E9D4CB441 /* Dimension.swift */; };
+		DD14B8ECC2DFA91E25604F654803A64B /* Type.swift in Sources */ = {isa = PBXBuildFile; fileRef = B469FEF94BA45B5600A7DF55B210854B /* Type.swift */; };
+		DF9EEB3D9AD015A417B6B78A8BA9399B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		FC27B916EC313A166CE2704745CB14C0 /* Coefficients.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06D546FA27A2EB9615BEFB332CB8C032 /* Coefficients.swift */; };
+		FE4D13CA6A4999D13875761E5100C1A0 /* Cartography-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4198B6785C7695971F2227C3DDEF196C /* Cartography-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,18 +61,11 @@
 			remoteGlobalIDString = 5E90024CA4621EC0A8B8C777C958214A;
 			remoteInfo = Device;
 		};
-		2F76412EA3319EEC91E4070F1515B85D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 1FCFD7D35DA4A697B4DBCE49DDF98034;
-			remoteInfo = "Pods-NekoNihongo";
-		};
 		410DCAB818EE43ED55FFA6146D445BB5 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 05B5E6B6BF53C2C31E616E4C5644E8BB;
+			remoteGlobalIDString = 544212980401A6DA7806F65EAD8C6637;
 			remoteInfo = Cartography;
 		};
 		B31B7A3CAEEE2FA89A2C45DF04855BFC /* PBXContainerItemProxy */ = {
@@ -88,120 +75,99 @@
 			remoteGlobalIDString = 6E6AFFF7B1F69DBAE08023549F51645A;
 			remoteInfo = ASExtendedCircularMenu;
 		};
-		E6D5EB9592D42066E7D1A26FDACC0438 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 1FCFD7D35DA4A697B4DBCE49DDF98034;
-			remoteInfo = "Pods-NekoNihongo";
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		017C96F11C1D4B2434BF9A4D073F14A9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0947400FE8708B2AFB06BBFD71FCD590 /* View.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = View.swift; path = Cartography/View.swift; sourceTree = "<group>"; };
-		0A5065AE296E49B1681353FB58B352C0 /* Cartography.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Cartography.modulemap; sourceTree = "<group>"; };
-		1011356A5F1ED62A092C016393284507 /* Pods-NekoNihongoTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NekoNihongoTests-acknowledgements.plist"; sourceTree = "<group>"; };
-		1769D40EC3AEEAA292569D5DDDA3E213 /* Pods-NekoNihongoTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NekoNihongoTests-frameworks.sh"; sourceTree = "<group>"; };
-		17C30819F5F020DEF66FD8593A97FC83 /* ASExtendedCircularMenu.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ASExtendedCircularMenu.xcconfig; sourceTree = "<group>"; };
-		2016917571EF6073B8B7ECF9FD772E65 /* LayoutSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LayoutSupport.swift; path = Cartography/LayoutSupport.swift; sourceTree = "<group>"; };
-		26BA30DEA5195DF990A43694A72EA94C /* Pods_NekoNihongoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_NekoNihongoUITests.framework; path = "Pods-NekoNihongoUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2F47DF882A7012D8E6A6E199599BAF5C /* Pods-NekoNihongoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NekoNihongoUITests.release.xcconfig"; sourceTree = "<group>"; };
-		358BDFD6BAA1FC21ECA896ACD8508BA1 /* Type.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Type.swift; path = Source/Type.swift; sourceTree = "<group>"; };
-		3811C762E979CE43F1C5422BAD66DFB3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		381E816C91B8BDE26DD4D0001BA365F3 /* Size.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Size.swift; path = Source/Size.swift; sourceTree = "<group>"; };
-		39B4345E7E5F2208B0D940A520E7990E /* Priority.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Priority.swift; path = Cartography/Priority.swift; sourceTree = "<group>"; };
-		39EDC89A7186DD35E7D44C7FAC7B5A75 /* ASExtendedCircularMenu.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ASExtendedCircularMenu.modulemap; sourceTree = "<group>"; };
-		3B7B855AAB691505F38FD62966A210C3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		41218307D9FA80C0AC589AE953D8FDB9 /* Pods-NekoNihongoTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NekoNihongoTests-umbrella.h"; sourceTree = "<group>"; };
-		418A18EC548FC472EFC18A9C4D297D5E /* Pods-NekoNihongo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NekoNihongo.release.xcconfig"; sourceTree = "<group>"; };
-		44444F5FF677E2085D934627391F127E /* LayoutProxy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LayoutProxy.swift; path = Cartography/LayoutProxy.swift; sourceTree = "<group>"; };
-		45E2E88E3617FAB24422271021798749 /* Cartography.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Cartography.xcconfig; sourceTree = "<group>"; };
-		47B4E646AF750DC141D45AB32AAF995C /* Device.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Device.modulemap; sourceTree = "<group>"; };
-		4D1D6E82DDC9ADEE453901D32462F69A /* ASExtendedCircularMenu-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ASExtendedCircularMenu-umbrella.h"; sourceTree = "<group>"; };
-		5116564EF9C7E5105B1D77454E8F9F35 /* Device.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Device.framework; path = Device.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		53AB7A25EE901BECA0A80BC8745A7B53 /* Cartography.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Cartography.framework; path = Cartography.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		54DC548A03A0D6CA86D98B330FBF4BD3 /* Cartography-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Cartography-prefix.pch"; sourceTree = "<group>"; };
-		5799C22C0FAD225B2D5DD3FE67592ADE /* Device-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Device-dummy.m"; sourceTree = "<group>"; };
-		585C8DFD247D0C635C240252E31536A3 /* Pods-NekoNihongoTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NekoNihongoTests-dummy.m"; sourceTree = "<group>"; };
-		5DE4FBF593B7A21CC028B8D7FEEA8D62 /* ViewProxy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ViewProxy.swift; path = Cartography/ViewProxy.swift; sourceTree = "<group>"; };
-		6349CF6DE202288CF4935D57B26D2A6A /* Pods-NekoNihongoUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NekoNihongoUITests-acknowledgements.plist"; sourceTree = "<group>"; };
-		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		673AC09A273AACCAA1A691875F742D2E /* Size.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Size.swift; path = Cartography/Size.swift; sourceTree = "<group>"; };
-		6BCEDE8DF357284BE82EFECFECF1B75E /* Pods-NekoNihongo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NekoNihongo-umbrella.h"; sourceTree = "<group>"; };
-		6CA4FF1FB11CDE530032CB3600C7A4BA /* LayoutSupportProxy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LayoutSupportProxy.swift; path = Cartography/LayoutSupportProxy.swift; sourceTree = "<group>"; };
-		6CE7CE5FC8B157EB872EC9E680348F34 /* Expression.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Expression.swift; path = Cartography/Expression.swift; sourceTree = "<group>"; };
-		6E93FCB87D4A0163975D6E3A907231FF /* Edge.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Edge.swift; path = Cartography/Edge.swift; sourceTree = "<group>"; };
-		700EE87088E938D1EABDE9FE9C4FB3BC /* Compound.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Compound.swift; path = Cartography/Compound.swift; sourceTree = "<group>"; };
-		711136E74A56A6B4BE60F68013FCC067 /* Coefficients.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Coefficients.swift; path = Cartography/Coefficients.swift; sourceTree = "<group>"; };
-		74E2B7E8DFCA9D4C06F2E09D21E9752C /* ASExtendedCircularMenu-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ASExtendedCircularMenu-prefix.pch"; sourceTree = "<group>"; };
-		775089941EC08B0B90DAA2C290723F82 /* Pods-NekoNihongo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NekoNihongo-acknowledgements.markdown"; sourceTree = "<group>"; };
-		791D027BC81F1C9CBA923B0475434CD5 /* Pods-NekoNihongo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NekoNihongo.debug.xcconfig"; sourceTree = "<group>"; };
-		7976D82DC330CDBF58B7133B92039932 /* Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Extensions.swift; path = Cartography/Extensions.swift; sourceTree = "<group>"; };
-		79B0FF24609109A37ACA90A01CEF4D7F /* Align.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Align.swift; path = Cartography/Align.swift; sourceTree = "<group>"; };
-		7D6F890ED93E176F89120C999F79961D /* Property.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Property.swift; path = Cartography/Property.swift; sourceTree = "<group>"; };
-		84FA7069CA6B004FC80125CADDF91CA2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		870D99A80DC421F990346A91F132DA72 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8A8552664715770E791F6C3A4BED8C84 /* Pods-NekoNihongo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NekoNihongo-acknowledgements.plist"; sourceTree = "<group>"; };
-		8B53D234C815302422B1AEC102F4D6A6 /* LayoutProxy+TypeErasure.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "LayoutProxy+TypeErasure.swift"; path = "Cartography/LayoutProxy+TypeErasure.swift"; sourceTree = "<group>"; };
-		8C7FCE04234FA1426EA1F990D51FE83F /* Constrain.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Constrain.swift; path = Cartography/Constrain.swift; sourceTree = "<group>"; };
-		903165200269C9DC517A41EAB516352D /* Pods-NekoNihongoUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-NekoNihongoUITests.modulemap"; sourceTree = "<group>"; };
-		91129FCFCA72533D96E79DAEAD9A62F2 /* Pods-NekoNihongoUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NekoNihongoUITests-umbrella.h"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9620C3753BF8C08B7F506038540F03CF /* Pods-NekoNihongoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NekoNihongoTests.debug.xcconfig"; sourceTree = "<group>"; };
-		9AF7CD64A5E8E3342523A2AB481A2BC1 /* ASExtendedCircularMenu-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ASExtendedCircularMenu-dummy.m"; sourceTree = "<group>"; };
-		9B287E6D098A2C7EDEF91B265A085AF9 /* Device.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Device.xcconfig; sourceTree = "<group>"; };
-		9C66B3F33EA5294F1CA32960066F900F /* Pods_NekoNihongo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_NekoNihongo.framework; path = "Pods-NekoNihongo.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		9F9EE90461BDE54344FA71E9E0B77D53 /* Version.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Version.swift; path = Source/Version.swift; sourceTree = "<group>"; };
-		A196E2A81104690396BB9778C29AB6C7 /* Pods-NekoNihongoUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NekoNihongoUITests-resources.sh"; sourceTree = "<group>"; };
-		A22A215A9FBC494D518AE234A494FBF0 /* Pods-NekoNihongo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NekoNihongo-dummy.m"; sourceTree = "<group>"; };
-		A7777445AF2999115817097BD8CFE1EC /* Cartography-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Cartography-dummy.m"; sourceTree = "<group>"; };
-		AE6375FE58FF6F943E9335CF1B8D8096 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B02F830E620FE8D740DC5846CEE3B22D /* Device-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Device-prefix.pch"; sourceTree = "<group>"; };
-		B23586B8BC927BB44AB628CC90668F32 /* Pods-NekoNihongoTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NekoNihongoTests-resources.sh"; sourceTree = "<group>"; };
-		B5A291BCFE5930B2E8B12BDD005AE52A /* Pods-NekoNihongo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-NekoNihongo.modulemap"; sourceTree = "<group>"; };
-		B7CECB53A2BB237ED1439224208FE088 /* ASExtendedCircularMenu.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ASExtendedCircularMenu.framework; path = ASExtendedCircularMenu.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		BFB28887316457F9ABF03F677EF8CF88 /* Point.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Point.swift; path = Cartography/Point.swift; sourceTree = "<group>"; };
-		C0AEB612C05796AAC4CE757F3D0A513F /* Context.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Context.swift; path = Cartography/Context.swift; sourceTree = "<group>"; };
-		C0CA3C28169B5533DD9BFC6B0E613E78 /* Device-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Device-umbrella.h"; sourceTree = "<group>"; };
-		C33581AAD40E0909FB6BECCEDFDAA0FB /* Pods-NekoNihongoUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NekoNihongoUITests-dummy.m"; sourceTree = "<group>"; };
-		C3A1F71194316C202778E2A251724CA5 /* Edges.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Edges.swift; path = Cartography/Edges.swift; sourceTree = "<group>"; };
-		CD58302C82C3BDBBD5F840FC93BDDF59 /* LayoutGuideProxy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LayoutGuideProxy.swift; path = Cartography/LayoutGuideProxy.swift; sourceTree = "<group>"; };
-		CFC9EA16D14EADBE3C6031E8765E8FA5 /* Cartography-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Cartography-umbrella.h"; sourceTree = "<group>"; };
-		D134DA823E7C8DDB0C68CFF402901E4D /* Pods-NekoNihongoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NekoNihongoUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		D2377E213C0A9E448669AD47559BA9F4 /* Pods-NekoNihongoTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NekoNihongoTests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		D6806D1753D964EAD854C9F1A158510C /* Pods-NekoNihongoTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-NekoNihongoTests.modulemap"; sourceTree = "<group>"; };
-		D9A7A91D47BA30D281FABD719B3282E9 /* Device.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Device.swift; path = Source/iOS/Device.swift; sourceTree = "<group>"; };
-		D9EBC7454FD1878A5010C67DFD834D19 /* Pods_NekoNihongoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_NekoNihongoTests.framework; path = "Pods-NekoNihongoTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		DD40C8D9D44EE827735B834228A8BA2A /* Dimension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Dimension.swift; path = Cartography/Dimension.swift; sourceTree = "<group>"; };
-		E36BF9C470CC0D18FD3FBA9F4AA4A957 /* ConstraintGroup.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintGroup.swift; path = Cartography/ConstraintGroup.swift; sourceTree = "<group>"; };
-		E5909BB1764C5E777F5BF901E820481C /* Distribute.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Distribute.swift; path = Cartography/Distribute.swift; sourceTree = "<group>"; };
-		E692F207B07CE2E01AD07B545B21ABB1 /* Pods-NekoNihongoUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NekoNihongoUITests-frameworks.sh"; sourceTree = "<group>"; };
-		E770BB84C93CC2340310639B0A185135 /* AutoresizingMaskLayoutProxy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AutoresizingMaskLayoutProxy.swift; path = Cartography/AutoresizingMaskLayoutProxy.swift; sourceTree = "<group>"; };
-		EF3C0885CA73A2D972C9B2F301D4F650 /* Constraint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Constraint.swift; path = Cartography/Constraint.swift; sourceTree = "<group>"; };
-		EFBC06281BAF34CACB5D808F6C1B72FB /* ASExtendedCircularMenu.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ASExtendedCircularMenu.swift; path = ASExtendedCircularMenu/Classes/ASExtendedCircularMenu.swift; sourceTree = "<group>"; };
-		F0B1FBAE971FE1DA9DE332792C34FDC6 /* LayoutGuide.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LayoutGuide.swift; path = Cartography/LayoutGuide.swift; sourceTree = "<group>"; };
-		F1EDD560C676C79C8E6B14007160EBFF /* Pods-NekoNihongoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NekoNihongoTests.release.xcconfig"; sourceTree = "<group>"; };
-		F46DEACBD869F5CBC0E0B62ACB9AA7B4 /* Pods-NekoNihongoUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NekoNihongoUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		F55A80A85E8B80C38F85E8D52EBE4C58 /* Pods-NekoNihongo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NekoNihongo-resources.sh"; sourceTree = "<group>"; };
-		F731BFEB9A5AF5A3497296973C6DC37D /* Pods-NekoNihongo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NekoNihongo-frameworks.sh"; sourceTree = "<group>"; };
-		FCC42E47070CAA18E9A7EF465DFCC93B /* LayoutItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LayoutItem.swift; path = Cartography/LayoutItem.swift; sourceTree = "<group>"; };
+		06D546FA27A2EB9615BEFB332CB8C032 /* Coefficients.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Coefficients.swift; path = Cartography/Coefficients.swift; sourceTree = "<group>"; };
+		07D0A5F3074BE2FBDE5ACDB53CC279AE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		093ACABB33B1EA236D730391D1D17C80 /* Device-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Device-prefix.pch"; sourceTree = "<group>"; };
+		11ED711E1D0E269137EAE63C35746E0D /* Device-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Device-dummy.m"; sourceTree = "<group>"; };
+		18D435A0DD5024F5CF90376772746403 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1B68FD6591A397FF832B4F8B4B57919D /* Constraint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Constraint.swift; path = Cartography/Constraint.swift; sourceTree = "<group>"; };
+		1BA7DEFF647ABC2A024238B20A03ABA1 /* Pods-NekoNihongo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NekoNihongo.release.xcconfig"; sourceTree = "<group>"; };
+		1E61A33008C2FEC76AE32E0DB5318384 /* Pods-NekoNihongoTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NekoNihongoTests-resources.sh"; sourceTree = "<group>"; };
+		2159FC658ABC83ECDA5844BFE7DE369E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		240B5AAA919E6539B0C6941E9D4CB441 /* Dimension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Dimension.swift; path = Cartography/Dimension.swift; sourceTree = "<group>"; };
+		26BA30DEA5195DF990A43694A72EA94C /* Pods_NekoNihongoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NekoNihongoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2725887487F750C741E6C46943AB123D /* Distribute.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Distribute.swift; path = Cartography/Distribute.swift; sourceTree = "<group>"; };
+		2B9328D81B9FFA3EDA9B2FDD7F7DA157 /* Pods-NekoNihongoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NekoNihongoTests.release.xcconfig"; sourceTree = "<group>"; };
+		2CDD7D089CF4CB27E86E3FB34D9F2CE8 /* Property.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Property.swift; path = Cartography/Property.swift; sourceTree = "<group>"; };
+		3069B2F2A201C4BF4E5AC781AA8A7D75 /* Cartography-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Cartography-dummy.m"; sourceTree = "<group>"; };
+		366ED1434CE71FA86F7D1C64FBAE466B /* Device.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Device.swift; path = Source/iOS/Device.swift; sourceTree = "<group>"; };
+		382326DEC0FD86C444B59250919CCD19 /* Pods-NekoNihongo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NekoNihongo-frameworks.sh"; sourceTree = "<group>"; };
+		40655BDBAA71BCE6091DD1987374EE7C /* ASExtendedCircularMenu-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ASExtendedCircularMenu-prefix.pch"; sourceTree = "<group>"; };
+		4198B6785C7695971F2227C3DDEF196C /* Cartography-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Cartography-umbrella.h"; sourceTree = "<group>"; };
+		42DE1C5CEB3E7C5140F5E31AE29E6EB5 /* Expression.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Expression.swift; path = Cartography/Expression.swift; sourceTree = "<group>"; };
+		43239009E36527D96AB2F442192C8922 /* Pods-NekoNihongoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NekoNihongoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		48DC2E730EC91222B197555CDAC28F41 /* ConstraintGroup.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintGroup.swift; path = Cartography/ConstraintGroup.swift; sourceTree = "<group>"; };
+		4C6672266E0D98C15477659435D4E1DE /* Pods-NekoNihongoTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NekoNihongoTests-frameworks.sh"; sourceTree = "<group>"; };
+		4EBE8A09835FA00640EA701D430DE701 /* Pods-NekoNihongoUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NekoNihongoUITests-umbrella.h"; sourceTree = "<group>"; };
+		5078C2F81C7AC7F23018958319FAF82F /* Pods-NekoNihongo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-NekoNihongo.modulemap"; sourceTree = "<group>"; };
+		50A70C9326A806DEB5B6B808EC92AB33 /* Pods-NekoNihongoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NekoNihongoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		5116564EF9C7E5105B1D77454E8F9F35 /* Device.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Device.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		52FA154E8660EC759B50DCF0B2933B29 /* Compound.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Compound.swift; path = Cartography/Compound.swift; sourceTree = "<group>"; };
+		5363F3132E83F303AEEDFC5204B3ADFD /* Pods-NekoNihongo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NekoNihongo-umbrella.h"; sourceTree = "<group>"; };
+		53AB7A25EE901BECA0A80BC8745A7B53 /* Cartography.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Cartography.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5420929DA4A0A240F3CB9B52FCAB3434 /* Edges.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Edges.swift; path = Cartography/Edges.swift; sourceTree = "<group>"; };
+		569D0A59B24B96A4DDA79508318B2941 /* Pods-NekoNihongo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NekoNihongo.debug.xcconfig"; sourceTree = "<group>"; };
+		56DC168A70BCEF9825F84FEAF6EA34A5 /* Pods-NekoNihongoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NekoNihongoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		5B7C45D9AC1D41539338A3DF43F24B2A /* Align.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Align.swift; path = Cartography/Align.swift; sourceTree = "<group>"; };
+		694FAB6AD44C646CCD9C361E0366D72D /* Pods-NekoNihongoUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NekoNihongoUITests-frameworks.sh"; sourceTree = "<group>"; };
+		6DB25BB3BFBEA3665C668BE023270458 /* Pods-NekoNihongoTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NekoNihongoTests-dummy.m"; sourceTree = "<group>"; };
+		7153DF5779FCDD818EE250738FCF619F /* Device.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Device.xcconfig; sourceTree = "<group>"; };
+		722D02B3338DCF9BD44CA80AC376B52A /* Pods-NekoNihongo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NekoNihongo-acknowledgements.plist"; sourceTree = "<group>"; };
+		74F7E3396672AF8CE2986AD6316A5929 /* Priority.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Priority.swift; path = Cartography/Priority.swift; sourceTree = "<group>"; };
+		7684039808FF8AFFB40B788E3193166F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7734E127A46728F37D2AD3A2B2BEF271 /* Cartography.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Cartography.xcconfig; sourceTree = "<group>"; };
+		79BF91E3F30F7F0A3617ECEFF4AADA71 /* ASExtendedCircularMenu-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ASExtendedCircularMenu-dummy.m"; sourceTree = "<group>"; };
+		7F2E4EBA73938C81343A347CA23D6532 /* Size.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Size.swift; path = Source/Size.swift; sourceTree = "<group>"; };
+		7FEC175B405E26C96160B04E9826DD32 /* ViewUtils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ViewUtils.swift; path = Cartography/ViewUtils.swift; sourceTree = "<group>"; };
+		80DD0283A8708E2BA0D6758326FCFDF6 /* Pods-NekoNihongo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NekoNihongo-dummy.m"; sourceTree = "<group>"; };
+		81C45E83E762D621FEC8528F4A3F4608 /* Constrain.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Constrain.swift; path = Cartography/Constrain.swift; sourceTree = "<group>"; };
+		8511B2BF3C2EF856047ADDFE0F81F615 /* Pods-NekoNihongo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NekoNihongo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		892DA78FCFCEB4AC99283E2556C91CE4 /* LayoutSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LayoutSupport.swift; path = Cartography/LayoutSupport.swift; sourceTree = "<group>"; };
+		89668940D5DEAC22A48D21E0F270B93D /* LayoutProxy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LayoutProxy.swift; path = Cartography/LayoutProxy.swift; sourceTree = "<group>"; };
+		8B64328643FC0BB1EE352A6F77546875 /* Size.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Size.swift; path = Cartography/Size.swift; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9C66B3F33EA5294F1CA32960066F900F /* Pods_NekoNihongo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NekoNihongo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9EFE86055713F50889CBB849D5149217 /* ASExtendedCircularMenu-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ASExtendedCircularMenu-umbrella.h"; sourceTree = "<group>"; };
+		A4ECDB5C8F4C78EE81B3204B88AE4811 /* Point.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Point.swift; path = Cartography/Point.swift; sourceTree = "<group>"; };
+		A939B891AC0064F472E5E007D77AAE23 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A9B567B0162854DEF847B6A219AB355C /* Pods-NekoNihongoUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NekoNihongoUITests-dummy.m"; sourceTree = "<group>"; };
+		ACB61379240B4F2322410E7F645DC396 /* Cartography-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Cartography-prefix.pch"; sourceTree = "<group>"; };
+		AD95015E4B68CFAAA1561F9F9A73C3FD /* Device-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Device-umbrella.h"; sourceTree = "<group>"; };
+		B29D9FEF7B1CCD6C11EC13A8095E899D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B469FEF94BA45B5600A7DF55B210854B /* Type.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Type.swift; path = Source/Type.swift; sourceTree = "<group>"; };
+		B590BBE78061D5CED2663F5E0825E489 /* View.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = View.swift; path = Cartography/View.swift; sourceTree = "<group>"; };
+		B7CECB53A2BB237ED1439224208FE088 /* ASExtendedCircularMenu.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ASExtendedCircularMenu.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8E76107C7CD54BD712F9AB01C63AA4B /* Pods-NekoNihongo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NekoNihongo-resources.sh"; sourceTree = "<group>"; };
+		BDE5F2A2C05ACE3742474F2434040FB8 /* Pods-NekoNihongoTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NekoNihongoTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		BFA7B759DD251A01EC1952A6B72749B9 /* Device.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Device.modulemap; sourceTree = "<group>"; };
+		C2781A5FDD0D0DB5B6604515A4FA099E /* Pods-NekoNihongoTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NekoNihongoTests-umbrella.h"; sourceTree = "<group>"; };
+		CA76D90521B60B5293F1430F2FF9E46E /* Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Extensions.swift; path = Cartography/Extensions.swift; sourceTree = "<group>"; };
+		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		CF404C2A50D2B4F6E2EB387345448859 /* Context.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Context.swift; path = Cartography/Context.swift; sourceTree = "<group>"; };
+		D1E5EE33079FFC4F6BD73FE7925DA34E /* Pods-NekoNihongoUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NekoNihongoUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		D3A657DED14B020DF829CF6D179BE8CB /* Pods-NekoNihongoUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NekoNihongoUITests-resources.sh"; sourceTree = "<group>"; };
+		D4FCC7B4D3CA7C2D72AAE232A3A659D2 /* Pods-NekoNihongoUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NekoNihongoUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D9EBC7454FD1878A5010C67DFD834D19 /* Pods_NekoNihongoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NekoNihongoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB29592EB4CCBD5D9A461E52B8238D40 /* Pods-NekoNihongoTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-NekoNihongoTests.modulemap"; sourceTree = "<group>"; };
+		E251EA1C52915CF1342DDA08E62E8D6A /* ASExtendedCircularMenu.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = ASExtendedCircularMenu.modulemap; sourceTree = "<group>"; };
+		EBDA4F6D8C2CCDA88A58C9C5742DEABB /* Version.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Version.swift; path = Source/Version.swift; sourceTree = "<group>"; };
+		ECAB288B9D4C3C7851FAFA558C0A19F2 /* Pods-NekoNihongoUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-NekoNihongoUITests.modulemap"; sourceTree = "<group>"; };
+		EE4EF5C24BB9A86059927A13D97348FF /* ASExtendedCircularMenu.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ASExtendedCircularMenu.swift; path = ASExtendedCircularMenu/Classes/ASExtendedCircularMenu.swift; sourceTree = "<group>"; };
+		EEC94DEEEA45B06F30E5C62C52E05CB3 /* Edge.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Edge.swift; path = Cartography/Edge.swift; sourceTree = "<group>"; };
+		F643237FF8453627477F6AF136FFE438 /* Cartography.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Cartography.modulemap; sourceTree = "<group>"; };
+		F9910AA80B1161DC254F942F0B1912BB /* Pods-NekoNihongoTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NekoNihongoTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		FBCE05D1BF179011F76294BE5C9E7D46 /* ASExtendedCircularMenu.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ASExtendedCircularMenu.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		431D5BD561BE0F82077C13D47B07E13F /* Frameworks */ = {
+		170F51AB2D7E455BAE86CD9629088CFD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1D76B7F032F2990C54D426934ACCF366 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		66F11910B4682C55BD5811F333E55F89 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A37DED66695DC9C57FD67849B88A3B7C /* Foundation.framework in Frameworks */,
+				3FB97FE471EF22356BD2D0D1448F3F45 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -209,7 +175,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				32025B2B8DE425356C4FF9098105F7AF /* Foundation.framework in Frameworks */,
+				B2888C7C90E04333602D28A38A282E55 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -217,7 +183,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6E8FA2D5F7707285718A471BA8E3F869 /* Foundation.framework in Frameworks */,
+				AE6AB8D9D76665174209676D0A680206 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -225,54 +191,91 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3718B119B21834212893837F66A3AA63 /* Foundation.framework in Frameworks */,
+				DF9EEB3D9AD015A417B6B78A8BA9399B /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DCED2848E928818EEDF68F9FA0D39C4F /* Frameworks */ = {
+		7A4AAE12E09D29DA5F684C9BD8B5FE3B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5C223C4998ED4083E3D46FD3D9EDA7A5 /* Foundation.framework in Frameworks */,
+				24EF682ACFF8F1CEA8BDDAA340220AC3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7F3812AF8568EA81FF462E44391FB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B15ECCE2786A89E43D685CB6DE0DE0AF /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		03A24A297D0161A812BC95E2710ACCD1 /* ASExtendedCircularMenu */ = {
+		0377F2FBEC8BFB3B1D5344F55E00AE41 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				EFBC06281BAF34CACB5D808F6C1B72FB /* ASExtendedCircularMenu.swift */,
-				757F5FCD095B5F8F6AA9A4F5112A6E6D /* Support Files */,
+				6EA76E5F69C25C1CF8784780957D48AD /* ASExtendedCircularMenu */,
+				0893FC4ED3BB9FD01801BBF12249C6E9 /* Cartography */,
+				C04032D45B230BC1B30F17375D9BA451 /* Device */,
 			);
-			name = ASExtendedCircularMenu;
-			path = ASExtendedCircularMenu;
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		0893FC4ED3BB9FD01801BBF12249C6E9 /* Cartography */ = {
+			isa = PBXGroup;
+			children = (
+				5B7C45D9AC1D41539338A3DF43F24B2A /* Align.swift */,
+				06D546FA27A2EB9615BEFB332CB8C032 /* Coefficients.swift */,
+				52FA154E8660EC759B50DCF0B2933B29 /* Compound.swift */,
+				81C45E83E762D621FEC8528F4A3F4608 /* Constrain.swift */,
+				1B68FD6591A397FF832B4F8B4B57919D /* Constraint.swift */,
+				48DC2E730EC91222B197555CDAC28F41 /* ConstraintGroup.swift */,
+				CF404C2A50D2B4F6E2EB387345448859 /* Context.swift */,
+				240B5AAA919E6539B0C6941E9D4CB441 /* Dimension.swift */,
+				2725887487F750C741E6C46943AB123D /* Distribute.swift */,
+				EEC94DEEEA45B06F30E5C62C52E05CB3 /* Edge.swift */,
+				5420929DA4A0A240F3CB9B52FCAB3434 /* Edges.swift */,
+				42DE1C5CEB3E7C5140F5E31AE29E6EB5 /* Expression.swift */,
+				CA76D90521B60B5293F1430F2FF9E46E /* Extensions.swift */,
+				89668940D5DEAC22A48D21E0F270B93D /* LayoutProxy.swift */,
+				892DA78FCFCEB4AC99283E2556C91CE4 /* LayoutSupport.swift */,
+				A4ECDB5C8F4C78EE81B3204B88AE4811 /* Point.swift */,
+				74F7E3396672AF8CE2986AD6316A5929 /* Priority.swift */,
+				2CDD7D089CF4CB27E86E3FB34D9F2CE8 /* Property.swift */,
+				8B64328643FC0BB1EE352A6F77546875 /* Size.swift */,
+				B590BBE78061D5CED2663F5E0825E489 /* View.swift */,
+				7FEC175B405E26C96160B04E9826DD32 /* ViewUtils.swift */,
+				81F53E8DC72D38AE86F52B74E0794254 /* Support Files */,
+			);
+			path = Cartography;
 			sourceTree = "<group>";
 		};
 		08EA265147CD7C478DF83E8F987282CF /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				2F5F9BA0EBAD141DDDBCBED2DE8D7EBD /* Pods-NekoNihongo */,
-				DAB922A8F9BF7DFEA90A8F737EE2CFA6 /* Pods-NekoNihongoTests */,
-				A10537833C2E72ED012FF9118EBB3BDA /* Pods-NekoNihongoUITests */,
+				1E20B9262D63A7E8FBE80F4464A84776 /* Pods-NekoNihongo */,
+				32D39433ADA180465FFFFE59B99B6287 /* Pods-NekoNihongoTests */,
+				89431CD03F414AC6B9745C93B8D24DD2 /* Pods-NekoNihongoUITests */,
 			);
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		2F5F9BA0EBAD141DDDBCBED2DE8D7EBD /* Pods-NekoNihongo */ = {
+		1E20B9262D63A7E8FBE80F4464A84776 /* Pods-NekoNihongo */ = {
 			isa = PBXGroup;
 			children = (
-				AE6375FE58FF6F943E9335CF1B8D8096 /* Info.plist */,
-				B5A291BCFE5930B2E8B12BDD005AE52A /* Pods-NekoNihongo.modulemap */,
-				775089941EC08B0B90DAA2C290723F82 /* Pods-NekoNihongo-acknowledgements.markdown */,
-				8A8552664715770E791F6C3A4BED8C84 /* Pods-NekoNihongo-acknowledgements.plist */,
-				A22A215A9FBC494D518AE234A494FBF0 /* Pods-NekoNihongo-dummy.m */,
-				F731BFEB9A5AF5A3497296973C6DC37D /* Pods-NekoNihongo-frameworks.sh */,
-				F55A80A85E8B80C38F85E8D52EBE4C58 /* Pods-NekoNihongo-resources.sh */,
-				6BCEDE8DF357284BE82EFECFECF1B75E /* Pods-NekoNihongo-umbrella.h */,
-				791D027BC81F1C9CBA923B0475434CD5 /* Pods-NekoNihongo.debug.xcconfig */,
-				418A18EC548FC472EFC18A9C4D297D5E /* Pods-NekoNihongo.release.xcconfig */,
+				B29D9FEF7B1CCD6C11EC13A8095E899D /* Info.plist */,
+				5078C2F81C7AC7F23018958319FAF82F /* Pods-NekoNihongo.modulemap */,
+				8511B2BF3C2EF856047ADDFE0F81F615 /* Pods-NekoNihongo-acknowledgements.markdown */,
+				722D02B3338DCF9BD44CA80AC376B52A /* Pods-NekoNihongo-acknowledgements.plist */,
+				80DD0283A8708E2BA0D6758326FCFDF6 /* Pods-NekoNihongo-dummy.m */,
+				382326DEC0FD86C444B59250919CCD19 /* Pods-NekoNihongo-frameworks.sh */,
+				B8E76107C7CD54BD712F9AB01C63AA4B /* Pods-NekoNihongo-resources.sh */,
+				5363F3132E83F303AEEDFC5204B3ADFD /* Pods-NekoNihongo-umbrella.h */,
+				569D0A59B24B96A4DDA79508318B2941 /* Pods-NekoNihongo.debug.xcconfig */,
+				1BA7DEFF647ABC2A024238B20A03ABA1 /* Pods-NekoNihongo.release.xcconfig */,
 			);
 			name = "Pods-NekoNihongo";
 			path = "Target Support Files/Pods-NekoNihongo";
@@ -291,32 +294,39 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		58DB39F228EEF0960F2D41EA06E120E5 /* Support Files */ = {
+		32D39433ADA180465FFFFE59B99B6287 /* Pods-NekoNihongoTests */ = {
 			isa = PBXGroup;
 			children = (
-				0A5065AE296E49B1681353FB58B352C0 /* Cartography.modulemap */,
-				45E2E88E3617FAB24422271021798749 /* Cartography.xcconfig */,
-				A7777445AF2999115817097BD8CFE1EC /* Cartography-dummy.m */,
-				54DC548A03A0D6CA86D98B330FBF4BD3 /* Cartography-prefix.pch */,
-				CFC9EA16D14EADBE3C6031E8765E8FA5 /* Cartography-umbrella.h */,
-				017C96F11C1D4B2434BF9A4D073F14A9 /* Info.plist */,
+				A939B891AC0064F472E5E007D77AAE23 /* Info.plist */,
+				DB29592EB4CCBD5D9A461E52B8238D40 /* Pods-NekoNihongoTests.modulemap */,
+				F9910AA80B1161DC254F942F0B1912BB /* Pods-NekoNihongoTests-acknowledgements.markdown */,
+				BDE5F2A2C05ACE3742474F2434040FB8 /* Pods-NekoNihongoTests-acknowledgements.plist */,
+				6DB25BB3BFBEA3665C668BE023270458 /* Pods-NekoNihongoTests-dummy.m */,
+				4C6672266E0D98C15477659435D4E1DE /* Pods-NekoNihongoTests-frameworks.sh */,
+				1E61A33008C2FEC76AE32E0DB5318384 /* Pods-NekoNihongoTests-resources.sh */,
+				C2781A5FDD0D0DB5B6604515A4FA099E /* Pods-NekoNihongoTests-umbrella.h */,
+				43239009E36527D96AB2F442192C8922 /* Pods-NekoNihongoTests.debug.xcconfig */,
+				2B9328D81B9FFA3EDA9B2FDD7F7DA157 /* Pods-NekoNihongoTests.release.xcconfig */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/Cartography";
+			name = "Pods-NekoNihongoTests";
+			path = "Target Support Files/Pods-NekoNihongoTests";
 			sourceTree = "<group>";
 		};
-		757F5FCD095B5F8F6AA9A4F5112A6E6D /* Support Files */ = {
+		6EA76E5F69C25C1CF8784780957D48AD /* ASExtendedCircularMenu */ = {
 			isa = PBXGroup;
 			children = (
-				39EDC89A7186DD35E7D44C7FAC7B5A75 /* ASExtendedCircularMenu.modulemap */,
-				17C30819F5F020DEF66FD8593A97FC83 /* ASExtendedCircularMenu.xcconfig */,
-				9AF7CD64A5E8E3342523A2AB481A2BC1 /* ASExtendedCircularMenu-dummy.m */,
-				74E2B7E8DFCA9D4C06F2E09D21E9752C /* ASExtendedCircularMenu-prefix.pch */,
-				4D1D6E82DDC9ADEE453901D32462F69A /* ASExtendedCircularMenu-umbrella.h */,
-				3B7B855AAB691505F38FD62966A210C3 /* Info.plist */,
+				EE4EF5C24BB9A86059927A13D97348FF /* ASExtendedCircularMenu.swift */,
+				C585885B8A5CB3B7125160C5E6CF8CD3 /* Support Files */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/ASExtendedCircularMenu";
+			path = ASExtendedCircularMenu;
+			sourceTree = "<group>";
+		};
+		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
+			);
+			name = iOS;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -324,148 +334,95 @@
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				8605DD0D1277EA8A725F6EBC836A6AFF /* Pods */,
+				0377F2FBEC8BFB3B1D5344F55E00AE41 /* Pods */,
 				32BE51FA4D2295803587FDA67B20187E /* Products */,
 				08EA265147CD7C478DF83E8F987282CF /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		8605DD0D1277EA8A725F6EBC836A6AFF /* Pods */ = {
+		81F53E8DC72D38AE86F52B74E0794254 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				03A24A297D0161A812BC95E2710ACCD1 /* ASExtendedCircularMenu */,
-				CA75B25D6A97CFF118E3D9C04BB11D03 /* Cartography */,
-				F6A10919BB8833796DBB8495F1B13E60 /* Device */,
+				F643237FF8453627477F6AF136FFE438 /* Cartography.modulemap */,
+				7734E127A46728F37D2AD3A2B2BEF271 /* Cartography.xcconfig */,
+				3069B2F2A201C4BF4E5AC781AA8A7D75 /* Cartography-dummy.m */,
+				ACB61379240B4F2322410E7F645DC396 /* Cartography-prefix.pch */,
+				4198B6785C7695971F2227C3DDEF196C /* Cartography-umbrella.h */,
+				18D435A0DD5024F5CF90376772746403 /* Info.plist */,
 			);
-			name = Pods;
+			name = "Support Files";
+			path = "../Target Support Files/Cartography";
 			sourceTree = "<group>";
 		};
-		A10537833C2E72ED012FF9118EBB3BDA /* Pods-NekoNihongoUITests */ = {
+		89431CD03F414AC6B9745C93B8D24DD2 /* Pods-NekoNihongoUITests */ = {
 			isa = PBXGroup;
 			children = (
-				870D99A80DC421F990346A91F132DA72 /* Info.plist */,
-				903165200269C9DC517A41EAB516352D /* Pods-NekoNihongoUITests.modulemap */,
-				F46DEACBD869F5CBC0E0B62ACB9AA7B4 /* Pods-NekoNihongoUITests-acknowledgements.markdown */,
-				6349CF6DE202288CF4935D57B26D2A6A /* Pods-NekoNihongoUITests-acknowledgements.plist */,
-				C33581AAD40E0909FB6BECCEDFDAA0FB /* Pods-NekoNihongoUITests-dummy.m */,
-				E692F207B07CE2E01AD07B545B21ABB1 /* Pods-NekoNihongoUITests-frameworks.sh */,
-				A196E2A81104690396BB9778C29AB6C7 /* Pods-NekoNihongoUITests-resources.sh */,
-				91129FCFCA72533D96E79DAEAD9A62F2 /* Pods-NekoNihongoUITests-umbrella.h */,
-				D134DA823E7C8DDB0C68CFF402901E4D /* Pods-NekoNihongoUITests.debug.xcconfig */,
-				2F47DF882A7012D8E6A6E199599BAF5C /* Pods-NekoNihongoUITests.release.xcconfig */,
+				2159FC658ABC83ECDA5844BFE7DE369E /* Info.plist */,
+				ECAB288B9D4C3C7851FAFA558C0A19F2 /* Pods-NekoNihongoUITests.modulemap */,
+				D4FCC7B4D3CA7C2D72AAE232A3A659D2 /* Pods-NekoNihongoUITests-acknowledgements.markdown */,
+				D1E5EE33079FFC4F6BD73FE7925DA34E /* Pods-NekoNihongoUITests-acknowledgements.plist */,
+				A9B567B0162854DEF847B6A219AB355C /* Pods-NekoNihongoUITests-dummy.m */,
+				694FAB6AD44C646CCD9C361E0366D72D /* Pods-NekoNihongoUITests-frameworks.sh */,
+				D3A657DED14B020DF829CF6D179BE8CB /* Pods-NekoNihongoUITests-resources.sh */,
+				4EBE8A09835FA00640EA701D430DE701 /* Pods-NekoNihongoUITests-umbrella.h */,
+				56DC168A70BCEF9825F84FEAF6EA34A5 /* Pods-NekoNihongoUITests.debug.xcconfig */,
+				50A70C9326A806DEB5B6B808EC92AB33 /* Pods-NekoNihongoUITests.release.xcconfig */,
 			);
 			name = "Pods-NekoNihongoUITests";
 			path = "Target Support Files/Pods-NekoNihongoUITests";
 			sourceTree = "<group>";
 		};
-		A669B3339E278FC5D5B03067DA6A5D0D /* Support Files */ = {
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				47B4E646AF750DC141D45AB32AAF995C /* Device.modulemap */,
-				9B287E6D098A2C7EDEF91B265A085AF9 /* Device.xcconfig */,
-				5799C22C0FAD225B2D5DD3FE67592ADE /* Device-dummy.m */,
-				B02F830E620FE8D740DC5846CEE3B22D /* Device-prefix.pch */,
-				C0CA3C28169B5533DD9BFC6B0E613E78 /* Device-umbrella.h */,
-				3811C762E979CE43F1C5422BAD66DFB3 /* Info.plist */,
+				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C04032D45B230BC1B30F17375D9BA451 /* Device */ = {
+			isa = PBXGroup;
+			children = (
+				366ED1434CE71FA86F7D1C64FBAE466B /* Device.swift */,
+				7F2E4EBA73938C81343A347CA23D6532 /* Size.swift */,
+				B469FEF94BA45B5600A7DF55B210854B /* Type.swift */,
+				EBDA4F6D8C2CCDA88A58C9C5742DEABB /* Version.swift */,
+				D28C29C5B56B80F75393A638D3F21976 /* Support Files */,
+			);
+			path = Device;
+			sourceTree = "<group>";
+		};
+		C585885B8A5CB3B7125160C5E6CF8CD3 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E251EA1C52915CF1342DDA08E62E8D6A /* ASExtendedCircularMenu.modulemap */,
+				FBCE05D1BF179011F76294BE5C9E7D46 /* ASExtendedCircularMenu.xcconfig */,
+				79BF91E3F30F7F0A3617ECEFF4AADA71 /* ASExtendedCircularMenu-dummy.m */,
+				40655BDBAA71BCE6091DD1987374EE7C /* ASExtendedCircularMenu-prefix.pch */,
+				9EFE86055713F50889CBB849D5149217 /* ASExtendedCircularMenu-umbrella.h */,
+				07D0A5F3074BE2FBDE5ACDB53CC279AE /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ASExtendedCircularMenu";
+			sourceTree = "<group>";
+		};
+		D28C29C5B56B80F75393A638D3F21976 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BFA7B759DD251A01EC1952A6B72749B9 /* Device.modulemap */,
+				7153DF5779FCDD818EE250738FCF619F /* Device.xcconfig */,
+				11ED711E1D0E269137EAE63C35746E0D /* Device-dummy.m */,
+				093ACABB33B1EA236D730391D1D17C80 /* Device-prefix.pch */,
+				AD95015E4B68CFAAA1561F9F9A73C3FD /* Device-umbrella.h */,
+				7684039808FF8AFFB40B788E3193166F /* Info.plist */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/Device";
 			sourceTree = "<group>";
 		};
-		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		CA75B25D6A97CFF118E3D9C04BB11D03 /* Cartography */ = {
-			isa = PBXGroup;
-			children = (
-				79B0FF24609109A37ACA90A01CEF4D7F /* Align.swift */,
-				E770BB84C93CC2340310639B0A185135 /* AutoresizingMaskLayoutProxy.swift */,
-				711136E74A56A6B4BE60F68013FCC067 /* Coefficients.swift */,
-				700EE87088E938D1EABDE9FE9C4FB3BC /* Compound.swift */,
-				8C7FCE04234FA1426EA1F990D51FE83F /* Constrain.swift */,
-				EF3C0885CA73A2D972C9B2F301D4F650 /* Constraint.swift */,
-				E36BF9C470CC0D18FD3FBA9F4AA4A957 /* ConstraintGroup.swift */,
-				C0AEB612C05796AAC4CE757F3D0A513F /* Context.swift */,
-				DD40C8D9D44EE827735B834228A8BA2A /* Dimension.swift */,
-				E5909BB1764C5E777F5BF901E820481C /* Distribute.swift */,
-				6E93FCB87D4A0163975D6E3A907231FF /* Edge.swift */,
-				C3A1F71194316C202778E2A251724CA5 /* Edges.swift */,
-				6CE7CE5FC8B157EB872EC9E680348F34 /* Expression.swift */,
-				7976D82DC330CDBF58B7133B92039932 /* Extensions.swift */,
-				F0B1FBAE971FE1DA9DE332792C34FDC6 /* LayoutGuide.swift */,
-				CD58302C82C3BDBBD5F840FC93BDDF59 /* LayoutGuideProxy.swift */,
-				FCC42E47070CAA18E9A7EF465DFCC93B /* LayoutItem.swift */,
-				44444F5FF677E2085D934627391F127E /* LayoutProxy.swift */,
-				8B53D234C815302422B1AEC102F4D6A6 /* LayoutProxy+TypeErasure.swift */,
-				2016917571EF6073B8B7ECF9FD772E65 /* LayoutSupport.swift */,
-				6CA4FF1FB11CDE530032CB3600C7A4BA /* LayoutSupportProxy.swift */,
-				BFB28887316457F9ABF03F677EF8CF88 /* Point.swift */,
-				39B4345E7E5F2208B0D940A520E7990E /* Priority.swift */,
-				7D6F890ED93E176F89120C999F79961D /* Property.swift */,
-				673AC09A273AACCAA1A691875F742D2E /* Size.swift */,
-				0947400FE8708B2AFB06BBFD71FCD590 /* View.swift */,
-				5DE4FBF593B7A21CC028B8D7FEEA8D62 /* ViewProxy.swift */,
-				58DB39F228EEF0960F2D41EA06E120E5 /* Support Files */,
-			);
-			name = Cartography;
-			path = Cartography;
-			sourceTree = "<group>";
-		};
-		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		DAB922A8F9BF7DFEA90A8F737EE2CFA6 /* Pods-NekoNihongoTests */ = {
-			isa = PBXGroup;
-			children = (
-				84FA7069CA6B004FC80125CADDF91CA2 /* Info.plist */,
-				D6806D1753D964EAD854C9F1A158510C /* Pods-NekoNihongoTests.modulemap */,
-				D2377E213C0A9E448669AD47559BA9F4 /* Pods-NekoNihongoTests-acknowledgements.markdown */,
-				1011356A5F1ED62A092C016393284507 /* Pods-NekoNihongoTests-acknowledgements.plist */,
-				585C8DFD247D0C635C240252E31536A3 /* Pods-NekoNihongoTests-dummy.m */,
-				1769D40EC3AEEAA292569D5DDDA3E213 /* Pods-NekoNihongoTests-frameworks.sh */,
-				B23586B8BC927BB44AB628CC90668F32 /* Pods-NekoNihongoTests-resources.sh */,
-				41218307D9FA80C0AC589AE953D8FDB9 /* Pods-NekoNihongoTests-umbrella.h */,
-				9620C3753BF8C08B7F506038540F03CF /* Pods-NekoNihongoTests.debug.xcconfig */,
-				F1EDD560C676C79C8E6B14007160EBFF /* Pods-NekoNihongoTests.release.xcconfig */,
-			);
-			name = "Pods-NekoNihongoTests";
-			path = "Target Support Files/Pods-NekoNihongoTests";
-			sourceTree = "<group>";
-		};
-		F6A10919BB8833796DBB8495F1B13E60 /* Device */ = {
-			isa = PBXGroup;
-			children = (
-				D9A7A91D47BA30D281FABD719B3282E9 /* Device.swift */,
-				381E816C91B8BDE26DD4D0001BA365F3 /* Size.swift */,
-				358BDFD6BAA1FC21ECA896ACD8508BA1 /* Type.swift */,
-				9F9EE90461BDE54344FA71E9E0B77D53 /* Version.swift */,
-				A669B3339E278FC5D5B03067DA6A5D0D /* Support Files */,
-			);
-			name = Device;
-			path = Device;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		089F5EDF13CA24FB4313D6CE3AD1086D /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				BA5A1AB64D6209E02457F74F3914AEE1 /* Pods-NekoNihongoUITests-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		0FA9889BF6C0D38E6E622780486934A9 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -482,14 +439,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3B7909E5BB787E89429A35A7198AC199 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				22C18133E55CC4E0633B633F3912F097 /* Cartography-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		3D8BA8DBFCE0BBDEEA8003A1D9117084 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -498,34 +447,33 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F84C47C8E87CDCBD19082E227FD835A7 /* Headers */ = {
+		B63C2178056491C7EBA180CE1C905CE4 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0C68D7B170FD1CABA87A1A4D2FA0A4FB /* Pods-NekoNihongoTests-umbrella.h in Headers */,
+				822686179633E83E08AA18E677F16AAF /* Pods-NekoNihongoUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E66E0C3AA6C50C06CA3BC63165901BDD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE4D13CA6A4999D13875761E5100C1A0 /* Cartography-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9512824AE601B61268AE0EFBEA5C0E8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5911A18E5FE1A6D1E7FEC1F9CF445CD9 /* Pods-NekoNihongoTests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		05B5E6B6BF53C2C31E616E4C5644E8BB /* Cartography */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = A9BAA343D12FE6672E7011D9FB12285B /* Build configuration list for PBXNativeTarget "Cartography" */;
-			buildPhases = (
-				43377B59D0D68F9FC09F2D7CA5D04AC4 /* Sources */,
-				66F11910B4682C55BD5811F333E55F89 /* Frameworks */,
-				3B7909E5BB787E89429A35A7198AC199 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = Cartography;
-			productName = Cartography;
-			productReference = 53AB7A25EE901BECA0A80BC8745A7B53 /* Cartography.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 		1FCFD7D35DA4A697B4DBCE49DDF98034 /* Pods-NekoNihongo */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = EB2FDADF8402D9AE4224D0DD7DDCCBA0 /* Build configuration list for PBXNativeTarget "Pods-NekoNihongo" */;
@@ -546,22 +494,38 @@
 			productReference = 9C66B3F33EA5294F1CA32960066F900F /* Pods_NekoNihongo.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		46B02BAB92A68ED3B6C7A05F9A43850F /* Pods-NekoNihongoTests */ = {
+		2CAF28A87270429BE3B67869AFC9AA47 /* Pods-NekoNihongoTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BCDC7C1AF563DB9759F8F682E91283E8 /* Build configuration list for PBXNativeTarget "Pods-NekoNihongoTests" */;
+			buildConfigurationList = DC00C10A62D22E15F63C60FB571FF5F0 /* Build configuration list for PBXNativeTarget "Pods-NekoNihongoTests" */;
 			buildPhases = (
-				0E10210F14D7C5D64CBA654F2554FB99 /* Sources */,
-				431D5BD561BE0F82077C13D47B07E13F /* Frameworks */,
-				F84C47C8E87CDCBD19082E227FD835A7 /* Headers */,
+				9242C045650CEE969C90CE93FC04505E /* Sources */,
+				C7F3812AF8568EA81FF462E44391FB54 /* Frameworks */,
+				E9512824AE601B61268AE0EFBEA5C0E8 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				AE5C5B7B1310D74B3E09F1656022817D /* PBXTargetDependency */,
 			);
 			name = "Pods-NekoNihongoTests";
 			productName = "Pods-NekoNihongoTests";
 			productReference = D9EBC7454FD1878A5010C67DFD834D19 /* Pods_NekoNihongoTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		544212980401A6DA7806F65EAD8C6637 /* Cartography */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4640A3FD22DAF78390468CA450BB29DA /* Build configuration list for PBXNativeTarget "Cartography" */;
+			buildPhases = (
+				F8A87B475BE2E0CA1FFEC5F03DEDB801 /* Sources */,
+				7A4AAE12E09D29DA5F684C9BD8B5FE3B /* Frameworks */,
+				E66E0C3AA6C50C06CA3BC63165901BDD /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Cartography;
+			productName = Cartography;
+			productReference = 53AB7A25EE901BECA0A80BC8745A7B53 /* Cartography.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		5E90024CA4621EC0A8B8C777C958214A /* Device */ = {
@@ -598,18 +562,17 @@
 			productReference = B7CECB53A2BB237ED1439224208FE088 /* ASExtendedCircularMenu.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		EFBC9EE40F96264C46204A7F6AA5B724 /* Pods-NekoNihongoUITests */ = {
+		D98B62FAEE7A92DE25B6E71B9DD9A388 /* Pods-NekoNihongoUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 46D273C93947942A3FB0736CA1682D65 /* Build configuration list for PBXNativeTarget "Pods-NekoNihongoUITests" */;
+			buildConfigurationList = 41C68A69078CA907C860BA806D74F6A6 /* Build configuration list for PBXNativeTarget "Pods-NekoNihongoUITests" */;
 			buildPhases = (
-				DD1DBA725376722D2E5E0D3275EC214F /* Sources */,
-				DCED2848E928818EEDF68F9FA0D39C4F /* Frameworks */,
-				089F5EDF13CA24FB4313D6CE3AD1086D /* Headers */,
+				889FC24763701B8943FA336DE1B9618C /* Sources */,
+				170F51AB2D7E455BAE86CD9629088CFD /* Frameworks */,
+				B63C2178056491C7EBA180CE1C905CE4 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				C2C9421EC48CA933875E43E03816AA7A /* PBXTargetDependency */,
 			);
 			name = "Pods-NekoNihongoUITests";
 			productName = "Pods-NekoNihongoUITests";
@@ -622,8 +585,19 @@
 		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0930;
+				LastSwiftUpdateCheck = 0730;
 				LastUpgradeCheck = 0930;
+				TargetAttributes = {
+					544212980401A6DA7806F65EAD8C6637 = {
+						LastSwiftMigration = 0930;
+					};
+					5E90024CA4621EC0A8B8C777C958214A = {
+						LastSwiftMigration = 0930;
+					};
+					6E6AFFF7B1F69DBAE08023549F51645A = {
+						LastSwiftMigration = 0930;
+					};
+				};
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -638,11 +612,11 @@
 			projectRoot = "";
 			targets = (
 				6E6AFFF7B1F69DBAE08023549F51645A /* ASExtendedCircularMenu */,
-				05B5E6B6BF53C2C31E616E4C5644E8BB /* Cartography */,
+				544212980401A6DA7806F65EAD8C6637 /* Cartography */,
 				5E90024CA4621EC0A8B8C777C958214A /* Device */,
 				1FCFD7D35DA4A697B4DBCE49DDF98034 /* Pods-NekoNihongo */,
-				46B02BAB92A68ED3B6C7A05F9A43850F /* Pods-NekoNihongoTests */,
-				EFBC9EE40F96264C46204A7F6AA5B724 /* Pods-NekoNihongoUITests */,
+				2CAF28A87270429BE3B67869AFC9AA47 /* Pods-NekoNihongoTests */,
+				D98B62FAEE7A92DE25B6E71B9DD9A388 /* Pods-NekoNihongoUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -656,46 +630,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		0E10210F14D7C5D64CBA654F2554FB99 /* Sources */ = {
+		889FC24763701B8943FA336DE1B9618C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18993D91D32AF5FACC7B6482052302D8 /* Pods-NekoNihongoTests-dummy.m in Sources */,
+				264466553371E2D66695AE325D5A7568 /* Pods-NekoNihongoUITests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		43377B59D0D68F9FC09F2D7CA5D04AC4 /* Sources */ = {
+		9242C045650CEE969C90CE93FC04505E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				58B00C7BCF27BE64587847CA77E9DD11 /* Align.swift in Sources */,
-				869BF762B9D0699ABF4024F1DED0AD0E /* AutoresizingMaskLayoutProxy.swift in Sources */,
-				1C92A98E34D0E29E787071F0B75401E5 /* Cartography-dummy.m in Sources */,
-				33E91E78F43301F168B42DB67C04CDC4 /* Coefficients.swift in Sources */,
-				DB9F3857E166A3EAC8EC5646023E7B8E /* Compound.swift in Sources */,
-				0739B8BF39538E41B6C747EDE71114F3 /* Constrain.swift in Sources */,
-				F435B4C2D5E6E7B34471B69DAC6D5E51 /* Constraint.swift in Sources */,
-				551EDA7C2AEF5DBDE54A1E04D3B66DEF /* ConstraintGroup.swift in Sources */,
-				6F4FE3B61F3F4136F1C403AD21C331D7 /* Context.swift in Sources */,
-				B4DBC3F172AFEA9A0F86A1428D235BAB /* Dimension.swift in Sources */,
-				078D75FC8795FA3EBD22377BC890520B /* Distribute.swift in Sources */,
-				94C7D2A64168F83FDD3F1FDD86309462 /* Edge.swift in Sources */,
-				75A09744CB87DB237A3D3FA76FC9AB9A /* Edges.swift in Sources */,
-				9C6E1370B7332CEA8408E407F24570B5 /* Expression.swift in Sources */,
-				E2F636932DC549ECAC060149AE2925A8 /* Extensions.swift in Sources */,
-				64C1C1BBD53C2B17073E4473687A853A /* LayoutGuide.swift in Sources */,
-				27BEB6D60B638B2F7E7086598B419CB3 /* LayoutGuideProxy.swift in Sources */,
-				BAA82517E186455BBE3B74D44E5EDD5D /* LayoutItem.swift in Sources */,
-				033E20123508ACA1151479485BEC8D90 /* LayoutProxy+TypeErasure.swift in Sources */,
-				6303953B4072C1B9B5BE9038CD1A5858 /* LayoutProxy.swift in Sources */,
-				9DE7AC7E9424287CE00664C9EA68D2D2 /* LayoutSupport.swift in Sources */,
-				E79C8C2851495884D91FEFFFC53FAB45 /* LayoutSupportProxy.swift in Sources */,
-				44279488206961A71665C70FD3BD9FCD /* Point.swift in Sources */,
-				F14347E3AC3A254F7A424CCB7FCF512B /* Priority.swift in Sources */,
-				370EA4B00C3E1F71C87314271179D06D /* Property.swift in Sources */,
-				26D9D26B1D4A7C48E1DFE6C4697A7EB3 /* Size.swift in Sources */,
-				7BBAA7D5001ABB0D1516ACAF7F51F4B5 /* View.swift in Sources */,
-				52C3E8081BB80AA34FEF1659F24533C2 /* ViewProxy.swift in Sources */,
+				5525AB611F8B04ECB8E50291DFE20C3E /* Pods-NekoNihongoTests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -711,11 +658,32 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DD1DBA725376722D2E5E0D3275EC214F /* Sources */ = {
+		F8A87B475BE2E0CA1FFEC5F03DEDB801 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F0C6BDB3EC166BAB0EBEE4D562B0CF38 /* Pods-NekoNihongoUITests-dummy.m in Sources */,
+				067B84F7E9EFBEAFDC824931CAAD2051 /* Align.swift in Sources */,
+				AE7ACD648B84D1C8645049118FE42D54 /* Cartography-dummy.m in Sources */,
+				FC27B916EC313A166CE2704745CB14C0 /* Coefficients.swift in Sources */,
+				5F5D3FB5718F4673DC293DA7D97EF046 /* Compound.swift in Sources */,
+				3F2391D80C5AE124D6E13AD3FABFFE01 /* Constrain.swift in Sources */,
+				C2E2993258D9072061A389E518053F8B /* Constraint.swift in Sources */,
+				5CAA19E0EB7CA9EB6047A3E43EC1FC8F /* ConstraintGroup.swift in Sources */,
+				9C7E8D85506FA06C506A330B200FCEE7 /* Context.swift in Sources */,
+				DBC0D8FEB6A8101C977332E8BC16E641 /* Dimension.swift in Sources */,
+				7965A04590F67375EC65249F774B3F6B /* Distribute.swift in Sources */,
+				CD587D5E28B0428E3B4163F1604D26BF /* Edge.swift in Sources */,
+				A084DDD7233A950676D60FCB4FA8BE74 /* Edges.swift in Sources */,
+				697414FCC3C6F8176768FFDDEC73A108 /* Expression.swift in Sources */,
+				A67286FF819C5C943D027E9C40DF456D /* Extensions.swift in Sources */,
+				1431619A2565DD8EAB817240E078707C /* LayoutProxy.swift in Sources */,
+				56EBA0C77344F63CA6A36265A6496A71 /* LayoutSupport.swift in Sources */,
+				88B21B225B2D6BFAB3F50B88495299F1 /* Point.swift in Sources */,
+				22B60CFF6E57EB6DF8CCA5D2CAC3178C /* Priority.swift in Sources */,
+				A7BD4B74A484170A23FF6C7611A11B40 /* Property.swift in Sources */,
+				74BD0664EEC77366D314DA22DD4E721F /* Size.swift in Sources */,
+				05C1C6C0B246E3C5FDF06B2A0BB63F0D /* View.swift in Sources */,
+				9B71D4856DF9CFE5715EDF4E5B3B2844 /* ViewUtils.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -740,14 +708,8 @@
 		6EAB0CB5A114649A6212BF9966FF022A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Cartography;
-			target = 05B5E6B6BF53C2C31E616E4C5644E8BB /* Cartography */;
+			target = 544212980401A6DA7806F65EAD8C6637 /* Cartography */;
 			targetProxy = 410DCAB818EE43ED55FFA6146D445BB5 /* PBXContainerItemProxy */;
-		};
-		AE5C5B7B1310D74B3E09F1656022817D /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-NekoNihongo";
-			target = 1FCFD7D35DA4A697B4DBCE49DDF98034 /* Pods-NekoNihongo */;
-			targetProxy = E6D5EB9592D42066E7D1A26FDACC0438 /* PBXContainerItemProxy */;
 		};
 		AEBC7102A30D6391664A6EB928D4B239 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -755,134 +717,59 @@
 			target = 5E90024CA4621EC0A8B8C777C958214A /* Device */;
 			targetProxy = 0221B1FB87C22C27AC99F093B7ED6111 /* PBXContainerItemProxy */;
 		};
-		C2C9421EC48CA933875E43E03816AA7A /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-NekoNihongo";
-			target = 1FCFD7D35DA4A697B4DBCE49DDF98034 /* Pods-NekoNihongo */;
-			targetProxy = 2F76412EA3319EEC91E4070F1515B85D /* PBXContainerItemProxy */;
-		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		08A1780C5161F47C89FF5649ED95BE0C /* Debug */ = {
+		05B034D0EA115F55EF26CF6C5B088691 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9B287E6D098A2C7EDEF91B265A085AF9 /* Device.xcconfig */;
+			baseConfigurationReference = 2B9328D81B9FFA3EDA9B2FDD7F7DA157 /* Pods-NekoNihongoTests.release.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/Device/Device-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Device/Info.plist";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-NekoNihongoTests/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Device/Device.modulemap";
-				PRODUCT_MODULE_NAME = Device;
-				PRODUCT_NAME = Device;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NekoNihongoTests/Pods-NekoNihongoTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_NekoNihongoTests;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		35CD2F04F4932C334716650A32F1BB13 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 45E2E88E3617FAB24422271021798749 /* Cartography.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/Cartography/Cartography-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Cartography/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Cartography/Cartography.modulemap";
-				PRODUCT_MODULE_NAME = Cartography;
-				PRODUCT_NAME = Cartography;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
-		53CA6637FB4424E9A103443A31F9F9C5 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 791D027BC81F1C9CBA923B0475434CD5 /* Pods-NekoNihongo.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-NekoNihongo/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-NekoNihongo/Pods-NekoNihongo.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		553022A828EE1991F07D2D73F565AEF8 /* Debug */ = {
+		156284431C64CB05C59BDA0595A1E95A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
 				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
@@ -890,20 +777,304 @@
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		48231957691E46B4697342E285631D61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7734E127A46728F37D2AD3A2B2BEF271 /* Cartography.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Cartography/Cartography-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Cartography/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Cartography/Cartography.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Cartography;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7BBE386C66EB202456BED9BCE95A18AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FBCE05D1BF179011F76294BE5C9E7D46 /* ASExtendedCircularMenu.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ASExtendedCircularMenu/ASExtendedCircularMenu-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ASExtendedCircularMenu/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ASExtendedCircularMenu/ASExtendedCircularMenu.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = ASExtendedCircularMenu;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7F7BD6377DF1339C90E22A9C05B6E5B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 50A70C9326A806DEB5B6B808EC92AB33 /* Pods-NekoNihongoUITests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-NekoNihongoUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NekoNihongoUITests/Pods-NekoNihongoUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_NekoNihongoUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8297E75D9DBA20E8FBDF02F1D65CA39B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1BA7DEFF647ABC2A024238B20A03ABA1 /* Pods-NekoNihongo.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-NekoNihongo/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NekoNihongo/Pods-NekoNihongo.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_NekoNihongo;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8E7E6BF5EA23BB6BBA11B782E8B4B24C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7153DF5779FCDD818EE250738FCF619F /* Device.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Device/Device-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Device/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Device/Device.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Device;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BC2F85118A7CF5033C566C821A93E073 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 56DC168A70BCEF9825F84FEAF6EA34A5 /* Pods-NekoNihongoUITests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-NekoNihongoUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NekoNihongoUITests/Pods-NekoNihongoUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_NekoNihongoUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BCE4FC17A531C9E7C2D0AADD856CBDB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7734E127A46728F37D2AD3A2B2BEF271 /* Cartography.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Cartography/Cartography-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Cartography/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Cartography/Cartography.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Cartography;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C382132BB6BF8CA1A911872A2062FD0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -912,139 +1083,48 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				MTL_ENABLE_DEBUG_INFO = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				ONLY_ACTIVE_ARCH = YES;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
 		};
-		58CE816B060A41D32CEC095441D0E3E0 /* Release */ = {
+		C71961AF5470115D36E3B24FEAD1CB9D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 43239009E36527D96AB2F442192C8922 /* Pods-NekoNihongoTests.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_ALLOWED = NO;
-				CODE_SIGNING_REQUIRED = NO;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_RELEASE=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				STRIP_INSTALLED_PRODUCT = NO;
-				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Release;
-		};
-		5A837E6DAF587D6868BDCDADE9092BD5 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 17C30819F5F020DEF66FD8593A97FC83 /* ASExtendedCircularMenu.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/ASExtendedCircularMenu/ASExtendedCircularMenu-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/ASExtendedCircularMenu/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-NekoNihongoTests/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/ASExtendedCircularMenu/ASExtendedCircularMenu.modulemap";
-				PRODUCT_MODULE_NAME = ASExtendedCircularMenu;
-				PRODUCT_NAME = ASExtendedCircularMenu;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		64977E75EA6B876AD5F4002A3795894B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D134DA823E7C8DDB0C68CFF402901E4D /* Pods-NekoNihongoUITests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-NekoNihongoUITests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-NekoNihongoUITests/Pods-NekoNihongoUITests.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-NekoNihongoTests/Pods-NekoNihongoTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = Pods_NekoNihongoTests;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1053,30 +1133,31 @@
 			};
 			name = Debug;
 		};
-		7587A57A871172455D0356C0925D28BF /* Debug */ = {
+		DE95D90ADA251571312A848DA15F97D3 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 17C30819F5F020DEF66FD8593A97FC83 /* ASExtendedCircularMenu.xcconfig */;
+			baseConfigurationReference = FBCE05D1BF179011F76294BE5C9E7D46 /* ASExtendedCircularMenu.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_PREFIX_HEADER = "Target Support Files/ASExtendedCircularMenu/ASExtendedCircularMenu-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/ASExtendedCircularMenu/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/ASExtendedCircularMenu/ASExtendedCircularMenu.modulemap";
-				PRODUCT_MODULE_NAME = ASExtendedCircularMenu;
+				MTL_ENABLE_DEBUG_INFO = YES;
 				PRODUCT_NAME = ASExtendedCircularMenu;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1085,205 +1166,69 @@
 			};
 			name = Debug;
 		};
-		C34C00134F26343DBED64744162CF6E5 /* Debug */ = {
+		E8736F5E0C2A9BD717CBE900B4968F0D /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 45E2E88E3617FAB24422271021798749 /* Cartography.xcconfig */;
+			baseConfigurationReference = 569D0A59B24B96A4DDA79508318B2941 /* Pods-NekoNihongo.debug.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/Cartography/Cartography-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Cartography/Info.plist";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-NekoNihongo/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Cartography/Cartography.modulemap";
-				PRODUCT_MODULE_NAME = Cartography;
-				PRODUCT_NAME = Cartography;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NekoNihongo/Pods-NekoNihongo.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_NekoNihongo;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		C9FA536E26A457DB37CCBB1D4B46BF25 /* Release */ = {
+		F28BE1EC715FDCE8D548E9F53857494D /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2F47DF882A7012D8E6A6E199599BAF5C /* Pods-NekoNihongoUITests.release.xcconfig */;
+			baseConfigurationReference = 7153DF5779FCDD818EE250738FCF619F /* Device.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-NekoNihongoUITests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-NekoNihongoUITests/Pods-NekoNihongoUITests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		CD0DEDA4F20B46A61C77CBBCD92E9C82 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9B287E6D098A2C7EDEF91B265A085AF9 /* Device.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_PREFIX_HEADER = "Target Support Files/Device/Device-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/Device/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/Device/Device.modulemap";
-				PRODUCT_MODULE_NAME = Device;
+				MTL_ENABLE_DEBUG_INFO = YES;
 				PRODUCT_NAME = Device;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		E2FA480D805C7D9670BF60ECBFB0AD44 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 418A18EC548FC472EFC18A9C4D297D5E /* Pods-NekoNihongo.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-NekoNihongo/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-NekoNihongo/Pods-NekoNihongo.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		EAB0FF994957EE4194B23159802112F5 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F1EDD560C676C79C8E6B14007160EBFF /* Pods-NekoNihongoTests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-NekoNihongoTests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-NekoNihongoTests/Pods-NekoNihongoTests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		F6597141105D97FB8A509950D70CE0B1 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9620C3753BF8C08B7F506038540F03CF /* Pods-NekoNihongoTests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-NekoNihongoTests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-NekoNihongoTests/Pods-NekoNihongoTests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -1296,17 +1241,26 @@
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				553022A828EE1991F07D2D73F565AEF8 /* Debug */,
-				58CE816B060A41D32CEC095441D0E3E0 /* Release */,
+				C382132BB6BF8CA1A911872A2062FD0D /* Debug */,
+				156284431C64CB05C59BDA0595A1E95A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		46D273C93947942A3FB0736CA1682D65 /* Build configuration list for PBXNativeTarget "Pods-NekoNihongoUITests" */ = {
+		41C68A69078CA907C860BA806D74F6A6 /* Build configuration list for PBXNativeTarget "Pods-NekoNihongoUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				64977E75EA6B876AD5F4002A3795894B /* Debug */,
-				C9FA536E26A457DB37CCBB1D4B46BF25 /* Release */,
+				BC2F85118A7CF5033C566C821A93E073 /* Debug */,
+				7F7BD6377DF1339C90E22A9C05B6E5B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4640A3FD22DAF78390468CA450BB29DA /* Build configuration list for PBXNativeTarget "Cartography" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCE4FC17A531C9E7C2D0AADD856CBDB1 /* Debug */,
+				48231957691E46B4697342E285631D61 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1314,26 +1268,17 @@
 		A2E7FAADB4B505BC390985BE8CF336FE /* Build configuration list for PBXNativeTarget "Device" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				08A1780C5161F47C89FF5649ED95BE0C /* Debug */,
-				CD0DEDA4F20B46A61C77CBBCD92E9C82 /* Release */,
+				F28BE1EC715FDCE8D548E9F53857494D /* Debug */,
+				8E7E6BF5EA23BB6BBA11B782E8B4B24C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A9BAA343D12FE6672E7011D9FB12285B /* Build configuration list for PBXNativeTarget "Cartography" */ = {
+		DC00C10A62D22E15F63C60FB571FF5F0 /* Build configuration list for PBXNativeTarget "Pods-NekoNihongoTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C34C00134F26343DBED64744162CF6E5 /* Debug */,
-				35CD2F04F4932C334716650A32F1BB13 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		BCDC7C1AF563DB9759F8F682E91283E8 /* Build configuration list for PBXNativeTarget "Pods-NekoNihongoTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				F6597141105D97FB8A509950D70CE0B1 /* Debug */,
-				EAB0FF994957EE4194B23159802112F5 /* Release */,
+				C71961AF5470115D36E3B24FEAD1CB9D /* Debug */,
+				05B034D0EA115F55EF26CF6C5B088691 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1341,8 +1286,8 @@
 		E3DE7789BE85355BEE7638E08254D800 /* Build configuration list for PBXNativeTarget "ASExtendedCircularMenu" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7587A57A871172455D0356C0925D28BF /* Debug */,
-				5A837E6DAF587D6868BDCDADE9092BD5 /* Release */,
+				DE95D90ADA251571312A848DA15F97D3 /* Debug */,
+				7BBE386C66EB202456BED9BCE95A18AB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1350,8 +1295,8 @@
 		EB2FDADF8402D9AE4224D0DD7DDCCBA0 /* Build configuration list for PBXNativeTarget "Pods-NekoNihongo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				53CA6637FB4424E9A103443A31F9F9C5 /* Debug */,
-				E2FA480D805C7D9670BF60ECBFB0AD44 /* Release */,
+				E8736F5E0C2A9BD717CBE900B4968F0D /* Debug */,
+				8297E75D9DBA20E8FBDF02F1D65CA39B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

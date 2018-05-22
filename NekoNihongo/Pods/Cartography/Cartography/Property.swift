@@ -8,18 +8,14 @@
 
 #if os(iOS) || os(tvOS)
 import UIKit
-
-public typealias LayoutAttribute = NSLayoutAttribute
 #else
 import AppKit
-
-public typealias LayoutAttribute = NSLayoutConstraint.Attribute
 #endif
 
 public protocol Property {
-    var attribute: LayoutAttribute { get }
+    var attribute: NSLayoutAttribute { get }
     var context: Context { get }
-    var item: AnyObject { get } //type-erased Layoutitem
+    var view: View { get }
 }
 
 // MARK: Equality
@@ -30,7 +26,7 @@ public protocol NumericalEquality : Property { }
 
 /// Declares a property equal to a numerical constant.
 ///
-/// - parameter lhs: The affected property. The associated item will have
+/// - parameter lhs: The affected property. The associated view will have
 ///             `translatesAutoresizingMaskIntoConstraints` set to `false`.
 /// - parameter rhs: The numerical constant.
 ///
@@ -46,7 +42,7 @@ public protocol RelativeEquality : Property { }
 
 /// Declares a property equal to a the result of an expression.
 ///
-/// - parameter lhs: The affected property. The associated item will have
+/// - parameter lhs: The affected property. The associated view will have
 ///             `translatesAutoresizingMaskIntoConstraints` set to `false`.
 /// - parameter rhs: The expression.
 ///
@@ -58,7 +54,7 @@ public protocol RelativeEquality : Property { }
 
 /// Declares a property equal to another property.
 ///
-/// - parameter lhs: The affected property. The associated item will have
+/// - parameter lhs: The affected property. The associated view will have
 ///             `translatesAutoresizingMaskIntoConstraints` set to `false`.
 /// - parameter rhs: The other property.
 ///
@@ -74,26 +70,26 @@ public protocol NumericalInequality : Property { }
 
 /// Declares a property less than or equal to a numerical constant.
 ///
-/// - parameter lhs: The affected property. The associated item will have
+/// - parameter lhs: The affected property. The associated view will have
 ///             `translatesAutoresizingMaskIntoConstraints` set to `false`.
 /// - parameter rhs: The numerical constant.
 ///
 /// - returns: An `NSLayoutConstraint`.
 ///
 @discardableResult public func <= (lhs: NumericalInequality, rhs: CGFloat) -> NSLayoutConstraint {
-    return lhs.context.addConstraint(lhs, coefficients: Coefficients(1, rhs), relation: .lessThanOrEqual)
+    return lhs.context.addConstraint(lhs, coefficients: Coefficients(1, rhs), relation: NSLayoutRelation.lessThanOrEqual)
 }
 
 /// Declares a property greater than or equal to a numerical constant.
 ///
-/// - parameter lhs: The affected property. The associated item will have
+/// - parameter lhs: The affected property. The associated view will have
 ///             `translatesAutoresizingMaskIntoConstraints` set to `false`.
 /// - parameter rhs: The numerical constant.
 ///
 /// - returns: An `NSLayoutConstraint`.
 ///
 @discardableResult public func >= (lhs: NumericalInequality, rhs: CGFloat) -> NSLayoutConstraint {
-    return lhs.context.addConstraint(lhs, coefficients: Coefficients(1, rhs), relation: .greaterThanOrEqual)
+    return lhs.context.addConstraint(lhs, coefficients: Coefficients(1, rhs), relation: NSLayoutRelation.greaterThanOrEqual)
 }
 
 /// Properties conforming to this protocol can use the `<=` and `>=` operators
@@ -102,50 +98,50 @@ public protocol RelativeInequality : Property { }
 
 /// Declares a property less than or equal to another property.
 ///
-/// - parameter lhs: The affected property. The associated item will have
+/// - parameter lhs: The affected property. The associated view will have
 ///             `translatesAutoresizingMaskIntoConstraints` set to `false`.
 /// - parameter rhs: The other property.
 ///
 /// - returns: An `NSLayoutConstraint`.
 ///
 @discardableResult public func <= <P: RelativeInequality>(lhs: P, rhs: P) -> NSLayoutConstraint {
-    return lhs.context.addConstraint(lhs, to: rhs, relation: .lessThanOrEqual)
+    return lhs.context.addConstraint(lhs, to: rhs, relation: NSLayoutRelation.lessThanOrEqual)
 }
 
 /// Declares a property greater than or equal to another property.
 ///
-/// - parameter lhs: The affected property. The associated item will have
+/// - parameter lhs: The affected property. The associated view will have
 ///             `translatesAutoresizingMaskIntoConstraints` set to `false`.
 /// - parameter rhs: The other property.
 ///
 /// - returns: An `NSLayoutConstraint`.
 ///
 @discardableResult public func >= <P: RelativeInequality>(lhs: P, rhs: P) -> NSLayoutConstraint {
-    return lhs.context.addConstraint(lhs, to: rhs, relation: .greaterThanOrEqual)
+    return lhs.context.addConstraint(lhs, to: rhs, relation: NSLayoutRelation.greaterThanOrEqual)
 }
 
 /// Declares a property less than or equal to the result of an expression.
 ///
-/// - parameter lhs: The affected property. The associated item will have
+/// - parameter lhs: The affected property. The associated view will have
 ///             `translatesAutoresizingMaskIntoConstraints` set to `false`.
 /// - parameter rhs: The other property.
 ///
 /// - returns: An `NSLayoutConstraint`.
 ///
 @discardableResult public func <= <P: RelativeInequality>(lhs: P, rhs: Expression<P>) -> NSLayoutConstraint {
-    return lhs.context.addConstraint(lhs, to: rhs.value, coefficients: rhs.coefficients[0], relation: .lessThanOrEqual)
+    return lhs.context.addConstraint(lhs, to: rhs.value, coefficients: rhs.coefficients[0], relation: NSLayoutRelation.lessThanOrEqual)
 }
 
 /// Declares a property greater than or equal to the result of an expression.
 ///
-/// - parameter lhs: The affected property. The associated item will have
+/// - parameter lhs: The affected property. The associated view will have
 ///             `translatesAutoresizingMaskIntoConstraints` set to `false`.
 /// - parameter rhs: The other property.
 ///
 /// - returns: An `NSLayoutConstraint`.
 ///
 @discardableResult public func >= <P: RelativeInequality>(lhs: P, rhs: Expression<P>) -> NSLayoutConstraint {
-    return lhs.context.addConstraint(lhs, to: rhs.value, coefficients: rhs.coefficients[0], relation: .greaterThanOrEqual)
+    return lhs.context.addConstraint(lhs, to: rhs.value, coefficients: rhs.coefficients[0], relation: NSLayoutRelation.greaterThanOrEqual)
 }
 
 // MARK: Addition

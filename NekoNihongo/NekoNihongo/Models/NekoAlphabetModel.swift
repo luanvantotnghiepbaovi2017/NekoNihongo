@@ -6,12 +6,16 @@
 //  Copyright © 2017 ViBao. All rights reserved.
 //
 
-struct NekoAlphabetModel: Decodable {
+class NekoAlphabetModel {
+    
     var nekoJapaneseCharacter: String
     var nekoLatinCharacter: String
     
     init(nekoJapaneseCharacter: String, nekoLatinCharacter: String) {
+        
         self.nekoLatinCharacter = nekoLatinCharacter
         self.nekoJapaneseCharacter = nekoJapaneseCharacter
+        
     }
+    
 }

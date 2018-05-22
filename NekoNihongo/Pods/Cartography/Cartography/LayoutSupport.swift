@@ -11,28 +11,22 @@ import Foundation
 #if os(iOS) || os(tvOS)
     import UIKit
 
-    public final class LayoutSupport: LayoutItem {
+    public struct LayoutSupport {
         let layoutGuide : UILayoutSupport
-
-        init(layoutGuide: UILayoutSupport) {
-            self.layoutGuide = layoutGuide
-        }
-
-        public func asProxy(context: Context) -> LayoutSupportProxy {
-            return LayoutSupportProxy(context: context, item: self)
-        }
+        let attribute : NSLayoutAttribute
     }
 
     public extension UIViewController {
-        public var car_topLayoutGuide : LayoutSupport {
+        
+        public var topLayoutGuideCartography : LayoutSupport {
             get {
-                return LayoutSupport(layoutGuide: self.topLayoutGuide)
+                return LayoutSupport(layoutGuide: self.topLayoutGuide, attribute: .bottom)
             }
         }
         
-        public var car_bottomLayoutGuide : LayoutSupport {
+        public var bottomLayoutGuideCartography : LayoutSupport {
             get {
-                return LayoutSupport(layoutGuide: self.bottomLayoutGuide)
+                return LayoutSupport(layoutGuide: self.bottomLayoutGuide, attribute: .top)
             }
         }
     }
