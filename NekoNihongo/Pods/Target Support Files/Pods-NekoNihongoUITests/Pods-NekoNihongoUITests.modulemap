@@ -1,0 +1,6 @@
+framework module Pods_NekoNihongoUITests {
+  umbrella header "Pods-NekoNihongoUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

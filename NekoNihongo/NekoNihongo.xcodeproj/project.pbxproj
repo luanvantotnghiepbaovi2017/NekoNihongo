@@ -1,0 +1,1689 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		390C3A481F84C70600C2FE6D /* AlphabetStrokeOrderDoubleCharacterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 390C3A471F84C70600C2FE6D /* AlphabetStrokeOrderDoubleCharacterViewController.swift */; };
+		3922FBE31F66F62E00F978AD /* AlphabetSelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3922FBE21F66F62E00F978AD /* AlphabetSelectionViewController.swift */; };
+		3922FBE51F6702A300F978AD /* MinnaNoNihongoSelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3922FBE41F6702A300F978AD /* MinnaNoNihongoSelectionViewController.swift */; };
+		3922FBE71F6702BD00F978AD /* FlashCardSelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3922FBE61F6702BD00F978AD /* FlashCardSelectionViewController.swift */; };
+		3922FBEA1F67043800F978AD /* MinnaNoNihongoSelectionCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3922FBE91F67043800F978AD /* MinnaNoNihongoSelectionCollectionViewCell.swift */; };
+		3922FBEC1F67044A00F978AD /* FlashCardSelectionCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3922FBEB1F67044A00F978AD /* FlashCardSelectionCollectionViewCell.swift */; };
+		39276CE91F7A1D6B002D492A /* AlphabetOptionCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39276CE81F7A1D6B002D492A /* AlphabetOptionCollectionViewCell.swift */; };
+		3928A9591F860B2B0071E43B /* あ.svg in Resources */ = {isa = PBXBuildFile; fileRef = 3928A9121F860B2A0071E43B /* あ.svg */; };
+		3928A95A1F860B2B0071E43B /* い.svg in Resources */ = {isa = PBXBuildFile; fileRef = 3928A9131F860B2A0071E43B /* い.svg */; };
+		3928A95B1F860B2B0071E43B /* う.svg in Resources */ = {isa = PBXBuildFile; fileRef = 3928A9141F860B2A0071E43B /* う.svg */; };
+		3928A95C1F860B2B0071E43B /* え.svg in Resources */ = {isa = PBXBuildFile; fileRef = 3928A9151F860B2A0071E43B /* え.svg */; };
+		3928A95D1F860B2B0071E43B /* お.svg in Resources */ = {isa = PBXBuildFile; fileRef = 3928A9161F860B2A0071E43B /* お.svg */; };
+		3928A95E1F860B2B0071E43B /* か.svg in Resources */ = {isa = PBXBuildFile; fileRef = 3928A9171F860B2A0071E43B /* か.svg */; };
+		3928A95F1F860B2B0071E43B /* が.svg in Resources */ = {isa = PBXBuildFile; fileRef = 3928A9181F860B2A0071E43B /* が.svg */; };
+		3928A9601F860B2B0071E43B /* き.svg in Resources */ = {isa = PBXBuildFile; fileRef = 3928A9191F860B2A0071E43B /* き.svg */; };
+		3928A9611F860B2B0071E43B /* ぎ.svg in Resources */ = {isa = PBXBuildFile; fileRef = 3928A91A1F860B2A0071E43B /* ぎ.svg */; };
+		3928A9621F860B2B0071E43B /* く.svg in Resources */ = {isa = PBXBuildFile; fileRef = 3928A91B1F860B2A0071E43B /* く.svg */; };
+		3928A9631F860B2B0071E43B /* ぐ.svg in Resources */ = {isa = PBXBuildFile; fileRef = 3928A91C1F860B2A0071E43B /* ぐ.svg */; };
+		3928A9641F860B2B0071E43B /* け.svg in Resources */ = {isa = PBXBuildFile; fileRef = 3928A91D1F860B2A0071E43B /* け.svg */; };
+		3928A9651F860B2B0071E43B /* げ.svg in Resources */ = {isa = PBXBuildFile; fileRef = 3928A91E1F860B2A0071E43B /* げ.svg */; };
+		3928A9661F860B2B0071E43B /* こ.svg in Resources */ = {isa = PBXBuildFile; fileRef = 3928A91F1F860B2A0071E43B /* こ.svg */; };
+		3928A9671F860B2B0071E43B /* ご.svg in Resources */ = {isa = PBXBuildFile; fileRef = 3928A9201F860B2A0071E43B /* ご.svg */; };
+		3928A9681F860B2B0071E43B /* さ.svg in Resources */ = {isa = PBXBuildFile; fileRef = 3928A9211F860B2A0071E43B /* さ.svg */; };
+		3928A9691F860B2B0071E43B /* ざ.svg in Resources */ = {isa = PBXBuildFile; fileRef = 3928A9221F860B2A0071E43B /* ざ.svg */; };
+		3928A96A1F860B2B0071E43B /* し.svg in Resources */ = {isa = PBXBuildFile; fileRef = 3928A9231F860B2A0071E43B /* し.svg */; };
+		3928A96B1F860B2B0071E43B /* じ.svg in Resources */ = {isa = PBXBuildFile; fileRef = 3928A9241F860B2A0071E43B /* じ.svg */; };
+		3928A96C1F860B2B0071E43B /* す.svg in Resources */ = {isa = PBXBuildFile; fileRef = 3928A9251F860B2A0071E43B /* す.svg */; };
+		3928A96D1F860B2B0071E43B /* ず.svg in Resources */ = {isa = PBXBuildFile; fileRef = 3928A9261F860B2A0071E43B /* ず.svg */; };
+		3928A96E1F860B2B0071E43B /* せ.svg in Resources */ = {isa = PBXBuildFile; fileRef = 3928A9271F860B2A0071E43B /* せ.svg */; };
+		3928A96F1F860B2B0071E43B /* ぜ.svg in Resources */ = {isa = PBXBuildFile; fileRef = 3928A9281F860B2A0071E43B /* ぜ.svg */; };
+		3928A9701F860B2B0071E43B /* そ.svg in Resources */ = {isa = PBXBuildFile; fileRef = 3928A9291F860B2A0071E43B /* そ.svg */; };
+		3928A9711F860B2B0071E43B /* ぞ.svg in Resources */ = {isa = PBXBuildFile; fileRef = 3928A92A1F860B2A0071E43B /* ぞ.svg */; };
+		3928A9721F860B2B0071E43B /* た.svg in Resources */ = {isa = PBXBuildFile; fileRef = 3928A92B1F860B2A0071E43B /* た.svg */; };
+		3928A9731F860B2B0071E43B /* だ.svg in Resources */ = {isa = PBXBuildFile; fileRef = 3928A92C1F860B2A0071E43B /* だ.svg */; };
+		3928A9741F860B2B0071E43B /* ち.svg in Resources */ = {isa = PBXBuildFile; fileRef = 3928A92D1F860B2A0071E43B /* ち.svg */; };
+		3928A9751F860B2B0071E43B /* ぢ.svg in Resources */ = {isa = PBXBuildFile; fileRef = 3928A92E1F860B2A0071E43B /* ぢ.svg */; };
+		3928A9761F860B2B0071E43B /* つ.svg in Resources */ = {isa = PBXBuildFile; fileRef = 3928A92F1F860B2A0071E43B /* つ.svg */; };
+		3928A9771F860B2B0071E43B /* づ.svg in Resources */ = {isa = PBXBuildFile; fileRef = 3928A9301F860B2A0071E43B /* づ.svg */; };
+		3928A9781F860B2B0071E43B /* て.svg in Resources */ = {isa = PBXBuildFile; fileRef = 3928A9311F860B2A0071E43B /* て.svg */; };
+		3928A9791F860B2B0071E43B /* で.svg in Resources */ = {isa = PBXBuildFile; fileRef = 3928A9321F860B2A0071E43B /* で.svg */; };
+		3928A97A1F860B2B0071E43B /* と.svg in Resources */ = {isa = PBXBuildFile; fileRef = 3928A9331F860B2A0071E43B /* と.svg */; };
+		3928A97B1F860B2B0071E43B /* ど.svg in Resources */ = {isa = PBXBuildFile; fileRef = 3928A9341F860B2A0071E43B /* ど.svg */; };
+		3928A97C1F860B2B0071E43B /* な.svg in Resources */ = {isa = PBXBuildFile; fileRef = 3928A9351F860B2A0071E43B /* な.svg */; };
+		3928A97D1F860B2B0071E43B /* に.svg in Resources */ = {isa = PBXBuildFile; fileRef = 3928A9361F860B2A0071E43B /* に.svg */; };
+		3928A97E1F860B2B0071E43B /* ぬ.svg in Resources */ = {isa = PBXBuildFile; fileRef = 3928A9371F860B2A0071E43B /* ぬ.svg */; };
+		3928A97F1F860B2B0071E43B /* ね.svg in Resources */ = {isa = PBXBuildFile; fileRef = 3928A9381F860B2A0071E43B /* ね.svg */; };
+		3928A9801F860B2B0071E43B /* の.svg in Resources */ = {isa = PBXBuildFile; fileRef = 3928A9391F860B2A0071E43B /* の.svg */; };
+		3928A9811F860B2B0071E43B /* は.svg in Resources */ = {isa = PBXBuildFile; fileRef = 3928A93A1F860B2A0071E43B /* は.svg */; };
+		3928A9821F860B2B0071E43B /* ば.svg in Resources */ = {isa = PBXBuildFile; fileRef = 3928A93B1F860B2A0071E43B /* ば.svg */; };
+		3928A9831F860B2B0071E43B /* ぱ.svg in Resources */ = {isa = PBXBuildFile; fileRef = 3928A93C1F860B2A0071E43B /* ぱ.svg */; };
+		3928A9841F860B2B0071E43B /* ひ.svg in Resources */ = {isa = PBXBuildFile; fileRef = 3928A93D1F860B2A0071E43B /* ひ.svg */; };
+		3928A9851F860B2B0071E43B /* び.svg in Resources */ = {isa = PBXBuildFile; fileRef = 3928A93E1F860B2A0071E43B /* び.svg */; };
+		3928A9861F860B2B0071E43B /* ぴ.svg in Resources */ = {isa = PBXBuildFile; fileRef = 3928A93F1F860B2A0071E43B /* ぴ.svg */; };
+		3928A9871F860B2B0071E43B /* ふ.svg in Resources */ = {isa = PBXBuildFile; fileRef = 3928A9401F860B2A0071E43B /* ふ.svg */; };
+		3928A9881F860B2B0071E43B /* ぶ.svg in Resources */ = {isa = PBXBuildFile; fileRef = 3928A9411F860B2A0071E43B /* ぶ.svg */; };
+		3928A9891F860B2B0071E43B /* ぷ.svg in Resources */ = {isa = PBXBuildFile; fileRef = 3928A9421F860B2A0071E43B /* ぷ.svg */; };
+		3928A98A1F860B2B0071E43B /* へ.svg in Resources */ = {isa = PBXBuildFile; fileRef = 3928A9431F860B2A0071E43B /* へ.svg */; };
+		3928A98B1F860B2B0071E43B /* べ.svg in Resources */ = {isa = PBXBuildFile; fileRef = 3928A9441F860B2A0071E43B /* べ.svg */; };
+		3928A98C1F860B2B0071E43B /* ぺ.svg in Resources */ = {isa = PBXBuildFile; fileRef = 3928A9451F860B2A0071E43B /* ぺ.svg */; };
+		3928A98D1F860B2B0071E43B /* ほ.svg in Resources */ = {isa = PBXBuildFile; fileRef = 3928A9461F860B2A0071E43B /* ほ.svg */; };
+		3928A98E1F860B2B0071E43B /* ぼ.svg in Resources */ = {isa = PBXBuildFile; fileRef = 3928A9471F860B2A0071E43B /* ぼ.svg */; };
+		3928A98F1F860B2B0071E43B /* ぽ.svg in Resources */ = {isa = PBXBuildFile; fileRef = 3928A9481F860B2A0071E43B /* ぽ.svg */; };
+		3928A9901F860B2B0071E43B /* ま.svg in Resources */ = {isa = PBXBuildFile; fileRef = 3928A9491F860B2A0071E43B /* ま.svg */; };
+		3928A9911F860B2B0071E43B /* み.svg in Resources */ = {isa = PBXBuildFile; fileRef = 3928A94A1F860B2A0071E43B /* み.svg */; };
+		3928A9921F860B2B0071E43B /* む.svg in Resources */ = {isa = PBXBuildFile; fileRef = 3928A94B1F860B2A0071E43B /* む.svg */; };
+		3928A9931F860B2B0071E43B /* め.svg in Resources */ = {isa = PBXBuildFile; fileRef = 3928A94C1F860B2A0071E43B /* め.svg */; };
+		3928A9941F860B2B0071E43B /* も.svg in Resources */ = {isa = PBXBuildFile; fileRef = 3928A94D1F860B2A0071E43B /* も.svg */; };
+		3928A9951F860B2B0071E43B /* や.svg in Resources */ = {isa = PBXBuildFile; fileRef = 3928A94E1F860B2A0071E43B /* や.svg */; };
+		3928A9961F860B2B0071E43B /* ゆ.svg in Resources */ = {isa = PBXBuildFile; fileRef = 3928A94F1F860B2A0071E43B /* ゆ.svg */; };
+		3928A9971F860B2B0071E43B /* よ.svg in Resources */ = {isa = PBXBuildFile; fileRef = 3928A9501F860B2A0071E43B /* よ.svg */; };
+		3928A9981F860B2B0071E43B /* ら.svg in Resources */ = {isa = PBXBuildFile; fileRef = 3928A9511F860B2A0071E43B /* ら.svg */; };
+		3928A9991F860B2B0071E43B /* り.svg in Resources */ = {isa = PBXBuildFile; fileRef = 3928A9521F860B2B0071E43B /* り.svg */; };
+		3928A99A1F860B2B0071E43B /* る.svg in Resources */ = {isa = PBXBuildFile; fileRef = 3928A9531F860B2B0071E43B /* る.svg */; };
+		3928A99B1F860B2B0071E43B /* れ.svg in Resources */ = {isa = PBXBuildFile; fileRef = 3928A9541F860B2B0071E43B /* れ.svg */; };
+		3928A99C1F860B2B0071E43B /* ろ.svg in Resources */ = {isa = PBXBuildFile; fileRef = 3928A9551F860B2B0071E43B /* ろ.svg */; };
+		3928A99D1F860B2B0071E43B /* わ.svg in Resources */ = {isa = PBXBuildFile; fileRef = 3928A9561F860B2B0071E43B /* わ.svg */; };
+		3928A99E1F860B2B0071E43B /* を.svg in Resources */ = {isa = PBXBuildFile; fileRef = 3928A9571F860B2B0071E43B /* を.svg */; };
+		3928A99F1F860B2B0071E43B /* ん.svg in Resources */ = {isa = PBXBuildFile; fileRef = 3928A9581F860B2B0071E43B /* ん.svg */; };
+		3928A9A31F860B360071E43B /* sゃ.svg in Resources */ = {isa = PBXBuildFile; fileRef = 3928A9A01F860B360071E43B /* sゃ.svg */; };
+		3928A9A41F860B360071E43B /* sゅ.svg in Resources */ = {isa = PBXBuildFile; fileRef = 3928A9A11F860B360071E43B /* sゅ.svg */; };
+		3928A9A51F860B360071E43B /* sょ.svg in Resources */ = {isa = PBXBuildFile; fileRef = 3928A9A21F860B360071E43B /* sょ.svg */; };
+		3928A9A91F860B6D0071E43B /* sャ.svg in Resources */ = {isa = PBXBuildFile; fileRef = 3928A9A61F860B6D0071E43B /* sャ.svg */; };
+		3928A9AA1F860B6D0071E43B /* sュ.svg in Resources */ = {isa = PBXBuildFile; fileRef = 3928A9A71F860B6D0071E43B /* sュ.svg */; };
+		3928A9AB1F860B6D0071E43B /* sョ.svg in Resources */ = {isa = PBXBuildFile; fileRef = 3928A9A81F860B6D0071E43B /* sョ.svg */; };
+		3928A9F31F860B760071E43B /* ア.svg in Resources */ = {isa = PBXBuildFile; fileRef = 3928A9AC1F860B760071E43B /* ア.svg */; };
+		3928A9F41F860B760071E43B /* イ.svg in Resources */ = {isa = PBXBuildFile; fileRef = 3928A9AD1F860B760071E43B /* イ.svg */; };
+		3928A9F51F860B760071E43B /* ウ.svg in Resources */ = {isa = PBXBuildFile; fileRef = 3928A9AE1F860B760071E43B /* ウ.svg */; };
+		3928A9F61F860B760071E43B /* エ.svg in Resources */ = {isa = PBXBuildFile; fileRef = 3928A9AF1F860B760071E43B /* エ.svg */; };
+		3928A9F71F860B760071E43B /* オ.svg in Resources */ = {isa = PBXBuildFile; fileRef = 3928A9B01F860B760071E43B /* オ.svg */; };
+		3928A9F81F860B760071E43B /* カ.svg in Resources */ = {isa = PBXBuildFile; fileRef = 3928A9B11F860B760071E43B /* カ.svg */; };
+		3928A9F91F860B760071E43B /* ガ.svg in Resources */ = {isa = PBXBuildFile; fileRef = 3928A9B21F860B760071E43B /* ガ.svg */; };
+		3928A9FA1F860B760071E43B /* キ.svg in Resources */ = {isa = PBXBuildFile; fileRef = 3928A9B31F860B760071E43B /* キ.svg */; };
+		3928A9FB1F860B760071E43B /* ギ.svg in Resources */ = {isa = PBXBuildFile; fileRef = 3928A9B41F860B760071E43B /* ギ.svg */; };
+		3928A9FC1F860B760071E43B /* ク.svg in Resources */ = {isa = PBXBuildFile; fileRef = 3928A9B51F860B760071E43B /* ク.svg */; };
+		3928A9FD1F860B760071E43B /* グ.svg in Resources */ = {isa = PBXBuildFile; fileRef = 3928A9B61F860B760071E43B /* グ.svg */; };
+		3928A9FE1F860B760071E43B /* ケ.svg in Resources */ = {isa = PBXBuildFile; fileRef = 3928A9B71F860B760071E43B /* ケ.svg */; };
+		3928A9FF1F860B760071E43B /* ゲ.svg in Resources */ = {isa = PBXBuildFile; fileRef = 3928A9B81F860B760071E43B /* ゲ.svg */; };
+		3928AA001F860B760071E43B /* コ.svg in Resources */ = {isa = PBXBuildFile; fileRef = 3928A9B91F860B760071E43B /* コ.svg */; };
+		3928AA011F860B760071E43B /* ゴ.svg in Resources */ = {isa = PBXBuildFile; fileRef = 3928A9BA1F860B760071E43B /* ゴ.svg */; };
+		3928AA021F860B760071E43B /* サ.svg in Resources */ = {isa = PBXBuildFile; fileRef = 3928A9BB1F860B760071E43B /* サ.svg */; };
+		3928AA031F860B760071E43B /* ザ.svg in Resources */ = {isa = PBXBuildFile; fileRef = 3928A9BC1F860B760071E43B /* ザ.svg */; };
+		3928AA041F860B760071E43B /* シ.svg in Resources */ = {isa = PBXBuildFile; fileRef = 3928A9BD1F860B760071E43B /* シ.svg */; };
+		3928AA051F860B760071E43B /* ジ.svg in Resources */ = {isa = PBXBuildFile; fileRef = 3928A9BE1F860B760071E43B /* ジ.svg */; };
+		3928AA061F860B760071E43B /* ス.svg in Resources */ = {isa = PBXBuildFile; fileRef = 3928A9BF1F860B760071E43B /* ス.svg */; };
+		3928AA071F860B760071E43B /* ズ.svg in Resources */ = {isa = PBXBuildFile; fileRef = 3928A9C01F860B760071E43B /* ズ.svg */; };
+		3928AA081F860B760071E43B /* セ.svg in Resources */ = {isa = PBXBuildFile; fileRef = 3928A9C11F860B760071E43B /* セ.svg */; };
+		3928AA091F860B760071E43B /* ゼ.svg in Resources */ = {isa = PBXBuildFile; fileRef = 3928A9C21F860B760071E43B /* ゼ.svg */; };
+		3928AA0A1F860B760071E43B /* ソ.svg in Resources */ = {isa = PBXBuildFile; fileRef = 3928A9C31F860B760071E43B /* ソ.svg */; };
+		3928AA0B1F860B760071E43B /* ゾ.svg in Resources */ = {isa = PBXBuildFile; fileRef = 3928A9C41F860B760071E43B /* ゾ.svg */; };
+		3928AA0C1F860B760071E43B /* タ.svg in Resources */ = {isa = PBXBuildFile; fileRef = 3928A9C51F860B760071E43B /* タ.svg */; };
+		3928AA0D1F860B760071E43B /* ダ.svg in Resources */ = {isa = PBXBuildFile; fileRef = 3928A9C61F860B760071E43B /* ダ.svg */; };
+		3928AA0E1F860B760071E43B /* チ.svg in Resources */ = {isa = PBXBuildFile; fileRef = 3928A9C71F860B760071E43B /* チ.svg */; };
+		3928AA0F1F860B760071E43B /* ヂ.svg in Resources */ = {isa = PBXBuildFile; fileRef = 3928A9C81F860B760071E43B /* ヂ.svg */; };
+		3928AA101F860B760071E43B /* ツ.svg in Resources */ = {isa = PBXBuildFile; fileRef = 3928A9C91F860B760071E43B /* ツ.svg */; };
+		3928AA111F860B760071E43B /* ヅ.svg in Resources */ = {isa = PBXBuildFile; fileRef = 3928A9CA1F860B760071E43B /* ヅ.svg */; };
+		3928AA121F860B760071E43B /* テ.svg in Resources */ = {isa = PBXBuildFile; fileRef = 3928A9CB1F860B760071E43B /* テ.svg */; };
+		3928AA131F860B760071E43B /* デ.svg in Resources */ = {isa = PBXBuildFile; fileRef = 3928A9CC1F860B760071E43B /* デ.svg */; };
+		3928AA141F860B760071E43B /* ト.svg in Resources */ = {isa = PBXBuildFile; fileRef = 3928A9CD1F860B760071E43B /* ト.svg */; };
+		3928AA151F860B760071E43B /* ド.svg in Resources */ = {isa = PBXBuildFile; fileRef = 3928A9CE1F860B760071E43B /* ド.svg */; };
+		3928AA161F860B760071E43B /* ナ.svg in Resources */ = {isa = PBXBuildFile; fileRef = 3928A9CF1F860B760071E43B /* ナ.svg */; };
+		3928AA171F860B760071E43B /* ニ.svg in Resources */ = {isa = PBXBuildFile; fileRef = 3928A9D01F860B760071E43B /* ニ.svg */; };
+		3928AA181F860B760071E43B /* ヌ.svg in Resources */ = {isa = PBXBuildFile; fileRef = 3928A9D11F860B760071E43B /* ヌ.svg */; };
+		3928AA191F860B760071E43B /* ネ.svg in Resources */ = {isa = PBXBuildFile; fileRef = 3928A9D21F860B760071E43B /* ネ.svg */; };
+		3928AA1A1F860B760071E43B /* ノ.svg in Resources */ = {isa = PBXBuildFile; fileRef = 3928A9D31F860B760071E43B /* ノ.svg */; };
+		3928AA1B1F860B760071E43B /* ハ.svg in Resources */ = {isa = PBXBuildFile; fileRef = 3928A9D41F860B760071E43B /* ハ.svg */; };
+		3928AA1C1F860B760071E43B /* バ.svg in Resources */ = {isa = PBXBuildFile; fileRef = 3928A9D51F860B760071E43B /* バ.svg */; };
+		3928AA1D1F860B760071E43B /* パ.svg in Resources */ = {isa = PBXBuildFile; fileRef = 3928A9D61F860B760071E43B /* パ.svg */; };
+		3928AA1E1F860B760071E43B /* ヒ.svg in Resources */ = {isa = PBXBuildFile; fileRef = 3928A9D71F860B760071E43B /* ヒ.svg */; };
+		3928AA1F1F860B760071E43B /* ビ.svg in Resources */ = {isa = PBXBuildFile; fileRef = 3928A9D81F860B760071E43B /* ビ.svg */; };
+		3928AA201F860B760071E43B /* ピ.svg in Resources */ = {isa = PBXBuildFile; fileRef = 3928A9D91F860B760071E43B /* ピ.svg */; };
+		3928AA211F860B760071E43B /* フ.svg in Resources */ = {isa = PBXBuildFile; fileRef = 3928A9DA1F860B760071E43B /* フ.svg */; };
+		3928AA221F860B760071E43B /* ブ.svg in Resources */ = {isa = PBXBuildFile; fileRef = 3928A9DB1F860B760071E43B /* ブ.svg */; };
+		3928AA231F860B760071E43B /* プ.svg in Resources */ = {isa = PBXBuildFile; fileRef = 3928A9DC1F860B760071E43B /* プ.svg */; };
+		3928AA241F860B760071E43B /* ヘ.svg in Resources */ = {isa = PBXBuildFile; fileRef = 3928A9DD1F860B760071E43B /* ヘ.svg */; };
+		3928AA251F860B760071E43B /* ベ.svg in Resources */ = {isa = PBXBuildFile; fileRef = 3928A9DE1F860B760071E43B /* ベ.svg */; };
+		3928AA271F860B760071E43B /* ホ.svg in Resources */ = {isa = PBXBuildFile; fileRef = 3928A9E01F860B760071E43B /* ホ.svg */; };
+		3928AA281F860B760071E43B /* ボ.svg in Resources */ = {isa = PBXBuildFile; fileRef = 3928A9E11F860B760071E43B /* ボ.svg */; };
+		3928AA291F860B760071E43B /* ポ.svg in Resources */ = {isa = PBXBuildFile; fileRef = 3928A9E21F860B760071E43B /* ポ.svg */; };
+		3928AA2A1F860B760071E43B /* マ.svg in Resources */ = {isa = PBXBuildFile; fileRef = 3928A9E31F860B760071E43B /* マ.svg */; };
+		3928AA2B1F860B760071E43B /* ミ.svg in Resources */ = {isa = PBXBuildFile; fileRef = 3928A9E41F860B760071E43B /* ミ.svg */; };
+		3928AA2C1F860B760071E43B /* ム.svg in Resources */ = {isa = PBXBuildFile; fileRef = 3928A9E51F860B760071E43B /* ム.svg */; };
+		3928AA2D1F860B760071E43B /* メ.svg in Resources */ = {isa = PBXBuildFile; fileRef = 3928A9E61F860B760071E43B /* メ.svg */; };
+		3928AA2E1F860B760071E43B /* モ.svg in Resources */ = {isa = PBXBuildFile; fileRef = 3928A9E71F860B760071E43B /* モ.svg */; };
+		3928AA2F1F860B760071E43B /* ヤ.svg in Resources */ = {isa = PBXBuildFile; fileRef = 3928A9E81F860B760071E43B /* ヤ.svg */; };
+		3928AA301F860B760071E43B /* ユ.svg in Resources */ = {isa = PBXBuildFile; fileRef = 3928A9E91F860B760071E43B /* ユ.svg */; };
+		3928AA311F860B760071E43B /* ヨ.svg in Resources */ = {isa = PBXBuildFile; fileRef = 3928A9EA1F860B760071E43B /* ヨ.svg */; };
+		3928AA321F860B760071E43B /* ラ.svg in Resources */ = {isa = PBXBuildFile; fileRef = 3928A9EB1F860B760071E43B /* ラ.svg */; };
+		3928AA331F860B760071E43B /* リ.svg in Resources */ = {isa = PBXBuildFile; fileRef = 3928A9EC1F860B760071E43B /* リ.svg */; };
+		3928AA341F860B760071E43B /* ル.svg in Resources */ = {isa = PBXBuildFile; fileRef = 3928A9ED1F860B760071E43B /* ル.svg */; };
+		3928AA351F860B760071E43B /* レ.svg in Resources */ = {isa = PBXBuildFile; fileRef = 3928A9EE1F860B760071E43B /* レ.svg */; };
+		3928AA361F860B760071E43B /* ロ.svg in Resources */ = {isa = PBXBuildFile; fileRef = 3928A9EF1F860B760071E43B /* ロ.svg */; };
+		3928AA371F860B760071E43B /* ワ.svg in Resources */ = {isa = PBXBuildFile; fileRef = 3928A9F01F860B760071E43B /* ワ.svg */; };
+		3928AA381F860B760071E43B /* ヲ.svg in Resources */ = {isa = PBXBuildFile; fileRef = 3928A9F11F860B760071E43B /* ヲ.svg */; };
+		3928AA391F860B760071E43B /* ン.svg in Resources */ = {isa = PBXBuildFile; fileRef = 3928A9F21F860B760071E43B /* ン.svg */; };
+		3928AA3D1F861EAC0071E43B /* pe_katakana.svg in Resources */ = {isa = PBXBuildFile; fileRef = 3928AA3C1F861EAC0071E43B /* pe_katakana.svg */; };
+		393AD53D1FC487600094A9E7 /* Neko-Minna-Nihongo-Lesson-2.json in Resources */ = {isa = PBXBuildFile; fileRef = 393AD53A1FC487600094A9E7 /* Neko-Minna-Nihongo-Lesson-2.json */; };
+		393AD53E1FC487600094A9E7 /* Neko-Minna-Nihongo-Lesson-3.json in Resources */ = {isa = PBXBuildFile; fileRef = 393AD53B1FC487600094A9E7 /* Neko-Minna-Nihongo-Lesson-3.json */; };
+		393AD53F1FC487600094A9E7 /* Neko-Minna-Nihongo-Lesson-1.json in Resources */ = {isa = PBXBuildFile; fileRef = 393AD53C1FC487600094A9E7 /* Neko-Minna-Nihongo-Lesson-1.json */; };
+		393B3E771F67E89000062279 /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 393B3E761F67E89000062279 /* UIViewController.swift */; };
+		393B3E7D1F68345900062279 /* Direction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 393B3E791F68345900062279 /* Direction.swift */; };
+		393B3E7E1F68345900062279 /* Scheduler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 393B3E7A1F68345900062279 /* Scheduler.swift */; };
+		393B3E7F1F68345900062279 /* ViewManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 393B3E7B1F68345900062279 /* ViewManager.swift */; };
+		393B3E801F68345900062279 /* ZLSwipeableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 393B3E7C1F68345900062279 /* ZLSwipeableView.swift */; };
+		393B3E881F6835F000062279 /* BalsamiqSansBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 393B3E841F6835F000062279 /* BalsamiqSansBold.ttf */; };
+		393B3E891F6835F000062279 /* BalsamiqSansBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 393B3E851F6835F000062279 /* BalsamiqSansBoldItalic.ttf */; };
+		393B3E8A1F6835F000062279 /* BalsamiqSansItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 393B3E861F6835F000062279 /* BalsamiqSansItalic.ttf */; };
+		393B3E8B1F6835F000062279 /* BalsamiqSansRegular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 393B3E871F6835F000062279 /* BalsamiqSansRegular.ttf */; };
+		393B3E8D1F6838D400062279 /* FlashCardSwipeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 393B3E8C1F6838D400062279 /* FlashCardSwipeViewController.swift */; };
+		393B3E931F6843D700062279 /* NekoCardContentView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 393B3E921F6843D700062279 /* NekoCardContentView.xib */; };
+		393B3E961F68440F00062279 /* NekoCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 393B3E951F68440F00062279 /* NekoCardView.swift */; };
+		393B3E991F69431700062279 /* NSLayoutConstraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 393B3E981F69431700062279 /* NSLayoutConstraint.swift */; };
+		394DFF6E1FC9DD10002F6051 /* MinnaLessonDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 394DFF6D1FC9DD10002F6051 /* MinnaLessonDataProvider.swift */; };
+		394DFF711FC9E1FE002F6051 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 394DFF701FC9E1FE002F6051 /* Constant.swift */; };
+		3956BB3E1F6686E1001B715E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3956BB3D1F6686E1001B715E /* AppDelegate.swift */; };
+		3956BB431F6686E1001B715E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3956BB411F6686E1001B715E /* Main.storyboard */; };
+		3956BB461F6686E1001B715E /* NekoNihongo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3956BB441F6686E1001B715E /* NekoNihongo.xcdatamodeld */; };
+		3956BB4B1F6686E1001B715E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3956BB491F6686E1001B715E /* LaunchScreen.storyboard */; };
+		3956BB561F6686E1001B715E /* NekoNihongoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3956BB551F6686E1001B715E /* NekoNihongoTests.swift */; };
+		3956BB611F6686E1001B715E /* NekoNihongoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3956BB601F6686E1001B715E /* NekoNihongoUITests.swift */; };
+		3956BB741F66889F001B715E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3956BB731F66889F001B715E /* GoogleService-Info.plist */; };
+		3956BB761F6688D9001B715E /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3956BB751F6688D9001B715E /* MainViewController.swift */; };
+		3956BB7B1F6699BB001B715E /* NekoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3956BB7A1F6699BB001B715E /* NekoTableViewCell.swift */; };
+		3956BB7D1F669AE8001B715E /* NekoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3956BB7C1F669AE8001B715E /* NekoModel.swift */; };
+		396B3A821F9B1F910099FC74 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3956BB471F6686E1001B715E /* Assets.xcassets */; };
+		396B3A831F9B1F920099FC74 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3956BB471F6686E1001B715E /* Assets.xcassets */; };
+		396B3A841F9B1F930099FC74 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3956BB471F6686E1001B715E /* Assets.xcassets */; };
+		3973FDD51FAB1CB7008928B3 /* MinnaNoNihongoDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3973FDD41FAB1CB7008928B3 /* MinnaNoNihongoDetailViewController.swift */; };
+		3973FDD71FAB247C008928B3 /* MinnaNihongoDetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3973FDD61FAB247C008928B3 /* MinnaNihongoDetailTableViewCell.swift */; };
+		3973FDDB1FAB2DB0008928B3 /* HelperFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3973FDDA1FAB2DB0008928B3 /* HelperFunction.swift */; };
+		3984779C1F83D4CF007561C3 /* AlphabetStrokeOrderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3984779B1F83D4CF007561C3 /* AlphabetStrokeOrderViewController.swift */; };
+		3996C1011F740B43008BBAA9 /* AlphabetDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3996C1001F740B43008BBAA9 /* AlphabetDetailViewController.swift */; };
+		39A7F4701FB0CB1E00D3F0F9 /* NekoAboutUsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39A7F46F1FB0CB1E00D3F0F9 /* NekoAboutUsViewController.swift */; };
+		39D2A89B1F70ED1300812B58 /* AlphabetNekoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39D2A89A1F70ED1300812B58 /* AlphabetNekoViewController.swift */; };
+		39D2A89D1F71002E00812B58 /* AlphabetSelectionCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39D2A89C1F71002E00812B58 /* AlphabetSelectionCollectionViewCell.swift */; };
+		39D2A89F1F72652D00812B58 /* NekoAlphabetModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39D2A89E1F72652D00812B58 /* NekoAlphabetModel.swift */; };
+		39D2A8AC1F73B34D00812B58 /* AozoraMinchoRegular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 39D2A8AA1F73B34D00812B58 /* AozoraMinchoRegular.ttf */; };
+		39D2A8AD1F73B34D00812B58 /* SNsanafonMugiV258.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 39D2A8AB1F73B34D00812B58 /* SNsanafonMugiV258.ttf */; };
+		39D2A8AF1F73BD0300812B58 /* AlphabetCollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39D2A8AE1F73BD0300812B58 /* AlphabetCollectionReusableView.swift */; };
+		B2210689833B3122D9178B4A /* Pods_NekoNihongo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6162BD330A93799C16304CE0 /* Pods_NekoNihongo.framework */; };
+		C7DF811DA49C72957AB0BB8A /* Pods_NekoNihongoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6159B142F0EEE236FBBEE84A /* Pods_NekoNihongoTests.framework */; };
+		FB6F0E108EA59F2910E218B1 /* Pods_NekoNihongoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3898F1517243B61DA11C7839 /* Pods_NekoNihongoUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3956BB521F6686E1001B715E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3956BB321F6686E1001B715E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3956BB391F6686E1001B715E;
+			remoteInfo = NekoNihongo;
+		};
+		3956BB5D1F6686E1001B715E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3956BB321F6686E1001B715E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3956BB391F6686E1001B715E;
+			remoteInfo = NekoNihongo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3898F1517243B61DA11C7839 /* Pods_NekoNihongoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NekoNihongoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		390C3A471F84C70600C2FE6D /* AlphabetStrokeOrderDoubleCharacterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlphabetStrokeOrderDoubleCharacterViewController.swift; sourceTree = "<group>"; };
+		3922FBE21F66F62E00F978AD /* AlphabetSelectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AlphabetSelectionViewController.swift; path = NekoNihongo/ViewControllers/AlphabetSelectionViewController.swift; sourceTree = SOURCE_ROOT; };
+		3922FBE41F6702A300F978AD /* MinnaNoNihongoSelectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MinnaNoNihongoSelectionViewController.swift; path = NekoNihongo/ViewControllers/MinnaNoNihongoSelectionViewController.swift; sourceTree = SOURCE_ROOT; };
+		3922FBE61F6702BD00F978AD /* FlashCardSelectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FlashCardSelectionViewController.swift; path = NekoNihongo/ViewControllers/FlashCardSelectionViewController.swift; sourceTree = SOURCE_ROOT; };
+		3922FBE91F67043800F978AD /* MinnaNoNihongoSelectionCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MinnaNoNihongoSelectionCollectionViewCell.swift; sourceTree = "<group>"; };
+		3922FBEB1F67044A00F978AD /* FlashCardSelectionCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlashCardSelectionCollectionViewCell.swift; sourceTree = "<group>"; };
+		39276CE81F7A1D6B002D492A /* AlphabetOptionCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlphabetOptionCollectionViewCell.swift; sourceTree = "<group>"; };
+		3928A9121F860B2A0071E43B /* あ.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "あ.svg"; sourceTree = "<group>"; };
+		3928A9131F860B2A0071E43B /* い.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "い.svg"; sourceTree = "<group>"; };
+		3928A9141F860B2A0071E43B /* う.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "う.svg"; sourceTree = "<group>"; };
+		3928A9151F860B2A0071E43B /* え.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "え.svg"; sourceTree = "<group>"; };
+		3928A9161F860B2A0071E43B /* お.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "お.svg"; sourceTree = "<group>"; };
+		3928A9171F860B2A0071E43B /* か.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "か.svg"; sourceTree = "<group>"; };
+		3928A9181F860B2A0071E43B /* が.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "が.svg"; sourceTree = "<group>"; };
+		3928A9191F860B2A0071E43B /* き.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "き.svg"; sourceTree = "<group>"; };
+		3928A91A1F860B2A0071E43B /* ぎ.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "ぎ.svg"; sourceTree = "<group>"; };
+		3928A91B1F860B2A0071E43B /* く.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "く.svg"; sourceTree = "<group>"; };
+		3928A91C1F860B2A0071E43B /* ぐ.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "ぐ.svg"; sourceTree = "<group>"; };
+		3928A91D1F860B2A0071E43B /* け.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "け.svg"; sourceTree = "<group>"; };
+		3928A91E1F860B2A0071E43B /* げ.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "げ.svg"; sourceTree = "<group>"; };
+		3928A91F1F860B2A0071E43B /* こ.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "こ.svg"; sourceTree = "<group>"; };
+		3928A9201F860B2A0071E43B /* ご.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "ご.svg"; sourceTree = "<group>"; };
+		3928A9211F860B2A0071E43B /* さ.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "さ.svg"; sourceTree = "<group>"; };
+		3928A9221F860B2A0071E43B /* ざ.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "ざ.svg"; sourceTree = "<group>"; };
+		3928A9231F860B2A0071E43B /* し.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "し.svg"; sourceTree = "<group>"; };
+		3928A9241F860B2A0071E43B /* じ.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "じ.svg"; sourceTree = "<group>"; };
+		3928A9251F860B2A0071E43B /* す.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "す.svg"; sourceTree = "<group>"; };
+		3928A9261F860B2A0071E43B /* ず.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "ず.svg"; sourceTree = "<group>"; };
+		3928A9271F860B2A0071E43B /* せ.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "せ.svg"; sourceTree = "<group>"; };
+		3928A9281F860B2A0071E43B /* ぜ.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "ぜ.svg"; sourceTree = "<group>"; };
+		3928A9291F860B2A0071E43B /* そ.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "そ.svg"; sourceTree = "<group>"; };
+		3928A92A1F860B2A0071E43B /* ぞ.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "ぞ.svg"; sourceTree = "<group>"; };
+		3928A92B1F860B2A0071E43B /* た.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "た.svg"; sourceTree = "<group>"; };
+		3928A92C1F860B2A0071E43B /* だ.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "だ.svg"; sourceTree = "<group>"; };
+		3928A92D1F860B2A0071E43B /* ち.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "ち.svg"; sourceTree = "<group>"; };
+		3928A92E1F860B2A0071E43B /* ぢ.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "ぢ.svg"; sourceTree = "<group>"; };
+		3928A92F1F860B2A0071E43B /* つ.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "つ.svg"; sourceTree = "<group>"; };
+		3928A9301F860B2A0071E43B /* づ.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "づ.svg"; sourceTree = "<group>"; };
+		3928A9311F860B2A0071E43B /* て.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "て.svg"; sourceTree = "<group>"; };
+		3928A9321F860B2A0071E43B /* で.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "で.svg"; sourceTree = "<group>"; };
+		3928A9331F860B2A0071E43B /* と.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "と.svg"; sourceTree = "<group>"; };
+		3928A9341F860B2A0071E43B /* ど.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "ど.svg"; sourceTree = "<group>"; };
+		3928A9351F860B2A0071E43B /* な.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "な.svg"; sourceTree = "<group>"; };
+		3928A9361F860B2A0071E43B /* に.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "に.svg"; sourceTree = "<group>"; };
+		3928A9371F860B2A0071E43B /* ぬ.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "ぬ.svg"; sourceTree = "<group>"; };
+		3928A9381F860B2A0071E43B /* ね.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "ね.svg"; sourceTree = "<group>"; };
+		3928A9391F860B2A0071E43B /* の.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "の.svg"; sourceTree = "<group>"; };
+		3928A93A1F860B2A0071E43B /* は.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "は.svg"; sourceTree = "<group>"; };
+		3928A93B1F860B2A0071E43B /* ば.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "ば.svg"; sourceTree = "<group>"; };
+		3928A93C1F860B2A0071E43B /* ぱ.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "ぱ.svg"; sourceTree = "<group>"; };
+		3928A93D1F860B2A0071E43B /* ひ.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "ひ.svg"; sourceTree = "<group>"; };
+		3928A93E1F860B2A0071E43B /* び.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "び.svg"; sourceTree = "<group>"; };
+		3928A93F1F860B2A0071E43B /* ぴ.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "ぴ.svg"; sourceTree = "<group>"; };
+		3928A9401F860B2A0071E43B /* ふ.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "ふ.svg"; sourceTree = "<group>"; };
+		3928A9411F860B2A0071E43B /* ぶ.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "ぶ.svg"; sourceTree = "<group>"; };
+		3928A9421F860B2A0071E43B /* ぷ.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "ぷ.svg"; sourceTree = "<group>"; };
+		3928A9431F860B2A0071E43B /* へ.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "へ.svg"; sourceTree = "<group>"; };
+		3928A9441F860B2A0071E43B /* べ.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "べ.svg"; sourceTree = "<group>"; };
+		3928A9451F860B2A0071E43B /* ぺ.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "ぺ.svg"; sourceTree = "<group>"; };
+		3928A9461F860B2A0071E43B /* ほ.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "ほ.svg"; sourceTree = "<group>"; };
+		3928A9471F860B2A0071E43B /* ぼ.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "ぼ.svg"; sourceTree = "<group>"; };
+		3928A9481F860B2A0071E43B /* ぽ.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "ぽ.svg"; sourceTree = "<group>"; };
+		3928A9491F860B2A0071E43B /* ま.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "ま.svg"; sourceTree = "<group>"; };
+		3928A94A1F860B2A0071E43B /* み.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "み.svg"; sourceTree = "<group>"; };
+		3928A94B1F860B2A0071E43B /* む.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "む.svg"; sourceTree = "<group>"; };
+		3928A94C1F860B2A0071E43B /* め.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "め.svg"; sourceTree = "<group>"; };
+		3928A94D1F860B2A0071E43B /* も.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "も.svg"; sourceTree = "<group>"; };
+		3928A94E1F860B2A0071E43B /* や.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "や.svg"; sourceTree = "<group>"; };
+		3928A94F1F860B2A0071E43B /* ゆ.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "ゆ.svg"; sourceTree = "<group>"; };
+		3928A9501F860B2A0071E43B /* よ.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "よ.svg"; sourceTree = "<group>"; };
+		3928A9511F860B2A0071E43B /* ら.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "ら.svg"; sourceTree = "<group>"; };
+		3928A9521F860B2B0071E43B /* り.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "り.svg"; sourceTree = "<group>"; };
+		3928A9531F860B2B0071E43B /* る.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "る.svg"; sourceTree = "<group>"; };
+		3928A9541F860B2B0071E43B /* れ.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "れ.svg"; sourceTree = "<group>"; };
+		3928A9551F860B2B0071E43B /* ろ.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "ろ.svg"; sourceTree = "<group>"; };
+		3928A9561F860B2B0071E43B /* わ.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "わ.svg"; sourceTree = "<group>"; };
+		3928A9571F860B2B0071E43B /* を.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "を.svg"; sourceTree = "<group>"; };
+		3928A9581F860B2B0071E43B /* ん.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "ん.svg"; sourceTree = "<group>"; };
+		3928A9A01F860B360071E43B /* sゃ.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "sゃ.svg"; sourceTree = "<group>"; };
+		3928A9A11F860B360071E43B /* sゅ.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "sゅ.svg"; sourceTree = "<group>"; };
+		3928A9A21F860B360071E43B /* sょ.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "sょ.svg"; sourceTree = "<group>"; };
+		3928A9A61F860B6D0071E43B /* sャ.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "sャ.svg"; sourceTree = "<group>"; };
+		3928A9A71F860B6D0071E43B /* sュ.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "sュ.svg"; sourceTree = "<group>"; };
+		3928A9A81F860B6D0071E43B /* sョ.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "sョ.svg"; sourceTree = "<group>"; };
+		3928A9AC1F860B760071E43B /* ア.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "ア.svg"; sourceTree = "<group>"; };
+		3928A9AD1F860B760071E43B /* イ.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "イ.svg"; sourceTree = "<group>"; };
+		3928A9AE1F860B760071E43B /* ウ.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "ウ.svg"; sourceTree = "<group>"; };
+		3928A9AF1F860B760071E43B /* エ.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "エ.svg"; sourceTree = "<group>"; };
+		3928A9B01F860B760071E43B /* オ.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "オ.svg"; sourceTree = "<group>"; };
+		3928A9B11F860B760071E43B /* カ.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "カ.svg"; sourceTree = "<group>"; };
+		3928A9B21F860B760071E43B /* ガ.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "ガ.svg"; sourceTree = "<group>"; };
+		3928A9B31F860B760071E43B /* キ.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "キ.svg"; sourceTree = "<group>"; };
+		3928A9B41F860B760071E43B /* ギ.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "ギ.svg"; sourceTree = "<group>"; };
+		3928A9B51F860B760071E43B /* ク.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "ク.svg"; sourceTree = "<group>"; };
+		3928A9B61F860B760071E43B /* グ.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "グ.svg"; sourceTree = "<group>"; };
+		3928A9B71F860B760071E43B /* ケ.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "ケ.svg"; sourceTree = "<group>"; };
+		3928A9B81F860B760071E43B /* ゲ.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "ゲ.svg"; sourceTree = "<group>"; };
+		3928A9B91F860B760071E43B /* コ.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "コ.svg"; sourceTree = "<group>"; };
+		3928A9BA1F860B760071E43B /* ゴ.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "ゴ.svg"; sourceTree = "<group>"; };
+		3928A9BB1F860B760071E43B /* サ.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "サ.svg"; sourceTree = "<group>"; };
+		3928A9BC1F860B760071E43B /* ザ.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "ザ.svg"; sourceTree = "<group>"; };
+		3928A9BD1F860B760071E43B /* シ.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "シ.svg"; sourceTree = "<group>"; };
+		3928A9BE1F860B760071E43B /* ジ.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "ジ.svg"; sourceTree = "<group>"; };
+		3928A9BF1F860B760071E43B /* ス.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "ス.svg"; sourceTree = "<group>"; };
+		3928A9C01F860B760071E43B /* ズ.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "ズ.svg"; sourceTree = "<group>"; };
+		3928A9C11F860B760071E43B /* セ.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "セ.svg"; sourceTree = "<group>"; };
+		3928A9C21F860B760071E43B /* ゼ.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "ゼ.svg"; sourceTree = "<group>"; };
+		3928A9C31F860B760071E43B /* ソ.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "ソ.svg"; sourceTree = "<group>"; };
+		3928A9C41F860B760071E43B /* ゾ.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "ゾ.svg"; sourceTree = "<group>"; };
+		3928A9C51F860B760071E43B /* タ.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "タ.svg"; sourceTree = "<group>"; };
+		3928A9C61F860B760071E43B /* ダ.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "ダ.svg"; sourceTree = "<group>"; };
+		3928A9C71F860B760071E43B /* チ.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "チ.svg"; sourceTree = "<group>"; };
+		3928A9C81F860B760071E43B /* ヂ.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "ヂ.svg"; sourceTree = "<group>"; };
+		3928A9C91F860B760071E43B /* ツ.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "ツ.svg"; sourceTree = "<group>"; };
+		3928A9CA1F860B760071E43B /* ヅ.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "ヅ.svg"; sourceTree = "<group>"; };
+		3928A9CB1F860B760071E43B /* テ.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "テ.svg"; sourceTree = "<group>"; };
+		3928A9CC1F860B760071E43B /* デ.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "デ.svg"; sourceTree = "<group>"; };
+		3928A9CD1F860B760071E43B /* ト.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "ト.svg"; sourceTree = "<group>"; };
+		3928A9CE1F860B760071E43B /* ド.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "ド.svg"; sourceTree = "<group>"; };
+		3928A9CF1F860B760071E43B /* ナ.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "ナ.svg"; sourceTree = "<group>"; };
+		3928A9D01F860B760071E43B /* ニ.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "ニ.svg"; sourceTree = "<group>"; };
+		3928A9D11F860B760071E43B /* ヌ.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "ヌ.svg"; sourceTree = "<group>"; };
+		3928A9D21F860B760071E43B /* ネ.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "ネ.svg"; sourceTree = "<group>"; };
+		3928A9D31F860B760071E43B /* ノ.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "ノ.svg"; sourceTree = "<group>"; };
+		3928A9D41F860B760071E43B /* ハ.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "ハ.svg"; sourceTree = "<group>"; };
+		3928A9D51F860B760071E43B /* バ.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "バ.svg"; sourceTree = "<group>"; };
+		3928A9D61F860B760071E43B /* パ.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "パ.svg"; sourceTree = "<group>"; };
+		3928A9D71F860B760071E43B /* ヒ.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "ヒ.svg"; sourceTree = "<group>"; };
+		3928A9D81F860B760071E43B /* ビ.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "ビ.svg"; sourceTree = "<group>"; };
+		3928A9D91F860B760071E43B /* ピ.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "ピ.svg"; sourceTree = "<group>"; };
+		3928A9DA1F860B760071E43B /* フ.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "フ.svg"; sourceTree = "<group>"; };
+		3928A9DB1F860B760071E43B /* ブ.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "ブ.svg"; sourceTree = "<group>"; };
+		3928A9DC1F860B760071E43B /* プ.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "プ.svg"; sourceTree = "<group>"; };
+		3928A9DD1F860B760071E43B /* ヘ.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "ヘ.svg"; sourceTree = "<group>"; };
+		3928A9DE1F860B760071E43B /* ベ.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "ベ.svg"; sourceTree = "<group>"; };
+		3928A9E01F860B760071E43B /* ホ.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "ホ.svg"; sourceTree = "<group>"; };
+		3928A9E11F860B760071E43B /* ボ.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "ボ.svg"; sourceTree = "<group>"; };
+		3928A9E21F860B760071E43B /* ポ.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "ポ.svg"; sourceTree = "<group>"; };
+		3928A9E31F860B760071E43B /* マ.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "マ.svg"; sourceTree = "<group>"; };
+		3928A9E41F860B760071E43B /* ミ.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "ミ.svg"; sourceTree = "<group>"; };
+		3928A9E51F860B760071E43B /* ム.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "ム.svg"; sourceTree = "<group>"; };
+		3928A9E61F860B760071E43B /* メ.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "メ.svg"; sourceTree = "<group>"; };
+		3928A9E71F860B760071E43B /* モ.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "モ.svg"; sourceTree = "<group>"; };
+		3928A9E81F860B760071E43B /* ヤ.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "ヤ.svg"; sourceTree = "<group>"; };
+		3928A9E91F860B760071E43B /* ユ.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "ユ.svg"; sourceTree = "<group>"; };
+		3928A9EA1F860B760071E43B /* ヨ.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "ヨ.svg"; sourceTree = "<group>"; };
+		3928A9EB1F860B760071E43B /* ラ.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "ラ.svg"; sourceTree = "<group>"; };
+		3928A9EC1F860B760071E43B /* リ.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "リ.svg"; sourceTree = "<group>"; };
+		3928A9ED1F860B760071E43B /* ル.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "ル.svg"; sourceTree = "<group>"; };
+		3928A9EE1F860B760071E43B /* レ.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "レ.svg"; sourceTree = "<group>"; };
+		3928A9EF1F860B760071E43B /* ロ.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "ロ.svg"; sourceTree = "<group>"; };
+		3928A9F01F860B760071E43B /* ワ.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "ワ.svg"; sourceTree = "<group>"; };
+		3928A9F11F860B760071E43B /* ヲ.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "ヲ.svg"; sourceTree = "<group>"; };
+		3928A9F21F860B760071E43B /* ン.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "ン.svg"; sourceTree = "<group>"; };
+		3928AA3C1F861EAC0071E43B /* pe_katakana.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = pe_katakana.svg; sourceTree = "<group>"; };
+		393AD53A1FC487600094A9E7 /* Neko-Minna-Nihongo-Lesson-2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Neko-Minna-Nihongo-Lesson-2.json"; sourceTree = "<group>"; };
+		393AD53B1FC487600094A9E7 /* Neko-Minna-Nihongo-Lesson-3.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Neko-Minna-Nihongo-Lesson-3.json"; sourceTree = "<group>"; };
+		393AD53C1FC487600094A9E7 /* Neko-Minna-Nihongo-Lesson-1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Neko-Minna-Nihongo-Lesson-1.json"; sourceTree = "<group>"; };
+		393B3E761F67E89000062279 /* UIViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewController.swift; sourceTree = "<group>"; };
+		393B3E791F68345900062279 /* Direction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Direction.swift; sourceTree = "<group>"; };
+		393B3E7A1F68345900062279 /* Scheduler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Scheduler.swift; sourceTree = "<group>"; };
+		393B3E7B1F68345900062279 /* ViewManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewManager.swift; sourceTree = "<group>"; };
+		393B3E7C1F68345900062279 /* ZLSwipeableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZLSwipeableView.swift; sourceTree = "<group>"; };
+		393B3E841F6835F000062279 /* BalsamiqSansBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = BalsamiqSansBold.ttf; sourceTree = "<group>"; };
+		393B3E851F6835F000062279 /* BalsamiqSansBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = BalsamiqSansBoldItalic.ttf; sourceTree = "<group>"; };
+		393B3E861F6835F000062279 /* BalsamiqSansItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = BalsamiqSansItalic.ttf; sourceTree = "<group>"; };
+		393B3E871F6835F000062279 /* BalsamiqSansRegular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = BalsamiqSansRegular.ttf; sourceTree = "<group>"; };
+		393B3E8C1F6838D400062279 /* FlashCardSwipeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FlashCardSwipeViewController.swift; path = NekoNihongo/ViewControllers/FlashCardSwipeViewController.swift; sourceTree = SOURCE_ROOT; };
+		393B3E921F6843D700062279 /* NekoCardContentView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NekoCardContentView.xib; sourceTree = "<group>"; };
+		393B3E951F68440F00062279 /* NekoCardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NekoCardView.swift; sourceTree = "<group>"; };
+		393B3E981F69431700062279 /* NSLayoutConstraint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSLayoutConstraint.swift; sourceTree = "<group>"; };
+		394DFF6D1FC9DD10002F6051 /* MinnaLessonDataProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinnaLessonDataProvider.swift; sourceTree = "<group>"; };
+		394DFF701FC9E1FE002F6051 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		3956BB3A1F6686E1001B715E /* NekoNihongo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NekoNihongo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3956BB3D1F6686E1001B715E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3956BB421F6686E1001B715E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3956BB451F6686E1001B715E /* NekoNihongo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = NekoNihongo.xcdatamodel; sourceTree = "<group>"; };
+		3956BB471F6686E1001B715E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3956BB4A1F6686E1001B715E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3956BB4C1F6686E1001B715E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3956BB511F6686E1001B715E /* NekoNihongoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NekoNihongoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3956BB551F6686E1001B715E /* NekoNihongoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NekoNihongoTests.swift; sourceTree = "<group>"; };
+		3956BB571F6686E1001B715E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3956BB5C1F6686E1001B715E /* NekoNihongoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NekoNihongoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3956BB601F6686E1001B715E /* NekoNihongoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NekoNihongoUITests.swift; sourceTree = "<group>"; };
+		3956BB621F6686E1001B715E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3956BB731F66889F001B715E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		3956BB751F6688D9001B715E /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		3956BB7A1F6699BB001B715E /* NekoTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NekoTableViewCell.swift; sourceTree = "<group>"; };
+		3956BB7C1F669AE8001B715E /* NekoModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NekoModel.swift; sourceTree = "<group>"; };
+		3973FDD41FAB1CB7008928B3 /* MinnaNoNihongoDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MinnaNoNihongoDetailViewController.swift; sourceTree = "<group>"; };
+		3973FDD61FAB247C008928B3 /* MinnaNihongoDetailTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MinnaNihongoDetailTableViewCell.swift; sourceTree = "<group>"; };
+		3973FDDA1FAB2DB0008928B3 /* HelperFunction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelperFunction.swift; sourceTree = "<group>"; };
+		3984779B1F83D4CF007561C3 /* AlphabetStrokeOrderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlphabetStrokeOrderViewController.swift; sourceTree = "<group>"; };
+		398477AE1F83E140007561C3 /* SVGKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SVGKit.framework; path = "../../../../../Users/bao/Library/Developer/Xcode/DerivedData/NekoNihongo-emsfzcsqtifyezeefcuwffbmmxvf/Build/Products/Debug-iphonesimulator/SVGKit/SVGKit.framework"; sourceTree = "<group>"; };
+		3996C1001F740B43008BBAA9 /* AlphabetDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlphabetDetailViewController.swift; sourceTree = "<group>"; };
+		39A7F46F1FB0CB1E00D3F0F9 /* NekoAboutUsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NekoAboutUsViewController.swift; sourceTree = "<group>"; };
+		39D2A89A1F70ED1300812B58 /* AlphabetNekoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlphabetNekoViewController.swift; sourceTree = "<group>"; };
+		39D2A89C1F71002E00812B58 /* AlphabetSelectionCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlphabetSelectionCollectionViewCell.swift; sourceTree = "<group>"; };
+		39D2A89E1F72652D00812B58 /* NekoAlphabetModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NekoAlphabetModel.swift; sourceTree = "<group>"; };
+		39D2A8AA1F73B34D00812B58 /* AozoraMinchoRegular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = AozoraMinchoRegular.ttf; sourceTree = "<group>"; };
+		39D2A8AB1F73B34D00812B58 /* SNsanafonMugiV258.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = SNsanafonMugiV258.ttf; sourceTree = "<group>"; };
+		39D2A8AE1F73BD0300812B58 /* AlphabetCollectionReusableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlphabetCollectionReusableView.swift; sourceTree = "<group>"; };
+		6159B142F0EEE236FBBEE84A /* Pods_NekoNihongoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NekoNihongoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6162BD330A93799C16304CE0 /* Pods_NekoNihongo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NekoNihongo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		620D959C0877450AC58078AF /* Pods-NekoNihongoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NekoNihongoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-NekoNihongoUITests/Pods-NekoNihongoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		8699A061E9C815E564C700DA /* Pods-NekoNihongoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NekoNihongoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NekoNihongoTests/Pods-NekoNihongoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		89DCDB65383729CC0C89235D /* Pods-NekoNihongo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NekoNihongo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NekoNihongo/Pods-NekoNihongo.debug.xcconfig"; sourceTree = "<group>"; };
+		93BFB7518405BA6E0757F072 /* Pods-NekoNihongoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NekoNihongoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NekoNihongoUITests/Pods-NekoNihongoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		AFE9336B04BA2AA168A69825 /* Pods-NekoNihongo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NekoNihongo.release.xcconfig"; path = "Pods/Target Support Files/Pods-NekoNihongo/Pods-NekoNihongo.release.xcconfig"; sourceTree = "<group>"; };
+		FAEDB7E91FEF3E0162195D3E /* Pods-NekoNihongoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NekoNihongoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-NekoNihongoTests/Pods-NekoNihongoTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3956BB371F6686E1001B715E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2210689833B3122D9178B4A /* Pods_NekoNihongo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3956BB4E1F6686E1001B715E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7DF811DA49C72957AB0BB8A /* Pods_NekoNihongoTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3956BB591F6686E1001B715E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB6F0E108EA59F2910E218B1 /* Pods_NekoNihongoUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04F4636B8C73593C38DB5548 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				89DCDB65383729CC0C89235D /* Pods-NekoNihongo.debug.xcconfig */,
+				AFE9336B04BA2AA168A69825 /* Pods-NekoNihongo.release.xcconfig */,
+				8699A061E9C815E564C700DA /* Pods-NekoNihongoTests.debug.xcconfig */,
+				FAEDB7E91FEF3E0162195D3E /* Pods-NekoNihongoTests.release.xcconfig */,
+				93BFB7518405BA6E0757F072 /* Pods-NekoNihongoUITests.debug.xcconfig */,
+				620D959C0877450AC58078AF /* Pods-NekoNihongoUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		22902755A18BCEC6D1646443 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				398477AE1F83E140007561C3 /* SVGKit.framework */,
+				6162BD330A93799C16304CE0 /* Pods_NekoNihongo.framework */,
+				6159B142F0EEE236FBBEE84A /* Pods_NekoNihongoTests.framework */,
+				3898F1517243B61DA11C7839 /* Pods_NekoNihongoUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		390C39931F84C1CD00C2FE6D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				392EF13D1FC0A332003481F3 /* JSONFiles */,
+				390C39941F84C1CD00C2FE6D /* KanjiSVG */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		390C39941F84C1CD00C2FE6D /* KanjiSVG */ = {
+			isa = PBXGroup;
+			children = (
+				392EA54A1F84E22400ECD77E /* Hiragana */,
+				390C3A4B1F84D4DA00C2FE6D /* Katakana */,
+			);
+			path = KanjiSVG;
+			sourceTree = "<group>";
+		};
+		390C3A4B1F84D4DA00C2FE6D /* Katakana */ = {
+			isa = PBXGroup;
+			children = (
+				392EA4B21F84DC1A00ECD77E /* Alphabet */,
+				392EA4B11F84DC1300ECD77E /* Special */,
+			);
+			path = Katakana;
+			sourceTree = "<group>";
+		};
+		3922FBE81F67041900F978AD /* CollectionViews */ = {
+			isa = PBXGroup;
+			children = (
+				3922FBE91F67043800F978AD /* MinnaNoNihongoSelectionCollectionViewCell.swift */,
+				3922FBEB1F67044A00F978AD /* FlashCardSelectionCollectionViewCell.swift */,
+				39D2A89C1F71002E00812B58 /* AlphabetSelectionCollectionViewCell.swift */,
+				39D2A8AE1F73BD0300812B58 /* AlphabetCollectionReusableView.swift */,
+				39276CE81F7A1D6B002D492A /* AlphabetOptionCollectionViewCell.swift */,
+			);
+			path = CollectionViews;
+			sourceTree = "<group>";
+		};
+		392EA4B11F84DC1300ECD77E /* Special */ = {
+			isa = PBXGroup;
+			children = (
+				3928A9A61F860B6D0071E43B /* sャ.svg */,
+				3928A9A71F860B6D0071E43B /* sュ.svg */,
+				3928A9A81F860B6D0071E43B /* sョ.svg */,
+			);
+			path = Special;
+			sourceTree = "<group>";
+		};
+		392EA4B21F84DC1A00ECD77E /* Alphabet */ = {
+			isa = PBXGroup;
+			children = (
+				3928AA3C1F861EAC0071E43B /* pe_katakana.svg */,
+				3928A9AC1F860B760071E43B /* ア.svg */,
+				3928A9AD1F860B760071E43B /* イ.svg */,
+				3928A9AE1F860B760071E43B /* ウ.svg */,
+				3928A9AF1F860B760071E43B /* エ.svg */,
+				3928A9B01F860B760071E43B /* オ.svg */,
+				3928A9B11F860B760071E43B /* カ.svg */,
+				3928A9B21F860B760071E43B /* ガ.svg */,
+				3928A9B31F860B760071E43B /* キ.svg */,
+				3928A9B41F860B760071E43B /* ギ.svg */,
+				3928A9B51F860B760071E43B /* ク.svg */,
+				3928A9B61F860B760071E43B /* グ.svg */,
+				3928A9B71F860B760071E43B /* ケ.svg */,
+				3928A9B81F860B760071E43B /* ゲ.svg */,
+				3928A9B91F860B760071E43B /* コ.svg */,
+				3928A9BA1F860B760071E43B /* ゴ.svg */,
+				3928A9BB1F860B760071E43B /* サ.svg */,
+				3928A9BC1F860B760071E43B /* ザ.svg */,
+				3928A9BD1F860B760071E43B /* シ.svg */,
+				3928A9BE1F860B760071E43B /* ジ.svg */,
+				3928A9BF1F860B760071E43B /* ス.svg */,
+				3928A9C01F860B760071E43B /* ズ.svg */,
+				3928A9C11F860B760071E43B /* セ.svg */,
+				3928A9C21F860B760071E43B /* ゼ.svg */,
+				3928A9C31F860B760071E43B /* ソ.svg */,
+				3928A9C41F860B760071E43B /* ゾ.svg */,
+				3928A9C51F860B760071E43B /* タ.svg */,
+				3928A9C61F860B760071E43B /* ダ.svg */,
+				3928A9C71F860B760071E43B /* チ.svg */,
+				3928A9C81F860B760071E43B /* ヂ.svg */,
+				3928A9C91F860B760071E43B /* ツ.svg */,
+				3928A9CA1F860B760071E43B /* ヅ.svg */,
+				3928A9CB1F860B760071E43B /* テ.svg */,
+				3928A9CC1F860B760071E43B /* デ.svg */,
+				3928A9CD1F860B760071E43B /* ト.svg */,
+				3928A9CE1F860B760071E43B /* ド.svg */,
+				3928A9CF1F860B760071E43B /* ナ.svg */,
+				3928A9D01F860B760071E43B /* ニ.svg */,
+				3928A9D11F860B760071E43B /* ヌ.svg */,
+				3928A9D21F860B760071E43B /* ネ.svg */,
+				3928A9D31F860B760071E43B /* ノ.svg */,
+				3928A9D41F860B760071E43B /* ハ.svg */,
+				3928A9D51F860B760071E43B /* バ.svg */,
+				3928A9D61F860B760071E43B /* パ.svg */,
+				3928A9D71F860B760071E43B /* ヒ.svg */,
+				3928A9D81F860B760071E43B /* ビ.svg */,
+				3928A9D91F860B760071E43B /* ピ.svg */,
+				3928A9DA1F860B760071E43B /* フ.svg */,
+				3928A9DB1F860B760071E43B /* ブ.svg */,
+				3928A9DC1F860B760071E43B /* プ.svg */,
+				3928A9DD1F860B760071E43B /* ヘ.svg */,
+				3928A9DE1F860B760071E43B /* ベ.svg */,
+				3928A9E01F860B760071E43B /* ホ.svg */,
+				3928A9E11F860B760071E43B /* ボ.svg */,
+				3928A9E21F860B760071E43B /* ポ.svg */,
+				3928A9E31F860B760071E43B /* マ.svg */,
+				3928A9E41F860B760071E43B /* ミ.svg */,
+				3928A9E51F860B760071E43B /* ム.svg */,
+				3928A9E61F860B760071E43B /* メ.svg */,
+				3928A9E71F860B760071E43B /* モ.svg */,
+				3928A9E81F860B760071E43B /* ヤ.svg */,
+				3928A9E91F860B760071E43B /* ユ.svg */,
+				3928A9EA1F860B760071E43B /* ヨ.svg */,
+				3928A9EB1F860B760071E43B /* ラ.svg */,
+				3928A9EC1F860B760071E43B /* リ.svg */,
+				3928A9ED1F860B760071E43B /* ル.svg */,
+				3928A9EE1F860B760071E43B /* レ.svg */,
+				3928A9EF1F860B760071E43B /* ロ.svg */,
+				3928A9F01F860B760071E43B /* ワ.svg */,
+				3928A9F11F860B760071E43B /* ヲ.svg */,
+				3928A9F21F860B760071E43B /* ン.svg */,
+			);
+			path = Alphabet;
+			sourceTree = "<group>";
+		};
+		392EA54A1F84E22400ECD77E /* Hiragana */ = {
+			isa = PBXGroup;
+			children = (
+				392EA54C1F84E23300ECD77E /* Special */,
+				392EA54B1F84E22B00ECD77E /* Alphabet */,
+			);
+			path = Hiragana;
+			sourceTree = "<group>";
+		};
+		392EA54B1F84E22B00ECD77E /* Alphabet */ = {
+			isa = PBXGroup;
+			children = (
+				3928A9121F860B2A0071E43B /* あ.svg */,
+				3928A9131F860B2A0071E43B /* い.svg */,
+				3928A9141F860B2A0071E43B /* う.svg */,
+				3928A9151F860B2A0071E43B /* え.svg */,
+				3928A9161F860B2A0071E43B /* お.svg */,
+				3928A9171F860B2A0071E43B /* か.svg */,
+				3928A9181F860B2A0071E43B /* が.svg */,
+				3928A9191F860B2A0071E43B /* き.svg */,
+				3928A91A1F860B2A0071E43B /* ぎ.svg */,
+				3928A91B1F860B2A0071E43B /* く.svg */,
+				3928A91C1F860B2A0071E43B /* ぐ.svg */,
+				3928A91D1F860B2A0071E43B /* け.svg */,
+				3928A91E1F860B2A0071E43B /* げ.svg */,
+				3928A91F1F860B2A0071E43B /* こ.svg */,
+				3928A9201F860B2A0071E43B /* ご.svg */,
+				3928A9211F860B2A0071E43B /* さ.svg */,
+				3928A9221F860B2A0071E43B /* ざ.svg */,
+				3928A9231F860B2A0071E43B /* し.svg */,
+				3928A9241F860B2A0071E43B /* じ.svg */,
+				3928A9251F860B2A0071E43B /* す.svg */,
+				3928A9261F860B2A0071E43B /* ず.svg */,
+				3928A9271F860B2A0071E43B /* せ.svg */,
+				3928A9281F860B2A0071E43B /* ぜ.svg */,
+				3928A9291F860B2A0071E43B /* そ.svg */,
+				3928A92A1F860B2A0071E43B /* ぞ.svg */,
+				3928A92B1F860B2A0071E43B /* た.svg */,
+				3928A92C1F860B2A0071E43B /* だ.svg */,
+				3928A92D1F860B2A0071E43B /* ち.svg */,
+				3928A92E1F860B2A0071E43B /* ぢ.svg */,
+				3928A92F1F860B2A0071E43B /* つ.svg */,
+				3928A9301F860B2A0071E43B /* づ.svg */,
+				3928A9311F860B2A0071E43B /* て.svg */,
+				3928A9321F860B2A0071E43B /* で.svg */,
+				3928A9331F860B2A0071E43B /* と.svg */,
+				3928A9341F860B2A0071E43B /* ど.svg */,
+				3928A9351F860B2A0071E43B /* な.svg */,
+				3928A9361F860B2A0071E43B /* に.svg */,
+				3928A9371F860B2A0071E43B /* ぬ.svg */,
+				3928A9381F860B2A0071E43B /* ね.svg */,
+				3928A9391F860B2A0071E43B /* の.svg */,
+				3928A93A1F860B2A0071E43B /* は.svg */,
+				3928A93B1F860B2A0071E43B /* ば.svg */,
+				3928A93C1F860B2A0071E43B /* ぱ.svg */,
+				3928A93D1F860B2A0071E43B /* ひ.svg */,
+				3928A93E1F860B2A0071E43B /* び.svg */,
+				3928A93F1F860B2A0071E43B /* ぴ.svg */,
+				3928A9401F860B2A0071E43B /* ふ.svg */,
+				3928A9411F860B2A0071E43B /* ぶ.svg */,
+				3928A9421F860B2A0071E43B /* ぷ.svg */,
+				3928A9431F860B2A0071E43B /* へ.svg */,
+				3928A9441F860B2A0071E43B /* べ.svg */,
+				3928A9451F860B2A0071E43B /* ぺ.svg */,
+				3928A9461F860B2A0071E43B /* ほ.svg */,
+				3928A9471F860B2A0071E43B /* ぼ.svg */,
+				3928A9481F860B2A0071E43B /* ぽ.svg */,
+				3928A9491F860B2A0071E43B /* ま.svg */,
+				3928A94A1F860B2A0071E43B /* み.svg */,
+				3928A94B1F860B2A0071E43B /* む.svg */,
+				3928A94C1F860B2A0071E43B /* め.svg */,
+				3928A94D1F860B2A0071E43B /* も.svg */,
+				3928A94E1F860B2A0071E43B /* や.svg */,
+				3928A94F1F860B2A0071E43B /* ゆ.svg */,
+				3928A9501F860B2A0071E43B /* よ.svg */,
+				3928A9511F860B2A0071E43B /* ら.svg */,
+				3928A9521F860B2B0071E43B /* り.svg */,
+				3928A9531F860B2B0071E43B /* る.svg */,
+				3928A9541F860B2B0071E43B /* れ.svg */,
+				3928A9551F860B2B0071E43B /* ろ.svg */,
+				3928A9561F860B2B0071E43B /* わ.svg */,
+				3928A9571F860B2B0071E43B /* を.svg */,
+				3928A9581F860B2B0071E43B /* ん.svg */,
+			);
+			path = Alphabet;
+			sourceTree = "<group>";
+		};
+		392EA54C1F84E23300ECD77E /* Special */ = {
+			isa = PBXGroup;
+			children = (
+				3928A9A01F860B360071E43B /* sゃ.svg */,
+				3928A9A11F860B360071E43B /* sゅ.svg */,
+				3928A9A21F860B360071E43B /* sょ.svg */,
+			);
+			path = Special;
+			sourceTree = "<group>";
+		};
+		392EF13D1FC0A332003481F3 /* JSONFiles */ = {
+			isa = PBXGroup;
+			children = (
+				393AD5401FC5E98A0094A9E7 /* MinnaLessons */,
+			);
+			path = JSONFiles;
+			sourceTree = "<group>";
+		};
+		393AD5401FC5E98A0094A9E7 /* MinnaLessons */ = {
+			isa = PBXGroup;
+			children = (
+				393AD53C1FC487600094A9E7 /* Neko-Minna-Nihongo-Lesson-1.json */,
+				393AD53A1FC487600094A9E7 /* Neko-Minna-Nihongo-Lesson-2.json */,
+				393AD53B1FC487600094A9E7 /* Neko-Minna-Nihongo-Lesson-3.json */,
+			);
+			path = MinnaLessons;
+			sourceTree = "<group>";
+		};
+		393B3E751F67E88700062279 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				393B3E761F67E89000062279 /* UIViewController.swift */,
+				393B3E981F69431700062279 /* NSLayoutConstraint.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		393B3E781F6833DD00062279 /* ZLSwipeableViewSwift */ = {
+			isa = PBXGroup;
+			children = (
+				393B3E791F68345900062279 /* Direction.swift */,
+				393B3E7A1F68345900062279 /* Scheduler.swift */,
+				393B3E7B1F68345900062279 /* ViewManager.swift */,
+				393B3E7C1F68345900062279 /* ZLSwipeableView.swift */,
+			);
+			path = ZLSwipeableViewSwift;
+			sourceTree = "<group>";
+		};
+		393B3E8E1F683A7600062279 /* FlashCard */ = {
+			isa = PBXGroup;
+			children = (
+				3922FBE61F6702BD00F978AD /* FlashCardSelectionViewController.swift */,
+				393B3E8C1F6838D400062279 /* FlashCardSwipeViewController.swift */,
+			);
+			path = FlashCard;
+			sourceTree = "<group>";
+		};
+		393B3E8F1F683A8800062279 /* MinnaNoNihongo */ = {
+			isa = PBXGroup;
+			children = (
+				3922FBE41F6702A300F978AD /* MinnaNoNihongoSelectionViewController.swift */,
+				3973FDD41FAB1CB7008928B3 /* MinnaNoNihongoDetailViewController.swift */,
+			);
+			path = MinnaNoNihongo;
+			sourceTree = "<group>";
+		};
+		393B3E901F683A9500062279 /* Alphabet */ = {
+			isa = PBXGroup;
+			children = (
+				3922FBE21F66F62E00F978AD /* AlphabetSelectionViewController.swift */,
+				39D2A89A1F70ED1300812B58 /* AlphabetNekoViewController.swift */,
+				3996C1001F740B43008BBAA9 /* AlphabetDetailViewController.swift */,
+				3984779B1F83D4CF007561C3 /* AlphabetStrokeOrderViewController.swift */,
+				390C3A471F84C70600C2FE6D /* AlphabetStrokeOrderDoubleCharacterViewController.swift */,
+			);
+			path = Alphabet;
+			sourceTree = "<group>";
+		};
+		393B3E911F6843A400062279 /* XibFiles */ = {
+			isa = PBXGroup;
+			children = (
+				393B3E921F6843D700062279 /* NekoCardContentView.xib */,
+			);
+			path = XibFiles;
+			sourceTree = "<group>";
+		};
+		393B3E941F6843ED00062279 /* NekoXib */ = {
+			isa = PBXGroup;
+			children = (
+				393B3E951F68440F00062279 /* NekoCardView.swift */,
+			);
+			path = NekoXib;
+			sourceTree = "<group>";
+		};
+		394DFF6A1FC9D46B002F6051 /* DataProvider */ = {
+			isa = PBXGroup;
+			children = (
+				394DFF6D1FC9DD10002F6051 /* MinnaLessonDataProvider.swift */,
+			);
+			path = DataProvider;
+			sourceTree = "<group>";
+		};
+		394DFF6F1FC9E0EF002F6051 /* Constant */ = {
+			isa = PBXGroup;
+			children = (
+				394DFF701FC9E1FE002F6051 /* Constant.swift */,
+			);
+			path = Constant;
+			sourceTree = "<group>";
+		};
+		3956BB311F6686E1001B715E = {
+			isa = PBXGroup;
+			children = (
+				3956BB3C1F6686E1001B715E /* NekoNihongo */,
+				3956BB541F6686E1001B715E /* NekoNihongoTests */,
+				3956BB5F1F6686E1001B715E /* NekoNihongoUITests */,
+				3956BB3B1F6686E1001B715E /* Products */,
+				04F4636B8C73593C38DB5548 /* Pods */,
+				22902755A18BCEC6D1646443 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3956BB3B1F6686E1001B715E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3956BB3A1F6686E1001B715E /* NekoNihongo.app */,
+				3956BB511F6686E1001B715E /* NekoNihongoTests.xctest */,
+				3956BB5C1F6686E1001B715E /* NekoNihongoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3956BB3C1F6686E1001B715E /* NekoNihongo */ = {
+			isa = PBXGroup;
+			children = (
+				394DFF6F1FC9E0EF002F6051 /* Constant */,
+				394DFF6A1FC9D46B002F6051 /* DataProvider */,
+				390C39931F84C1CD00C2FE6D /* Resources */,
+				393B3E751F67E88700062279 /* Extensions */,
+				3956BB7E1F669EE3001B715E /* Fonts */,
+				3956BB721F668761001B715E /* Libraries */,
+				3956BB711F668755001B715E /* Views */,
+				3956BB701F66874B001B715E /* Helpers */,
+				3956BB6F1F668744001B715E /* Models */,
+				3956BB6E1F66873C001B715E /* ViewControllers */,
+				3956BB3D1F6686E1001B715E /* AppDelegate.swift */,
+				3956BB411F6686E1001B715E /* Main.storyboard */,
+				3956BB471F6686E1001B715E /* Assets.xcassets */,
+				3956BB491F6686E1001B715E /* LaunchScreen.storyboard */,
+				3956BB4C1F6686E1001B715E /* Info.plist */,
+				3956BB731F66889F001B715E /* GoogleService-Info.plist */,
+				3956BB441F6686E1001B715E /* NekoNihongo.xcdatamodeld */,
+			);
+			path = NekoNihongo;
+			sourceTree = "<group>";
+		};
+		3956BB541F6686E1001B715E /* NekoNihongoTests */ = {
+			isa = PBXGroup;
+			children = (
+				3956BB551F6686E1001B715E /* NekoNihongoTests.swift */,
+				3956BB571F6686E1001B715E /* Info.plist */,
+			);
+			path = NekoNihongoTests;
+			sourceTree = "<group>";
+		};
+		3956BB5F1F6686E1001B715E /* NekoNihongoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3956BB601F6686E1001B715E /* NekoNihongoUITests.swift */,
+				3956BB621F6686E1001B715E /* Info.plist */,
+			);
+			path = NekoNihongoUITests;
+			sourceTree = "<group>";
+		};
+		3956BB6E1F66873C001B715E /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				393B3E941F6843ED00062279 /* NekoXib */,
+				393B3E901F683A9500062279 /* Alphabet */,
+				393B3E8F1F683A8800062279 /* MinnaNoNihongo */,
+				393B3E8E1F683A7600062279 /* FlashCard */,
+				3956BB751F6688D9001B715E /* MainViewController.swift */,
+				39A7F46F1FB0CB1E00D3F0F9 /* NekoAboutUsViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		3956BB6F1F668744001B715E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3956BB7C1F669AE8001B715E /* NekoModel.swift */,
+				39D2A89E1F72652D00812B58 /* NekoAlphabetModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		3956BB701F66874B001B715E /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				3973FDDA1FAB2DB0008928B3 /* HelperFunction.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		3956BB711F668755001B715E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				393B3E911F6843A400062279 /* XibFiles */,
+				3922FBE81F67041900F978AD /* CollectionViews */,
+				3956BB791F6699B2001B715E /* TableViews */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		3956BB721F668761001B715E /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				393B3E781F6833DD00062279 /* ZLSwipeableViewSwift */,
+			);
+			path = Libraries;
+			sourceTree = "<group>";
+		};
+		3956BB791F6699B2001B715E /* TableViews */ = {
+			isa = PBXGroup;
+			children = (
+				3956BB7A1F6699BB001B715E /* NekoTableViewCell.swift */,
+				3973FDD61FAB247C008928B3 /* MinnaNihongoDetailTableViewCell.swift */,
+			);
+			path = TableViews;
+			sourceTree = "<group>";
+		};
+		3956BB7E1F669EE3001B715E /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				39D2A8AA1F73B34D00812B58 /* AozoraMinchoRegular.ttf */,
+				39D2A8AB1F73B34D00812B58 /* SNsanafonMugiV258.ttf */,
+				393B3E841F6835F000062279 /* BalsamiqSansBold.ttf */,
+				393B3E851F6835F000062279 /* BalsamiqSansBoldItalic.ttf */,
+				393B3E861F6835F000062279 /* BalsamiqSansItalic.ttf */,
+				393B3E871F6835F000062279 /* BalsamiqSansRegular.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3956BB391F6686E1001B715E /* NekoNihongo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3956BB651F6686E1001B715E /* Build configuration list for PBXNativeTarget "NekoNihongo" */;
+			buildPhases = (
+				6B3430D88D9DF21405ADD209 /* [CP] Check Pods Manifest.lock */,
+				3956BB361F6686E1001B715E /* Sources */,
+				3956BB371F6686E1001B715E /* Frameworks */,
+				3956BB381F6686E1001B715E /* Resources */,
+				B5661A05F0C79D2814102FF6 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NekoNihongo;
+			productName = NekoNihongo;
+			productReference = 3956BB3A1F6686E1001B715E /* NekoNihongo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3956BB501F6686E1001B715E /* NekoNihongoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3956BB681F6686E1001B715E /* Build configuration list for PBXNativeTarget "NekoNihongoTests" */;
+			buildPhases = (
+				747F76DA96258377B44BE982 /* [CP] Check Pods Manifest.lock */,
+				3956BB4D1F6686E1001B715E /* Sources */,
+				3956BB4E1F6686E1001B715E /* Frameworks */,
+				3956BB4F1F6686E1001B715E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3956BB531F6686E1001B715E /* PBXTargetDependency */,
+			);
+			name = NekoNihongoTests;
+			productName = NekoNihongoTests;
+			productReference = 3956BB511F6686E1001B715E /* NekoNihongoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3956BB5B1F6686E1001B715E /* NekoNihongoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3956BB6B1F6686E1001B715E /* Build configuration list for PBXNativeTarget "NekoNihongoUITests" */;
+			buildPhases = (
+				3D5C4B8E3D355E7024D2E6BB /* [CP] Check Pods Manifest.lock */,
+				3956BB581F6686E1001B715E /* Sources */,
+				3956BB591F6686E1001B715E /* Frameworks */,
+				3956BB5A1F6686E1001B715E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3956BB5E1F6686E1001B715E /* PBXTargetDependency */,
+			);
+			name = NekoNihongoUITests;
+			productName = NekoNihongoUITests;
+			productReference = 3956BB5C1F6686E1001B715E /* NekoNihongoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3956BB321F6686E1001B715E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = ViBao;
+				TargetAttributes = {
+					3956BB391F6686E1001B715E = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 4395L5MX45;
+						LastSwiftMigration = 0910;
+						ProvisioningStyle = Automatic;
+					};
+					3956BB501F6686E1001B715E = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 4395L5MX45;
+						LastSwiftMigration = 0910;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3956BB391F6686E1001B715E;
+					};
+					3956BB5B1F6686E1001B715E = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 4395L5MX45;
+						LastSwiftMigration = 0910;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3956BB391F6686E1001B715E;
+					};
+				};
+			};
+			buildConfigurationList = 3956BB351F6686E1001B715E /* Build configuration list for PBXProject "NekoNihongo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3956BB311F6686E1001B715E;
+			productRefGroup = 3956BB3B1F6686E1001B715E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3956BB391F6686E1001B715E /* NekoNihongo */,
+				3956BB501F6686E1001B715E /* NekoNihongoTests */,
+				3956BB5B1F6686E1001B715E /* NekoNihongoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3956BB381F6686E1001B715E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3928AA341F860B760071E43B /* ル.svg in Resources */,
+				3928AA1C1F860B760071E43B /* バ.svg in Resources */,
+				3928AA061F860B760071E43B /* ス.svg in Resources */,
+				3928A98E1F860B2B0071E43B /* ぼ.svg in Resources */,
+				3928A9781F860B2B0071E43B /* て.svg in Resources */,
+				3928A9731F860B2B0071E43B /* だ.svg in Resources */,
+				3928A9F71F860B760071E43B /* オ.svg in Resources */,
+				3928A9F51F860B760071E43B /* ウ.svg in Resources */,
+				3928A99B1F860B2B0071E43B /* れ.svg in Resources */,
+				3928A96E1F860B2B0071E43B /* せ.svg in Resources */,
+				3928A96B1F860B2B0071E43B /* じ.svg in Resources */,
+				3928AA141F860B760071E43B /* ト.svg in Resources */,
+				3928AA361F860B760071E43B /* ロ.svg in Resources */,
+				3928AA381F860B760071E43B /* ヲ.svg in Resources */,
+				3928A9871F860B2B0071E43B /* ふ.svg in Resources */,
+				3928AA2D1F860B760071E43B /* メ.svg in Resources */,
+				3928A9741F860B2B0071E43B /* ち.svg in Resources */,
+				3928A9FB1F860B760071E43B /* ギ.svg in Resources */,
+				3928AA331F860B760071E43B /* リ.svg in Resources */,
+				3928A9901F860B2B0071E43B /* ま.svg in Resources */,
+				3928A96A1F860B2B0071E43B /* し.svg in Resources */,
+				3928A9991F860B2B0071E43B /* り.svg in Resources */,
+				3928A9671F860B2B0071E43B /* ご.svg in Resources */,
+				3928AA2F1F860B760071E43B /* ヤ.svg in Resources */,
+				3928AA0A1F860B760071E43B /* ソ.svg in Resources */,
+				3928AA231F860B760071E43B /* プ.svg in Resources */,
+				3928A9911F860B2B0071E43B /* み.svg in Resources */,
+				3928A9851F860B2B0071E43B /* び.svg in Resources */,
+				3928A9981F860B2B0071E43B /* ら.svg in Resources */,
+				3928A9601F860B2B0071E43B /* き.svg in Resources */,
+				393B3E881F6835F000062279 /* BalsamiqSansBold.ttf in Resources */,
+				3928A9831F860B2B0071E43B /* ぱ.svg in Resources */,
+				3928AA321F860B760071E43B /* ラ.svg in Resources */,
+				3928AA291F860B760071E43B /* ポ.svg in Resources */,
+				3928AA081F860B760071E43B /* セ.svg in Resources */,
+				3928A9951F860B2B0071E43B /* や.svg in Resources */,
+				393B3E8A1F6835F000062279 /* BalsamiqSansItalic.ttf in Resources */,
+				3928AA2B1F860B760071E43B /* ミ.svg in Resources */,
+				3928A9621F860B2B0071E43B /* く.svg in Resources */,
+				393B3E931F6843D700062279 /* NekoCardContentView.xib in Resources */,
+				3928A9931F860B2B0071E43B /* め.svg in Resources */,
+				3928AA351F860B760071E43B /* レ.svg in Resources */,
+				3928AA2A1F860B760071E43B /* マ.svg in Resources */,
+				3928A9891F860B2B0071E43B /* ぷ.svg in Resources */,
+				3928A95C1F860B2B0071E43B /* え.svg in Resources */,
+				3928AA1E1F860B760071E43B /* ヒ.svg in Resources */,
+				3928AA101F860B760071E43B /* ツ.svg in Resources */,
+				3928AA181F860B760071E43B /* ヌ.svg in Resources */,
+				3928A97E1F860B2B0071E43B /* ぬ.svg in Resources */,
+				3928A9921F860B2B0071E43B /* む.svg in Resources */,
+				3928AA241F860B760071E43B /* ヘ.svg in Resources */,
+				3928AA071F860B760071E43B /* ズ.svg in Resources */,
+				3928A97F1F860B2B0071E43B /* ね.svg in Resources */,
+				3928A9FF1F860B760071E43B /* ゲ.svg in Resources */,
+				3928AA041F860B760071E43B /* シ.svg in Resources */,
+				3928AA021F860B760071E43B /* サ.svg in Resources */,
+				3928AA171F860B760071E43B /* ニ.svg in Resources */,
+				3928A9721F860B2B0071E43B /* た.svg in Resources */,
+				3928A9FE1F860B760071E43B /* ケ.svg in Resources */,
+				3928A9661F860B2B0071E43B /* こ.svg in Resources */,
+				3928AA371F860B760071E43B /* ワ.svg in Resources */,
+				3928A9761F860B2B0071E43B /* つ.svg in Resources */,
+				3928A9A31F860B360071E43B /* sゃ.svg in Resources */,
+				3928AA051F860B760071E43B /* ジ.svg in Resources */,
+				3928A9811F860B2B0071E43B /* は.svg in Resources */,
+				393AD53E1FC487600094A9E7 /* Neko-Minna-Nihongo-Lesson-3.json in Resources */,
+				3928A9651F860B2B0071E43B /* げ.svg in Resources */,
+				3928A99C1F860B2B0071E43B /* ろ.svg in Resources */,
+				3928A9821F860B2B0071E43B /* ば.svg in Resources */,
+				3928A9971F860B2B0071E43B /* よ.svg in Resources */,
+				3928A99E1F860B2B0071E43B /* を.svg in Resources */,
+				3928A9631F860B2B0071E43B /* ぐ.svg in Resources */,
+				39D2A8AD1F73B34D00812B58 /* SNsanafonMugiV258.ttf in Resources */,
+				3956BB4B1F6686E1001B715E /* LaunchScreen.storyboard in Resources */,
+				3928A95A1F860B2B0071E43B /* い.svg in Resources */,
+				3928A96F1F860B2B0071E43B /* ぜ.svg in Resources */,
+				3928A9F91F860B760071E43B /* ガ.svg in Resources */,
+				3928A9941F860B2B0071E43B /* も.svg in Resources */,
+				3928A95E1F860B2B0071E43B /* か.svg in Resources */,
+				3928A9FA1F860B760071E43B /* キ.svg in Resources */,
+				393AD53D1FC487600094A9E7 /* Neko-Minna-Nihongo-Lesson-2.json in Resources */,
+				3928A99F1F860B2B0071E43B /* ん.svg in Resources */,
+				3928A9641F860B2B0071E43B /* け.svg in Resources */,
+				3928A98A1F860B2B0071E43B /* へ.svg in Resources */,
+				3928AA2C1F860B760071E43B /* ム.svg in Resources */,
+				3928A9A41F860B360071E43B /* sゅ.svg in Resources */,
+				3928A9681F860B2B0071E43B /* さ.svg in Resources */,
+				396B3A831F9B1F920099FC74 /* Assets.xcassets in Resources */,
+				393B3E891F6835F000062279 /* BalsamiqSansBoldItalic.ttf in Resources */,
+				3928A9771F860B2B0071E43B /* づ.svg in Resources */,
+				3928A9791F860B2B0071E43B /* で.svg in Resources */,
+				3928AA301F860B760071E43B /* ユ.svg in Resources */,
+				3928AA251F860B760071E43B /* ベ.svg in Resources */,
+				3928A9FC1F860B760071E43B /* ク.svg in Resources */,
+				3928A9841F860B2B0071E43B /* ひ.svg in Resources */,
+				3928AA1D1F860B760071E43B /* パ.svg in Resources */,
+				3928AA091F860B760071E43B /* ゼ.svg in Resources */,
+				3928A9F81F860B760071E43B /* カ.svg in Resources */,
+				3928AA131F860B760071E43B /* デ.svg in Resources */,
+				3928A99D1F860B2B0071E43B /* わ.svg in Resources */,
+				3928AA0C1F860B760071E43B /* タ.svg in Resources */,
+				3928A9611F860B2B0071E43B /* ぎ.svg in Resources */,
+				3928A98B1F860B2B0071E43B /* べ.svg in Resources */,
+				3928AA3D1F861EAC0071E43B /* pe_katakana.svg in Resources */,
+				3928A9861F860B2B0071E43B /* ぴ.svg in Resources */,
+				3928A9961F860B2B0071E43B /* ゆ.svg in Resources */,
+				3928A9881F860B2B0071E43B /* ぶ.svg in Resources */,
+				393B3E8B1F6835F000062279 /* BalsamiqSansRegular.ttf in Resources */,
+				3928A97D1F860B2B0071E43B /* に.svg in Resources */,
+				3928AA391F860B760071E43B /* ン.svg in Resources */,
+				3928A99A1F860B2B0071E43B /* る.svg in Resources */,
+				3928A9F41F860B760071E43B /* イ.svg in Resources */,
+				3928A98F1F860B2B0071E43B /* ぽ.svg in Resources */,
+				3956BB741F66889F001B715E /* GoogleService-Info.plist in Resources */,
+				3928A9F31F860B760071E43B /* ア.svg in Resources */,
+				3928A96D1F860B2B0071E43B /* ず.svg in Resources */,
+				3928A9AA1F860B6D0071E43B /* sュ.svg in Resources */,
+				3928AA031F860B760071E43B /* ザ.svg in Resources */,
+				3928A9F61F860B760071E43B /* エ.svg in Resources */,
+				3928A95F1F860B2B0071E43B /* が.svg in Resources */,
+				3928A9751F860B2B0071E43B /* ぢ.svg in Resources */,
+				3928AA0B1F860B760071E43B /* ゾ.svg in Resources */,
+				3928A97B1F860B2B0071E43B /* ど.svg in Resources */,
+				3928A9591F860B2B0071E43B /* あ.svg in Resources */,
+				3928A95B1F860B2B0071E43B /* う.svg in Resources */,
+				3928AA011F860B760071E43B /* ゴ.svg in Resources */,
+				3928AA211F860B760071E43B /* フ.svg in Resources */,
+				3928AA311F860B760071E43B /* ヨ.svg in Resources */,
+				3928A95D1F860B2B0071E43B /* お.svg in Resources */,
+				3928AA281F860B760071E43B /* ボ.svg in Resources */,
+				3928AA2E1F860B760071E43B /* モ.svg in Resources */,
+				3928A9801F860B2B0071E43B /* の.svg in Resources */,
+				393AD53F1FC487600094A9E7 /* Neko-Minna-Nihongo-Lesson-1.json in Resources */,
+				3928AA1F1F860B760071E43B /* ビ.svg in Resources */,
+				3928A98C1F860B2B0071E43B /* ぺ.svg in Resources */,
+				3928AA191F860B760071E43B /* ネ.svg in Resources */,
+				3928AA0D1F860B760071E43B /* ダ.svg in Resources */,
+				3928A9A51F860B360071E43B /* sょ.svg in Resources */,
+				3928AA161F860B760071E43B /* ナ.svg in Resources */,
+				3928AA221F860B760071E43B /* ブ.svg in Resources */,
+				3928A9A91F860B6D0071E43B /* sャ.svg in Resources */,
+				3928A9711F860B2B0071E43B /* ぞ.svg in Resources */,
+				3928AA121F860B760071E43B /* テ.svg in Resources */,
+				3928AA201F860B760071E43B /* ピ.svg in Resources */,
+				3928AA0F1F860B760071E43B /* ヂ.svg in Resources */,
+				3928AA1A1F860B760071E43B /* ノ.svg in Resources */,
+				3928A97C1F860B2B0071E43B /* な.svg in Resources */,
+				3928A97A1F860B2B0071E43B /* と.svg in Resources */,
+				3928AA151F860B760071E43B /* ド.svg in Resources */,
+				3956BB431F6686E1001B715E /* Main.storyboard in Resources */,
+				3928A9701F860B2B0071E43B /* そ.svg in Resources */,
+				3928AA0E1F860B760071E43B /* チ.svg in Resources */,
+				3928A96C1F860B2B0071E43B /* す.svg in Resources */,
+				3928AA271F860B760071E43B /* ホ.svg in Resources */,
+				3928AA001F860B760071E43B /* コ.svg in Resources */,
+				3928A9691F860B2B0071E43B /* ざ.svg in Resources */,
+				3928AA1B1F860B760071E43B /* ハ.svg in Resources */,
+				3928AA111F860B760071E43B /* ヅ.svg in Resources */,
+				3928A9FD1F860B760071E43B /* グ.svg in Resources */,
+				3928A98D1F860B2B0071E43B /* ほ.svg in Resources */,
+				3928A9AB1F860B6D0071E43B /* sョ.svg in Resources */,
+				39D2A8AC1F73B34D00812B58 /* AozoraMinchoRegular.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3956BB4F1F6686E1001B715E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				396B3A821F9B1F910099FC74 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3956BB5A1F6686E1001B715E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				396B3A841F9B1F930099FC74 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3D5C4B8E3D355E7024D2E6BB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NekoNihongoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6B3430D88D9DF21405ADD209 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NekoNihongo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		747F76DA96258377B44BE982 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NekoNihongoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B5661A05F0C79D2814102FF6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-NekoNihongo/Pods-NekoNihongo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/ASExtendedCircularMenu/ASExtendedCircularMenu.framework",
+				"${BUILT_PRODUCTS_DIR}/Cartography/Cartography.framework",
+				"${BUILT_PRODUCTS_DIR}/Device/Device.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ASExtendedCircularMenu.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Cartography.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Device.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NekoNihongo/Pods-NekoNihongo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3956BB361F6686E1001B715E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3996C1011F740B43008BBAA9 /* AlphabetDetailViewController.swift in Sources */,
+				394DFF6E1FC9DD10002F6051 /* MinnaLessonDataProvider.swift in Sources */,
+				393B3E7E1F68345900062279 /* Scheduler.swift in Sources */,
+				3922FBE31F66F62E00F978AD /* AlphabetSelectionViewController.swift in Sources */,
+				3956BB761F6688D9001B715E /* MainViewController.swift in Sources */,
+				3956BB461F6686E1001B715E /* NekoNihongo.xcdatamodeld in Sources */,
+				393B3E771F67E89000062279 /* UIViewController.swift in Sources */,
+				393B3E961F68440F00062279 /* NekoCardView.swift in Sources */,
+				39D2A89D1F71002E00812B58 /* AlphabetSelectionCollectionViewCell.swift in Sources */,
+				3973FDDB1FAB2DB0008928B3 /* HelperFunction.swift in Sources */,
+				3922FBE51F6702A300F978AD /* MinnaNoNihongoSelectionViewController.swift in Sources */,
+				39D2A8AF1F73BD0300812B58 /* AlphabetCollectionReusableView.swift in Sources */,
+				3984779C1F83D4CF007561C3 /* AlphabetStrokeOrderViewController.swift in Sources */,
+				3922FBEA1F67043800F978AD /* MinnaNoNihongoSelectionCollectionViewCell.swift in Sources */,
+				39A7F4701FB0CB1E00D3F0F9 /* NekoAboutUsViewController.swift in Sources */,
+				3956BB7B1F6699BB001B715E /* NekoTableViewCell.swift in Sources */,
+				3956BB3E1F6686E1001B715E /* AppDelegate.swift in Sources */,
+				3922FBE71F6702BD00F978AD /* FlashCardSelectionViewController.swift in Sources */,
+				39D2A89F1F72652D00812B58 /* NekoAlphabetModel.swift in Sources */,
+				394DFF711FC9E1FE002F6051 /* Constant.swift in Sources */,
+				3973FDD51FAB1CB7008928B3 /* MinnaNoNihongoDetailViewController.swift in Sources */,
+				393B3E801F68345900062279 /* ZLSwipeableView.swift in Sources */,
+				390C3A481F84C70600C2FE6D /* AlphabetStrokeOrderDoubleCharacterViewController.swift in Sources */,
+				3973FDD71FAB247C008928B3 /* MinnaNihongoDetailTableViewCell.swift in Sources */,
+				3922FBEC1F67044A00F978AD /* FlashCardSelectionCollectionViewCell.swift in Sources */,
+				393B3E991F69431700062279 /* NSLayoutConstraint.swift in Sources */,
+				39276CE91F7A1D6B002D492A /* AlphabetOptionCollectionViewCell.swift in Sources */,
+				393B3E8D1F6838D400062279 /* FlashCardSwipeViewController.swift in Sources */,
+				39D2A89B1F70ED1300812B58 /* AlphabetNekoViewController.swift in Sources */,
+				3956BB7D1F669AE8001B715E /* NekoModel.swift in Sources */,
+				393B3E7F1F68345900062279 /* ViewManager.swift in Sources */,
+				393B3E7D1F68345900062279 /* Direction.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3956BB4D1F6686E1001B715E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3956BB561F6686E1001B715E /* NekoNihongoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3956BB581F6686E1001B715E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3956BB611F6686E1001B715E /* NekoNihongoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3956BB531F6686E1001B715E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3956BB391F6686E1001B715E /* NekoNihongo */;
+			targetProxy = 3956BB521F6686E1001B715E /* PBXContainerItemProxy */;
+		};
+		3956BB5E1F6686E1001B715E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3956BB391F6686E1001B715E /* NekoNihongo */;
+			targetProxy = 3956BB5D1F6686E1001B715E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3956BB411F6686E1001B715E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3956BB421F6686E1001B715E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3956BB491F6686E1001B715E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3956BB4A1F6686E1001B715E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3956BB631F6686E1001B715E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3956BB641F6686E1001B715E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3956BB661F6686E1001B715E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89DCDB65383729CC0C89235D /* Pods-NekoNihongo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4395L5MX45;
+				INFOPLIST_FILE = NekoNihongo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = vibao.com.vn.NekoNihongo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		3956BB671F6686E1001B715E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AFE9336B04BA2AA168A69825 /* Pods-NekoNihongo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4395L5MX45;
+				INFOPLIST_FILE = NekoNihongo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = vibao.com.vn.NekoNihongo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+		3956BB691F6686E1001B715E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8699A061E9C815E564C700DA /* Pods-NekoNihongoTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 4395L5MX45;
+				INFOPLIST_FILE = NekoNihongoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = vibao.com.vn.NekoNihongoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NekoNihongo.app/NekoNihongo";
+			};
+			name = Debug;
+		};
+		3956BB6A1F6686E1001B715E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FAEDB7E91FEF3E0162195D3E /* Pods-NekoNihongoTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 4395L5MX45;
+				INFOPLIST_FILE = NekoNihongoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = vibao.com.vn.NekoNihongoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NekoNihongo.app/NekoNihongo";
+			};
+			name = Release;
+		};
+		3956BB6C1F6686E1001B715E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 93BFB7518405BA6E0757F072 /* Pods-NekoNihongoUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 4395L5MX45;
+				INFOPLIST_FILE = NekoNihongoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = vibao.com.vn.NekoNihongoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_TARGET_NAME = NekoNihongo;
+			};
+			name = Debug;
+		};
+		3956BB6D1F6686E1001B715E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 620D959C0877450AC58078AF /* Pods-NekoNihongoUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 4395L5MX45;
+				INFOPLIST_FILE = NekoNihongoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = vibao.com.vn.NekoNihongoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_TARGET_NAME = NekoNihongo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3956BB351F6686E1001B715E /* Build configuration list for PBXProject "NekoNihongo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3956BB631F6686E1001B715E /* Debug */,
+				3956BB641F6686E1001B715E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3956BB651F6686E1001B715E /* Build configuration list for PBXNativeTarget "NekoNihongo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3956BB661F6686E1001B715E /* Debug */,
+				3956BB671F6686E1001B715E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3956BB681F6686E1001B715E /* Build configuration list for PBXNativeTarget "NekoNihongoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3956BB691F6686E1001B715E /* Debug */,
+				3956BB6A1F6686E1001B715E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3956BB6B1F6686E1001B715E /* Build configuration list for PBXNativeTarget "NekoNihongoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3956BB6C1F6686E1001B715E /* Debug */,
+				3956BB6D1F6686E1001B715E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		3956BB441F6686E1001B715E /* NekoNihongo.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				3956BB451F6686E1001B715E /* NekoNihongo.xcdatamodel */,
+			);
+			currentVersion = 3956BB451F6686E1001B715E /* NekoNihongo.xcdatamodel */;
+			path = NekoNihongo.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 3956BB321F6686E1001B715E /* Project object */;
+}

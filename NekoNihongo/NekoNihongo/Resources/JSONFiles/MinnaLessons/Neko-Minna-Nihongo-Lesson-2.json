@@ -1,0 +1,416 @@
+ [
+  {
+  "nekoJapanese" : "これ",
+  "nekoLatin" : "kore",
+  "nekoKanji" : "",
+  "nekoKanjiHanViet" : "",
+  "nekoVietNamese" : "cái này, đây (vật ở gần người nói)",
+  "nekoEnglish" : "this (thing here)",
+  "nekoSound" : "これ"
+  },
+  {
+  "nekoJapanese" : "それ",
+  "nekoLatin" : "sore",
+  "nekoKanji" : "",
+  "nekoKanjiHanViet" : "",
+  "nekoVietNamese" : "cái đó, đó (vật ở gần người nghe)",
+  "nekoEnglish" : "that (thing near you)",
+  "nekoSound" : "それ"
+  },
+  {
+  "nekoJapanese" : "あれ",
+  "nekoLatin" : "are",
+  "nekoKanji" : "",
+  "nekoKanjiHanViet" : "",
+  "nekoVietNamese" : "cái kia, kia (vật ở xa cả người nói và người nghe)",
+  "nekoEnglish" : "that (thing over there)",
+  "nekoSound" : "あれ"
+  },
+  {
+  "nekoJapanese" : "この～",
+  "nekoLatin" : "kono",
+  "nekoKanji" : "",
+  "nekoKanjiHanViet" : "",
+  "nekoVietNamese" : "～này",
+  "nekoEnglish" : "this～, this～ here",
+  "nekoSound" : ""
+  },
+  {
+  "nekoJapanese" : "その～",
+  "nekoLatin" : "sono",
+  "nekoKanji" : "",
+  "nekoKanjiHanViet" : "",
+  "nekoVietNamese" : "～đó",
+  "nekoEnglish" : "that～, that～ near you",
+  "nekoSound" : ""
+  },
+  {
+  "nekoJapanese" : "あの～",
+  "nekoLatin" : "ano",
+  "nekoKanji" : "",
+  "nekoKanjiHanViet" : "",
+  "nekoVietNamese" : "～kia",
+  "nekoEnglish" : "that～ ,that～ over there",
+  "nekoSound" : ""
+  },
+  {
+  "nekoJapanese" : "ほん",
+  "nekoLatin" : "hon",
+  "nekoKanji" : "本",
+  "nekoKanjiHanViet" : "Bản",
+  "nekoVietNamese" : "sách",
+  "nekoEnglish" : "book",
+  "nekoSound" : "本"
+  },
+  {
+  "nekoJapanese" : "じしょ",
+  "nekoLatin" : "jisho",
+  "nekoKanji" : "辞書",
+  "nekoKanjiHanViet" : "Từ Thư",
+  "nekoVietNamese" : "từ điển",
+  "nekoEnglish" : "dictionary",
+  "nekoSound" : "辞書"
+  },
+  {
+  "nekoJapanese" : "ざっし",
+  "nekoLatin" : "zasshi",
+  "nekoKanji" : "雑誌",
+  "nekoKanjiHanViet" : "Tạp Chí",
+  "nekoVietNamese" : "tạp chí",
+  "nekoEnglish" : "magazine",
+  "nekoSound" : "雑誌"
+  },
+  {
+  "nekoJapanese" : "しんぶん",
+  "nekoLatin" : "shinbun",
+  "nekoKanji" : "新聞",
+  "nekoKanjiHanViet" : "Tân Văn",
+  "nekoVietNamese" : "báo",
+  "nekoEnglish" : "newspaper",
+  "nekoSound" : "新聞"
+  },
+  {
+  "nekoJapanese" : "ノート",
+  "nekoLatin" : "noto",
+  "nekoKanji" : "",
+  "nekoKanjiHanViet" : "",
+  "nekoVietNamese" : "tập, vở",
+  "nekoEnglish" : "notebook",
+  "nekoSound" : "ノート"
+  },
+  {
+  "nekoJapanese" : "てちょう",
+  "nekoLatin" : "techou",
+  "nekoKanji" : "手帳",
+  "nekoKanjiHanViet" : "Thủ Trướng",
+  "nekoVietNamese" : "sổ tay",
+  "nekoEnglish" : "pocket notebook",
+  "nekoSound" : "手帳"
+  },
+  {
+  "nekoJapanese" : "めいし",
+  "nekoLatin" : "meishi",
+  "nekoKanji" : "名詞",
+  "nekoKanjiHanViet" : "Danh Từ",
+  "nekoVietNamese" : "danh thiếp",
+  "nekoEnglish" : "business card",
+  "nekoSound" : "名詞"
+  },
+  {
+  "nekoJapanese" : "カード",
+  "nekoLatin" : "kado",
+  "nekoKanji" : "",
+  "nekoKanjiHanViet" : "",
+  "nekoVietNamese" : "thẻ, cạc",
+  "nekoEnglish" : "card",
+  "nekoSound" : "カード"
+  },
+  {
+  "nekoJapanese" : "テレホンカード",
+  "nekoLatin" : "terehonkado",
+  "nekoKanji" : "",
+  "nekoKanjiHanViet" : "",
+  "nekoVietNamese" : "thẻ điện thoại",
+  "nekoEnglish" : "telephone card",
+  "nekoSound" : "テレホンカード"
+  },
+  {
+  "nekoJapanese" : "えんぴつ",
+  "nekoLatin" : "enpitsu",
+  "nekoKanji" : "鉛筆",
+  "nekoKanjiHanViet" : "Duyên Bút",
+  "nekoVietNamese" : "bút chì",
+  "nekoEnglish" : "pencil",
+  "nekoSound" : "鉛筆"
+  },
+  {
+  "nekoJapanese" : "ボールペン",
+  "nekoLatin" : "borupen",
+  "nekoKanji" : "",
+  "nekoKanjiHanViet" : "",
+  "nekoVietNamese" : "bút bi",
+  "nekoEnglish" : "ballpoint pen",
+  "nekoSound" : "ボールペン"
+  },
+  {
+  "nekoJapanese" : "シャープペンシル",
+  "nekoLatin" : "shapupenshiru",
+  "nekoKanji" : "",
+  "nekoKanjiHanViet" : "",
+  "nekoVietNamese" : "bút chì kim, bút chì bấm",
+  "nekoEnglish" : "mechanical pencil, propelling pencil",
+  "nekoSound" : "シャープペンシル"
+  },
+  {
+  "nekoJapanese" : "かぎ",
+  "nekoLatin" : "kagi",
+  "nekoKanji" : "鍵",
+  "nekoKanjiHanViet" : "Kiện",
+  "nekoVietNamese" : "chìa khóa",
+  "nekoEnglish" : "key",
+  "nekoSound" : "かぎ"
+  },
+  {
+  "nekoJapanese" : "とけい",
+  "nekoLatin" : "tokei",
+  "nekoKanji" : "時計",
+  "nekoKanjiHanViet" : "Thời Kế",
+  "nekoVietNamese" : "đồng hồ",
+  "nekoEnglish" : "watch, clock",
+  "nekoSound" : "時計"
+  },
+  {
+  "nekoJapanese" : "かさ",
+  "nekoLatin" : "kasa",
+  "nekoKanji" : "傘",
+  "nekoKanjiHanViet" : "Tản",
+  "nekoVietNamese" : "ô, dù",
+  "nekoEnglish" : "umbrella",
+  "nekoSound" : "傘"
+  },
+  {
+  "nekoJapanese" : "かばん",
+  "nekoLatin" : "kaban",
+  "nekoKanji" : "",
+  "nekoKanjiHanViet" : "",
+  "nekoVietNamese" : "cặp sách, túi sách",
+  "nekoEnglish" : "bag, briefcase",
+  "nekoSound" : "かばん"
+  },
+  {
+  "nekoJapanese" : "カセットテープ",
+  "nekoLatin" : "kasettotepu",
+  "nekoKanji" : "",
+  "nekoKanjiHanViet" : "",
+  "nekoVietNamese" : "băng cát-xét",
+  "nekoEnglish" : "cassette tape",
+  "nekoSound" : "カセットテープ"
+  },
+  {
+  "nekoJapanese" : "テープルコーダー",
+  "nekoLatin" : "tepurecoda",
+  "nekoKanji" : "",
+  "nekoKanjiHanViet" : "",
+  "nekoVietNamese" : "máy ghi âm",
+  "nekoEnglish" : "tape recorder",
+  "nekoSound" : "テープルコーダー"
+  },
+  {
+  "nekoJapanese" : "テレビ",
+  "nekoLatin" : "terebi",
+  "nekoKanji" : "",
+  "nekoKanjiHanViet" : "",
+  "nekoVietNamese" : "tivi",
+  "nekoEnglish" : "television",
+  "nekoSound" : "テレビ"
+  },
+  {
+  "nekoJapanese" : "ラジオ",
+  "nekoLatin" : "rajio",
+  "nekoKanji" : "",
+  "nekoKanjiHanViet" : "",
+  "nekoVietNamese" : "máy radio",
+  "nekoEnglish" : "radio",
+  "nekoSound" : "ラジオ"
+  },
+  {
+  "nekoJapanese" : "カメラ",
+  "nekoLatin" : "kamera",
+  "nekoKanji" : "",
+  "nekoKanjiHanViet" : "",
+  "nekoVietNamese" : "máy ảnh",
+  "nekoEnglish" : "camera",
+  "nekoSound" : "カメラ"
+  },
+  {
+  "nekoJapanese" : "コンピューター",
+  "nekoLatin" : "konpyuta",
+  "nekoKanji" : "",
+  "nekoKanjiHanViet" : "",
+  "nekoVietNamese" : "máy vi tính",
+  "nekoEnglish" : "computer",
+  "nekoSound" : "コンピューター"
+  },
+  {
+  "nekoJapanese" : "じどうしゃ",
+  "nekoLatin" : "jidousha",
+  "nekoKanji" : "自動車",
+  "nekoKanjiHanViet" : "Tự Động Xa",
+  "nekoVietNamese" : "ô tô, xe hơi",
+  "nekoEnglish" : "automobile, car",
+  "nekoSound" : "自動車"
+  },
+  {
+  "nekoJapanese" : "つくえ",
+  "nekoLatin" : "tsukue",
+  "nekoKanji" : "机",
+  "nekoKanjiHanViet" : "Cơ",
+  "nekoVietNamese" : "cái bàn",
+  "nekoEnglish" : "desk",
+  "nekoSound" : "机"
+  },
+  {
+  "nekoJapanese" : "いす",
+  "nekoLatin" : "isu",
+  "nekoKanji" : "",
+  "nekoKanjiHanViet" : "",
+  "nekoVietNamese" : "cái ghế",
+  "nekoEnglish" : "chair",
+  "nekoSound" : "いす"
+  },
+  {
+  "nekoJapanese" : "チョコレート",
+  "nekoLatin" : "chokoreto",
+  "nekoKanji" : "",
+  "nekoKanjiHanViet" : "",
+  "nekoVietNamese" : "sô-cô-la",
+  "nekoEnglish" : "chocolate",
+  "nekoSound" : "チョコレート"
+  },
+  {
+  "nekoJapanese" : "コーヒー",
+  "nekoLatin" : "kohi",
+  "nekoKanji" : "",
+  "nekoKanjiHanViet" : "",
+  "nekoVietNamese" : "cà phê",
+  "nekoEnglish" : "coffee",
+  "nekoSound" : "コーヒー"
+  },
+  {
+  "nekoJapanese" : "えいご",
+  "nekoLatin" : "eigo",
+  "nekoKanji" : "英語",
+  "nekoKanjiHanViet" : "Anh Ngữ",
+  "nekoVietNamese" : "Tiếng Anh",
+  "nekoEnglish" : "the English language",
+  "nekoSound" : "英語"
+  },
+  {
+  "nekoJapanese" : "にほんご",
+  "nekoLatin" : "nihongo",
+  "nekoKanji" : "日本語",
+  "nekoKanjiHanViet" : "Nhật Bản Ngữ",
+  "nekoVietNamese" : "Tiếng Nhật",
+  "nekoEnglish" : "the Japanese language",
+  "nekoSound" : "日本語"
+  },
+  {
+  "nekoJapanese" : "～ご",
+  "nekoLatin" : "go",
+  "nekoKanji" : "語",
+  "nekoKanjiHanViet" : "Ngữ",
+  "nekoVietNamese" : "Tiếng~",
+  "nekoEnglish" : "～language",
+  "nekoSound" : "語"
+  },
+  {
+  "nekoJapanese" : "なん",
+  "nekoLatin" : "nan",
+  "nekoKanji" : "何",
+  "nekoKanjiHanViet" : "Hà",
+  "nekoVietNamese" : "Cái gì",
+  "nekoEnglish" : "what",
+  "nekoSound" : "なん"
+  },
+  {
+  "nekoJapanese" : "そう",
+  "nekoLatin" : "sou",
+  "nekoKanji" : "",
+  "nekoKanjiHanViet" : "",
+  "nekoVietNamese" : "Đúng vậy",
+  "nekoEnglish" : "so",
+  "nekoSound" : ""
+  },
+  {
+  "nekoJapanese" : "ちがいます",
+  "nekoLatin" : "chigaimasu",
+  "nekoKanji" : "違います",
+  "nekoKanjiHanViet" : "Vi",
+  "nekoVietNamese" : "Nhầm rồi",
+  "nekoEnglish" : "No, it isn't./ You are wrong.",
+  "nekoSound" : ""
+  },
+  {
+  "nekoJapanese" : "そうですか",
+  "nekoLatin" : "soudesuka",
+  "nekoKanji" : "",
+  "nekoKanjiHanViet" : "",
+  "nekoVietNamese" : "Thế à?",
+  "nekoEnglish" : "I see./ Is that so?",
+  "nekoSound" : ""
+  },
+  {
+  "nekoJapanese" : "ほんのきもちです",
+  "nekoLatin" : "honno kimochidesu",
+  "nekoKanji" : "ほんの気持ちです",
+  "nekoKanjiHanViet" : "Khí Trì",
+  "nekoVietNamese" : "Đây là chút lòng thành của tôi",
+  "nekoEnglish" : "It's nothing./ It's a token of my gratitude.",
+  "nekoSound" : ""
+  },
+  {
+  "nekoJapanese" : "どうぞ",
+  "nekoLatin" : "douzo",
+  "nekoKanji" : "",
+  "nekoKanjiHanViet" : "",
+  "nekoVietNamese" : "Xin mời",
+  "nekoEnglish" : "Please./ Here you are. (used when offering someone something)",
+  "nekoSound" : ""
+  },
+  {
+  "nekoJapanese" : "どうも",
+  "nekoLatin" : "doumo",
+  "nekoKanji" : "",
+  "nekoKanjiHanViet" : "",
+  "nekoVietNamese" : "Cảm ơn",
+  "nekoEnglish" : "Well, thanks.",
+  "nekoSound" : ""
+  },
+  {
+  "nekoJapanese" : "どうも ありがとう ございます",
+  "nekoLatin" : "doumo arigatou gozaimasu",
+  "nekoKanji" : "",
+  "nekoKanjiHanViet" : "",
+  "nekoVietNamese" : "Cảm ơn rất nhiều",
+  "nekoEnglish" : "Thank you very much.",
+  "nekoSound" : ""
+  },
+  {
+  "nekoJapanese" : "これからおせわになります",
+  "nekoLatin" : "korekara osewani narimasu",
+  "nekoKanji" : "これからお世話になります",
+  "nekoKanjiHanViet" : "Thế Thoại",
+  "nekoVietNamese" : "Từ đây về sau mong được anh/chị giúp đỡ",
+  "nekoEnglish" : "I hope for your kind assistance hereafter",
+  "nekoSound" : ""
+  },
+  {
+  "nekoJapanese" : "こちらこそよおろしく",
+  "nekoLatin" : "kochirakoso onegaishimasu",
+  "nekoKanji" : "",
+  "nekoKanjiHanViet" : "",
+  "nekoVietNamese" : "Chính tôi mới mong được anh/chị giúp đỡ",
+  "nekoEnglish" : "I am pleased to meet you. (response to どうぞ よおろしく)",
+  "nekoSound" : ""
+  }
+  ]
