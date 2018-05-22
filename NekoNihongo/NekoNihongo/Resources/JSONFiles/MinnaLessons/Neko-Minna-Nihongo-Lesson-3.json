@@ -1,0 +1,398 @@
+ [
+  {
+  "nekoJapanese" : "ここ",
+  "nekoLatin" : "koko",
+  "nekoKanji" : "",
+  "nekoKanjiHanViet" : "",
+  "nekoVietNamese" : "chỗ này, đây",
+  "nekoEnglish" : "here, this place",
+  "nekoSound" : "ここ"
+  },
+  {
+  "nekoJapanese" : "そこ",
+  "nekoLatin" : "soko",
+  "nekoKanji" : "",
+  "nekoKanjiHanViet" : "",
+  "nekoVietNamese" : "chỗ đó, đó",
+  "nekoEnglish" : "there, that place near you",
+  "nekoSound" : "そこ"
+  },
+  {
+  "nekoJapanese" : "あそこ",
+  "nekoLatin" : "asoko",
+  "nekoKanji" : "",
+  "nekoKanjiHanViet" : "",
+  "nekoVietNamese" : "chỗ kia, kia",
+  "nekoEnglish" : "that place over there",
+  "nekoSound" : "あそこ"
+  },
+  {
+  "nekoJapanese" : "どこ",
+  "nekoLatin" : "doko",
+  "nekoKanji" : "",
+  "nekoKanjiHanViet" : "",
+  "nekoVietNamese" : "chỗ nào, đâu",
+  "nekoEnglish" : "where, what place",
+  "nekoSound" : "どこ"
+  },
+  {
+  "nekoJapanese" : "こちら",
+  "nekoLatin" : "kochira",
+  "nekoKanji" : "",
+  "nekoKanjiHanViet" : "",
+  "nekoVietNamese" : "phía này, đằng này, chỗ này, đây (cách nói lịch sự của ここ)",
+  "nekoEnglish" : "this way, this place (polite equivalent of ここ)",
+  "nekoSound" : ""
+  },
+  {
+  "nekoJapanese" : "そちら",
+  "nekoLatin" : "sochira",
+  "nekoKanji" : "",
+  "nekoKanjiHanViet" : "",
+  "nekoVietNamese" : "phía đó, đằng đó, chỗ đó, đó (cách nói lịch sự của そこ)",
+  "nekoEnglish" : "that place, that place near you (polite equivalent of そこ)",
+  "nekoSound" : ""
+  },
+  {
+  "nekoJapanese" : "あちら",
+  "nekoLatin" : "achira",
+  "nekoKanji" : "",
+  "nekoKanjiHanViet" : "",
+  "nekoVietNamese" : "phía kia, đằng kia, chỗ kia, kia (cách nói lịch sự của あそこ)",
+  "nekoEnglish" : "that way, that way over there (polite equivalent of あそこ)",
+  "nekoSound" : ""
+  },
+  {
+  "nekoJapanese" : "どちら",
+  "nekoLatin" : "dochira",
+  "nekoKanji" : "",
+  "nekoKanjiHanViet" : "",
+  "nekoVietNamese" : "phía nào, đằng nào, chỗ nào, đâu (cách nói lịch sự của どこ)",
+  "nekoEnglish" : "which way, where (polite equivalent of どこ)",
+  "nekoSound" : ""
+  },
+  {
+  "nekoJapanese" : "きょうしつ",
+  "nekoLatin" : "kyoshitsu",
+  "nekoKanji" : "教室",
+  "nekoKanjiHanViet" : "Giáo Thất",
+  "nekoVietNamese" : "lớp học, phòng học",
+  "nekoEnglish" : "classroom",
+  "nekoSound" : "教室"
+  },
+  {
+  "nekoJapanese" : "しょくどう",
+  "nekoLatin" : "shokudou",
+  "nekoKanji" : "食堂",
+  "nekoKanjiHanViet" : "Thực Đường",
+  "nekoVietNamese" : "nhà ăn, căn tin",
+  "nekoEnglish" : "dining hall, canteen",
+  "nekoSound" : "食堂"
+  },
+  {
+  "nekoJapanese" : "じむしょ",
+  "nekoLatin" : "jimusho",
+  "nekoKanji" : "事務所",
+  "nekoKanjiHanViet" : "Sự Vụ Sở",
+  "nekoVietNamese" : "văn phòng",
+  "nekoEnglish" : "office",
+  "nekoSound" : "事務所"
+  },
+  {
+  "nekoJapanese" : "かいぎしつ",
+  "nekoLatin" : "kaigishitsu",
+  "nekoKanji" : "会議室",
+  "nekoKanjiHanViet" : "Hội Nghị Thất",
+  "nekoVietNamese" : "phòng họp",
+  "nekoEnglish" : "conference room, assemply room",
+  "nekoSound" : "会議室"
+  },
+  {
+  "nekoJapanese" : "うけつけ",
+  "nekoLatin" : "uketsuke",
+  "nekoKanji" : "受付",
+  "nekoKanjiHanViet" : "Thụ Phó",
+  "nekoVietNamese" : "bộ phận tiếp tân, phòng thường trực",
+  "nekoEnglish" : "reception desk",
+  "nekoSound" : "受付"
+  },
+  {
+  "nekoJapanese" : "ロビー",
+  "nekoLatin" : "robi",
+  "nekoKanji" : "",
+  "nekoKanjiHanViet" : "",
+  "nekoVietNamese" : "hành lang, đại sảnh",
+  "nekoEnglish" : "lobby",
+  "nekoSound" : "ロビー"
+  },
+  {
+  "nekoJapanese" : "トイレ",
+  "nekoLatin" : "toire",
+  "nekoKanji" : "",
+  "nekoKanjiHanViet" : "",
+  "nekoVietNamese" : "nhà vệ sinh, phòng vệ sinh",
+  "nekoEnglish" : "toilet, rest room",
+  "nekoSound" : "トイレ"
+  },
+  {
+  "nekoJapanese" : "へや",
+  "nekoLatin" : "heya",
+  "nekoKanji" : "部屋",
+  "nekoKanjiHanViet" : "Bộ Ốc",
+  "nekoVietNamese" : "căn phòng",
+  "nekoEnglish" : "room",
+  "nekoSound" : "部屋"
+  },
+  {
+  "nekoJapanese" : "かいだん",
+  "nekoLatin" : "kaidan",
+  "nekoKanji" : "階段",
+  "nekoKanjiHanViet" : "Giai Đoạn",
+  "nekoVietNamese" : "cầu thang",
+  "nekoEnglish" : "staircase",
+  "nekoSound" : "階段"
+  },
+  {
+  "nekoJapanese" : "エルペーター",
+  "nekoLatin" : "erepeta",
+  "nekoKanji" : "",
+  "nekoKanjiHanViet" : "",
+  "nekoVietNamese" : "thang máy",
+  "nekoEnglish" : "elevator, lift",
+  "nekoSound" : "エルペーター"
+  },
+  {
+  "nekoJapanese" : "エスカレーター",
+  "nekoLatin" : "esukareta",
+  "nekoKanji" : "",
+  "nekoKanjiHanViet" : "",
+  "nekoVietNamese" : "thang cuốn",
+  "nekoEnglish" : "escalator",
+  "nekoSound" : "エスカレーター"
+  },
+  {
+  "nekoJapanese" : "「お」 くに",
+  "nekoLatin" : "kuni",
+  "nekoKanji" : "「お」国",
+  "nekoKanjiHanViet" : "Quốc",
+  "nekoVietNamese" : "đất nước (của anh/chị)",
+  "nekoEnglish" : "country",
+  "nekoSound" : "お国"
+  },
+  {
+  "nekoJapanese" : "かいしゃ",
+  "nekoLatin" : "kaisha",
+  "nekoKanji" : "会社",
+  "nekoKanjiHanViet" : "Hội Xã",
+  "nekoVietNamese" : "công ty",
+  "nekoEnglish" : "company",
+  "nekoSound" : "会社"
+  },
+  {
+  "nekoJapanese" : "うち",
+  "nekoLatin" : "uchi",
+  "nekoKanji" : "家",
+  "nekoKanjiHanViet" : "Gia",
+  "nekoVietNamese" : "nhà",
+  "nekoEnglish" : "house, home",
+  "nekoSound" : "家"
+  },
+  {
+  "nekoJapanese" : "でんわ",
+  "nekoLatin" : "denwa",
+  "nekoKanji" : "電話",
+  "nekoKanjiHanViet" : "Điện Thoại",
+  "nekoVietNamese" : "máy điện thoại, điện thoại",
+  "nekoEnglish" : "telephone, telephone call",
+  "nekoSound" : "電話"
+  },
+  {
+  "nekoJapanese" : "くつ",
+  "nekoLatin" : "kutsu",
+  "nekoKanji" : "靴",
+  "nekoKanjiHanViet" : "Ngoa",
+  "nekoVietNamese" : "giầy",
+  "nekoEnglish" : "shoes",
+  "nekoSound" : "靴"
+  },
+  {
+  "nekoJapanese" : "ネクタイ",
+  "nekoLatin" : "nekutai",
+  "nekoKanji" : "",
+  "nekoKanjiHanViet" : "",
+  "nekoVietNamese" : "cà vạt",
+  "nekoEnglish" : "necktie",
+  "nekoSound" : "ネクタイ"
+  },
+  {
+  "nekoJapanese" : "ワイン",
+  "nekoLatin" : "wain",
+  "nekoKanji" : "",
+  "nekoKanjiHanViet" : "",
+  "nekoVietNamese" : "rượu vang",
+  "nekoEnglish" : "wine",
+  "nekoSound" : "ワイン"
+  },
+  {
+  "nekoJapanese" : "たばこ",
+  "nekoLatin" : "tabako",
+  "nekoKanji" : "",
+  "nekoKanjiHanViet" : "",
+  "nekoVietNamese" : "thuốc lá",
+  "nekoEnglish" : "tobacco, cigarette",
+  "nekoSound" : "たばこ"
+  },
+  {
+  "nekoJapanese" : "うりば",
+  "nekoLatin" : "uriba",
+  "nekoKanji" : "売り場",
+  "nekoKanjiHanViet" : "Mại Trường",
+  "nekoVietNamese" : "quầy bán",
+  "nekoEnglish" : "counter (in a department store)",
+  "nekoSound" : "売り場"
+  },
+  {
+  "nekoJapanese" : "ちか",
+  "nekoLatin" : "chika",
+  "nekoKanji" : "地下",
+  "nekoKanjiHanViet" : "Địa Hạ",
+  "nekoVietNamese" : "tầng hầm, dưới mặt đất",
+  "nekoEnglish" : "basement",
+  "nekoSound" : "地下"
+  },
+  {
+  "nekoJapanese" : "～かい (がい)",
+  "nekoLatin" : "kai gai",
+  "nekoKanji" : "階",
+  "nekoKanjiHanViet" : "Giai",
+  "nekoVietNamese" : "tầng thứ ～",
+  "nekoEnglish" : "-th floor",
+  "nekoSound" : "階"
+  },
+  {
+  "nekoJapanese" : "なんがい",
+  "nekoLatin" : "nangai",
+  "nekoKanji" : "何階",
+  "nekoKanjiHanViet" : "Hà Giai",
+  "nekoVietNamese" : "tầng mấy",
+  "nekoEnglish" : "what floor",
+  "nekoSound" : "何階"
+  },
+  {
+  "nekoJapanese" : "～えん",
+  "nekoLatin" : "en",
+  "nekoKanji" : "円",
+  "nekoKanjiHanViet" : "Viên",
+  "nekoVietNamese" : "～yên",
+  "nekoEnglish" : "yen",
+  "nekoSound" : "円"
+  },
+  {
+  "nekoJapanese" : "いくら",
+  "nekoLatin" : "ikura",
+  "nekoKanji" : "",
+  "nekoKanjiHanViet" : "",
+  "nekoVietNamese" : "bao nhiêu tiền",
+  "nekoEnglish" : "how much",
+  "nekoSound" : ""
+  },
+  {
+  "nekoJapanese" : "ひゃく",
+  "nekoLatin" : "hyaku",
+  "nekoKanji" : "百",
+  "nekoKanjiHanViet" : "Bách",
+  "nekoVietNamese" : "trăm",
+  "nekoEnglish" : "hundred",
+  "nekoSound" : "百"
+  },
+  {
+  "nekoJapanese" : "せん",
+  "nekoLatin" : "sen",
+  "nekoKanji" : "千",
+  "nekoKanjiHanViet" : "Thiên",
+  "nekoVietNamese" : "nghìn",
+  "nekoEnglish" : "thousand",
+  "nekoSound" : "千"
+  },
+  {
+  "nekoJapanese" : "まん",
+  "nekoLatin" : "man",
+  "nekoKanji" : "万",
+  "nekoKanjiHanViet" : "Vạn",
+  "nekoVietNamese" : "mười nghìn, vạn",
+  "nekoEnglish" : "ten thousand",
+  "nekoSound" : "万"
+  },
+  {
+  "nekoJapanese" : "すみません",
+  "nekoLatin" : "sumimasen",
+  "nekoKanji" : "",
+  "nekoKanjiHanViet" : "",
+  "nekoVietNamese" : "Xin lỗi",
+  "nekoEnglish" : "Excuse me.",
+  "nekoSound" : "すみません"
+  },
+  {
+  "nekoJapanese" : "～でございます。",
+  "nekoLatin" : "degozaimasu",
+  "nekoKanji" : "",
+  "nekoKanjiHanViet" : "",
+  "nekoVietNamese" : "cách nói lịch sự của です",
+  "nekoEnglish" : "polite equivalent of です",
+  "nekoSound" : ""
+  },
+  {
+  "nekoJapanese" : "「～を」みせてください。",
+  "nekoLatin" : "misetekudasai",
+  "nekoKanji" : "「～を」見せてください",
+  "nekoKanjiHanViet" : "Kiến",
+  "nekoVietNamese" : "cho tôi xem ～",
+  "nekoEnglish" : "Please show me ～",
+  "nekoSound" : ""
+  },
+  {
+  "nekoJapanese" : "じゃ",
+  "nekoLatin" : "ja",
+  "nekoKanji" : "",
+  "nekoKanjiHanViet" : "",
+  "nekoVietNamese" : "thế thì, vậy thì",
+  "nekoEnglish" : "well, then, in that case",
+  "nekoSound" : ""
+  },
+  {
+  "nekoJapanese" : "「～を」ください",
+  "nekoLatin" : "okudasai",
+  "nekoKanji" : "",
+  "nekoKanjiHanViet" : "",
+  "nekoVietNamese" : "cho tôi ～",
+  "nekoEnglish" : "Give me ～, please.",
+  "nekoSound" : ""
+  },
+  {
+  "nekoJapanese" : "しんおおさか",
+  "nekoLatin" : "shinosaka",
+  "nekoKanji" : "新大阪",
+  "nekoKanjiHanViet" : "Tân Đại",
+  "nekoVietNamese" : "tên một nhà ga ở Osaka",
+  "nekoEnglish" : "name of a station in Osaka",
+  "nekoSound" : ""
+  },
+  {
+  "nekoJapanese" : "イタリア",
+  "nekoLatin" : "itaria",
+  "nekoKanji" : "",
+  "nekoKanjiHanViet" : "",
+  "nekoVietNamese" : "Nước Ý",
+  "nekoEnglish" : "Italy",
+  "nekoSound" : "イタリア"
+  },
+  {
+  "nekoJapanese" : "スイス",
+  "nekoLatin" : "suisu",
+  "nekoKanji" : "",
+  "nekoKanjiHanViet" : "",
+  "nekoVietNamese" : "Nước Thụy Sĩ",
+  "nekoEnglish" : "Switzerland",
+  "nekoSound" : "スイス"
+  }
+  ]

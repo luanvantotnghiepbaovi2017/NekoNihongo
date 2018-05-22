@@ -5,29 +5,23 @@
 //  Created by Bao on 9/12/17.
 //  Copyright © 2017 ViBao. All rights reserved.
 //
-
 import UIKit
 
 class NekoCardView: UIView {
-    
     // MARK: IBOutlets
-    
     @IBOutlet weak var nekoFlashCardImageView: UIImageView!
     
     override init(frame: CGRect) {
         super.init(frame: frame)
-        
         self.setup()
-        
     }
     
     required init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
-        
         self.setup()
-        
     }
     
+    // MARK: Methods
     func setup() {
         // Shadow
         //        self.layer.shadowColor = UIColor.black.cgColor
@@ -40,6 +34,4 @@ class NekoCardView: UIView {
         //        // Corner Radius
         //        layer.cornerRadius = 10.0;
     }
-    
-    
 }

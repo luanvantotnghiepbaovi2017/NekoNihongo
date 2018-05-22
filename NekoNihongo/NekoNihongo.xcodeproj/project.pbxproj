@@ -162,6 +162,9 @@
 		3928AA381F860B760071E43B /* ヲ.svg in Resources */ = {isa = PBXBuildFile; fileRef = 3928A9F11F860B760071E43B /* ヲ.svg */; };
 		3928AA391F860B760071E43B /* ン.svg in Resources */ = {isa = PBXBuildFile; fileRef = 3928A9F21F860B760071E43B /* ン.svg */; };
 		3928AA3D1F861EAC0071E43B /* pe_katakana.svg in Resources */ = {isa = PBXBuildFile; fileRef = 3928AA3C1F861EAC0071E43B /* pe_katakana.svg */; };
+		393AD53D1FC487600094A9E7 /* Neko-Minna-Nihongo-Lesson-2.json in Resources */ = {isa = PBXBuildFile; fileRef = 393AD53A1FC487600094A9E7 /* Neko-Minna-Nihongo-Lesson-2.json */; };
+		393AD53E1FC487600094A9E7 /* Neko-Minna-Nihongo-Lesson-3.json in Resources */ = {isa = PBXBuildFile; fileRef = 393AD53B1FC487600094A9E7 /* Neko-Minna-Nihongo-Lesson-3.json */; };
+		393AD53F1FC487600094A9E7 /* Neko-Minna-Nihongo-Lesson-1.json in Resources */ = {isa = PBXBuildFile; fileRef = 393AD53C1FC487600094A9E7 /* Neko-Minna-Nihongo-Lesson-1.json */; };
 		393B3E771F67E89000062279 /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 393B3E761F67E89000062279 /* UIViewController.swift */; };
 		393B3E7D1F68345900062279 /* Direction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 393B3E791F68345900062279 /* Direction.swift */; };
 		393B3E7E1F68345900062279 /* Scheduler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 393B3E7A1F68345900062279 /* Scheduler.swift */; };
@@ -175,6 +178,8 @@
 		393B3E931F6843D700062279 /* NekoCardContentView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 393B3E921F6843D700062279 /* NekoCardContentView.xib */; };
 		393B3E961F68440F00062279 /* NekoCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 393B3E951F68440F00062279 /* NekoCardView.swift */; };
 		393B3E991F69431700062279 /* NSLayoutConstraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 393B3E981F69431700062279 /* NSLayoutConstraint.swift */; };
+		394DFF6E1FC9DD10002F6051 /* MinnaLessonDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 394DFF6D1FC9DD10002F6051 /* MinnaLessonDataProvider.swift */; };
+		394DFF711FC9E1FE002F6051 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 394DFF701FC9E1FE002F6051 /* Constant.swift */; };
 		3956BB3E1F6686E1001B715E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3956BB3D1F6686E1001B715E /* AppDelegate.swift */; };
 		3956BB431F6686E1001B715E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3956BB411F6686E1001B715E /* Main.storyboard */; };
 		3956BB461F6686E1001B715E /* NekoNihongo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3956BB441F6686E1001B715E /* NekoNihongo.xcdatamodeld */; };
@@ -379,6 +384,9 @@
 		3928A9F11F860B760071E43B /* ヲ.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "ヲ.svg"; sourceTree = "<group>"; };
 		3928A9F21F860B760071E43B /* ン.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "ン.svg"; sourceTree = "<group>"; };
 		3928AA3C1F861EAC0071E43B /* pe_katakana.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = pe_katakana.svg; sourceTree = "<group>"; };
+		393AD53A1FC487600094A9E7 /* Neko-Minna-Nihongo-Lesson-2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Neko-Minna-Nihongo-Lesson-2.json"; sourceTree = "<group>"; };
+		393AD53B1FC487600094A9E7 /* Neko-Minna-Nihongo-Lesson-3.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Neko-Minna-Nihongo-Lesson-3.json"; sourceTree = "<group>"; };
+		393AD53C1FC487600094A9E7 /* Neko-Minna-Nihongo-Lesson-1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Neko-Minna-Nihongo-Lesson-1.json"; sourceTree = "<group>"; };
 		393B3E761F67E89000062279 /* UIViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewController.swift; sourceTree = "<group>"; };
 		393B3E791F68345900062279 /* Direction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Direction.swift; sourceTree = "<group>"; };
 		393B3E7A1F68345900062279 /* Scheduler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Scheduler.swift; sourceTree = "<group>"; };
@@ -392,6 +400,8 @@
 		393B3E921F6843D700062279 /* NekoCardContentView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NekoCardContentView.xib; sourceTree = "<group>"; };
 		393B3E951F68440F00062279 /* NekoCardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NekoCardView.swift; sourceTree = "<group>"; };
 		393B3E981F69431700062279 /* NSLayoutConstraint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSLayoutConstraint.swift; sourceTree = "<group>"; };
+		394DFF6D1FC9DD10002F6051 /* MinnaLessonDataProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinnaLessonDataProvider.swift; sourceTree = "<group>"; };
+		394DFF701FC9E1FE002F6051 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
 		3956BB3A1F6686E1001B715E /* NekoNihongo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NekoNihongo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3956BB3D1F6686E1001B715E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3956BB421F6686E1001B715E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -487,6 +497,7 @@
 		390C39931F84C1CD00C2FE6D /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				392EF13D1FC0A332003481F3 /* JSONFiles */,
 				390C39941F84C1CD00C2FE6D /* KanjiSVG */,
 			);
 			path = Resources;
@@ -707,6 +718,24 @@
 			path = Special;
 			sourceTree = "<group>";
 		};
+		392EF13D1FC0A332003481F3 /* JSONFiles */ = {
+			isa = PBXGroup;
+			children = (
+				393AD5401FC5E98A0094A9E7 /* MinnaLessons */,
+			);
+			path = JSONFiles;
+			sourceTree = "<group>";
+		};
+		393AD5401FC5E98A0094A9E7 /* MinnaLessons */ = {
+			isa = PBXGroup;
+			children = (
+				393AD53C1FC487600094A9E7 /* Neko-Minna-Nihongo-Lesson-1.json */,
+				393AD53A1FC487600094A9E7 /* Neko-Minna-Nihongo-Lesson-2.json */,
+				393AD53B1FC487600094A9E7 /* Neko-Minna-Nihongo-Lesson-3.json */,
+			);
+			path = MinnaLessons;
+			sourceTree = "<group>";
+		};
 		393B3E751F67E88700062279 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
@@ -773,6 +802,22 @@
 			path = NekoXib;
 			sourceTree = "<group>";
 		};
+		394DFF6A1FC9D46B002F6051 /* DataProvider */ = {
+			isa = PBXGroup;
+			children = (
+				394DFF6D1FC9DD10002F6051 /* MinnaLessonDataProvider.swift */,
+			);
+			path = DataProvider;
+			sourceTree = "<group>";
+		};
+		394DFF6F1FC9E0EF002F6051 /* Constant */ = {
+			isa = PBXGroup;
+			children = (
+				394DFF701FC9E1FE002F6051 /* Constant.swift */,
+			);
+			path = Constant;
+			sourceTree = "<group>";
+		};
 		3956BB311F6686E1001B715E = {
 			isa = PBXGroup;
 			children = (
@@ -798,7 +843,8 @@
 		3956BB3C1F6686E1001B715E /* NekoNihongo */ = {
 			isa = PBXGroup;
 			children = (
-				3956BB3D1F6686E1001B715E /* AppDelegate.swift */,
+				394DFF6F1FC9E0EF002F6051 /* Constant */,
+				394DFF6A1FC9D46B002F6051 /* DataProvider */,
 				390C39931F84C1CD00C2FE6D /* Resources */,
 				393B3E751F67E88700062279 /* Extensions */,
 				3956BB7E1F669EE3001B715E /* Fonts */,
@@ -807,6 +853,7 @@
 				3956BB701F66874B001B715E /* Helpers */,
 				3956BB6F1F668744001B715E /* Models */,
 				3956BB6E1F66873C001B715E /* ViewControllers */,
+				3956BB3D1F6686E1001B715E /* AppDelegate.swift */,
 				3956BB411F6686E1001B715E /* Main.storyboard */,
 				3956BB471F6686E1001B715E /* Assets.xcassets */,
 				3956BB491F6686E1001B715E /* LaunchScreen.storyboard */,
@@ -917,7 +964,6 @@
 				3956BB371F6686E1001B715E /* Frameworks */,
 				3956BB381F6686E1001B715E /* Resources */,
 				B5661A05F0C79D2814102FF6 /* [CP] Embed Pods Frameworks */,
-				669DFE6AA5953BD580700D22 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -936,8 +982,6 @@
 				3956BB4D1F6686E1001B715E /* Sources */,
 				3956BB4E1F6686E1001B715E /* Frameworks */,
 				3956BB4F1F6686E1001B715E /* Resources */,
-				30B82E469ABE2881616CAA84 /* [CP] Embed Pods Frameworks */,
-				02BB6BA84BAFBD036323F261 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -957,8 +1001,6 @@
 				3956BB581F6686E1001B715E /* Sources */,
 				3956BB591F6686E1001B715E /* Frameworks */,
 				3956BB5A1F6686E1001B715E /* Resources */,
-				72D32AD6596A3B47F13878ED /* [CP] Embed Pods Frameworks */,
-				5D48E4A6309A606D84EC0A47 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -983,20 +1025,20 @@
 					3956BB391F6686E1001B715E = {
 						CreatedOnToolsVersion = 8.3.3;
 						DevelopmentTeam = 4395L5MX45;
-						LastSwiftMigration = 0930;
+						LastSwiftMigration = 0910;
 						ProvisioningStyle = Automatic;
 					};
 					3956BB501F6686E1001B715E = {
 						CreatedOnToolsVersion = 8.3.3;
 						DevelopmentTeam = 4395L5MX45;
-						LastSwiftMigration = 0930;
+						LastSwiftMigration = 0910;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 3956BB391F6686E1001B715E;
 					};
 					3956BB5B1F6686E1001B715E = {
 						CreatedOnToolsVersion = 8.3.3;
 						DevelopmentTeam = 4395L5MX45;
-						LastSwiftMigration = 0930;
+						LastSwiftMigration = 0910;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 3956BB391F6686E1001B715E;
 					};
@@ -1092,6 +1134,7 @@
 				3928A9A31F860B360071E43B /* sゃ.svg in Resources */,
 				3928AA051F860B760071E43B /* ジ.svg in Resources */,
 				3928A9811F860B2B0071E43B /* は.svg in Resources */,
+				393AD53E1FC487600094A9E7 /* Neko-Minna-Nihongo-Lesson-3.json in Resources */,
 				3928A9651F860B2B0071E43B /* げ.svg in Resources */,
 				3928A99C1F860B2B0071E43B /* ろ.svg in Resources */,
 				3928A9821F860B2B0071E43B /* ば.svg in Resources */,
@@ -1106,6 +1149,7 @@
 				3928A9941F860B2B0071E43B /* も.svg in Resources */,
 				3928A95E1F860B2B0071E43B /* か.svg in Resources */,
 				3928A9FA1F860B760071E43B /* キ.svg in Resources */,
+				393AD53D1FC487600094A9E7 /* Neko-Minna-Nihongo-Lesson-2.json in Resources */,
 				3928A99F1F860B2B0071E43B /* ん.svg in Resources */,
 				3928A9641F860B2B0071E43B /* け.svg in Resources */,
 				3928A98A1F860B2B0071E43B /* へ.svg in Resources */,
@@ -1157,6 +1201,7 @@
 				3928AA281F860B760071E43B /* ボ.svg in Resources */,
 				3928AA2E1F860B760071E43B /* モ.svg in Resources */,
 				3928A9801F860B2B0071E43B /* の.svg in Resources */,
+				393AD53F1FC487600094A9E7 /* Neko-Minna-Nihongo-Lesson-1.json in Resources */,
 				3928AA1F1F860B760071E43B /* ビ.svg in Resources */,
 				3928A98C1F860B2B0071E43B /* ぺ.svg in Resources */,
 				3928AA191F860B760071E43B /* ネ.svg in Resources */,
@@ -1208,79 +1253,22 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		02BB6BA84BAFBD036323F261 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NekoNihongoTests/Pods-NekoNihongoTests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		30B82E469ABE2881616CAA84 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NekoNihongoTests/Pods-NekoNihongoTests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		3D5C4B8E3D355E7024D2E6BB /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NekoNihongoUITests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		5D48E4A6309A606D84EC0A47 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NekoNihongoUITests/Pods-NekoNihongoUITests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		669DFE6AA5953BD580700D22 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NekoNihongo/Pods-NekoNihongo-resources.sh\"\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 		6B3430D88D9DF21405ADD209 /* [CP] Check Pods Manifest.lock */ = {
@@ -1289,28 +1277,16 @@
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NekoNihongo-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		72D32AD6596A3B47F13878ED /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NekoNihongoUITests/Pods-NekoNihongoUITests-frameworks.sh\"\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 		747F76DA96258377B44BE982 /* [CP] Check Pods Manifest.lock */ = {
@@ -1319,13 +1295,16 @@
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NekoNihongoTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 		B5661A05F0C79D2814102FF6 /* [CP] Embed Pods Frameworks */ = {
@@ -1334,9 +1313,16 @@
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-NekoNihongo/Pods-NekoNihongo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/ASExtendedCircularMenu/ASExtendedCircularMenu.framework",
+				"${BUILT_PRODUCTS_DIR}/Cartography/Cartography.framework",
+				"${BUILT_PRODUCTS_DIR}/Device/Device.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ASExtendedCircularMenu.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Cartography.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Device.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -1351,6 +1337,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3996C1011F740B43008BBAA9 /* AlphabetDetailViewController.swift in Sources */,
+				394DFF6E1FC9DD10002F6051 /* MinnaLessonDataProvider.swift in Sources */,
 				393B3E7E1F68345900062279 /* Scheduler.swift in Sources */,
 				3922FBE31F66F62E00F978AD /* AlphabetSelectionViewController.swift in Sources */,
 				3956BB761F6688D9001B715E /* MainViewController.swift in Sources */,
@@ -1368,6 +1355,7 @@
 				3956BB3E1F6686E1001B715E /* AppDelegate.swift in Sources */,
 				3922FBE71F6702BD00F978AD /* FlashCardSelectionViewController.swift in Sources */,
 				39D2A89F1F72652D00812B58 /* NekoAlphabetModel.swift in Sources */,
+				394DFF711FC9E1FE002F6051 /* Constant.swift in Sources */,
 				3973FDD51FAB1CB7008928B3 /* MinnaNoNihongoDetailViewController.swift in Sources */,
 				393B3E801F68345900062279 /* ZLSwipeableView.swift in Sources */,
 				390C3A481F84C70600C2FE6D /* AlphabetStrokeOrderDoubleCharacterViewController.swift in Sources */,
@@ -1548,12 +1536,15 @@
 			baseConfigurationReference = 89DCDB65383729CC0C89235D /* Pods-NekoNihongo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4395L5MX45;
 				INFOPLIST_FILE = NekoNihongo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = vibao.com.vn.NekoNihongo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_VERSION = 4.0;
 			};
@@ -1564,12 +1555,15 @@
 			baseConfigurationReference = AFE9336B04BA2AA168A69825 /* Pods-NekoNihongo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4395L5MX45;
 				INFOPLIST_FILE = NekoNihongo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = vibao.com.vn.NekoNihongo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_VERSION = 4.0;
 			};
