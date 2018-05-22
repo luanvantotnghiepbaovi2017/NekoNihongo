@@ -123,7 +123,6 @@ class FlashCardSwipeViewController: UIViewController, AVSpeechSynthesizerDelegat
         case .screen4Inch:      self.updateLayoutConstraintsControlView()
         case .screen4_7Inch:  print("It's a 4.7 inch screen")
         case .screen5_5Inch:  print("It's a 5.5 inch screen")
-        case .screen5_8Inch: print("It's a 5.8 inch screen")
         case .screen7_9Inch:  print("It's a 7.9 inch screen")
         case .screen9_7Inch:  print("It's a 9.7 inch screen")
         case .screen12_9Inch: print("It's a 12.9 inch screen")
