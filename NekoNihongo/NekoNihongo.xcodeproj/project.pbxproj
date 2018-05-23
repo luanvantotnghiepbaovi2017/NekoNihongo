@@ -232,7 +232,7 @@
 		390C3A471F84C70600C2FE6D /* AlphabetStrokeOrderDoubleCharacterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlphabetStrokeOrderDoubleCharacterViewController.swift; sourceTree = "<group>"; };
 		3922FBE21F66F62E00F978AD /* AlphabetSelectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AlphabetSelectionViewController.swift; path = NekoNihongo/ViewControllers/AlphabetSelectionViewController.swift; sourceTree = SOURCE_ROOT; };
 		3922FBE41F6702A300F978AD /* MinnaNoNihongoSelectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MinnaNoNihongoSelectionViewController.swift; path = NekoNihongo/ViewControllers/MinnaNoNihongoSelectionViewController.swift; sourceTree = SOURCE_ROOT; };
-		3922FBE61F6702BD00F978AD /* FlashCardSelectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FlashCardSelectionViewController.swift; path = NekoNihongo/ViewControllers/FlashCardSelectionViewController.swift; sourceTree = SOURCE_ROOT; };
+		3922FBE61F6702BD00F978AD /* FlashCardSelectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FlashCardSelectionViewController.swift; path = NekoNihongo/ViewControllers/FlashCard/FlashCardSelectionViewController.swift; sourceTree = SOURCE_ROOT; };
 		3922FBE91F67043800F978AD /* MinnaNoNihongoSelectionCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MinnaNoNihongoSelectionCollectionViewCell.swift; sourceTree = "<group>"; };
 		3922FBEB1F67044A00F978AD /* FlashCardSelectionCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlashCardSelectionCollectionViewCell.swift; sourceTree = "<group>"; };
 		39276CE81F7A1D6B002D492A /* AlphabetOptionCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlphabetOptionCollectionViewCell.swift; sourceTree = "<group>"; };
@@ -396,7 +396,7 @@
 		393B3E851F6835F000062279 /* BalsamiqSansBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = BalsamiqSansBoldItalic.ttf; sourceTree = "<group>"; };
 		393B3E861F6835F000062279 /* BalsamiqSansItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = BalsamiqSansItalic.ttf; sourceTree = "<group>"; };
 		393B3E871F6835F000062279 /* BalsamiqSansRegular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = BalsamiqSansRegular.ttf; sourceTree = "<group>"; };
-		393B3E8C1F6838D400062279 /* FlashCardSwipeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FlashCardSwipeViewController.swift; path = NekoNihongo/ViewControllers/FlashCardSwipeViewController.swift; sourceTree = SOURCE_ROOT; };
+		393B3E8C1F6838D400062279 /* FlashCardSwipeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FlashCardSwipeViewController.swift; path = NekoNihongo/ViewControllers/FlashCard/FlashCardSwipeViewController.swift; sourceTree = SOURCE_ROOT; };
 		393B3E921F6843D700062279 /* NekoCardContentView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NekoCardContentView.xib; sourceTree = "<group>"; };
 		393B3E951F68440F00062279 /* NekoCardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NekoCardView.swift; sourceTree = "<group>"; };
 		393B3E981F69431700062279 /* NSLayoutConstraint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSLayoutConstraint.swift; sourceTree = "<group>"; };
@@ -756,15 +756,6 @@
 			path = ZLSwipeableViewSwift;
 			sourceTree = "<group>";
 		};
-		393B3E8E1F683A7600062279 /* FlashCard */ = {
-			isa = PBXGroup;
-			children = (
-				3922FBE61F6702BD00F978AD /* FlashCardSelectionViewController.swift */,
-				393B3E8C1F6838D400062279 /* FlashCardSwipeViewController.swift */,
-			);
-			path = FlashCard;
-			sourceTree = "<group>";
-		};
 		393B3E8F1F683A8800062279 /* MinnaNoNihongo */ = {
 			isa = PBXGroup;
 			children = (
@@ -888,7 +879,7 @@
 				393B3E941F6843ED00062279 /* NekoXib */,
 				393B3E901F683A9500062279 /* Alphabet */,
 				393B3E8F1F683A8800062279 /* MinnaNoNihongo */,
-				393B3E8E1F683A7600062279 /* FlashCard */,
+				A72FD74C20B56781004C7E08 /* FlashCard */,
 				3956BB751F6688D9001B715E /* MainViewController.swift */,
 				39A7F46F1FB0CB1E00D3F0F9 /* NekoAboutUsViewController.swift */,
 			);
@@ -950,6 +941,15 @@
 				393B3E871F6835F000062279 /* BalsamiqSansRegular.ttf */,
 			);
 			path = Fonts;
+			sourceTree = "<group>";
+		};
+		A72FD74C20B56781004C7E08 /* FlashCard */ = {
+			isa = PBXGroup;
+			children = (
+				3922FBE61F6702BD00F978AD /* FlashCardSelectionViewController.swift */,
+				393B3E8C1F6838D400062279 /* FlashCardSwipeViewController.swift */,
+			);
+			path = FlashCard;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
