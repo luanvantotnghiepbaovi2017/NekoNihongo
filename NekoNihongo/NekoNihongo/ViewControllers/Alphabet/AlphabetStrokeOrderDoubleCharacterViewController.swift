@@ -8,9 +8,16 @@
 import UIKit
 
 class AlphabetStrokeOrderDoubleCharacterViewController: UIViewController {
+    
     // MARK: IBOutlets
     @IBOutlet weak var webView01: UIWebView!
     @IBOutlet weak var webView02: UIWebView!
+    
+    // MARK: IBActions
+    @IBAction func reloadWebView(_ sender: Any) {
+        self.webView02.loadHTMLString("", baseURL: nil)
+        self.reloadWebView()
+    }
     
     // MARK: Properties
     var svgImage01: String!
@@ -18,10 +25,7 @@ class AlphabetStrokeOrderDoubleCharacterViewController: UIViewController {
     var timeDelay = 4.2
     var titleString: String!
     
-//    deinit {
-//        print("deinit")
-//    }
-    
+    // MARK: Methods
     override func viewDidLoad() {
         super.viewDidLoad()
         self.webView01.isOpaque = false
@@ -33,6 +37,10 @@ class AlphabetStrokeOrderDoubleCharacterViewController: UIViewController {
         }
     }
     
+    deinit {
+        print("deinit")
+    }
+    
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
         if let touch = touches.first {
             if touch.view?.tag != 100 {
@@ -41,13 +49,6 @@ class AlphabetStrokeOrderDoubleCharacterViewController: UIViewController {
         }
     }
     
-    // MARK: IBActions
-    @IBAction func reloadWebView(_ sender: Any) {
-        self.webView02.loadHTMLString("", baseURL: nil)
-        self.reloadWebView()
-    }
-    
-    // MARK: Methods
     func setUpDelayTime(completion: @escaping () -> ()) {
         if self.titleString == "Hiragana" {
             if self.svgImage01 == "ぎ" {

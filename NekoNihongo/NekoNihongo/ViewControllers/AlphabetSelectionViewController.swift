@@ -8,16 +8,14 @@
 import UIKit
 
 class AlphabetSelectionViewController: UIViewController {
+    
     // MARK: IBOutlets
     @IBOutlet weak var hiraganaOptionImageView: UIImageView!
     @IBOutlet weak var katakanaOptionImageView: UIImageView!
     
-    // MARL: Properties
+    // MARK: Properties
     
-//    deinit {
-//        print("deinit")
-//    }
-    
+    // MARK: Methods
     override func viewDidLoad() {
         super.viewDidLoad()
         let nekoHiraganaTapGesture = UITapGestureRecognizer(target: self, action: #selector(pushToHiraganaAlphabetView))
@@ -26,7 +24,10 @@ class AlphabetSelectionViewController: UIViewController {
         self.katakanaOptionImageView.addGestureRecognizer(nekoKatakanaTapGesture)
     }
     
-    // MARK: Methods
+    deinit {
+        print("deinit")
+    }
+    
     @objc func pushToHiraganaAlphabetView() {
         let AlphabetNekoViewController = Constant.mainStoryBoard.instantiateViewController(withIdentifier: "AlphabetNekoViewController") as! AlphabetNekoViewController
         AlphabetNekoViewController.titleAlphabet = "Hiragana"

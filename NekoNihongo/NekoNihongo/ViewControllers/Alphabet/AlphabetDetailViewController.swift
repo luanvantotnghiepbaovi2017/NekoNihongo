@@ -9,6 +9,7 @@ import UIKit
 import AVFoundation
 
 class AlphabetDetailViewController: UIViewController {
+    
     // MARK: IBOutlets
     @IBOutlet weak var containerView: UIView!
     @IBOutlet weak var alphabetLabel: UILabel!
@@ -16,35 +17,6 @@ class AlphabetDetailViewController: UIViewController {
     @IBOutlet weak var alphabetOptionCollectionView: UICollectionView!
     @IBOutlet weak var alphabetOptionContainerHeightConstraint: NSLayoutConstraint!
     @IBOutlet weak var speakerButton: UIButton!
-    // MARK: Properties
-    struct StoryBoard {
-        static let alphabetOptionCellIdentifier = "AlphabetOptionCellIdentifier"
-        static let leftAndRightPaddings: CGFloat = 10.0
-        static let numberOfItemsPerRow: CGFloat = 5.0
-    }
-    var isJapaneseCharacter = true
-    var alphabetFlipArray = [NekoAlphabetModel]()
-    var alphabetItemDetail: NekoAlphabetModel!
-    var titleAlphabet = ""
-    var utterance:AVSpeechUtterance!
-    var readSound = AVSpeechSynthesizer()
-    
-    deinit {
-        print("deinit")
-    }
-    
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        self.title = titleAlphabet
-        self.alphabetLabel.text = self.alphabetItemDetail.nekoJapaneseCharacter
-        let tapGesture01 = UITapGestureRecognizer(target: self, action: #selector(self.flipNekoCardAlphabet))
-        let tapGesture02 = UITapGestureRecognizer(target: self, action: #selector(self.flipNekoCardAlphabet))
-        self.alphabetLabel.addGestureRecognizer(tapGesture01)
-        self.alphabetImageView.addGestureRecognizer(tapGesture02)
-        self.initView()
-        self.initSpeaker()
-        self.readSound.delegate = self
-    }
     
     // MARK: IBActions
     @IBAction func speakerButton(_ sender: Any) {
@@ -70,7 +42,37 @@ class AlphabetDetailViewController: UIViewController {
         }
     }
     
+    // MARK: Properties
+    struct StoryBoard {
+        static let alphabetOptionCellIdentifier = "AlphabetOptionCellIdentifier"
+        static let leftAndRightPaddings: CGFloat = 10.0
+        static let numberOfItemsPerRow: CGFloat = 5.0
+    }
+    var isJapaneseCharacter = true
+    var alphabetFlipArray = [NekoAlphabetModel]()
+    var alphabetItemDetail: NekoAlphabetModel!
+    var titleAlphabet = ""
+    var utterance:AVSpeechUtterance!
+    var readSound = AVSpeechSynthesizer()
+    
     // MARK: Methods
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        self.title = titleAlphabet
+        self.alphabetLabel.text = self.alphabetItemDetail.nekoJapaneseCharacter
+        let tapGesture01 = UITapGestureRecognizer(target: self, action: #selector(self.flipNekoCardAlphabet))
+        let tapGesture02 = UITapGestureRecognizer(target: self, action: #selector(self.flipNekoCardAlphabet))
+        self.alphabetLabel.addGestureRecognizer(tapGesture01)
+        self.alphabetImageView.addGestureRecognizer(tapGesture02)
+        self.initView()
+        self.initSpeaker()
+        self.readSound.delegate = self
+    }
+    
+    deinit {
+        print("deinit")
+    }
+    
     func initView() {
         let bounds = UIScreen.main.bounds.width
         let width = (bounds - ((StoryBoard.numberOfItemsPerRow + 1) * StoryBoard.leftAndRightPaddings)) / StoryBoard.numberOfItemsPerRow
@@ -105,6 +107,7 @@ class AlphabetDetailViewController: UIViewController {
     }
 }
 
+// MARK: Extension - UICollectionViewDataSource
 extension AlphabetDetailViewController: UICollectionViewDataSource {
     func numberOfSections(in collectionView: UICollectionView) -> Int {
         return 1
@@ -140,6 +143,7 @@ extension AlphabetDetailViewController: UICollectionViewDataSource {
 //
 //}
 
+// MARK: Extension - AlphabetOptionDelegate
 extension AlphabetDetailViewController: AlphabetOptionDelegate {
     func selectAlphabetOption(cell: AlphabetOptionCollectionViewCell) {
         guard let indexPath = self.alphabetOptionCollectionView.indexPath(for: cell) else {
@@ -156,6 +160,7 @@ extension AlphabetDetailViewController: AlphabetOptionDelegate {
     }
 }
 
+// MARK: Extension - AVSpeechSynthesizerDelegate
 extension AlphabetDetailViewController: AVSpeechSynthesizerDelegate {
     func speechSynthesizer(_ synthesizer: AVSpeechSynthesizer, didFinish utterance: AVSpeechUtterance) {
         self.speakerButton.isUserInteractionEnabled = true

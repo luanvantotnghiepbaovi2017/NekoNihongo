@@ -11,6 +11,7 @@ import Device
 import AVFoundation
 
 class FlashCardSwipeViewController: UIViewController, AVSpeechSynthesizerDelegate {
+    
     // MARK: IBOutlets
     var flashCardView: ZLSwipeableView!
     @IBOutlet weak var cardContainerView: UIView!
@@ -18,6 +19,38 @@ class FlashCardSwipeViewController: UIViewController, AVSpeechSynthesizerDelegat
     @IBOutlet weak var speakerButton: UIButton!
     @IBOutlet weak var loveButton: UIButton!
     @IBOutlet weak var controlWidthConstraint: NSLayoutConstraint!
+    
+    // MARK: IBActions
+    @IBAction func reloadCardButton(_ sender: Any) {
+        self.nekoCardIndex = 0
+        self.flashCardView.discardViews()
+        self.flashCardView.loadViews()
+        self.flashCardView.history.removeAll()
+        self.initOriginalNekoCard()
+        self.initSpeaker()
+        self.setImageLoveButton(isLoved: self.isLovedNekoFlashCard(cardIndex: self.flashCardView.history.count))
+    }
+    
+    @IBAction func nextCardButton(_ sender: Any) {
+        self.swipeNekoCardProgrammatically()
+    }
+    
+    @IBAction func speakerButton(_ sender: Any) {
+        self.readSound.speak(utterance)
+        self.speakerButton.isUserInteractionEnabled = false
+    }
+    
+    @IBAction func loveButton(_ sender: Any) {
+        let nekoHistoryItem = self.flashCardView.history.count
+        if self.isLovedNekoFlashCard(cardIndex: nekoHistoryItem) {
+            self.removeLoveNekoFLashCard(cardIndex: nekoHistoryItem)
+            self.setImageLoveButton(isLoved: false)
+        } else {
+            self.saveLoveNekoFlashCard(cardIndex: nekoHistoryItem)
+            self.setImageLoveButton(isLoved: true)
+        }
+    }
+    
     // MARK: Properties
     var nekoCardArray = [NekoModel]()
     var nekoCardIndex = 0
@@ -27,6 +60,7 @@ class FlashCardSwipeViewController: UIViewController, AVSpeechSynthesizerDelegat
     var utterance:AVSpeechUtterance!
     var readSound = AVSpeechSynthesizer()
     
+    // MARK: Methods
     override func viewDidLayoutSubviews() {
         super.viewDidLayoutSubviews()
         self.flashCardView.nextView = {
@@ -60,38 +94,7 @@ class FlashCardSwipeViewController: UIViewController, AVSpeechSynthesizerDelegat
         }
     }
     
-    // MARK: IBActions
-    @IBAction func reloadCardButton(_ sender: Any) {
-        self.nekoCardIndex = 0
-        self.flashCardView.discardViews()
-        self.flashCardView.loadViews()
-        self.flashCardView.history.removeAll()
-        self.initOriginalNekoCard()
-        self.initSpeaker()
-        self.setImageLoveButton(isLoved: self.isLovedNekoFlashCard(cardIndex: self.flashCardView.history.count))
-    }
     
-    @IBAction func nextCardButton(_ sender: Any) {
-        self.swipeNekoCardProgrammatically()
-    }
-    
-    @IBAction func speakerButton(_ sender: Any) {
-        self.readSound.speak(utterance)
-        self.speakerButton.isUserInteractionEnabled = false
-    }
-    
-    @IBAction func loveButton(_ sender: Any) {
-        let nekoHistoryItem = self.flashCardView.history.count
-        if self.isLovedNekoFlashCard(cardIndex: nekoHistoryItem) {
-            self.removeLoveNekoFLashCard(cardIndex: nekoHistoryItem)
-            self.setImageLoveButton(isLoved: false)
-        } else {
-            self.saveLoveNekoFlashCard(cardIndex: nekoHistoryItem)
-            self.setImageLoveButton(isLoved: true)
-        }
-    }
-    
-    // MARK: Methods
     func isLovedNekoFlashCard(cardIndex: Int) -> Bool {
         return UserDefaults.standard.object(forKey: "FlashCard-\(self.numberFlashcardLesson)-\(cardIndex)") != nil
     }

@@ -13,8 +13,10 @@ struct CellPadding {
 }
 
 class MinnaNoNihongoDetailViewController: UIViewController {
+    
     // MARK: IBOutlets
     @IBOutlet weak var minnaNihongoLessonTableView: UITableView!
+    
     // MARK: Properties
     struct StoryBoard {
         static let minnaNihongoDetailCellIdentifier = "MinnaNihongoDetailCellIdentifier"
@@ -23,13 +25,17 @@ class MinnaNoNihongoDetailViewController: UIViewController {
     var numberOfMinnaNihongoLesson = 0
     var minnaNihongoLessonArray = [NekoModel]()
     
+    // MARK: Methods
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         self.title = "Lesson \(self.numberOfMinnaNihongoLesson)"
         self.initMinnaNihongoLesson()
     }
     
-    // MARK: Methods
+    deinit {
+        print("deinit")
+    }
+    
     func initMinnaNihongoLesson() {
         MinnaLessonDataProvider.shared.getMinnaLessonByOrderNumber(orderNumber: self.numberOfMinnaNihongoLesson) { [weak self] minnaLessons, error in
             if let error = error {

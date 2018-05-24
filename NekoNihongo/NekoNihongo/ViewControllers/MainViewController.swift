@@ -9,10 +9,21 @@ import UIKit
 import ASExtendedCircularMenu
 
 class MainViewController: UIViewController {
+    
     // MARK: IBOutlets
     @IBOutlet weak var nekoTableView: UITableView!
     @IBOutlet weak var nekoMenuButton: ASCircularMenuButton!
     @IBOutlet weak var blurMenuUIView: UIView!
+    
+    // MARK: IBActions
+    @IBAction func showBlurMenuButton(_ sender: Any) {
+        if self.blurMenuUIView.tag == 100 {
+            self.showBlurMenuView()
+        } else {
+            self.hideBlurMenuView()
+        }
+    }
+    
     // MARK: Properties
     struct StoryBoard {
         static let nekoCellIdentifier = "NekoCellIdentifier"
@@ -20,6 +31,7 @@ class MainViewController: UIViewController {
     
     var nekosArray = [NekoModel]()
 
+    // MARK: Methods
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         UIApplication.shared.isStatusBarHidden = false
@@ -38,16 +50,6 @@ class MainViewController: UIViewController {
         self.hideBlurMenuView()
     }
     
-    // MARK: IBActions
-    @IBAction func showBlurMenuButton(_ sender: Any) {
-        if self.blurMenuUIView.tag == 100 {
-            self.showBlurMenuView()
-        } else {
-            self.hideBlurMenuView()
-        }
-    }
-    
-    // MARK: Methods
     func initNekoData() {
         let nekoAlphabet = NekoModel(nekoJapanese: "Alphabet", nekoLatin: "nekoAlphabet", nekoKanji: "", nekoKanjiHanViet: "", nekoVietNamese: "", nekoEnglish: "", nekoSound: "")
         let nekoMinnaNihongo = NekoModel(nekoJapanese: "Minna no Nihongo Lesson 1 ~ 50", nekoLatin: "nekoMinnaNihongo", nekoKanji: "", nekoKanjiHanViet: "", nekoVietNamese: "", nekoEnglish: "", nekoSound: "")
@@ -84,6 +86,7 @@ class MainViewController: UIViewController {
     }
 }
 
+// MARK: Extension - UITableViewDataSource
 extension MainViewController: UITableViewDataSource {
     func numberOfSections(in tableView: UITableView) -> Int {
         return 1
@@ -102,6 +105,7 @@ extension MainViewController: UITableViewDataSource {
     }
 }
 
+// MARK: Extension - UITableViewDelegate
 extension MainViewController: UITableViewDelegate {
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         return 80
@@ -129,6 +133,7 @@ extension MainViewController: UITableViewDelegate {
     }
 }
 
+// MARK: Extension - ASCircularButtonDelegate
 extension MainViewController: ASCircularButtonDelegate {
     func buttonForIndexAt(_ menuButton: ASCircularMenuButton, indexForButton: Int) -> UIButton {
         let button: UIButton = UIButton()

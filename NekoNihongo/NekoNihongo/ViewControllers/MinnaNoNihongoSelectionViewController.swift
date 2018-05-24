@@ -8,8 +8,10 @@
 import UIKit
 
 class MinnaNoNihongoSelectionViewController: UIViewController {
+    
     // MARK: IBOutlets
     @IBOutlet weak var minnaNoNihongoSelectionCollectionView: UICollectionView!
+    
     // MARK: Properties
     private var numberOfMinnaLessons = 0
     private struct StoryBoard {
@@ -17,16 +19,18 @@ class MinnaNoNihongoSelectionViewController: UIViewController {
         static let leftAndRightPaddings: CGFloat = 10.0
         static let numberOfItemsPerRow: CGFloat = 4.0
     }
-//    deinit {
-//        print("deinit")
-//    }
+    
+    // MARK: Methods
     override func viewDidLoad() {
         super.viewDidLoad()
         self.initView()
         self.initMinnaLessonsData()
     }
     
-    // MARK: Methods
+    deinit {
+        print("deinit")
+    }
+    
     func initView() {
         let bounds = UIScreen.main.bounds.width
         let width = (bounds - ((StoryBoard.numberOfItemsPerRow + 1) * StoryBoard.leftAndRightPaddings)) / StoryBoard.numberOfItemsPerRow

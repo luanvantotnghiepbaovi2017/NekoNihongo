@@ -8,8 +8,10 @@
 import UIKit
 
 class FlashCardSelectionViewController: UIViewController {
+    
     // MARK: IBOutlets
     @IBOutlet weak var flashCardSelectionCollectionView: UICollectionView!
+    
     // MARK: Properties
     private var numberOfMinnaLessons = 0
     private struct StoryBoard {
@@ -18,17 +20,17 @@ class FlashCardSelectionViewController: UIViewController {
         static let numberOfItemsPerRow: CGFloat = 4.0
     }
     
-    deinit {
-        print("deinit")
-    }
-    
+    // MARK: Methods
     override func viewDidLoad() {
         super.viewDidLoad()
         self.initView()
         self.initFlashcardsData()
     }
     
-    // MARK: Methods
+    deinit {
+        print("deinit")
+    }
+    
     func initView() {
         let bounds = UIScreen.main.bounds.width
         let width = (bounds - ((StoryBoard.numberOfItemsPerRow + 1) * StoryBoard.leftAndRightPaddings)) / StoryBoard.numberOfItemsPerRow

@@ -12,6 +12,7 @@ class AlphabetNekoViewController: UIViewController {
     
     // MARK: IBOutlets
     @IBOutlet weak var alphabetSelectionCollectionView: UICollectionView!
+    
     // MARK: Properties
     struct StoryBoard {
         static let alphabetSelectionCellIdentifier = "AlphabetSelectionCellIdentifier"
@@ -23,10 +24,7 @@ class AlphabetNekoViewController: UIViewController {
     var alphabetArray = [[NekoAlphabetModel]]()
     let alphabetHeaderArray = [ "Basic letters", "Dakuon", "Yōon" ]
     
-//    deinit {
-//        print("deinit")
-//    }
-    
+    // MARK: Methods
     override func viewDidLoad() {
         super.viewDidLoad()
         self.title = titleAlphabet
@@ -38,7 +36,10 @@ class AlphabetNekoViewController: UIViewController {
         }
     }
     
-    // MARK: Methods
+    deinit {
+        print("deinit")
+    }
+    
     func initDataHiragana() {
         let higaranaCharacter = [
             NekoAlphabetModel(nekoJapaneseCharacter: "あ", nekoLatinCharacter: "a"),
@@ -389,6 +390,7 @@ class AlphabetNekoViewController: UIViewController {
     }
 }
 
+// MARK: Extension - UICollectionViewDataSource
 extension AlphabetNekoViewController: UICollectionViewDataSource {
     func numberOfSections(in collectionView: UICollectionView) -> Int {
         return 3
@@ -408,6 +410,7 @@ extension AlphabetNekoViewController: UICollectionViewDataSource {
     }
 }
 
+// MARK: Extension - UICollectionViewDelegate
 extension AlphabetNekoViewController: UICollectionViewDelegate {
     func collectionView(_ collectionView: UICollectionView, viewForSupplementaryElementOfKind kind: String, at indexPath: IndexPath) -> UICollectionReusableView {
         let headerView = collectionView.dequeueReusableSupplementaryView(ofKind: kind, withReuseIdentifier: StoryBoard.alphabetCollectionReusableCellIdentifier, for: indexPath) as! AlphabetCollectionReusableView
@@ -417,6 +420,7 @@ extension AlphabetNekoViewController: UICollectionViewDelegate {
     }
 }
 
+// MARK: Extension - AlphabetSelectionDelegate
 extension AlphabetNekoViewController: AlphabetSelectionDelegate {
     func pushToAlphabetDetailView(cell: AlphabetSelectionCollectionViewCell) {
         let AlphabetDetailViewController = Constant.mainStoryBoard.instantiateViewController(withIdentifier: "AlphabetDetailViewController") as! AlphabetDetailViewController
@@ -431,7 +435,7 @@ extension AlphabetNekoViewController: AlphabetSelectionDelegate {
             for alphabetIndex in start...(start + 4) {
                 let alphabetItem = self.alphabetArray[indexPath.section][alphabetIndex]
                 if alphabetItem.nekoJapaneseCharacter != "" && alphabetItem.nekoLatinCharacter != "" {
-                     AlphabetDetailViewController.alphabetFlipArray.append(alphabetItem)
+                    AlphabetDetailViewController.alphabetFlipArray.append(alphabetItem)
                 }
             }
             self.navigationController?.pushViewController(AlphabetDetailViewController, animated: true)
