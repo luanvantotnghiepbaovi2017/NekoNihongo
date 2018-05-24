@@ -837,14 +837,9 @@
 		3956BB3C1F6686E1001B715E /* NekoNihongo */ = {
 			isa = PBXGroup;
 			children = (
-				394DFF6F1FC9E0EF002F6051 /* Constant */,
+				A746FE6020B69B52000A95A5 /* Shared */,
 				394DFF6A1FC9D46B002F6051 /* DataProvider */,
-				390C39931F84C1CD00C2FE6D /* Resources */,
-				393B3E751F67E88700062279 /* Extensions */,
-				3956BB7E1F669EE3001B715E /* Fonts */,
-				3956BB721F668761001B715E /* Libraries */,
 				3956BB711F668755001B715E /* Views */,
-				3956BB701F66874B001B715E /* Helpers */,
 				3956BB6F1F668744001B715E /* Models */,
 				3956BB6E1F66873C001B715E /* ViewControllers */,
 				3956BB3D1F6686E1001B715E /* AppDelegate.swift */,
@@ -953,6 +948,19 @@
 				393B3E8C1F6838D400062279 /* FlashCardSwipeViewController.swift */,
 			);
 			path = FlashCard;
+			sourceTree = "<group>";
+		};
+		A746FE6020B69B52000A95A5 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				394DFF6F1FC9E0EF002F6051 /* Constant */,
+				3956BB701F66874B001B715E /* Helpers */,
+				3956BB721F668761001B715E /* Libraries */,
+				3956BB7E1F669EE3001B715E /* Fonts */,
+				393B3E751F67E88700062279 /* Extensions */,
+				390C39931F84C1CD00C2FE6D /* Resources */,
+			);
+			path = Shared;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
