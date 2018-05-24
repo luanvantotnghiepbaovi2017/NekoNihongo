@@ -21,14 +21,17 @@ class FlashCardSwipeViewController: UIViewController, AVSpeechSynthesizerDelegat
     @IBOutlet weak var controlWidthConstraint: NSLayoutConstraint!
     
     // MARK: IBActions
+    @IBAction func reloadCardButton(_ sender: Any) {
+        self.nekoCardIndex = 0
+        self.flashCardView.discardViews()
+        self.flashCardView.loadViews()
+        self.flashCardView.history.removeAll()
+        self.initOriginalNekoCard()
+        self.initSpeaker()
+        self.setImageLoveButton(isLoved: self.isLovedNekoFlashCard(cardIndex: self.flashCardView.history.count))
+    }
+    
     @IBAction func previousCardButton(_ sender: Any) {
-//        self.nekoCardIndex = 0
-//        self.flashCardView.discardViews()
-//        self.flashCardView.loadViews()
-//        self.flashCardView.history.removeAll()
-//        self.initOriginalNekoCard()
-//        self.initSpeaker()
-//        self.setImageLoveButton(isLoved: self.isLovedNekoFlashCard(cardIndex: self.flashCardView.history.count))
         self.rewindFlashCard()
     }
     
@@ -94,7 +97,6 @@ class FlashCardSwipeViewController: UIViewController, AVSpeechSynthesizerDelegat
             }
         }
     }
-    
     
     func isLovedNekoFlashCard(cardIndex: Int) -> Bool {
         return UserDefaults.standard.object(forKey: "FlashCard-\(self.numberFlashcardLesson)-\(cardIndex)") != nil
@@ -172,11 +174,8 @@ class FlashCardSwipeViewController: UIViewController, AVSpeechSynthesizerDelegat
     
     func initSpeaker() {
         self.stringSound = self.nekoCardArray[0].nekoSound
-        
         self.utterance = AVSpeechUtterance(string: "\(stringSound)")
-        
         self.utterance.voice = AVSpeechSynthesisVoice(language: "ja-JP")
-        
     }
     
     func setUpCurrentSpeaker(index: Int) {
@@ -192,35 +191,36 @@ class FlashCardSwipeViewController: UIViewController, AVSpeechSynthesizerDelegat
         self.view.addSubview(self.flashCardView)
         self.flashCardView.numberOfHistoryItem = UInt.max
         self.flashCardView.allowedDirection = Direction.All
-        self.flashCardView.didStart = {view, location in
-            //print("Did start swiping view at location: \(location)")
-        }
-        self.flashCardView.swiping = {view, location, translation in
-            //print("Swiping at view location: \(location) translation: \(translation)")
-        }
-        self.flashCardView.didEnd = {view, location in
-            //print("Did end swiping view at location: \(location)")
-        }
-        self.flashCardView.didSwipe = {view, direction, vector in
+//        self.flashCardView.didStart = {view, location in
+//            //print("Did start swiping view at location: \(location)")
+//        }
+//        self.flashCardView.swiping = {view, location, translation in
+//            //print("Swiping at view location: \(location) translation: \(translation)")
+//        }
+//        self.flashCardView.didEnd = {view, location in
+//            //print("Did end swiping view at location: \(location)")
+//        }
+        self.flashCardView.didSwipe = { [weak self] view, direction, vector in
+            guard let strongSelf = self else { return }
             //print("Did swipe view in direction: \(direction), vector: \(vector)")
-            let historyCardItem = self.flashCardView.history.count
-            if historyCardItem == self.nekoCardItem {
-                self.flashCardView.history.removeAll()
+            let historyCardItem = strongSelf.flashCardView.history.count
+            if historyCardItem == strongSelf.nekoCardItem {
+                strongSelf.flashCardView.history.removeAll()
             }
-            let flashHistoryItem = self.flashCardView.history.count
-            self.setUpCurrentSpeaker(index: flashHistoryItem)
-            self.originalOfNekoCardLabel.text = "\(flashHistoryItem + 1)/\(self.nekoCardItem)"
-            self.setImageLoveButton(isLoved: self.isLovedNekoFlashCard(cardIndex: flashHistoryItem))
+            let flashHistoryItem = strongSelf.flashCardView.history.count
+            strongSelf.setUpCurrentSpeaker(index: flashHistoryItem)
+            strongSelf.originalOfNekoCardLabel.text = "\(flashHistoryItem + 1)/\(strongSelf.nekoCardItem)"
+            strongSelf.setImageLoveButton(isLoved: strongSelf.isLovedNekoFlashCard(cardIndex: flashHistoryItem))
         }
-        self.flashCardView.didCancel = {view in
-            //print("Did cancel swiping view")
-        }
-        self.flashCardView.didTap = {view, location in
-            //print("Did tap at location \(location)")
-        }
-        self.flashCardView.didDisappear = { view in
-            //print("Did disappear swiping view")
-        }
+//        self.flashCardView.didCancel = {view in
+//            //print("Did cancel swiping view")
+//        }
+//        self.flashCardView.didTap = {view, location in
+//            //print("Did tap at location \(location)")
+//        }
+//        self.flashCardView.didDisappear = { view in
+//            //print("Did disappear swiping view")
+//        }
         constrain(self.flashCardView, cardContainerView) { view1, view2 in
             view1.left == view2.left
             view1.right == view2.right
@@ -262,7 +262,7 @@ class FlashCardSwipeViewController: UIViewController, AVSpeechSynthesizerDelegat
         }
         return cardView
     }
-
+    
     func speechSynthesizer(_ synthesizer: AVSpeechSynthesizer, didFinish utterance: AVSpeechUtterance) {
         self.speakerButton.isUserInteractionEnabled = true
     }

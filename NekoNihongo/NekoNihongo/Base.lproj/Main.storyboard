@@ -299,15 +299,13 @@
                                         <rect key="frame" x="32" y="76.5" width="311" height="454.5"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     </view>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4sa-Ia-1uX">
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4sa-Ia-1uX">
                                         <rect key="frame" x="8" y="8.5" width="44" height="44"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="44" id="OXY-yP-xVa"/>
-                                            <constraint firstAttribute="width" constant="44" id="orM-Ve-nsW"/>
-                                        </constraints>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <state key="normal" image="reload"/>
                                         <connections>
                                             <action selector="previousCardButton:" destination="G22-Xj-M3S" eventType="touchUpInside" id="SlG-cS-113"/>
+                                            <action selector="reloadCardButton:" destination="G22-Xj-M3S" eventType="touchUpInside" id="TFQ-TD-aHY"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -321,7 +319,6 @@
                                     <constraint firstItem="K0q-tV-3pg" firstAttribute="height" secondItem="Uoi-rW-Lxa" secondAttribute="height" id="G8M-Oz-VZ9"/>
                                     <constraint firstAttribute="bottom" secondItem="f5n-6s-2Rx" secondAttribute="bottom" id="N0R-Ew-NB7"/>
                                     <constraint firstAttribute="trailing" secondItem="Uoi-rW-Lxa" secondAttribute="trailing" constant="8" id="P95-P2-0Y3"/>
-                                    <constraint firstItem="K0q-tV-3pg" firstAttribute="top" secondItem="4sa-Ia-1uX" secondAttribute="top" id="Tey-Tl-Q6f"/>
                                     <constraint firstAttribute="trailing" secondItem="TXu-Qs-Fh6" secondAttribute="trailing" constant="32" id="Thn-aW-QEU"/>
                                     <constraint firstItem="Uoi-rW-Lxa" firstAttribute="top" secondItem="jyk-Q5-38d" secondAttribute="top" constant="8" id="aXM-aS-TuL"/>
                                     <constraint firstItem="Uj2-OI-fov" firstAttribute="width" secondItem="Ulp-vW-HVF" secondAttribute="width" id="bNS-TN-Z5g"/>
@@ -329,7 +326,6 @@
                                     <constraint firstItem="Uoi-rW-Lxa" firstAttribute="leading" secondItem="K0q-tV-3pg" secondAttribute="trailing" id="eKY-x8-Sj8"/>
                                     <constraint firstItem="f5n-6s-2Rx" firstAttribute="top" secondItem="TXu-Qs-Fh6" secondAttribute="bottom" constant="8" id="g4P-DS-b7Y"/>
                                     <constraint firstItem="Uj2-OI-fov" firstAttribute="leading" secondItem="jyk-Q5-38d" secondAttribute="leading" constant="93.5" id="iFJ-2U-LvV"/>
-                                    <constraint firstItem="4sa-Ia-1uX" firstAttribute="leading" secondItem="jyk-Q5-38d" secondAttribute="leading" constant="8" id="jB7-lS-Ixw"/>
                                     <constraint firstItem="Uj2-OI-fov" firstAttribute="height" secondItem="Ulp-vW-HVF" secondAttribute="height" id="rwd-2n-uIB"/>
                                     <constraint firstItem="TXu-Qs-Fh6" firstAttribute="leading" secondItem="jyk-Q5-38d" secondAttribute="leading" constant="32" id="sdc-mp-OWp"/>
                                     <constraint firstAttribute="trailing" secondItem="f5n-6s-2Rx" secondAttribute="trailing" id="xJB-1f-ZOv"/>
