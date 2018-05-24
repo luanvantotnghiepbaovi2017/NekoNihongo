@@ -22,13 +22,14 @@ class FlashCardSwipeViewController: UIViewController, AVSpeechSynthesizerDelegat
     
     // MARK: IBActions
     @IBAction func reloadCardButton(_ sender: Any) {
-        self.nekoCardIndex = 0
-        self.flashCardView.discardViews()
-        self.flashCardView.loadViews()
-        self.flashCardView.history.removeAll()
-        self.initOriginalNekoCard()
-        self.initSpeaker()
-        self.setImageLoveButton(isLoved: self.isLovedNekoFlashCard(cardIndex: self.flashCardView.history.count))
+//        self.nekoCardIndex = 0
+//        self.flashCardView.discardViews()
+//        self.flashCardView.loadViews()
+//        self.flashCardView.history.removeAll()
+//        self.initOriginalNekoCard()
+//        self.initSpeaker()
+//        self.setImageLoveButton(isLoved: self.isLovedNekoFlashCard(cardIndex: self.flashCardView.history.count))
+        rewindFlashCard()
     }
     
     @IBAction func nextCardButton(_ sender: Any) {
@@ -151,6 +152,15 @@ class FlashCardSwipeViewController: UIViewController, AVSpeechSynthesizerDelegat
             break
         default:
             break
+        }
+    }
+    
+    func rewindFlashCard() {
+        let flashHistoryItem = self.flashCardView.history.count
+        if flashHistoryItem > 0 {
+            self.nekoCardIndex = self.nekoCardIndex - 1
+            self.originalOfNekoCardLabel.text = "\(flashHistoryItem)/\(self.nekoCardItem)"
+            self.flashCardView.rewind()
         }
     }
     
