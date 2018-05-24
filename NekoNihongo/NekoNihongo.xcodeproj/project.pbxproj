@@ -180,6 +180,7 @@
 		393B3E991F69431700062279 /* NSLayoutConstraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 393B3E981F69431700062279 /* NSLayoutConstraint.swift */; };
 		394DFF6E1FC9DD10002F6051 /* MinnaLessonDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 394DFF6D1FC9DD10002F6051 /* MinnaLessonDataProvider.swift */; };
 		394DFF711FC9E1FE002F6051 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 394DFF701FC9E1FE002F6051 /* Constant.swift */; };
+		394EE0C120B62AC2003A9A5B /* UILabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 394EE0C020B62AC2003A9A5B /* UILabel.swift */; };
 		3956BB3E1F6686E1001B715E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3956BB3D1F6686E1001B715E /* AppDelegate.swift */; };
 		3956BB431F6686E1001B715E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3956BB411F6686E1001B715E /* Main.storyboard */; };
 		3956BB461F6686E1001B715E /* NekoNihongo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3956BB441F6686E1001B715E /* NekoNihongo.xcdatamodeld */; };
@@ -402,6 +403,7 @@
 		393B3E981F69431700062279 /* NSLayoutConstraint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSLayoutConstraint.swift; sourceTree = "<group>"; };
 		394DFF6D1FC9DD10002F6051 /* MinnaLessonDataProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinnaLessonDataProvider.swift; sourceTree = "<group>"; };
 		394DFF701FC9E1FE002F6051 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		394EE0C020B62AC2003A9A5B /* UILabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UILabel.swift; sourceTree = "<group>"; };
 		3956BB3A1F6686E1001B715E /* NekoNihongo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NekoNihongo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3956BB3D1F6686E1001B715E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3956BB421F6686E1001B715E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -741,6 +743,7 @@
 			children = (
 				393B3E761F67E89000062279 /* UIViewController.swift */,
 				393B3E981F69431700062279 /* NSLayoutConstraint.swift */,
+				394EE0C020B62AC2003A9A5B /* UILabel.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -1361,6 +1364,7 @@
 				390C3A481F84C70600C2FE6D /* AlphabetStrokeOrderDoubleCharacterViewController.swift in Sources */,
 				3973FDD71FAB247C008928B3 /* MinnaNihongoDetailTableViewCell.swift in Sources */,
 				3922FBEC1F67044A00F978AD /* FlashCardSelectionCollectionViewCell.swift in Sources */,
+				394EE0C120B62AC2003A9A5B /* UILabel.swift in Sources */,
 				393B3E991F69431700062279 /* NSLayoutConstraint.swift in Sources */,
 				39276CE91F7A1D6B002D492A /* AlphabetOptionCollectionViewCell.swift in Sources */,
 				393B3E8D1F6838D400062279 /* FlashCardSwipeViewController.swift in Sources */,

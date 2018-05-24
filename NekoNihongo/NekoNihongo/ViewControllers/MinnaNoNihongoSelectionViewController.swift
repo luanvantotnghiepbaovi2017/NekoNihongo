@@ -46,6 +46,7 @@ class MinnaNoNihongoSelectionViewController: UIViewController {
     }
 }
 
+// MARK: Extension - UICollectionViewDataSource
 extension MinnaNoNihongoSelectionViewController: UICollectionViewDataSource {
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         return numberOfMinnaLessons
@@ -58,6 +59,7 @@ extension MinnaNoNihongoSelectionViewController: UICollectionViewDataSource {
     }
 }
 
+// MARK: Extension - MinnaNoNihongoSelectionCollectionViewCellDelegate
 extension MinnaNoNihongoSelectionViewController: MinnaNoNihongoSelectionCollectionViewCellDelegate {
     func selectMinnaNihongoLesson(cell: MinnaNoNihongoSelectionCollectionViewCell) {
         let MinnaNoNihongoDetailViewController = Constant.mainStoryBoard.instantiateViewController(withIdentifier: "MinnaNoNihongoDetailViewController") as! MinnaNoNihongoDetailViewController

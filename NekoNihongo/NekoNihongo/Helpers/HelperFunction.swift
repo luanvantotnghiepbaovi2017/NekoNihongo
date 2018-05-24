@@ -8,7 +8,7 @@
 import UIKit
 
 class HelperFunction {
-    static func attributeTextOnLabel(mainString: String, childString: [String], color: [UIColor], font: [UIFont], label: UILabel) {
+    class func attributeTextOnLabel(mainString: String, childString: [String], color: [UIColor], font: [UIFont], label: UILabel) {
         let attribute = NSMutableAttributedString.init(string: mainString)
         for index in 0...childString.count - 1 {
             let color = color[index]
@@ -26,7 +26,7 @@ class HelperFunction {
         attribute.addAttribute(NSAttributedStringKey.paragraphStyle, value: paragraphStyle, range: NSMakeRange(0, attribute.length))
         label.attributedText = attribute
     }
-    static func getCountOfFileInFolderWithPrefix(fileNamePrefix: String, completion: (Int?, Error?) -> Void) {
+    class func getCountOfFileInFolderWithPrefix(fileNamePrefix: String, completion: (Int?, Error?) -> Void) {
 //        guard let bundleFileUrls = Bundle.main.urls(forResourcesWithExtension: extensionType, subdirectory: nil) else { return -1 }
         if let resourcePath = Bundle.main.resourcePath {
             do {
@@ -36,5 +36,12 @@ class HelperFunction {
                 completion(nil, error)
             }
         }
+    }
+    class func height(`for` text: String, `with` font: UIFont, width: CGFloat) -> CGFloat
+    {
+        let nsstring = NSString(string: text)
+        let textAttributes = [NSAttributedStringKey.font : font]
+        let boundingRect = nsstring.boundingRect(with: CGSize(width: width, height: .greatestFiniteMagnitude), options: [.usesLineFragmentOrigin], attributes: textAttributes, context: nil)
+        return ceil(boundingRect.height)
     }
 }
