@@ -21,7 +21,7 @@ class FlashCardSwipeViewController: UIViewController, AVSpeechSynthesizerDelegat
     @IBOutlet weak var controlWidthConstraint: NSLayoutConstraint!
     
     // MARK: IBActions
-    @IBAction func reloadCardButton(_ sender: Any) {
+    @IBAction func previousCardButton(_ sender: Any) {
 //        self.nekoCardIndex = 0
 //        self.flashCardView.discardViews()
 //        self.flashCardView.loadViews()
@@ -29,7 +29,7 @@ class FlashCardSwipeViewController: UIViewController, AVSpeechSynthesizerDelegat
 //        self.initOriginalNekoCard()
 //        self.initSpeaker()
 //        self.setImageLoveButton(isLoved: self.isLovedNekoFlashCard(cardIndex: self.flashCardView.history.count))
-        rewindFlashCard()
+        self.rewindFlashCard()
     }
     
     @IBAction func nextCardButton(_ sender: Any) {
@@ -161,6 +161,8 @@ class FlashCardSwipeViewController: UIViewController, AVSpeechSynthesizerDelegat
             self.nekoCardIndex = self.nekoCardIndex - 1
             self.originalOfNekoCardLabel.text = "\(flashHistoryItem)/\(self.nekoCardItem)"
             self.flashCardView.rewind()
+            self.setUpCurrentSpeaker(index: flashHistoryItem - 1)
+            self.setImageLoveButton(isLoved: self.isLovedNekoFlashCard(cardIndex: flashHistoryItem - 1))
         }
     }
     
@@ -175,6 +177,12 @@ class FlashCardSwipeViewController: UIViewController, AVSpeechSynthesizerDelegat
         
         self.utterance.voice = AVSpeechSynthesisVoice(language: "ja-JP")
         
+    }
+    
+    func setUpCurrentSpeaker(index: Int) {
+        self.stringSound = self.nekoCardArray[index].nekoSound
+        self.utterance = AVSpeechUtterance(string: "\(self.stringSound)")
+        self.utterance.voice = AVSpeechSynthesisVoice(language: "ja-JP")
     }
     
     func initView() {
@@ -200,9 +208,7 @@ class FlashCardSwipeViewController: UIViewController, AVSpeechSynthesizerDelegat
                 self.flashCardView.history.removeAll()
             }
             let flashHistoryItem = self.flashCardView.history.count
-            self.stringSound = self.nekoCardArray[flashHistoryItem].nekoSound
-            self.utterance = AVSpeechUtterance(string: "\(self.stringSound)")
-            self.utterance.voice = AVSpeechSynthesisVoice(language: "ja-JP")
+            self.setUpCurrentSpeaker(index: flashHistoryItem)
             self.originalOfNekoCardLabel.text = "\(flashHistoryItem + 1)/\(self.nekoCardItem)"
             self.setImageLoveButton(isLoved: self.isLovedNekoFlashCard(cardIndex: flashHistoryItem))
         }
