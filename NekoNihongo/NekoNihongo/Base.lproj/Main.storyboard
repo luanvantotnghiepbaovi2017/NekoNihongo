@@ -254,7 +254,7 @@
                                                             <constraint firstAttribute="width" constant="44" id="bYd-JI-Tgs"/>
                                                             <constraint firstAttribute="height" constant="44" id="qOl-9T-RCN"/>
                                                         </constraints>
-                                                        <state key="normal" image="reload"/>
+                                                        <state key="normal" image="left"/>
                                                         <connections>
                                                             <action selector="previousCardButton:" destination="G22-Xj-M3S" eventType="touchUpInside" id="W8Y-He-mps"/>
                                                         </connections>
@@ -1138,6 +1138,7 @@
         <image name="close" width="15" height="15"/>
         <image name="cross" width="604" height="604"/>
         <image name="edit" width="25" height="25"/>
+        <image name="left" width="35" height="35"/>
         <image name="love" width="25" height="25"/>
         <image name="nekoAboutUs" width="750" height="1334"/>
         <image name="nekoHiraganaIcon" width="300" height="300"/>
