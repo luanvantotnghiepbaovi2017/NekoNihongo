@@ -27,6 +27,11 @@ class FlashCardSelectionViewController: UIViewController {
         self.initFlashcardsData()
     }
     
+    override func didReceiveMemoryWarning() {
+        super.didReceiveMemoryWarning()
+        print("didReceiveMemoryWarning - FlashCardSelectionViewController")
+    }
+    
     deinit {
         print("deinit")
     }

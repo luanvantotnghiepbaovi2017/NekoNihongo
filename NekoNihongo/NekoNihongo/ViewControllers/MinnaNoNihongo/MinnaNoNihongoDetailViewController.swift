@@ -32,6 +32,11 @@ class MinnaNoNihongoDetailViewController: UIViewController {
         self.initMinnaNihongoLesson()
     }
     
+    override func didReceiveMemoryWarning() {
+        super.didReceiveMemoryWarning()
+        print("didReceiveMemoryWarning - MinnaNoNihongoDetailViewController")
+    }
+    
     deinit {
         print("deinit")
     }
@@ -45,10 +50,10 @@ class MinnaNoNihongoDetailViewController: UIViewController {
                 let numberTitleWidth: CGFloat = 30
                 let width = UIScreen.main.bounds.size.width - CellPadding.padding8 - numberTitleWidth - CellPadding.padding12 - CellPadding.padding8
                 for minnaLesson in minnaLessons {
-                    let heightOfLabel01: CGFloat = HelperFunction.height(for: minnaLesson.nekoJapanese, with: Constant.font20B, width: width)
-                    let heightOfLabel02: CGFloat = HelperFunction.height(for: minnaLesson.nekoKanji + " - " + minnaLesson.nekoKanjiHanViet, with: Constant.font20B, width: width)
-                    let heightOfLabel03: CGFloat = HelperFunction.height(for: minnaLesson.nekoEnglish, with: Constant.font20B, width: width)
-                    let heightOfLabel04: CGFloat = HelperFunction.height(for: minnaLesson.nekoVietNamese, with: Constant.font20B, width: width)
+                    let heightOfLabel01: CGFloat = HelperFunction.height(for: minnaLesson.nekoJapanese, with: Constant.font20R, width: width)
+                    let heightOfLabel02: CGFloat = HelperFunction.height(for: minnaLesson.nekoKanji + " - " + minnaLesson.nekoKanjiHanViet, with: Constant.font20R, width: width)
+                    let heightOfLabel03: CGFloat = HelperFunction.height(for: minnaLesson.nekoEnglish, with: Constant.font20R, width: width)
+                    let heightOfLabel04: CGFloat = HelperFunction.height(for: minnaLesson.nekoVietNamese, with: Constant.font20R, width: width)
                     minnaLesson.nekoTotalHeight = CellPadding.padding8 + heightOfLabel01 + CellPadding.padding12 + heightOfLabel02 + CellPadding.padding12 + heightOfLabel03 + CellPadding.padding12 + heightOfLabel04 + CellPadding.padding12
                 }
                 self?.minnaNihongoLessonArray = minnaLessons

@@ -198,6 +198,7 @@
 		3973FDD71FAB247C008928B3 /* MinnaNihongoDetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3973FDD61FAB247C008928B3 /* MinnaNihongoDetailTableViewCell.swift */; };
 		3973FDDB1FAB2DB0008928B3 /* HelperFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3973FDDA1FAB2DB0008928B3 /* HelperFunction.swift */; };
 		3984779C1F83D4CF007561C3 /* AlphabetStrokeOrderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3984779B1F83D4CF007561C3 /* AlphabetStrokeOrderViewController.swift */; };
+		3988C16A20BA82070097330D /* UserFavouriteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3988C16920BA82070097330D /* UserFavouriteViewController.swift */; };
 		3996C1011F740B43008BBAA9 /* AlphabetDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3996C1001F740B43008BBAA9 /* AlphabetDetailViewController.swift */; };
 		39A7F4701FB0CB1E00D3F0F9 /* NekoAboutUsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39A7F46F1FB0CB1E00D3F0F9 /* NekoAboutUsViewController.swift */; };
 		39D2A89B1F70ED1300812B58 /* AlphabetNekoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39D2A89A1F70ED1300812B58 /* AlphabetNekoViewController.swift */; };
@@ -426,6 +427,7 @@
 		3973FDDA1FAB2DB0008928B3 /* HelperFunction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelperFunction.swift; sourceTree = "<group>"; };
 		3984779B1F83D4CF007561C3 /* AlphabetStrokeOrderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlphabetStrokeOrderViewController.swift; sourceTree = "<group>"; };
 		398477AE1F83E140007561C3 /* SVGKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SVGKit.framework; path = "../../../../../Users/bao/Library/Developer/Xcode/DerivedData/NekoNihongo-emsfzcsqtifyezeefcuwffbmmxvf/Build/Products/Debug-iphonesimulator/SVGKit/SVGKit.framework"; sourceTree = "<group>"; };
+		3988C16920BA82070097330D /* UserFavouriteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserFavouriteViewController.swift; sourceTree = "<group>"; };
 		3996C1001F740B43008BBAA9 /* AlphabetDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlphabetDetailViewController.swift; sourceTree = "<group>"; };
 		39A7F46F1FB0CB1E00D3F0F9 /* NekoAboutUsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NekoAboutUsViewController.swift; sourceTree = "<group>"; };
 		39D2A89A1F70ED1300812B58 /* AlphabetNekoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlphabetNekoViewController.swift; sourceTree = "<group>"; };
@@ -874,12 +876,13 @@
 		3956BB6E1F66873C001B715E /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				3988C16C20BA82330097330D /* Main */,
 				393B3E941F6843ED00062279 /* NekoXib */,
 				393B3E901F683A9500062279 /* Alphabet */,
 				393B3E8F1F683A8800062279 /* MinnaNoNihongo */,
 				A72FD74C20B56781004C7E08 /* FlashCard */,
-				3956BB751F6688D9001B715E /* MainViewController.swift */,
-				39A7F46F1FB0CB1E00D3F0F9 /* NekoAboutUsViewController.swift */,
+				3988C16820BA81CF0097330D /* UserFavourite */,
+				3988C16B20BA82210097330D /* AboutUs */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -939,6 +942,30 @@
 				393B3E871F6835F000062279 /* BalsamiqSansRegular.ttf */,
 			);
 			path = Fonts;
+			sourceTree = "<group>";
+		};
+		3988C16820BA81CF0097330D /* UserFavourite */ = {
+			isa = PBXGroup;
+			children = (
+				3988C16920BA82070097330D /* UserFavouriteViewController.swift */,
+			);
+			path = UserFavourite;
+			sourceTree = "<group>";
+		};
+		3988C16B20BA82210097330D /* AboutUs */ = {
+			isa = PBXGroup;
+			children = (
+				39A7F46F1FB0CB1E00D3F0F9 /* NekoAboutUsViewController.swift */,
+			);
+			path = AboutUs;
+			sourceTree = "<group>";
+		};
+		3988C16C20BA82330097330D /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				3956BB751F6688D9001B715E /* MainViewController.swift */,
+			);
+			path = Main;
 			sourceTree = "<group>";
 		};
 		A72FD74C20B56781004C7E08 /* FlashCard */ = {
@@ -1356,6 +1383,7 @@
 				393B3E771F67E89000062279 /* UIViewController.swift in Sources */,
 				393B3E961F68440F00062279 /* NekoCardView.swift in Sources */,
 				39D2A89D1F71002E00812B58 /* AlphabetSelectionCollectionViewCell.swift in Sources */,
+				3988C16A20BA82070097330D /* UserFavouriteViewController.swift in Sources */,
 				3973FDDB1FAB2DB0008928B3 /* HelperFunction.swift in Sources */,
 				3922FBE51F6702A300F978AD /* MinnaNoNihongoSelectionViewController.swift in Sources */,
 				39D2A8AF1F73BD0300812B58 /* AlphabetCollectionReusableView.swift in Sources */,

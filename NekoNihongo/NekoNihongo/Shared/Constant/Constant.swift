@@ -15,6 +15,7 @@ struct Constant {
     static let minnaLessonFileType = "json"
     // MARK: Fonts
     static let font20B = UIFont(name: "BalsamiqSansBold", size: 20) ?? UIFont.systemFont(ofSize: 20)
+    static let font20R = UIFont(name: "BalsamiqSansRegular", size: 20) ?? UIFont.systemFont(ofSize: 20)
     static let font16R = UIFont(name: "VNF-ComicSans", size: 16) ?? UIFont.systemFont(ofSize: 16)
     // MARK: Colors
     static let color19B = UIColor(red: 69.0/255.0, green: 134.0/255.0, blue: 255.0/255.0, alpha: 1.0)

@@ -37,6 +37,11 @@ class AlphabetStrokeOrderViewController: UIViewController, UIWebViewDelegate {
         }
     }
     
+    override func didReceiveMemoryWarning() {
+        super.didReceiveMemoryWarning()
+        print("didReceiveMemoryWarning - AlphabetStrokeOrderViewController")
+    }
+    
     deinit {
         print("deinit")
     }

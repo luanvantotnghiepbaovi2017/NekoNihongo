@@ -36,6 +36,11 @@ class AlphabetNekoViewController: UIViewController {
         }
     }
     
+    override func didReceiveMemoryWarning() {
+        super.didReceiveMemoryWarning()
+        print("didReceiveMemoryWarning - AlphabetNekoViewController")
+    }
+    
     deinit {
         print("deinit")
     }

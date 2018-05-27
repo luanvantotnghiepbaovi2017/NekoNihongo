@@ -77,10 +77,6 @@ class FlashCardSwipeViewController: UIViewController, AVSpeechSynthesizerDelegat
         self.detectDeviceScreenSize()
     }
     
-    deinit {
-        print("deinit")
-    }
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         self.title = "Lesson \(self.numberFlashcardLesson)"
@@ -96,6 +92,15 @@ class FlashCardSwipeViewController: UIViewController, AVSpeechSynthesizerDelegat
                 self.readSound.delegate = self
             }
         }
+    }
+    
+    override func didReceiveMemoryWarning() {
+        super.didReceiveMemoryWarning()
+        print("didReceiveMemoryWarning - FlashCardSelectionViewController")
+    }
+    
+    deinit {
+        print("deinit")
     }
     
     func isLovedNekoFlashCard(cardIndex: Int) -> Bool {

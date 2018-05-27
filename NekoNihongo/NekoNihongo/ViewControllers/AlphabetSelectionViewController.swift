@@ -24,6 +24,11 @@ class AlphabetSelectionViewController: UIViewController {
         self.katakanaOptionImageView.addGestureRecognizer(nekoKatakanaTapGesture)
     }
     
+    override func didReceiveMemoryWarning() {
+        super.didReceiveMemoryWarning()
+        print("didReceiveMemoryWarning - AlphabetSelectionViewController")
+    }
+    
     deinit {
         print("deinit")
     }

@@ -45,6 +45,11 @@ class MainViewController: UIViewController {
         self.initNekoMenu()
     }
     
+    override func didReceiveMemoryWarning() {
+        super.didReceiveMemoryWarning()
+        print("didReceiveMemoryWarning - MainViewController")
+    }
+    
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
         self.nekoMenuButton.sendActions(for: .touchUpInside)
         self.hideBlurMenuView()
@@ -146,9 +151,17 @@ extension MainViewController: ASCircularButtonDelegate {
         if menuButton == self.nekoMenuButton {
             self.hideBlurMenuView()
         }
-        if indexForButton == 2 {
+        
+        switch indexForButton {
+        case 0:
+            break
+        case 1:
+            break
+        case 2:
             let NekoAboutUsViewController = Constant.mainStoryBoard.instantiateViewController(withIdentifier: "NekoAboutUsViewController") as! NekoAboutUsViewController
             self.present(NekoAboutUsViewController, animated: true, completion: nil)
+        default:
+            break
         }
     }
 }

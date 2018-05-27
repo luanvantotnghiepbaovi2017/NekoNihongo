@@ -27,6 +27,11 @@ class MinnaNoNihongoSelectionViewController: UIViewController {
         self.initMinnaLessonsData()
     }
     
+    override func didReceiveMemoryWarning() {
+        super.didReceiveMemoryWarning()
+        print("didReceiveMemoryWarning - MinnaNoNihongoSelectionViewController")
+    }
+    
     deinit {
         print("deinit")
     }

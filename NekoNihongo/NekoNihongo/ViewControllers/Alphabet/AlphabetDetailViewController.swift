@@ -69,6 +69,11 @@ class AlphabetDetailViewController: UIViewController {
         self.readSound.delegate = self
     }
     
+    override func didReceiveMemoryWarning() {
+        super.didReceiveMemoryWarning()
+        print("didReceiveMemoryWarning - AlphabetDetailViewController")
+    }
+    
     deinit {
         print("deinit")
     }

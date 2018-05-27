@@ -37,6 +37,11 @@ class AlphabetStrokeOrderDoubleCharacterViewController: UIViewController {
         }
     }
     
+    override func didReceiveMemoryWarning() {
+        super.didReceiveMemoryWarning()
+        print("didReceiveMemoryWarning - AlphabetStrokeOrderDoubleCharacterViewController")
+    }
+    
     deinit {
         print("deinit")
     }
