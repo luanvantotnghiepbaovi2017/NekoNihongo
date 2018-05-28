@@ -154,12 +154,15 @@ extension MainViewController: ASCircularButtonDelegate {
         
         switch indexForButton {
         case 0:
+            let UserFavouriteViewController = Constant.mainStoryBoard.instantiateViewController(withIdentifier: "UserFavouriteViewController") as! UserFavouriteViewController
+            self.navigationController?.pushViewController(UserFavouriteViewController, animated: true)
             break
         case 1:
             break
         case 2:
             let NekoAboutUsViewController = Constant.mainStoryBoard.instantiateViewController(withIdentifier: "NekoAboutUsViewController") as! NekoAboutUsViewController
             self.present(NekoAboutUsViewController, animated: true, completion: nil)
+            break
         default:
             break
         }

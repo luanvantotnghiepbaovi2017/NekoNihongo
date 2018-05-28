@@ -10,14 +10,31 @@ import UIKit
 
 class UserFavouriteViewController: UIViewController {
 
+    // MARK: IBOutlets
+    @IBOutlet weak var segmentUserFavouriteSection: UISegmentedControl!
+    
+    // MARK: IBActions
+    @IBAction func segmentUserFavouriteAction(_ sender: Any) {
+        print(segmentUserFavouriteSection.selectedSegmentIndex)
+    }
+    
     // MARK: Methods
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.title = "Favourites"
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         print("didReceiveMemoryWarning - UserFavouriteViewController")
     }
+    
+    deinit {
+        print("deinit")
+    }
 
+    func updateSegmentSelectedIndex(value: Int) {
+        segmentUserFavouriteSection.selectedSegmentIndex = value
+    }
+    
 }

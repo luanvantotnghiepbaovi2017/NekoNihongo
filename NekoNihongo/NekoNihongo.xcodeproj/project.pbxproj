@@ -199,6 +199,9 @@
 		3973FDDB1FAB2DB0008928B3 /* HelperFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3973FDDA1FAB2DB0008928B3 /* HelperFunction.swift */; };
 		3984779C1F83D4CF007561C3 /* AlphabetStrokeOrderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3984779B1F83D4CF007561C3 /* AlphabetStrokeOrderViewController.swift */; };
 		3988C16A20BA82070097330D /* UserFavouriteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3988C16920BA82070097330D /* UserFavouriteViewController.swift */; };
+		3988C16F20BA8B0E0097330D /* FavouritesContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3988C16E20BA8B0E0097330D /* FavouritesContainerViewController.swift */; };
+		3988C17120BA8B7D0097330D /* MinnaLessonFavouriteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3988C17020BA8B7D0097330D /* MinnaLessonFavouriteViewController.swift */; };
+		3988C17320BA8BF90097330D /* FlashcardFavouriteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3988C17220BA8BF90097330D /* FlashcardFavouriteViewController.swift */; };
 		3996C1011F740B43008BBAA9 /* AlphabetDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3996C1001F740B43008BBAA9 /* AlphabetDetailViewController.swift */; };
 		39A7F4701FB0CB1E00D3F0F9 /* NekoAboutUsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39A7F46F1FB0CB1E00D3F0F9 /* NekoAboutUsViewController.swift */; };
 		39D2A89B1F70ED1300812B58 /* AlphabetNekoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39D2A89A1F70ED1300812B58 /* AlphabetNekoViewController.swift */; };
@@ -428,6 +431,9 @@
 		3984779B1F83D4CF007561C3 /* AlphabetStrokeOrderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlphabetStrokeOrderViewController.swift; sourceTree = "<group>"; };
 		398477AE1F83E140007561C3 /* SVGKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SVGKit.framework; path = "../../../../../Users/bao/Library/Developer/Xcode/DerivedData/NekoNihongo-emsfzcsqtifyezeefcuwffbmmxvf/Build/Products/Debug-iphonesimulator/SVGKit/SVGKit.framework"; sourceTree = "<group>"; };
 		3988C16920BA82070097330D /* UserFavouriteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserFavouriteViewController.swift; sourceTree = "<group>"; };
+		3988C16E20BA8B0E0097330D /* FavouritesContainerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouritesContainerViewController.swift; sourceTree = "<group>"; };
+		3988C17020BA8B7D0097330D /* MinnaLessonFavouriteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinnaLessonFavouriteViewController.swift; sourceTree = "<group>"; };
+		3988C17220BA8BF90097330D /* FlashcardFavouriteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashcardFavouriteViewController.swift; sourceTree = "<group>"; };
 		3996C1001F740B43008BBAA9 /* AlphabetDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlphabetDetailViewController.swift; sourceTree = "<group>"; };
 		39A7F46F1FB0CB1E00D3F0F9 /* NekoAboutUsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NekoAboutUsViewController.swift; sourceTree = "<group>"; };
 		39D2A89A1F70ED1300812B58 /* AlphabetNekoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlphabetNekoViewController.swift; sourceTree = "<group>"; };
@@ -839,13 +845,12 @@
 		3956BB3C1F6686E1001B715E /* NekoNihongo */ = {
 			isa = PBXGroup;
 			children = (
+				3956BB3D1F6686E1001B715E /* AppDelegate.swift */,
+				3988C16D20BA85380097330D /* StoryBoards */,
 				A746FE6020B69B52000A95A5 /* Shared */,
-				394DFF6A1FC9D46B002F6051 /* DataProvider */,
 				3956BB711F668755001B715E /* Views */,
 				3956BB6F1F668744001B715E /* Models */,
 				3956BB6E1F66873C001B715E /* ViewControllers */,
-				3956BB3D1F6686E1001B715E /* AppDelegate.swift */,
-				3956BB411F6686E1001B715E /* Main.storyboard */,
 				3956BB471F6686E1001B715E /* Assets.xcassets */,
 				3956BB491F6686E1001B715E /* LaunchScreen.storyboard */,
 				3956BB4C1F6686E1001B715E /* Info.plist */,
@@ -948,6 +953,9 @@
 			isa = PBXGroup;
 			children = (
 				3988C16920BA82070097330D /* UserFavouriteViewController.swift */,
+				3988C16E20BA8B0E0097330D /* FavouritesContainerViewController.swift */,
+				3988C17020BA8B7D0097330D /* MinnaLessonFavouriteViewController.swift */,
+				3988C17220BA8BF90097330D /* FlashcardFavouriteViewController.swift */,
 			);
 			path = UserFavourite;
 			sourceTree = "<group>";
@@ -968,6 +976,14 @@
 			path = Main;
 			sourceTree = "<group>";
 		};
+		3988C16D20BA85380097330D /* StoryBoards */ = {
+			isa = PBXGroup;
+			children = (
+				3956BB411F6686E1001B715E /* Main.storyboard */,
+			);
+			path = StoryBoards;
+			sourceTree = "<group>";
+		};
 		A72FD74C20B56781004C7E08 /* FlashCard */ = {
 			isa = PBXGroup;
 			children = (
@@ -980,6 +996,7 @@
 		A746FE6020B69B52000A95A5 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				394DFF6A1FC9D46B002F6051 /* DataProvider */,
 				394DFF6F1FC9E0EF002F6051 /* Constant */,
 				3956BB701F66874B001B715E /* Helpers */,
 				3956BB721F668761001B715E /* Libraries */,
@@ -1386,6 +1403,7 @@
 				3988C16A20BA82070097330D /* UserFavouriteViewController.swift in Sources */,
 				3973FDDB1FAB2DB0008928B3 /* HelperFunction.swift in Sources */,
 				3922FBE51F6702A300F978AD /* MinnaNoNihongoSelectionViewController.swift in Sources */,
+				3988C16F20BA8B0E0097330D /* FavouritesContainerViewController.swift in Sources */,
 				39D2A8AF1F73BD0300812B58 /* AlphabetCollectionReusableView.swift in Sources */,
 				3984779C1F83D4CF007561C3 /* AlphabetStrokeOrderViewController.swift in Sources */,
 				3922FBEA1F67043800F978AD /* MinnaNoNihongoSelectionCollectionViewCell.swift in Sources */,
@@ -1395,6 +1413,7 @@
 				3922FBE71F6702BD00F978AD /* FlashCardSelectionViewController.swift in Sources */,
 				39D2A89F1F72652D00812B58 /* NekoAlphabetModel.swift in Sources */,
 				394DFF711FC9E1FE002F6051 /* Constant.swift in Sources */,
+				3988C17120BA8B7D0097330D /* MinnaLessonFavouriteViewController.swift in Sources */,
 				3973FDD51FAB1CB7008928B3 /* MinnaNoNihongoDetailViewController.swift in Sources */,
 				393B3E801F68345900062279 /* ZLSwipeableView.swift in Sources */,
 				390C3A481F84C70600C2FE6D /* AlphabetStrokeOrderDoubleCharacterViewController.swift in Sources */,
@@ -1403,6 +1422,7 @@
 				394EE0C120B62AC2003A9A5B /* UILabel.swift in Sources */,
 				393B3E991F69431700062279 /* NSLayoutConstraint.swift in Sources */,
 				39276CE91F7A1D6B002D492A /* AlphabetOptionCollectionViewCell.swift in Sources */,
+				3988C17320BA8BF90097330D /* FlashcardFavouriteViewController.swift in Sources */,
 				393B3E8D1F6838D400062279 /* FlashCardSwipeViewController.swift in Sources */,
 				39D2A89B1F70ED1300812B58 /* AlphabetNekoViewController.swift in Sources */,
 				3956BB7D1F669AE8001B715E /* NekoModel.swift in Sources */,
