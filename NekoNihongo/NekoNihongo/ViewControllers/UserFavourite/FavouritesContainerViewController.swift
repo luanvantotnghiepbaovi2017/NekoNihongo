@@ -10,10 +10,22 @@ import UIKit
 
 class FavouritesContainerViewController: UIPageViewController {
     
+    // MARK: Properties
+    private let defaultSelectedIndex: Int = 0
+    fileprivate lazy var pages: [UIViewController] = {
+        return [
+            self.getViewController(withIdentifier: "MinnaLessonFavouriteViewController"),
+            self.getViewController(withIdentifier: "FlashcardFavouriteViewController")
+        ]
+    }()
+    
     // MARK: Methods
     override func viewDidLoad() {
         super.viewDidLoad()
-        setUpPageVC()
+        self.dataSource = self
+        self.delegate = self
+        setUpPageVC(nil)
+        NotificationCenter.default.addObserver(self, selector: #selector(setUpPageVC(_:)), name: Notification.Name.updateSelectedUserFavouriteSection, object: nil)
     }
     
     override func didReceiveMemoryWarning() {
@@ -25,21 +37,19 @@ class FavouritesContainerViewController: UIPageViewController {
         print("deinit")
     }
     
-    private func setUpPageVC() {
-        self.dataSource = self
-        self.delegate = self
-        if let MinnaLessonFavouriteVC = pages.first
-        {
-            setViewControllers([MinnaLessonFavouriteVC], direction: .forward, animated: true, completion: nil)
+    @objc private func setUpPageVC(_ notification: NSNotification?) {
+        if let selectedIndex = notification?.userInfo?[Constant.kUserFavouriteSectionIndex] as? Int {
+            if selectedIndex == 0 {
+                setViewControllers([pages[selectedIndex]], direction: .reverse, animated: true, completion: nil)
+            } else {
+                setViewControllers([pages[selectedIndex]], direction: .forward, animated: true, completion: nil)
+            }
+        } else {
+            if defaultSelectedIndex >= 0 && defaultSelectedIndex <= pages.count {
+                setViewControllers([pages[defaultSelectedIndex]], direction: .forward, animated: true, completion: nil)
+            }
         }
     }
-    
-    fileprivate lazy var pages: [UIViewController] = {
-        return [
-            self.getViewController(withIdentifier: "MinnaLessonFavouriteViewController"),
-            self.getViewController(withIdentifier: "FlashcardFavouriteViewController")
-        ]
-    }()
     
     fileprivate func getViewController(withIdentifier identifier: String) -> UIViewController
     {

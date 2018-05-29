@@ -16,6 +16,7 @@ class UserFavouriteViewController: UIViewController {
     // MARK: IBActions
     @IBAction func segmentUserFavouriteAction(_ sender: Any) {
         print(segmentUserFavouriteSection.selectedSegmentIndex)
+        NotificationCenter.default.post(name: Notification.Name.updateSelectedUserFavouriteSection, object: nil, userInfo: [Constant.kUserFavouriteSectionIndex: segmentUserFavouriteSection.selectedSegmentIndex])
     }
     
     // MARK: Methods

@@ -21,4 +21,6 @@ struct Constant {
     static let color19B = UIColor(red: 69.0/255.0, green: 134.0/255.0, blue: 255.0/255.0, alpha: 1.0)
     static let color19R = UIColor(red: 128.0/255.0, green: 128.0/255.0, blue: 128.0/255.0, alpha: 1.0)
     static let color16R = UIColor(red: 32.0/255.0, green: 147.0/255.0, blue: 188.0/255.0, alpha: 1.0)
+    // Notification Keys
+    static let kUserFavouriteSectionIndex: String = "kUserFavouriteSectionIndex"
 }
