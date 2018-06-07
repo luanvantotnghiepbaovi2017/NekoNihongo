@@ -56,7 +56,7 @@ class FlashCardSelectionViewController: UIViewController {
     }
 }
 
-
+// MARK: Extension - UICollectionViewDataSource
 extension FlashCardSelectionViewController: UICollectionViewDataSource {
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         return self.numberOfMinnaLessons
@@ -69,6 +69,7 @@ extension FlashCardSelectionViewController: UICollectionViewDataSource {
     }
 }
 
+// MARK: Extension - FlashCardSelectionDelegate
 extension FlashCardSelectionViewController: FlashCardSelectionDelegate {
     func pushToFlashCardSwipeView(cell: FlashCardSelectionCollectionViewCell) {
         let FlashCardSwipeViewController = Constant.mainStoryBoard.instantiateViewController(withIdentifier: "FlashCardSwipeViewController") as! FlashCardSwipeViewController

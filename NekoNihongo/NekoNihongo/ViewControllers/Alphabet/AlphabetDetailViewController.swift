@@ -138,16 +138,6 @@ extension AlphabetDetailViewController: UICollectionViewDataSource {
     }
 }
 
-//extension AlphabetDetailViewController: UICollectionViewDelegate {
-//
-//    func collectionView(collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, insetForSectionAtIndex section: Int) -> UIEdgeInsets {
-//
-//
-//
-//    }
-//
-//}
-
 // MARK: Extension - AlphabetOptionDelegate
 extension AlphabetDetailViewController: AlphabetOptionDelegate {
     func selectAlphabetOption(cell: AlphabetOptionCollectionViewCell) {
