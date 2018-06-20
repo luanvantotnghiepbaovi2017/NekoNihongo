@@ -35,6 +35,7 @@ class FavouritesContainerViewController: UIPageViewController {
     
     deinit {
         print("deinit")
+        NotificationCenter.default.removeObserver(self, name: Notification.Name.updateSelectedUserFavouriteSection, object: nil)
     }
     
     @objc private func setUpPageVC(_ notification: NSNotification?) {

@@ -32,7 +32,6 @@ class UserFavouriteViewController: UIViewController {
     
     deinit {
         print("deinit")
-        NotificationCenter.default.removeObserver(self, name: Notification.Name.updateSelectedUserFavouriteSection, object: nil)
     }
 
     func updateSegmentSelectedIndex(value: Int) {
