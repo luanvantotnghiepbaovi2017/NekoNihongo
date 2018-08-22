@@ -1,0 +1,371 @@
+[
+ {
+  "nekoJapanese" : "つけます (II)",
+  "nekoLatin" : "tsukemasu",
+  "nekoKanji" : "点けます",
+  "nekoKanjiHanViet" : "Điểm",
+  "nekoVietNamese" : "bật (điện, máy điều hòa)",
+  "nekoEnglish" : "to turn on",
+  "nekoSound" : "点けます"
+ },
+ {
+  "nekoJapanese" : "けします (I)",
+  "nekoLatin" : "keshimasu",
+  "nekoKanji" : "消します",
+  "nekoKanjiHanViet" : "Tiêu",
+  "nekoVietNamese" : "tắt (điện, máy điều hòa)",
+  "nekoEnglish" : "to turn off",
+  "nekoSound" : "消します"
+ },
+ {
+  "nekoJapanese" : "あけます (II)",
+  "nekoLatin" : "akemasu",
+  "nekoKanji" : "開けます",
+  "nekoKanjiHanViet" : "Khai",
+  "nekoVietNamese" : "mở (cửa, cửa sổ)",
+  "nekoEnglish" : "to open",
+  "nekoSound" : "開けます"
+ },
+ {
+  "nekoJapanese" : "しめます (II)",
+  "nekoLatin" : "shimemasu",
+  "nekoKanji" : "閉めます",
+  "nekoKanjiHanViet" : "Bế",
+  "nekoVietNamese" : "đóng (cửa, cửa sổ)",
+  "nekoEnglish" : "to close",
+  "nekoSound" : "閉めます"
+ },
+ {
+  "nekoJapanese" : "いそぎます (I)",
+  "nekoLatin" : "isogimasu",
+  "nekoKanji" : "急ぎます",
+  "nekoKanjiHanViet" : "Cấp",
+  "nekoVietNamese" : "vội, gấp",
+  "nekoEnglish" : "to hurry",
+  "nekoSound" : "急ぎます"
+ },
+ {
+  "nekoJapanese" : "まちます (I)",
+  "nekoLatin" : "machimasu",
+  "nekoKanji" : "待ちます",
+  "nekoKanjiHanViet" : "Đãi",
+  "nekoVietNamese" : "đợi, chờ",
+  "nekoEnglish" : "to wait",
+  "nekoSound" : "待ちます"
+ },
+ {
+  "nekoJapanese" : "とめます (II)",
+  "nekoLatin" : "tomemasu",
+  "nekoKanji" : "止めます",
+  "nekoKanjiHanViet" : "Chỉ",
+  "nekoVietNamese" : "dừng (băng, ôt ô), đỗ (ôtô)",
+  "nekoEnglish" : "stop, park",
+  "nekoSound" : "止めます"
+ },
+ {
+  "nekoJapanese" : "まがります (I)(みぎへ～)",
+  "nekoLatin" : "magarimasu",
+  "nekoKanji" : "曲がります (右へ～)",
+  "nekoKanjiHanViet" : "Khúc",
+  "nekoVietNamese" : "rẽ, quẹo [phải]",
+  "nekoEnglish" : "turn [to the right]",
+  "nekoSound" : "曲がります"
+ },
+ {
+  "nekoJapanese" : "とります (I)",
+  "nekoLatin" : "torimasu",
+  "nekoKanji" : "取ります",
+  "nekoKanjiHanViet" : "Thủ",
+  "nekoVietNamese" : "lấy (đồ vật nằm trên mặt phẳng, nằm bên ngoài)",
+  "nekoEnglish" : "take, pass",
+  "nekoSound" : "取ります"
+ },
+ {
+  "nekoJapanese" : "もちます (I)",
+  "nekoLatin" : "mochimasu",
+  "nekoKanji" : "持ちます",
+  "nekoKanjiHanViet" : "Trì",
+  "nekoVietNamese" : "mang, cầm, sở hữu",
+  "nekoEnglish" : "hold",
+  "nekoSound" : "持ちます"
+ },
+ {
+  "nekoJapanese" : "てつだいます (I)",
+  "nekoLatin" : "tetsudaimasu",
+  "nekoKanji" : "手伝います",
+  "nekoKanjiHanViet" : "Thủ Truyền",
+  "nekoVietNamese" : "giúp (làm việc)",
+  "nekoEnglish" : "to help (with a task)",
+  "nekoSound" : "手伝います"
+ },
+ {
+  "nekoJapanese" : "よびます (I)",
+  "nekoLatin" : "yobimasu",
+  "nekoKanji" : "呼びます",
+  "nekoKanjiHanViet" : "Hô",
+  "nekoVietNamese" : "gọi (taxi, tên)",
+  "nekoEnglish" : "to call (taxi, name)",
+  "nekoSound" : "呼びます"
+ },
+ {
+  "nekoJapanese" : "はなします (I)",
+  "nekoLatin" : "hanashimasu",
+  "nekoKanji" : "話します",
+  "nekoKanjiHanViet" : "Thoại",
+  "nekoVietNamese" : "nói, nói chuyện",
+  "nekoEnglish" : "to speak, to talk",
+  "nekoSound" : "話します"
+ },
+ {
+  "nekoJapanese" : "みせます (II)",
+  "nekoLatin" : "misemasu",
+  "nekoKanji" : "見せます",
+  "nekoKanjiHanViet" : "Kiến",
+  "nekoVietNamese" : "cho xem, trình",
+  "nekoEnglish" : "to show",
+  "nekoSound" : "見せます"
+ },
+ {
+  "nekoJapanese" : "おしえます (じゅうしょ を～) (II)",
+  "nekoLatin" : "oshiemasu",
+  "nekoKanji" : "教えます (住所 を～)",
+  "nekoKanjiHanViet" : "Giáo",
+  "nekoVietNamese" : "nói, cho biết [địa chỉ]",
+  "nekoEnglish" : "tell [an address]",
+  "nekoSound" : "教えます"
+ },
+ {
+  "nekoJapanese" : "はじめます (II)",
+  "nekoLatin" : "hajimemasu",
+  "nekoKanji" : "始めます",
+  "nekoKanjiHanViet" : "Thủy",
+  "nekoVietNamese" : "bắt đầu",
+  "nekoEnglish" : "start, begin",
+  "nekoSound" : "始めます"
+ },
+ {
+  "nekoJapanese" : "ふります(あめが～) (I)",
+  "nekoLatin" : "furimasu",
+  "nekoKanji" : "降ります (雨が～)",
+  "nekoKanjiHanViet" : "Giáng Vũ",
+  "nekoVietNamese" : "rơi [mưa, tuyết~]",
+  "nekoEnglish" : "rain",
+  "nekoSound" : "降ります"
+ },
+ {
+  "nekoJapanese" : "コピーします (III)",
+  "nekoLatin" : "kopiishimasu",
+  "nekoKanji" : "",
+  "nekoKanjiHanViet" : "",
+  "nekoVietNamese" : "copy (tạo bản sao)",
+  "nekoEnglish" : "copy",
+  "nekoSound" : "コピーします"
+ },
+ {
+  "nekoJapanese" : "エアコン",
+  "nekoLatin" : "eakon",
+  "nekoKanji" : "",
+  "nekoKanjiHanViet" : "",
+  "nekoVietNamese" : "máy điều hòa",
+  "nekoEnglish" : "air conditioner",
+  "nekoSound" : "エアコン"
+ },
+ {
+  "nekoJapanese" : "パスポート",
+  "nekoLatin" : "pasupooto",
+  "nekoKanji" : "",
+  "nekoKanjiHanViet" : "",
+  "nekoVietNamese" : "hộ chiếu",
+  "nekoEnglish" : "passport",
+  "nekoSound" : "パスポート"
+ },
+ {
+  "nekoJapanese" : "なまえ",
+  "nekoLatin" : "namae",
+  "nekoKanji" : "名前",
+  "nekoKanjiHanViet" : "Danh Tiền",
+  "nekoVietNamese" : "tên",
+  "nekoEnglish" : "name",
+  "nekoSound" : "名前"
+ },
+ {
+  "nekoJapanese" : "じゅうしょ",
+  "nekoLatin" : "juusho",
+  "nekoKanji" : "住所",
+  "nekoKanjiHanViet" : "Trú Sở",
+  "nekoVietNamese" : "địa chỉ",
+  "nekoEnglish" : "address",
+  "nekoSound" : "住所"
+ },
+ {
+  "nekoJapanese" : "ちず",
+  "nekoLatin" : "chizu",
+  "nekoKanji" : "地図",
+  "nekoKanjiHanViet" : "Địa Đồ",
+  "nekoVietNamese" : "bản đồ",
+  "nekoEnglish" : "map",
+  "nekoSound" : "地図"
+ },
+ {
+  "nekoJapanese" : "しお",
+  "nekoLatin" : "shio",
+  "nekoKanji" : "塩",
+  "nekoKanjiHanViet" : "Diêm",
+  "nekoVietNamese" : "muối",
+  "nekoEnglish" : "salt",
+  "nekoSound" : "塩"
+ },
+ {
+  "nekoJapanese" : "さとう",
+  "nekoLatin" : "satou",
+  "nekoKanji" : "砂糖",
+  "nekoKanjiHanViet" : "Sa Đường",
+  "nekoVietNamese" : "đường",
+  "nekoEnglish" : "sugar",
+  "nekoSound" : "砂糖"
+ },
+ {
+  "nekoJapanese" : "よみかた",
+  "nekoLatin" : "yomikata",
+  "nekoKanji" : "読み方",
+  "nekoKanjiHanViet" : "Độc Phương",
+  "nekoVietNamese" : "cách đọc",
+  "nekoEnglish" : "how to read, way of reading",
+  "nekoSound" : "読み方"
+ },
+ {
+  "nekoJapanese" : "～かた",
+  "nekoLatin" : "kata",
+  "nekoKanji" : "～方",
+  "nekoKanjiHanViet" : "Phương",
+  "nekoVietNamese" : "cách ～",
+  "nekoEnglish" : "how to ～, way of ～ing",
+  "nekoSound" : "方"
+ },
+ {
+  "nekoJapanese" : "ゆっくり",
+  "nekoLatin" : "yukkuri",
+  "nekoKanji" : "",
+  "nekoKanjiHanViet" : "",
+  "nekoVietNamese" : "chậm, thong thả, thoải mái",
+  "nekoEnglish" : "slowly, leisurely",
+  "nekoSound" : "ゆっくり"
+ },
+ {
+  "nekoJapanese" : "すぐ",
+  "nekoLatin" : "sugu",
+  "nekoKanji" : "直ぐ",
+  "nekoKanjiHanViet" : "Trực",
+  "nekoVietNamese" : "ngay, lập tức",
+  "nekoEnglish" : "immediately",
+  "nekoSound" : "直ぐ"
+ },
+ {
+  "nekoJapanese" : "また",
+  "nekoLatin" : "mata",
+  "nekoKanji" : "",
+  "nekoKanjiHanViet" : "",
+  "nekoVietNamese" : "lại (～đến)",
+  "nekoEnglish" : "again",
+  "nekoSound" : "また"
+ },
+ {
+  "nekoJapanese" : "あとで",
+  "nekoLatin" : "atide",
+  "nekoKanji" : "後で",
+  "nekoKanjiHanViet" : "Hậu",
+  "nekoVietNamese" : "sau",
+  "nekoEnglish" : "later",
+  "nekoSound" : "後で"
+ },
+ {
+  "nekoJapanese" : "もうすこし",
+  "nekoLatin" : "mousukoshi",
+  "nekoKanji" : "もう少し",
+  "nekoKanjiHanViet" : "Thiểu",
+  "nekoVietNamese" : "thêm một chút nữa thôi",
+  "nekoEnglish" : "a little more",
+  "nekoSound" : "もう少し"
+ },
+ {
+  "nekoJapanese" : "もう～",
+  "nekoLatin" : "mou",
+  "nekoKanji" : "",
+  "nekoKanjiHanViet" : "",
+  "nekoVietNamese" : "thêm～",
+  "nekoEnglish" : "～more, another～",
+  "nekoSound" : "もう"
+ },
+ {
+  "nekoJapanese" : "いいですよ",
+  "nekoLatin" : "iidesuyo",
+  "nekoKanji" : "",
+  "nekoKanjiHanViet" : "",
+  "nekoVietNamese" : "Được chứ./được ạ.",
+  "nekoEnglish" : "Sure./ Certainly.",
+  "nekoSound" : "いいですよ"
+ },
+ {
+  "nekoJapanese" : "さあ",
+  "nekoLatin" : "saa",
+  "nekoKanji" : "",
+  "nekoKanjiHanViet" : "",
+  "nekoVietNamese" : "thôi,/nào, (dùng để thúc giục hoặc khuyến khích ai làm gì.)",
+  "nekoEnglish" : "right! (used when encouraging some course of action)",
+  "nekoSound" : "さあ"
+ },
+ {
+  "nekoJapanese" : "あれ？",
+  "nekoLatin" : "are",
+  "nekoKanji" : "",
+  "nekoKanjiHanViet" : "",
+  "nekoVietNamese" : "Ô! (câu cảm thán khi phát hiện hoặc thấy cái gì đó lạ, hoặc bất ngờ)",
+  "nekoEnglish" : "Oh! (in surprise or in wonder)",
+  "nekoSound" : "あれ"
+ },
+ {
+  "nekoJapanese" : "しんごうをみぎへまがってください",
+  "nekoLatin" : "shingou wo migi he magatte kudasai",
+  "nekoKanji" : "信号を右へ曲がってください",
+  "nekoKanjiHanViet" : "Tín Hiệu Hữu Khúc",
+  "nekoVietNamese" : "Anh/ Chị rẽ phải ở chổ đèn tín hiệu.",
+  "nekoEnglish" : "Turn to the right at the signal",
+  "nekoSound" : "信号を右へ曲がってください"
+ },
+ {
+  "nekoJapanese" : "まっすぐ",
+  "nekoLatin" : "massugu",
+  "nekoKanji" : "",
+  "nekoKanjiHanViet" : "",
+  "nekoVietNamese" : "thẳng",
+  "nekoEnglish" : "straight (ahead)",
+  "nekoSound" : "まっすぐ"
+ },
+ {
+  "nekoJapanese" : "これでおねがいします",
+  "nekoLatin" : "korede onegaishimasu",
+  "nekoKanji" : "",
+  "nekoKanjiHanViet" : "",
+  "nekoVietNamese" : "Gởi anh tiền này.",
+  "nekoEnglish" : "I'd like to pay with this.",
+  "nekoSound" : "これでおねがいします"
+ },
+ {
+  "nekoJapanese" : "おつり",
+  "nekoLatin" : "otsuri",
+  "nekoKanji" : "お釣り",
+  "nekoKanjiHanViet" : "Điếu",
+  "nekoVietNamese" : "tiền lẻ",
+  "nekoEnglish" : "change (as in money), balance due",
+  "nekoSound" : "お釣り"
+ },
+ {
+  "nekoJapanese" : "うめだ",
+  "nekoLatin" : "umeda",
+  "nekoKanji" : "梅田",
+  "nekoKanjiHanViet" : "Mai Điền",
+  "nekoVietNamese" : "tên một địa phương ở Osaka",
+  "nekoEnglish" : "name of a town in Osaka",
+  "nekoSound" : "梅田"
+ }
+]

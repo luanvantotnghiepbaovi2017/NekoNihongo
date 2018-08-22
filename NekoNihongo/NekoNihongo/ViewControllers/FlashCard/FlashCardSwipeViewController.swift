@@ -256,7 +256,11 @@ class FlashCardSwipeViewController: UIViewController, AVSpeechSynthesizerDelegat
         contentView.translatesAutoresizingMaskIntoConstraints = false
         contentView.backgroundColor = cardView.backgroundColor
         let nekoCardImageView = contentView.viewWithTag(100) as! UIImageView
-        nekoCardImageView.image = UIImage(named: "\(self.nekoCardArray[self.nekoCardIndex].nekoLatin)")
+        if let image = UIImage(named: "\(self.nekoCardArray[self.nekoCardIndex].nekoLatin)") {
+            nekoCardImageView.image = image
+        } else {
+            nekoCardImageView.image = UIImage(named: "question_mark_card")
+        }
         self.nekoCardIndex += 1
         cardView.addSubview(contentView)
         constrain(contentView, cardView) { view1, view2 in

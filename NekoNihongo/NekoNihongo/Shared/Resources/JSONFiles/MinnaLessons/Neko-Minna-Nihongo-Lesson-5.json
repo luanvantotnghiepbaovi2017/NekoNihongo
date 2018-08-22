@@ -1,0 +1,506 @@
+[
+ {
+  "nekoJapanese" : "いきます (I)",
+  "nekoLatin" : "ikimasu",
+  "nekoKanji" : "行きます",
+  "nekoKanjiHanViet" : "Hành, Hàng",
+  "nekoVietNamese" : "đi",
+  "nekoEnglish" : "go",
+  "nekoSound" : "行きます"
+ },
+ {
+  "nekoJapanese" : "きます (III)",
+  "nekoLatin" : "kimasu",
+  "nekoKanji" : "来ます",
+  "nekoKanjiHanViet" : "Lai",
+  "nekoVietNamese" : "đến",
+  "nekoEnglish" : "come",
+  "nekoSound" : "来ます"
+ },
+ {
+  "nekoJapanese" : "かえります (I)",
+  "nekoLatin" : "kaerimasu",
+  "nekoKanji" : "帰ります",
+  "nekoKanjiHanViet" : "Quy",
+  "nekoVietNamese" : "về",
+  "nekoEnglish" : "go home, return",
+  "nekoSound" : "帰ります"
+ },
+ {
+  "nekoJapanese" : "がっこう",
+  "nekoLatin" : "gakko",
+  "nekoKanji" : "学校",
+  "nekoKanjiHanViet" : "Học Hiệu",
+  "nekoVietNamese" : "trường học",
+  "nekoEnglish" : "school",
+  "nekoSound" : "学校"
+ },
+ {
+  "nekoJapanese" : "スーパー",
+  "nekoLatin" : "suupaa",
+  "nekoKanji" : "",
+  "nekoKanjiHanViet" : "",
+  "nekoVietNamese" : "siêu thị",
+  "nekoEnglish" : "supermarket",
+  "nekoSound" : "スーパー"
+ },
+ {
+  "nekoJapanese" : "えき",
+  "nekoLatin" : "eki",
+  "nekoKanji" : "駅",
+  "nekoKanjiHanViet" : "Dịch",
+  "nekoVietNamese" : "ga, nhà ga",
+  "nekoEnglish" : "station",
+  "nekoSound" : "駅"
+ },
+ {
+  "nekoJapanese" : "ひこうき",
+  "nekoLatin" : "hikouki",
+  "nekoKanji" : "飛行機",
+  "nekoKanjiHanViet" : "Phi Hành Cơ",
+  "nekoVietNamese" : "máy bay",
+  "nekoEnglish" : "airplane",
+  "nekoSound" : "飛行機"
+ },
+ {
+  "nekoJapanese" : "ふね",
+  "nekoLatin" : "fune",
+  "nekoKanji" : "船",
+  "nekoKanjiHanViet" : "Thuyền",
+  "nekoVietNamese" : "thuyền, tàu thủy",
+  "nekoEnglish" : "ship",
+  "nekoSound" : "船"
+ },
+ {
+  "nekoJapanese" : "でんしゃ",
+  "nekoLatin" : "densha",
+  "nekoKanji" : "電車",
+  "nekoKanjiHanViet" : "Điện Xa",
+  "nekoVietNamese" : "tàu điện",
+  "nekoEnglish" : "electric train",
+  "nekoSound" : "電車"
+ },
+ {
+  "nekoJapanese" : "ちかてつ",
+  "nekoLatin" : "chikatetsu",
+  "nekoKanji" : "地下鉄 ",
+  "nekoKanjiHanViet" : "Địa Hạ Thiết",
+  "nekoVietNamese" : "tàu điện ngầm",
+  "nekoEnglish" : "subway, underground",
+  "nekoSound" : "地下鉄"
+ },
+ {
+  "nekoJapanese" : "しんかんせん",
+  "nekoLatin" : "shinkansen",
+  "nekoKanji" : "新幹線",
+  "nekoKanjiHanViet" : "Tân Cán Tuyến",
+  "nekoVietNamese" : "tàu Shinkansen (tàu điện siêu tốc của Nhật)",
+  "nekoEnglish" : "the Shinkansen, the bullet train",
+  "nekoSound" : "新幹線"
+ },
+ {
+  "nekoJapanese" : "バス",
+  "nekoLatin" : "basu",
+  "nekoKanji" : "",
+  "nekoKanjiHanViet" : "",
+  "nekoVietNamese" : "xe buýt",
+  "nekoEnglish" : "bus",
+  "nekoSound" : "バス"
+ },
+ {
+  "nekoJapanese" : "タクシー",
+  "nekoLatin" : "takushii",
+  "nekoKanji" : "",
+  "nekoKanjiHanViet" : "",
+  "nekoVietNamese" : "tắc-xi",
+  "nekoEnglish" : "taxi",
+  "nekoSound" : "タクシー"
+ },
+ {
+  "nekoJapanese" : "じてんしゃ",
+  "nekoLatin" : "jitensha",
+  "nekoKanji" : "自転車",
+  "nekoKanjiHanViet" : "Tự Chuyển Xa",
+  "nekoVietNamese" : "xe đạp",
+  "nekoEnglish" : "bicycle",
+  "nekoSound" : "自転車"
+ },
+ {
+  "nekoJapanese" : "あるいて",
+  "nekoLatin" : "aruite",
+  "nekoKanji" : "歩いて",
+  "nekoKanjiHanViet" : "Bộ",
+  "nekoVietNamese" : "đi bộ",
+  "nekoEnglish" : "on foot",
+  "nekoSound" : "歩いて"
+ },
+ {
+  "nekoJapanese" : "ひと",
+  "nekoLatin" : "hito",
+  "nekoKanji" : "人",
+  "nekoKanjiHanViet" : "Nhân",
+  "nekoVietNamese" : "người",
+  "nekoEnglish" : "person, people",
+  "nekoSound" : "人"
+ },
+ {
+  "nekoJapanese" : "ともだち",
+  "nekoLatin" : "tomodachi",
+  "nekoKanji" : "友達",
+  "nekoKanjiHanViet" : "Hữu Đạt",
+  "nekoVietNamese" : "bạn, bạn bè",
+  "nekoEnglish" : "friend",
+  "nekoSound" : "友達"
+ },
+ {
+  "nekoJapanese" : "かれし",
+  "nekoLatin" : "kareshi",
+  "nekoKanji" : "彼氏",
+  "nekoKanjiHanViet" : "Bỉ Thị",
+  "nekoVietNamese" : "anh ấy, bạn trai",
+  "nekoEnglish" : "he, boyfriend, lover",
+  "nekoSound" : "彼氏"
+ },
+ {
+  "nekoJapanese" : "かのじょ",
+  "nekoLatin" : "kanojo",
+  "nekoKanji" : "彼女",
+  "nekoKanjiHanViet" : "Bỉ Nữ",
+  "nekoVietNamese" : "chị ấy, bạn gái",
+  "nekoEnglish" : "she, girlfriend, lover",
+  "nekoSound" : "彼女"
+ },
+ {
+  "nekoJapanese" : "かぞく",
+  "nekoLatin" : "kazoku",
+  "nekoKanji" : "家族",
+  "nekoKanjiHanViet" : "Gia Tộc",
+  "nekoVietNamese" : "gia đình",
+  "nekoEnglish" : "family",
+  "nekoSound" : "家族"
+ },
+ {
+  "nekoJapanese" : "ひとり",
+  "nekoLatin" : "hitori",
+  "nekoKanji" : "一人",
+  "nekoKanjiHanViet" : "Nhất Nhân",
+  "nekoVietNamese" : "một mình",
+  "nekoEnglish" : "alone, by oneself",
+  "nekoSound" : "一人"
+ },
+ {
+  "nekoJapanese" : "せんしゅう",
+  "nekoLatin" : "senshuu",
+  "nekoKanji" : "先週",
+  "nekoKanjiHanViet" : "Tiên Chu",
+  "nekoVietNamese" : "tuần trước",
+  "nekoEnglish" : "last week",
+  "nekoSound" : "先週"
+ },
+ {
+  "nekoJapanese" : "こんしゅう",
+  "nekoLatin" : "konshuu",
+  "nekoKanji" : "今週",
+  "nekoKanjiHanViet" : "Kim Chu",
+  "nekoVietNamese" : "tuần này",
+  "nekoEnglish" : "this week",
+  "nekoSound" : "今週"
+ },
+ {
+  "nekoJapanese" : "らいしゅう",
+  "nekoLatin" : "raishuu",
+  "nekoKanji" : "来週",
+  "nekoKanjiHanViet" : "Lai Chu",
+  "nekoVietNamese" : "tuần sau",
+  "nekoEnglish" : "next week",
+  "nekoSound" : "来週"
+ },
+ {
+  "nekoJapanese" : "きょねん",
+  "nekoLatin" : "kyonen",
+  "nekoKanji" : "去年",
+  "nekoKanjiHanViet" : "Khứ Niên",
+  "nekoVietNamese" : "năm ngoái",
+  "nekoEnglish" : "last year",
+  "nekoSound" : "去年"
+ },
+ {
+  "nekoJapanese" : "ことし",
+  "nekoLatin" : "kotoshi",
+  "nekoKanji" : "今年",
+  "nekoKanjiHanViet" : "Kim Niên",
+  "nekoVietNamese" : "năm nay",
+  "nekoEnglish" : "this year",
+  "nekoSound" : "今年"
+ },
+ {
+  "nekoJapanese" : "らいねん",
+  "nekoLatin" : "rainen",
+  "nekoKanji" : "来年",
+  "nekoKanjiHanViet" : "Lai Niên",
+  "nekoVietNamese" : "năm sau",
+  "nekoEnglish" : "next year",
+  "nekoSound" : "来年"
+ },
+ {
+  "nekoJapanese" : "～がつ",
+  "nekoLatin" : "gatsu",
+  "nekoKanji" : "～月",
+  "nekoKanjiHanViet" : "Nguyệt",
+  "nekoVietNamese" : "tháng -",
+  "nekoEnglish" : "-th month of the year",
+  "nekoSound" : "がつ"
+ },
+ {
+  "nekoJapanese" : "なんがつ",
+  "nekoLatin" : "nangatsu",
+  "nekoKanji" : "何月",
+  "nekoKanjiHanViet" : "Hà Nguyệt",
+  "nekoVietNamese" : "tháng mấy",
+  "nekoEnglish" : "what month",
+  "nekoSound" : "何月"
+ },
+ {
+  "nekoJapanese" : "ついたち",
+  "nekoLatin" : "tsuitachi",
+  "nekoKanji" : "一日",
+  "nekoKanjiHanViet" : "Nhất Nhật",
+  "nekoVietNamese" : "ngày mồng 1",
+  "nekoEnglish" : "first day of the month",
+  "nekoSound" : "一日"
+ },
+ {
+  "nekoJapanese" : "ふつか",
+  "nekoLatin" : "futsuka",
+  "nekoKanji" : "二日",
+  "nekoKanjiHanViet" : "Nhị Nhật",
+  "nekoVietNamese" : "ngày mồng 2, 2 ngày",
+  "nekoEnglish" : "second, 2 days",
+  "nekoSound" : "二日"
+ },
+ {
+  "nekoJapanese" : "みっか",
+  "nekoLatin" : "mikka",
+  "nekoKanji" : "三日",
+  "nekoKanjiHanViet" : "Tam Nhật",
+  "nekoVietNamese" : "ngày mồng 3, 3 ngày",
+  "nekoEnglish" : "third, three days",
+  "nekoSound" : "三日"
+ },
+ {
+  "nekoJapanese" : "よっか",
+  "nekoLatin" : "yokka",
+  "nekoKanji" : "四日",
+  "nekoKanjiHanViet" : "Tứ Nhật",
+  "nekoVietNamese" : "ngày mồng 4, 4 ngày",
+  "nekoEnglish" : "fourth, four days",
+  "nekoSound" : "四日"
+ },
+ {
+  "nekoJapanese" : "いつか",
+  "nekoLatin" : "itsuka",
+  "nekoKanji" : "五日",
+  "nekoKanjiHanViet" : "Ngũ Nhật",
+  "nekoVietNamese" : "ngày mồng 5, 5 ngày",
+  "nekoEnglish" : "fifth, five days",
+  "nekoSound" : "五日"
+ },
+ {
+  "nekoJapanese" : "むいか",
+  "nekoLatin" : "muika",
+  "nekoKanji" : "六日",
+  "nekoKanjiHanViet" : "Lục Nhật",
+  "nekoVietNamese" : "ngày mồng 6, 6 ngày",
+  "nekoEnglish" : "sixth, six days",
+  "nekoSound" : "六日"
+ },
+ {
+  "nekoJapanese" : "なのか",
+  "nekoLatin" : "nanoka",
+  "nekoKanji" : "七日",
+  "nekoKanjiHanViet" : "Thất Nhật",
+  "nekoVietNamese" : "ngày mồng 7, 7 ngày",
+  "nekoEnglish" : "seventh, seven days",
+  "nekoSound" : "七日"
+ },
+ {
+  "nekoJapanese" : "ようか",
+  "nekoLatin" : "youka",
+  "nekoKanji" : "八日",
+  "nekoKanjiHanViet" : "Bát Nhật",
+  "nekoVietNamese" : "ngày mồng 8, 8 ngày",
+  "nekoEnglish" : "eighth, eight days",
+  "nekoSound" : "八日"
+ },
+ {
+  "nekoJapanese" : "ここのか",
+  "nekoLatin" : "kokonoka",
+  "nekoKanji" : "九日",
+  "nekoKanjiHanViet" : "Cửu Nhật",
+  "nekoVietNamese" : "ngày mồng 9, 9 ngày",
+  "nekoEnglish" : "ninth, nine days",
+  "nekoSound" : "九日"
+ },
+ {
+  "nekoJapanese" : "とおか",
+  "nekoLatin" : "tooka",
+  "nekoKanji" : "十日",
+  "nekoKanjiHanViet" : "Thập Nhật",
+  "nekoVietNamese" : "ngày mồng 10, 10 ngày",
+  "nekoEnglish" : "tenth, ten days",
+  "nekoSound" : "十日"
+ },
+ {
+  "nekoJapanese" : "じゅうよっか",
+  "nekoLatin" : "juuyokka",
+  "nekoKanji" : "十四日",
+  "nekoKanjiHanViet" : "Thập Tứ Nhật",
+  "nekoVietNamese" : "ngày 14, 14 ngày",
+  "nekoEnglish" : "fourteenth, fourteen days",
+  "nekoSound" : "十四日"
+ },
+ {
+  "nekoJapanese" : "はつか",
+  "nekoLatin" : "hatsuka",
+  "nekoKanji" : "二十日",
+  "nekoKanjiHanViet" : "Nhị Thập Nhật",
+  "nekoVietNamese" : "ngày 20, 20 ngày",
+  "nekoEnglish" : "twentieth, twenty days",
+  "nekoSound" : "二十日"
+ },
+ {
+  "nekoJapanese" : "にじゅうよっか",
+  "nekoLatin" : "nijuuyokka",
+  "nekoKanji" : "二十四日",
+  "nekoKanjiHanViet" : "Nhị Thập Tứ Nhật",
+  "nekoVietNamese" : "ngày 24, 24 ngày",
+  "nekoEnglish" : "twenty fourth, twenty four days",
+  "nekoSound" : "二十四日"
+ },
+ {
+  "nekoJapanese" : "～にち",
+  "nekoLatin" : "nichi",
+  "nekoKanji" : "～日",
+  "nekoKanjiHanViet" : "Nhật",
+  "nekoVietNamese" : "ngày -, - ngày",
+  "nekoEnglish" : "-th day of the month, - days",
+  "nekoSound" : "にち"
+ },
+ {
+  "nekoJapanese" : "なんにち",
+  "nekoLatin" : "nannichi",
+  "nekoKanji" : "何日",
+  "nekoKanjiHanViet" : "Hà Nhật",
+  "nekoVietNamese" : "ngày mấy, ngày bao nhiêu, mấy ngày, bao nhiêu ngày",
+  "nekoEnglish" : "which day of the month, how many days",
+  "nekoSound" : "何日"
+ },
+ {
+  "nekoJapanese" : "いつ",
+  "nekoLatin" : "itsu",
+  "nekoKanji" : "何時",
+  "nekoKanjiHanViet" : "Hà Thời",
+  "nekoVietNamese" : "bao giờ, khi nào",
+  "nekoEnglish" : "when",
+  "nekoSound" : "何時"
+ },
+ {
+  "nekoJapanese" : "たんじょうび",
+  "nekoLatin" : "nanjoubi",
+  "nekoKanji" : "誕生日",
+  "nekoKanjiHanViet" : "Đản Sinh Nhật",
+  "nekoVietNamese" : "sinh nhật",
+  "nekoEnglish" : "birthday",
+  "nekoSound" : "誕生日"
+ },
+ {
+  "nekoJapanese" : "ふつう",
+  "nekoLatin" : "futsuu",
+  "nekoKanji" : "普通",
+  "nekoKanjiHanViet" : "Phổ Thông",
+  "nekoVietNamese" : "tàu thường (dừng cả ở các ga lẻ)",
+  "nekoEnglish" : "local (train)",
+  "nekoSound" : "普通"
+ },
+ {
+  "nekoJapanese" : "きゅうこう",
+  "nekoLatin" : "kyuukou",
+  "nekoKanji" : "急行",
+  "nekoKanjiHanViet" : "Cấp Hành",
+  "nekoVietNamese" : "tàu tốc hành",
+  "nekoEnglish" : "express",
+  "nekoSound" : "急行"
+ },
+ {
+  "nekoJapanese" : "とっきゅう",
+  "nekoLatin" : "tokkyuu",
+  "nekoKanji" : "特急",
+  "nekoKanjiHanViet" : "Đặc Cấp",
+  "nekoVietNamese" : "tàu tốc hành đặc biệt",
+  "nekoEnglish" : "limited express",
+  "nekoSound" : "特急"
+ },
+ {
+  "nekoJapanese" : "つぎの",
+  "nekoLatin" : "tsugino",
+  "nekoKanji" : "次の",
+  "nekoKanjiHanViet" : "Thứ",
+  "nekoVietNamese" : "tiếp theo",
+  "nekoEnglish" : "next",
+  "nekoSound" : "次の"
+ },
+ {
+  "nekoJapanese" : "どういたしまして",
+  "nekoLatin" : "douitashimashite",
+  "nekoKanji" : "",
+  "nekoKanjiHanViet" : "",
+  "nekoVietNamese" : "Không có gì.",
+  "nekoEnglish" : "You're welcome./Don't mention it.",
+  "nekoSound" : "どういたしまして"
+ },
+ {
+  "nekoJapanese" : "ばんせん～",
+  "nekoLatin" : "bansen",
+  "nekoKanji" : "番線",
+  "nekoKanjiHanViet" : "Phiên Tuyến",
+  "nekoVietNamese" : "sân ga số -",
+  "nekoEnglish" : "platform - , - platform",
+  "nekoSound" : "番線"
+ },
+ {
+  "nekoJapanese" : "はかた",
+  "nekoLatin" : "hakata",
+  "nekoKanji" : "博多",
+  "nekoKanjiHanViet" : "Bác Đa",
+  "nekoVietNamese" : "tên một khu phố ở Kyushu",
+  "nekoEnglish" : "name of a town in Kyushu",
+  "nekoSound" : "博多"
+ },
+ {
+  "nekoJapanese" : "ふしみ",
+  "nekoLatin" : "fushimi",
+  "nekoKanji" : "伏見",
+  "nekoKanjiHanViet" : "Phục Kiến",
+  "nekoVietNamese" : "tên một khu phố ở Kyoto",
+  "nekoEnglish" : "name of a town in Kyoto",
+  "nekoSound" : "伏見"
+ },
+ {
+  "nekoJapanese" : "こうしえん",
+  "nekoLatin" : "koushien",
+  "nekoKanji" : "甲子園",
+  "nekoKanjiHanViet" : "Giáp Tử Viên",
+  "nekoVietNamese" : "tên một khu phố ở Osaka",
+  "nekoEnglish" : "name of a town in Osaka",
+  "nekoSound" : "甲子園"
+ },
+ {
+  "nekoJapanese" : "おおさかじょう",
+  "nekoLatin" : "oosakajou",
+  "nekoKanji" : "大阪城",
+  "nekoKanjiHanViet" : "Đại Phản Thành",
+  "nekoVietNamese" : "Lâu đài Osaka",
+  "nekoEnglish" : "Osaka Castle, a famous castle in Osaka",
+  "nekoSound" : "大阪城"
+ }
+]

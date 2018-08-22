@@ -1,0 +1,155 @@
+[
+ {
+  "nekoJapanese" : "かんがえます (II)",
+  "nekoLatin" : "kangaemasu",
+  "nekoKanji" : "考えます",
+  "nekoKanjiHanViet" : "Khảo",
+  "nekoVietNamese" : "nghĩ, suy nghĩ",
+  "nekoEnglish" : "think, consider",
+  "nekoSound" : "考えます"
+ },
+ {
+  "nekoJapanese" : "つきます (I) (駅に～)",
+  "nekoLatin" : "tsukimasu",
+  "nekoKanji" : "着きます(駅に～)",
+  "nekoKanjiHanViet" : "Trước Dịch",
+  "nekoVietNamese" : "đến [ga]",
+  "nekoEnglish" : "arrive [at the station]",
+  "nekoSound" : "着きます(駅に～)"
+ },
+ {
+  "nekoJapanese" : "りゅうがくします (III)",
+  "nekoLatin" : "ryuugakushimasu",
+  "nekoKanji" : "留学します",
+  "nekoKanjiHanViet" : "Lưu Học",
+  "nekoVietNamese" : "du học",
+  "nekoEnglish" : "study abroad",
+  "nekoSound" : "留学します"
+ },
+ {
+  "nekoJapanese" : "とります (I) (としを～)",
+  "nekoLatin" : "torimasu",
+  "nekoKanji" : "取ります(年を～)",
+  "nekoKanjiHanViet" : "Thủ Niên",
+  "nekoVietNamese" : "thêm [tuổi]",
+  "nekoEnglish" : "grow old",
+  "nekoSound" : "取ります(年を～)"
+ },
+ {
+  "nekoJapanese" : "いなか",
+  "nekoLatin" : "inaka",
+  "nekoKanji" : "田舎",
+  "nekoKanjiHanViet" : "Điền Xá",
+  "nekoVietNamese" : "quê, nông thôn",
+  "nekoEnglish" : "countryside, hometown",
+  "nekoSound" : "田舎"
+ },
+ {
+  "nekoJapanese" : "たいしかん",
+  "nekoLatin" : "taishikan",
+  "nekoKanji" : "大使館",
+  "nekoKanjiHanViet" : "Đại Sứ Quán",
+  "nekoVietNamese" : "đại sứ quán",
+  "nekoEnglish" : "embassy",
+  "nekoSound" : "大使館"
+ },
+ {
+  "nekoJapanese" : "グループ",
+  "nekoLatin" : "guruupu",
+  "nekoKanji" : "",
+  "nekoKanjiHanViet" : "",
+  "nekoVietNamese" : "nhóm, đoàn",
+  "nekoEnglish" : "group",
+  "nekoSound" : "グループ"
+ },
+ {
+  "nekoJapanese" : "チャンス",
+  "nekoLatin" : "chansu",
+  "nekoKanji" : "",
+  "nekoKanjiHanViet" : "",
+  "nekoVietNamese" : "cơ hội",
+  "nekoEnglish" : "chace",
+  "nekoSound" : "チャンス"
+ },
+ {
+  "nekoJapanese" : "おく",
+  "nekoLatin" : "oku",
+  "nekoKanji" : "億",
+  "nekoKanjiHanViet" : "Ức",
+  "nekoVietNamese" : "một trăm triệu",
+  "nekoEnglish" : "hundred million",
+  "nekoSound" : "億"
+ },
+ {
+  "nekoJapanese" : "もし(～たら)",
+  "nekoLatin" : "moshi",
+  "nekoKanji" : "",
+  "nekoKanjiHanViet" : "",
+  "nekoVietNamese" : "nếu [~ thì]",
+  "nekoEnglish" : "if ～",
+  "nekoSound" : "もし"
+ },
+ {
+  "nekoJapanese" : "いくら(～ても)",
+  "nekoLatin" : "ikura",
+  "nekoKanji" : "",
+  "nekoKanjiHanViet" : "",
+  "nekoVietNamese" : "cho dù, thế nào [～ đi nữa]",
+  "nekoEnglish" : "however～, even if ～",
+  "nekoSound" : "いくら"
+ },
+ {
+  "nekoJapanese" : "てんきん",
+  "nekoLatin" : "tenkin",
+  "nekoKanji" : "転勤",
+  "nekoKanjiHanViet" : "Chuyển Cần",
+  "nekoVietNamese" : "việc chuyển địa điểm làm việc (～します：chuyển địa điểm làm việc)",
+  "nekoEnglish" : "transfer (～します： be transferred to another office)",
+  "nekoSound" : "転勤"
+ },
+ {
+  "nekoJapanese" : "こと",
+  "nekoLatin" : "koto",
+  "nekoKanji" : "",
+  "nekoKanjiHanViet" : "",
+  "nekoVietNamese" : "việc (～の こと: việc ~)",
+  "nekoEnglish" : "thing, matter (～の こと: thing about ～)",
+  "nekoSound" : "こと"
+ },
+ {
+  "nekoJapanese" : "いっぱいのみましょう",
+  "nekoLatin" : "ippainomimashou",
+  "nekoKanji" : "一杯飲みましょう",
+  "nekoKanjiHanViet" : "Nhất Bôi Ẩm",
+  "nekoVietNamese" : "Chúng ta cùng uống nhé.",
+  "nekoEnglish" : "Let's have a drink together",
+  "nekoSound" : "一杯飲みましょう"
+ },
+ {
+  "nekoJapanese" : "「いろいろ」おせわになりました。",
+  "nekoLatin" : "osewaninarimashita",
+  "nekoKanji" : "「いろいろ」お世話になりました",
+  "nekoKanjiHanViet" : "Thế Thoại",
+  "nekoVietNamese" : "Anh/chị đã giúp tôi (nhiều).",
+  "nekoEnglish" : "Thank you for everything you have done for me.",
+  "nekoSound" : "いろいろ お世話になりました"
+ },
+ {
+  "nekoJapanese" : "がんばります(I)",
+  "nekoLatin" : "ganbarimasu",
+  "nekoKanji" : "頑張ります",
+  "nekoKanjiHanViet" : "Ngoan Trương",
+  "nekoVietNamese" : "cố, cố gắng",
+  "nekoEnglish" : "do one's best",
+  "nekoSound" : "頑張ります"
+ },
+ {
+  "nekoJapanese" : "どうぞおげんきで",
+  "nekoLatin" : "douzoogenkide",
+  "nekoKanji" : "どうぞお元気で ",
+  "nekoKanjiHanViet" : "Nguyên Khí",
+  "nekoVietNamese" : "Chúc anh/chị mạnh khỏe. (câu nói trước khi chia tay với ai đó mà có lẽ lâu nữa mới gặp lại)",
+  "nekoEnglish" : "Best of luck. (said when expecting a long separation)",
+  "nekoSound" : "どうぞお元気で "
+ }
+]

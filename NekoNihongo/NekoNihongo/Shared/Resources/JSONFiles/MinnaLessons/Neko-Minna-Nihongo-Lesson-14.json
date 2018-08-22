@@ -1,0 +1,218 @@
+[
+ {
+  "nekoJapanese" : "きます (II)",
+  "nekoLatin" : "kimasu",
+  "nekoKanji" : "着ます",
+  "nekoKanjiHanViet" : "Trước",
+  "nekoVietNamese" : "mặc [áo sơ mi, v.v.]",
+  "nekoEnglish" : "to put on, to wear (shirts, etc. [upper body] )",
+  "nekoSound" : "着ます"
+ },
+ {
+  "nekoJapanese" : "はきます (I) (くつを～)",
+  "nekoLatin" : "hakimasu",
+  "nekoKanji" : "履きます(靴を～)",
+  "nekoKanjiHanViet" : "Lí Ngoa",
+  "nekoVietNamese" : "đi, mặc [giầy, quần âu, v.v.]",
+  "nekoEnglish" : "to put on, to wear (trousers, shoes, etc. [lower body + footwear] )",
+  "nekoSound" : "履きます"
+ },
+ {
+  "nekoJapanese" : "かぶります (I) (ぼうしを～)",
+  "nekoLatin" : "kaburimasu",
+  "nekoKanji" : "被ります(帽子を～)",
+  "nekoKanjiHanViet" : "Bị Mạo Tử",
+  "nekoVietNamese" : "đội [mũ, v.v.]",
+  "nekoEnglish" : "to put on, to wear (hat, etc. [on head] )",
+  "nekoSound" : "被ります"
+ },
+ {
+  "nekoJapanese" : "かけます (II) (めがねを～)",
+  "nekoLatin" : "kakemasu",
+  "nekoKanji" : "掛けます(めがねを～)",
+  "nekoKanjiHanViet" : "Quải",
+  "nekoVietNamese" : "đeo [kính]",
+  "nekoEnglish" : "to put on [glasses]",
+  "nekoSound" : "掛けます"
+ },
+ {
+  "nekoJapanese" : "うまれます (II)",
+  "nekoLatin" : "umaremasu",
+  "nekoKanji" : "生まれます",
+  "nekoKanjiHanViet" : "Sinh",
+  "nekoVietNamese" : "sinh ra",
+  "nekoEnglish" : "to be born",
+  "nekoSound" : "生まれます"
+ },
+ {
+  "nekoJapanese" : "コート",
+  "nekoLatin" : "kooto",
+  "nekoKanji" : "",
+  "nekoKanjiHanViet" : "",
+  "nekoVietNamese" : "áo khoác",
+  "nekoEnglish" : "coat",
+  "nekoSound" : "コート"
+ },
+ {
+  "nekoJapanese" : "スーツ",
+  "nekoLatin" : "suutsu",
+  "nekoKanji" : "",
+  "nekoKanjiHanViet" : "",
+  "nekoVietNamese" : "com-lê",
+  "nekoEnglish" : "suit",
+  "nekoSound" : "スーツ"
+ },
+ {
+  "nekoJapanese" : "セーター",
+  "nekoLatin" : "seetaa",
+  "nekoKanji" : "",
+  "nekoKanjiHanViet" : "",
+  "nekoVietNamese" : "áo len",
+  "nekoEnglish" : "sweater",
+  "nekoSound" : "セーター"
+ },
+ {
+  "nekoJapanese" : "ぼうし",
+  "nekoLatin" : "boushi",
+  "nekoKanji" : "帽子",
+  "nekoKanjiHanViet" : "Mạo Tử",
+  "nekoVietNamese" : "mũ, nón",
+  "nekoEnglish" : "hat, cap",
+  "nekoSound" : "帽子"
+ },
+ {
+  "nekoJapanese" : "めがね",
+  "nekoLatin" : "megane",
+  "nekoKanji" : "眼鏡",
+  "nekoKanjiHanViet" : "Nhãn Kính",
+  "nekoVietNamese" : "kính",
+  "nekoEnglish" : "glasses",
+  "nekoSound" : "眼鏡"
+ },
+ {
+  "nekoJapanese" : "よく",
+  "nekoLatin" : "yoku",
+  "nekoKanji" : "",
+  "nekoKanjiHanViet" : "",
+  "nekoVietNamese" : "thường, hay",
+  "nekoEnglish" : "often",
+  "nekoSound" : "よく"
+ },
+ {
+  "nekoJapanese" : "おめでとうございます。",
+  "nekoLatin" : "omedetougozaimasu",
+  "nekoKanji" : "",
+  "nekoKanjiHanViet" : "",
+  "nekoVietNamese" : "Chúc mừng. (dùng để nói trong dịp sinh nhật, lễ cưới, năm mới v.v.)",
+  "nekoEnglish" : "congratulations (used on birthdays, at wedding, New Year's Day, etc.)",
+  "nekoSound" : "おめでとうございます"
+ },
+ {
+  "nekoJapanese" : "こちら",
+  "nekoLatin" : "kochira",
+  "nekoKanji" : "",
+  "nekoKanjiHanViet" : "",
+  "nekoVietNamese" : "cái này (cách nói lịch sự của [これ])",
+  "nekoEnglish" : "this (polite equivalent of これ)",
+  "nekoSound" : "こちら"
+ },
+ {
+  "nekoJapanese" : "やちん",
+  "nekoLatin" : "yachin",
+  "nekoKanji" : "家賃",
+  "nekoKanjiHanViet" : "Gia Nhẫm",
+  "nekoVietNamese" : "tiền thuê nhà",
+  "nekoEnglish" : "house rent",
+  "nekoSound" : "家賃"
+ },
+ {
+  "nekoJapanese" : "うーん",
+  "nekoLatin" : "un",
+  "nekoKanji" : "",
+  "nekoKanjiHanViet" : "",
+  "nekoVietNamese" : "ừ~./ Để tôi xem./ Thế nào nhỉ.",
+  "nekoEnglish" : "Let me see.",
+  "nekoSound" : "うーん"
+ },
+ {
+  "nekoJapanese" : "ダイニングキチン",
+  "nekoLatin" : "dainingukichin",
+  "nekoKanji" : "",
+  "nekoKanjiHanViet" : "",
+  "nekoVietNamese" : "bếp kèm phòng ăn",
+  "nekoEnglish" : "kitchen with a dining area",
+  "nekoSound" : "ダイニングキチン"
+ },
+ {
+  "nekoJapanese" : "わしつ",
+  "nekoLatin" : "washitsu",
+  "nekoKanji" : "和室",
+  "nekoKanjiHanViet" : "Hòa Thất",
+  "nekoVietNamese" : "phòng kiểu Nhật",
+  "nekoEnglish" : "Japanese-style room",
+  "nekoSound" : "和室"
+ },
+ {
+  "nekoJapanese" : "おしいれ",
+  "nekoLatin" : "oshiire",
+  "nekoKanji" : "押入れ",
+  "nekoKanjiHanViet" : "Áp Nhập",
+  "nekoVietNamese" : "Chổ để chăn gối trong một căn phòng kiểu Nhật",
+  "nekoEnglish" : "Japanese-style closet",
+  "nekoSound" : "押入れ"
+ },
+ {
+  "nekoJapanese" : "ふとん",
+  "nekoLatin" : "futon",
+  "nekoKanji" : "布団",
+  "nekoKanjiHanViet" : "Bố Đoàn",
+  "nekoVietNamese" : "chăn, đệm",
+  "nekoEnglish" : "Japanese-style mattress and quilt",
+  "nekoSound" : "布団"
+ },
+ {
+  "nekoJapanese" : "アパート",
+  "nekoLatin" : "apaato",
+  "nekoKanji" : "",
+  "nekoKanjiHanViet" : "",
+  "nekoVietNamese" : "nhà chung cư",
+  "nekoEnglish" : "apartment",
+  "nekoSound" : "アパート"
+ },
+ {
+  "nekoJapanese" : "パリ",
+  "nekoLatin" : "pari",
+  "nekoKanji" : "",
+  "nekoKanjiHanViet" : "",
+  "nekoVietNamese" : "Pari",
+  "nekoEnglish" : "Paris",
+  "nekoSound" : "パリ"
+ },
+ {
+  "nekoJapanese" : "ばんりのちょうじょう",
+  "nekoLatin" : "banrinochoujou",
+  "nekoKanji" : "万里の長城",
+  "nekoKanjiHanViet" : "Vạn Lí Trường Thành",
+  "nekoVietNamese" : "Vạn Lý Trường Thành",
+  "nekoEnglish" : "The Great Wall of China",
+  "nekoSound" : "万里の長城"
+ },
+ {
+  "nekoJapanese" : "よかかいはつセンター",
+  "nekoLatin" : "yokakaihatsusentaa",
+  "nekoKanji" : "余暇開発センタ",
+  "nekoKanjiHanViet" : "Dư Hạ Khai Phát",
+  "nekoVietNamese" : "Trung tâm phát triển hoạt động giải trí cho người dân",
+  "nekoEnglish" : "Center for Developing Leisure Activities",
+  "nekoSound" : "余暇開発センタ"
+ },
+ {
+  "nekoJapanese" : "レジャー白書",
+  "nekoLatin" : "rejaahakujo",
+  "nekoKanji" : "",
+  "nekoKanjiHanViet" : "",
+  "nekoVietNamese" : "sách trắng về sử dụng thời gian rảnh rỗi",
+  "nekoEnglish" : "white paper on leisure",
+  "nekoSound" : "レジャー白書"
+ }
+]

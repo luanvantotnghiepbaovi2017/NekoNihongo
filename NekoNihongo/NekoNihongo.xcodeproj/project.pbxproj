@@ -194,6 +194,20 @@
 		396B3A821F9B1F910099FC74 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3956BB471F6686E1001B715E /* Assets.xcassets */; };
 		396B3A831F9B1F920099FC74 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3956BB471F6686E1001B715E /* Assets.xcassets */; };
 		396B3A841F9B1F930099FC74 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3956BB471F6686E1001B715E /* Assets.xcassets */; };
+		3972A71F2113D36700663C4D /* Neko-Minna-Nihongo-Lesson-4.json in Resources */ = {isa = PBXBuildFile; fileRef = 3972A71E2113D36700663C4D /* Neko-Minna-Nihongo-Lesson-4.json */; };
+		3972A7212113D3B100663C4D /* Neko-Minna-Nihongo-Lesson-5.json in Resources */ = {isa = PBXBuildFile; fileRef = 3972A7202113D3B100663C4D /* Neko-Minna-Nihongo-Lesson-5.json */; };
+		3972A72B2113D4D000663C4D /* Neko-Minna-Nihongo-Lesson-6.json in Resources */ = {isa = PBXBuildFile; fileRef = 3972A72A2113D4D000663C4D /* Neko-Minna-Nihongo-Lesson-6.json */; };
+		3972A72D2113D4F700663C4D /* Neko-Minna-Nihongo-Lesson-7.json in Resources */ = {isa = PBXBuildFile; fileRef = 3972A72C2113D4F700663C4D /* Neko-Minna-Nihongo-Lesson-7.json */; };
+		3972A7312113D51A00663C4D /* Neko-Minna-Nihongo-Lesson-8.json in Resources */ = {isa = PBXBuildFile; fileRef = 3972A72E2113D51900663C4D /* Neko-Minna-Nihongo-Lesson-8.json */; };
+		3972A7322113D51A00663C4D /* Neko-Minna-Nihongo-Lesson-9.json in Resources */ = {isa = PBXBuildFile; fileRef = 3972A72F2113D51900663C4D /* Neko-Minna-Nihongo-Lesson-9.json */; };
+		3972A7332113D51A00663C4D /* Neko-Minna-Nihongo-Lesson-10.json in Resources */ = {isa = PBXBuildFile; fileRef = 3972A7302113D51A00663C4D /* Neko-Minna-Nihongo-Lesson-10.json */; };
+		3972A73B2113D56100663C4D /* Neko-Minna-Nihongo-Lesson-13.json in Resources */ = {isa = PBXBuildFile; fileRef = 3972A7342113D55F00663C4D /* Neko-Minna-Nihongo-Lesson-13.json */; };
+		3972A73C2113D56100663C4D /* Neko-Minna-Nihongo-Lesson-14.json in Resources */ = {isa = PBXBuildFile; fileRef = 3972A7352113D55F00663C4D /* Neko-Minna-Nihongo-Lesson-14.json */; };
+		3972A73D2113D56100663C4D /* Neko-Minna-Nihongo-Lesson-15.json in Resources */ = {isa = PBXBuildFile; fileRef = 3972A7362113D56000663C4D /* Neko-Minna-Nihongo-Lesson-15.json */; };
+		3972A73E2113D56100663C4D /* Neko-Minna-Nihongo-Lesson-16.json in Resources */ = {isa = PBXBuildFile; fileRef = 3972A7372113D56000663C4D /* Neko-Minna-Nihongo-Lesson-16.json */; };
+		3972A73F2113D56100663C4D /* Neko-Minna-Nihongo-Lesson-12.json in Resources */ = {isa = PBXBuildFile; fileRef = 3972A7382113D56000663C4D /* Neko-Minna-Nihongo-Lesson-12.json */; };
+		3972A7402113D56100663C4D /* Neko-Minna-Nihongo-Lesson-17.json in Resources */ = {isa = PBXBuildFile; fileRef = 3972A7392113D56000663C4D /* Neko-Minna-Nihongo-Lesson-17.json */; };
+		3972A7412113D56100663C4D /* Neko-Minna-Nihongo-Lesson-11.json in Resources */ = {isa = PBXBuildFile; fileRef = 3972A73A2113D56000663C4D /* Neko-Minna-Nihongo-Lesson-11.json */; };
 		3973FDD51FAB1CB7008928B3 /* MinnaNoNihongoDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3973FDD41FAB1CB7008928B3 /* MinnaNoNihongoDetailViewController.swift */; };
 		3973FDD71FAB247C008928B3 /* MinnaNihongoDetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3973FDD61FAB247C008928B3 /* MinnaNihongoDetailTableViewCell.swift */; };
 		3973FDDB1FAB2DB0008928B3 /* HelperFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3973FDDA1FAB2DB0008928B3 /* HelperFunction.swift */; };
@@ -426,6 +440,20 @@
 		3956BB751F6688D9001B715E /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		3956BB7A1F6699BB001B715E /* NekoTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NekoTableViewCell.swift; sourceTree = "<group>"; };
 		3956BB7C1F669AE8001B715E /* NekoModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NekoModel.swift; sourceTree = "<group>"; };
+		3972A71E2113D36700663C4D /* Neko-Minna-Nihongo-Lesson-4.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Neko-Minna-Nihongo-Lesson-4.json"; sourceTree = "<group>"; };
+		3972A7202113D3B100663C4D /* Neko-Minna-Nihongo-Lesson-5.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Neko-Minna-Nihongo-Lesson-5.json"; sourceTree = "<group>"; };
+		3972A72A2113D4D000663C4D /* Neko-Minna-Nihongo-Lesson-6.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Neko-Minna-Nihongo-Lesson-6.json"; sourceTree = "<group>"; };
+		3972A72C2113D4F700663C4D /* Neko-Minna-Nihongo-Lesson-7.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Neko-Minna-Nihongo-Lesson-7.json"; sourceTree = "<group>"; };
+		3972A72E2113D51900663C4D /* Neko-Minna-Nihongo-Lesson-8.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Neko-Minna-Nihongo-Lesson-8.json"; sourceTree = "<group>"; };
+		3972A72F2113D51900663C4D /* Neko-Minna-Nihongo-Lesson-9.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Neko-Minna-Nihongo-Lesson-9.json"; sourceTree = "<group>"; };
+		3972A7302113D51A00663C4D /* Neko-Minna-Nihongo-Lesson-10.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Neko-Minna-Nihongo-Lesson-10.json"; sourceTree = "<group>"; };
+		3972A7342113D55F00663C4D /* Neko-Minna-Nihongo-Lesson-13.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Neko-Minna-Nihongo-Lesson-13.json"; sourceTree = "<group>"; };
+		3972A7352113D55F00663C4D /* Neko-Minna-Nihongo-Lesson-14.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Neko-Minna-Nihongo-Lesson-14.json"; sourceTree = "<group>"; };
+		3972A7362113D56000663C4D /* Neko-Minna-Nihongo-Lesson-15.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Neko-Minna-Nihongo-Lesson-15.json"; sourceTree = "<group>"; };
+		3972A7372113D56000663C4D /* Neko-Minna-Nihongo-Lesson-16.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Neko-Minna-Nihongo-Lesson-16.json"; sourceTree = "<group>"; };
+		3972A7382113D56000663C4D /* Neko-Minna-Nihongo-Lesson-12.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Neko-Minna-Nihongo-Lesson-12.json"; sourceTree = "<group>"; };
+		3972A7392113D56000663C4D /* Neko-Minna-Nihongo-Lesson-17.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Neko-Minna-Nihongo-Lesson-17.json"; sourceTree = "<group>"; };
+		3972A73A2113D56000663C4D /* Neko-Minna-Nihongo-Lesson-11.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Neko-Minna-Nihongo-Lesson-11.json"; sourceTree = "<group>"; };
 		3973FDD41FAB1CB7008928B3 /* MinnaNoNihongoDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MinnaNoNihongoDetailViewController.swift; sourceTree = "<group>"; };
 		3973FDD61FAB247C008928B3 /* MinnaNihongoDetailTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MinnaNihongoDetailTableViewCell.swift; sourceTree = "<group>"; };
 		3973FDDA1FAB2DB0008928B3 /* HelperFunction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelperFunction.swift; sourceTree = "<group>"; };
@@ -744,6 +772,20 @@
 				393AD53C1FC487600094A9E7 /* Neko-Minna-Nihongo-Lesson-1.json */,
 				393AD53A1FC487600094A9E7 /* Neko-Minna-Nihongo-Lesson-2.json */,
 				393AD53B1FC487600094A9E7 /* Neko-Minna-Nihongo-Lesson-3.json */,
+				3972A71E2113D36700663C4D /* Neko-Minna-Nihongo-Lesson-4.json */,
+				3972A7202113D3B100663C4D /* Neko-Minna-Nihongo-Lesson-5.json */,
+				3972A72A2113D4D000663C4D /* Neko-Minna-Nihongo-Lesson-6.json */,
+				3972A72C2113D4F700663C4D /* Neko-Minna-Nihongo-Lesson-7.json */,
+				3972A72E2113D51900663C4D /* Neko-Minna-Nihongo-Lesson-8.json */,
+				3972A72F2113D51900663C4D /* Neko-Minna-Nihongo-Lesson-9.json */,
+				3972A7302113D51A00663C4D /* Neko-Minna-Nihongo-Lesson-10.json */,
+				3972A73A2113D56000663C4D /* Neko-Minna-Nihongo-Lesson-11.json */,
+				3972A7382113D56000663C4D /* Neko-Minna-Nihongo-Lesson-12.json */,
+				3972A7342113D55F00663C4D /* Neko-Minna-Nihongo-Lesson-13.json */,
+				3972A7352113D55F00663C4D /* Neko-Minna-Nihongo-Lesson-14.json */,
+				3972A7362113D56000663C4D /* Neko-Minna-Nihongo-Lesson-15.json */,
+				3972A7372113D56000663C4D /* Neko-Minna-Nihongo-Lesson-16.json */,
+				3972A7392113D56000663C4D /* Neko-Minna-Nihongo-Lesson-17.json */,
 			);
 			path = MinnaLessons;
 			sourceTree = "<group>";
@@ -1084,7 +1126,7 @@
 						CreatedOnToolsVersion = 8.3.3;
 						DevelopmentTeam = W632CJZ6Y5;
 						LastSwiftMigration = 0910;
-						ProvisioningStyle = Manual;
+						ProvisioningStyle = Automatic;
 					};
 					3956BB501F6686E1001B715E = {
 						CreatedOnToolsVersion = 8.3.3;
@@ -1158,6 +1200,7 @@
 				3928A9981F860B2B0071E43B /* ら.svg in Resources */,
 				3928A9601F860B2B0071E43B /* き.svg in Resources */,
 				393B3E881F6835F000062279 /* BalsamiqSansBold.ttf in Resources */,
+				3972A7412113D56100663C4D /* Neko-Minna-Nihongo-Lesson-11.json in Resources */,
 				3928A9831F860B2B0071E43B /* ぱ.svg in Resources */,
 				3928AA321F860B760071E43B /* ラ.svg in Resources */,
 				3928AA291F860B760071E43B /* ポ.svg in Resources */,
@@ -1174,6 +1217,7 @@
 				3928A95C1F860B2B0071E43B /* え.svg in Resources */,
 				3928AA1E1F860B760071E43B /* ヒ.svg in Resources */,
 				3928AA101F860B760071E43B /* ツ.svg in Resources */,
+				3972A73D2113D56100663C4D /* Neko-Minna-Nihongo-Lesson-15.json in Resources */,
 				3928AA181F860B760071E43B /* ヌ.svg in Resources */,
 				3928A97E1F860B2B0071E43B /* ぬ.svg in Resources */,
 				3928A9921F860B2B0071E43B /* む.svg in Resources */,
@@ -1187,6 +1231,7 @@
 				3928A9721F860B2B0071E43B /* た.svg in Resources */,
 				3928A9FE1F860B760071E43B /* ケ.svg in Resources */,
 				3928A9661F860B2B0071E43B /* こ.svg in Resources */,
+				3972A73C2113D56100663C4D /* Neko-Minna-Nihongo-Lesson-14.json in Resources */,
 				3928AA371F860B760071E43B /* ワ.svg in Resources */,
 				3928A9761F860B2B0071E43B /* つ.svg in Resources */,
 				3928A9A31F860B360071E43B /* sゃ.svg in Resources */,
@@ -1197,19 +1242,26 @@
 				3928A99C1F860B2B0071E43B /* ろ.svg in Resources */,
 				3928A9821F860B2B0071E43B /* ば.svg in Resources */,
 				3928A9971F860B2B0071E43B /* よ.svg in Resources */,
+				3972A73F2113D56100663C4D /* Neko-Minna-Nihongo-Lesson-12.json in Resources */,
 				3928A99E1F860B2B0071E43B /* を.svg in Resources */,
 				3928A9631F860B2B0071E43B /* ぐ.svg in Resources */,
 				39D2A8AD1F73B34D00812B58 /* SNsanafonMugiV258.ttf in Resources */,
 				3956BB4B1F6686E1001B715E /* LaunchScreen.storyboard in Resources */,
 				3928A95A1F860B2B0071E43B /* い.svg in Resources */,
 				3928A96F1F860B2B0071E43B /* ぜ.svg in Resources */,
+				3972A72B2113D4D000663C4D /* Neko-Minna-Nihongo-Lesson-6.json in Resources */,
 				3928A9F91F860B760071E43B /* ガ.svg in Resources */,
 				3928A9941F860B2B0071E43B /* も.svg in Resources */,
+				3972A7212113D3B100663C4D /* Neko-Minna-Nihongo-Lesson-5.json in Resources */,
 				3928A95E1F860B2B0071E43B /* か.svg in Resources */,
 				3928A9FA1F860B760071E43B /* キ.svg in Resources */,
 				393AD53D1FC487600094A9E7 /* Neko-Minna-Nihongo-Lesson-2.json in Resources */,
 				3928A99F1F860B2B0071E43B /* ん.svg in Resources */,
+				3972A72D2113D4F700663C4D /* Neko-Minna-Nihongo-Lesson-7.json in Resources */,
+				3972A7312113D51A00663C4D /* Neko-Minna-Nihongo-Lesson-8.json in Resources */,
+				3972A7402113D56100663C4D /* Neko-Minna-Nihongo-Lesson-17.json in Resources */,
 				3928A9641F860B2B0071E43B /* け.svg in Resources */,
+				3972A73E2113D56100663C4D /* Neko-Minna-Nihongo-Lesson-16.json in Resources */,
 				3928A98A1F860B2B0071E43B /* へ.svg in Resources */,
 				3928AA2C1F860B760071E43B /* ム.svg in Resources */,
 				3928A9A41F860B360071E43B /* sゅ.svg in Resources */,
@@ -1232,6 +1284,7 @@
 				3928A98B1F860B2B0071E43B /* べ.svg in Resources */,
 				3928AA3D1F861EAC0071E43B /* pe_katakana.svg in Resources */,
 				3928A9861F860B2B0071E43B /* ぴ.svg in Resources */,
+				3972A73B2113D56100663C4D /* Neko-Minna-Nihongo-Lesson-13.json in Resources */,
 				3928A9961F860B2B0071E43B /* ゆ.svg in Resources */,
 				3928A9881F860B2B0071E43B /* ぶ.svg in Resources */,
 				393B3E8B1F6835F000062279 /* BalsamiqSansRegular.ttf in Resources */,
@@ -1241,6 +1294,7 @@
 				3928A9F41F860B760071E43B /* イ.svg in Resources */,
 				3928A98F1F860B2B0071E43B /* ぽ.svg in Resources */,
 				3956BB741F66889F001B715E /* GoogleService-Info.plist in Resources */,
+				3972A7322113D51A00663C4D /* Neko-Minna-Nihongo-Lesson-9.json in Resources */,
 				3928A9F31F860B760071E43B /* ア.svg in Resources */,
 				3928A96D1F860B2B0071E43B /* ず.svg in Resources */,
 				3928A9AA1F860B6D0071E43B /* sュ.svg in Resources */,
@@ -1252,6 +1306,7 @@
 				3928A97B1F860B2B0071E43B /* ど.svg in Resources */,
 				3928A9591F860B2B0071E43B /* あ.svg in Resources */,
 				3928A95B1F860B2B0071E43B /* う.svg in Resources */,
+				3972A7332113D51A00663C4D /* Neko-Minna-Nihongo-Lesson-10.json in Resources */,
 				3928AA011F860B760071E43B /* ゴ.svg in Resources */,
 				3928AA211F860B760071E43B /* フ.svg in Resources */,
 				3928AA311F860B760071E43B /* ヨ.svg in Resources */,
@@ -1259,6 +1314,7 @@
 				3928AA281F860B760071E43B /* ボ.svg in Resources */,
 				3928AA2E1F860B760071E43B /* モ.svg in Resources */,
 				3928A9801F860B2B0071E43B /* の.svg in Resources */,
+				3972A71F2113D36700663C4D /* Neko-Minna-Nihongo-Lesson-4.json in Resources */,
 				393AD53F1FC487600094A9E7 /* Neko-Minna-Nihongo-Lesson-1.json in Resources */,
 				3928AA1F1F860B760071E43B /* ビ.svg in Resources */,
 				3928A98C1F860B2B0071E43B /* ぺ.svg in Resources */,
@@ -1600,16 +1656,17 @@
 			baseConfigurationReference = 89DCDB65383729CC0C89235D /* Pods-NekoNihongo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = W632CJZ6Y5;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = NekoNihongo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = vibao.com.vn.NekoNihongo;
+				PRODUCT_BUNDLE_IDENTIFIER = status.com.vn;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "03f62685-da81-444d-9e7e-f780aafe7cb3";
-				PROVISIONING_PROFILE_SPECIFIER = AllDev;
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_VERSION = 4.0;
 			};
@@ -1620,16 +1677,17 @@
 			baseConfigurationReference = AFE9336B04BA2AA168A69825 /* Pods-NekoNihongo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = W632CJZ6Y5;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = NekoNihongo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = vibao.com.vn.NekoNihongo;
+				PRODUCT_BUNDLE_IDENTIFIER = status.com.vn;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "03f62685-da81-444d-9e7e-f780aafe7cb3";
-				PROVISIONING_PROFILE_SPECIFIER = AllDev;
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_VERSION = 4.0;
 			};

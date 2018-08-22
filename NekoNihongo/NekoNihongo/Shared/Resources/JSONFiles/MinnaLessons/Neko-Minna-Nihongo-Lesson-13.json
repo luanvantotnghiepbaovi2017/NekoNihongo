@@ -1,0 +1,335 @@
+[
+ {
+  "nekoJapanese" : "おもいます (I)",
+  "nekoLatin" : "omoimasu",
+  "nekoKanji" : "思います",
+  "nekoKanjiHanViet" : "Tư",
+  "nekoVietNamese" : "nghĩ",
+  "nekoEnglish" : "to think",
+  "nekoSound" : "思います"
+ },
+ {
+  "nekoJapanese" : "いいます (I)",
+  "nekoLatin" : "iimasu",
+  "nekoKanji" : "言います",
+  "nekoKanjiHanViet" : "Ngôn",
+  "nekoVietNamese" : "nói",
+  "nekoEnglish" : "to say",
+  "nekoSound" : "言います"
+ },
+ {
+  "nekoJapanese" : "たります (II)",
+  "nekoLatin" : "tarimasu",
+  "nekoKanji" : "足ります",
+  "nekoKanjiHanViet" : "Túc",
+  "nekoVietNamese" : "đủ",
+  "nekoEnglish" : "to be enough, to be sufficient",
+  "nekoSound" : "足ります"
+ },
+ {
+  "nekoJapanese" : "かちます (I)",
+  "nekoLatin" : "kachimasu",
+  "nekoKanji" : "勝ちます",
+  "nekoKanjiHanViet" : "Thắng",
+  "nekoVietNamese" : "thắng",
+  "nekoEnglish" : "to win",
+  "nekoSound" : "勝ちます"
+ },
+ {
+  "nekoJapanese" : "まけます (II)",
+  "nekoLatin" : "makemasu",
+  "nekoKanji" : "負けます",
+  "nekoKanjiHanViet" : "Phụ",
+  "nekoVietNamese" : "thua",
+  "nekoEnglish" : "to lose (be beaten)",
+  "nekoSound" : "負けます"
+ },
+ {
+  "nekoJapanese" : "あります (I)",
+  "nekoLatin" : "arimasu",
+  "nekoKanji" : "",
+  "nekoKanjiHanViet" : "",
+  "nekoVietNamese" : "được tổ chức, diễn ra, có [lễ hội~]",
+  "nekoEnglish" : "[a festival] be held, to take place",
+  "nekoSound" : "あります"
+ },
+ {
+  "nekoJapanese" : "やくにたちます (I)",
+  "nekoLatin" : "yakunitachimasu",
+  "nekoKanji" : "役に立ちます",
+  "nekoKanjiHanViet" : "Dịch Lập",
+  "nekoVietNamese" : "giúp ích, có ích",
+  "nekoEnglish" : "be useful",
+  "nekoSound" : "役に立ちます"
+ },
+ {
+  "nekoJapanese" : "むだ「な」",
+  "nekoLatin" : "muda",
+  "nekoKanji" : "無駄「な」",
+  "nekoKanjiHanViet" : "Vô Đà",
+  "nekoVietNamese" : "lãng phí, vô ích",
+  "nekoEnglish" : "wasteful",
+  "nekoSound" : "無駄"
+ },
+ {
+  "nekoJapanese" : "ふべん「な」",
+  "nekoLatin" : "fuben",
+  "nekoKanji" : "不便「な」",
+  "nekoKanjiHanViet" : "Bất Tiện",
+  "nekoVietNamese" : "bất tiện",
+  "nekoEnglish" : "inconvenient",
+  "nekoSound" : "不便"
+ },
+ {
+  "nekoJapanese" : "おなじ",
+  "nekoLatin" : "onaji",
+  "nekoKanji" : "同じ",
+  "nekoKanjiHanViet" : "Đồng",
+  "nekoVietNamese" : "giống",
+  "nekoEnglish" : "the same",
+  "nekoSound" : "同じ"
+ },
+ {
+  "nekoJapanese" : "すごい",
+  "nekoLatin" : "sugoi",
+  "nekoKanji" : "",
+  "nekoKanjiHanViet" : "",
+  "nekoVietNamese" : "ghê quá, giỏi quá (dùng để bày tỏ sự ngạc nhiên hoặc thán phục)",
+  "nekoEnglish" : "awful, great (expresses astonishment or admiration)",
+  "nekoSound" : "すごい"
+ },
+ {
+  "nekoJapanese" : "しゅしょう",
+  "nekoLatin" : "shushou",
+  "nekoKanji" : "首相",
+  "nekoKanjiHanViet" : "Thủ Tướng",
+  "nekoVietNamese" : "thủ tướng",
+  "nekoEnglish" : "prime minister",
+  "nekoSound" : "首相"
+ },
+ {
+  "nekoJapanese" : "だいとうりょう",
+  "nekoLatin" : "daitouryou",
+  "nekoKanji" : "大統領",
+  "nekoKanjiHanViet" : "Đại Thống Lĩnh",
+  "nekoVietNamese" : "tổng thống",
+  "nekoEnglish" : "president",
+  "nekoSound" : "大統領"
+ },
+ {
+  "nekoJapanese" : "せいじ",
+  "nekoLatin" : "seiji",
+  "nekoKanji" : "政治",
+  "nekoKanjiHanViet" : "Chính Trị",
+  "nekoVietNamese" : "chính trị",
+  "nekoEnglish" : "politics",
+  "nekoSound" : "政治"
+ },
+ {
+  "nekoJapanese" : "ニュース",
+  "nekoLatin" : "nyuusu",
+  "nekoKanji" : "",
+  "nekoKanjiHanViet" : "",
+  "nekoVietNamese" : "tin tức, bản tin",
+  "nekoEnglish" : "news",
+  "nekoSound" : "ニュース"
+ },
+ {
+  "nekoJapanese" : "スピーチ",
+  "nekoLatin" : "supiichi",
+  "nekoKanji" : "",
+  "nekoKanjiHanViet" : "",
+  "nekoVietNamese" : "bài diễn thuyết, bài phát biểu (～をします: diễn thuyết)",
+  "nekoEnglish" : "speech (～をします: make a speech)",
+  "nekoSound" : "スピーチ"
+ },
+ {
+  "nekoJapanese" : "しあい",
+  "nekoLatin" : "shiai",
+  "nekoKanji" : "試合",
+  "nekoKanjiHanViet" : "Thí Hợp",
+  "nekoVietNamese" : "trận đấu",
+  "nekoEnglish" : "game, match",
+  "nekoSound" : "試合"
+ },
+ {
+  "nekoJapanese" : "アルバイオ",
+  "nekoLatin" : "arubaito",
+  "nekoKanji" : "",
+  "nekoKanjiHanViet" : "",
+  "nekoVietNamese" : "công việc làm thêm (～をします: làm thêm)",
+  "nekoEnglish" : "side job (～をします: work part time)",
+  "nekoSound" : "アルバイオ"
+ },
+ {
+  "nekoJapanese" : "いけん",
+  "nekoLatin" : "iken",
+  "nekoKanji" : "意見",
+  "nekoKanjiHanViet" : "Ý Kiến",
+  "nekoVietNamese" : "ý kiến",
+  "nekoEnglish" : "opinion",
+  "nekoSound" : "意見"
+ },
+ {
+  "nekoJapanese" : "「お」はなし",
+  "nekoLatin" : "hanashi",
+  "nekoKanji" : "「お」話",
+  "nekoKanjiHanViet" : "Thoại",
+  "nekoVietNamese" : "câu chuyện, bài nói chuyện (～をします: Nói chuyện)",
+  "nekoEnglish" : "talk, speech, what one says, story (～をします: talk, tell a story)",
+  "nekoSound" : "お話"
+ },
+ {
+  "nekoJapanese" : "ユーモア",
+  "nekoLatin" : "yuumoa",
+  "nekoKanji" : "",
+  "nekoKanjiHanViet" : "",
+  "nekoVietNamese" : "hài hước",
+  "nekoEnglish" : "humor",
+  "nekoSound" : "ユーモア"
+ },
+ {
+  "nekoJapanese" : "むだ",
+  "nekoLatin" : "muda",
+  "nekoKanji" : "",
+  "nekoKanjiHanViet" : "",
+  "nekoVietNamese" : "sự lãng phí",
+  "nekoEnglish" : "waste",
+  "nekoSound" : "むだ"
+ },
+ {
+  "nekoJapanese" : "デザイン",
+  "nekoLatin" : "dezain",
+  "nekoKanji" : "",
+  "nekoKanjiHanViet" : "",
+  "nekoVietNamese" : "thiết kế",
+  "nekoEnglish" : "design",
+  "nekoSound" : "デザイン"
+ },
+ {
+  "nekoJapanese" : "こうつう",
+  "nekoLatin" : "koutsuu",
+  "nekoKanji" : "交通",
+  "nekoKanjiHanViet" : "Giao Thông",
+  "nekoVietNamese" : "giao thông, đi lại",
+  "nekoEnglish" : "transportation, traffic",
+  "nekoSound" : "交通"
+ },
+ {
+  "nekoJapanese" : "ラッシュ",
+  "nekoLatin" : "rasshu",
+  "nekoKanji" : "",
+  "nekoKanjiHanViet" : "",
+  "nekoVietNamese" : "giờ cao điểm",
+  "nekoEnglish" : "rush hour",
+  "nekoSound" : "ラッシュ"
+ },
+ {
+  "nekoJapanese" : "さいきん",
+  "nekoLatin" : "saikin",
+  "nekoKanji" : "最近",
+  "nekoKanjiHanViet" : "Tối Cận",
+  "nekoVietNamese" : "gần đây",
+  "nekoEnglish" : "recently, these days",
+  "nekoSound" : "最近"
+ },
+ {
+  "nekoJapanese" : "たぶん",
+  "nekoLatin" : "tabun",
+  "nekoKanji" : "多分",
+  "nekoKanjiHanViet" : "Đa Phân",
+  "nekoVietNamese" : "Chắc, có thể",
+  "nekoEnglish" : "probably, perhaps, maybe",
+  "nekoSound" : "多分"
+ },
+ {
+  "nekoJapanese" : "きっと",
+  "nekoLatin" : "kitto",
+  "nekoKanji" : "",
+  "nekoKanjiHanViet" : "",
+  "nekoVietNamese" : "chắc chắn, nhất định",
+  "nekoEnglish" : "surely",
+  "nekoSound" : "きっと"
+ },
+ {
+  "nekoJapanese" : "ほんとに",
+  "nekoLatin" : "hontoni",
+  "nekoKanji" : "本当に",
+  "nekoKanjiHanViet" : "Bản Đương",
+  "nekoVietNamese" : "thật sự",
+  "nekoEnglish" : "really",
+  "nekoSound" : "本当に"
+ },
+ {
+  "nekoJapanese" : "そんなに",
+  "nekoLatin" : "sonnani",
+  "nekoKanji" : "",
+  "nekoKanjiHanViet" : "",
+  "nekoVietNamese" : "(không)~ lắm",
+  "nekoEnglish" : "not so much (used with negatives)",
+  "nekoSound" : "そんなに"
+ },
+ {
+  "nekoJapanese" : "～について",
+  "nekoLatin" : "nitsuite",
+  "nekoKanji" : "",
+  "nekoKanjiHanViet" : "",
+  "nekoVietNamese" : "về~",
+  "nekoEnglish" : "about～, concerning～",
+  "nekoSound" : "について"
+ },
+ {
+  "nekoJapanese" : "しかたがありません",
+  "nekoLatin" : "shikatagaarimasen",
+  "nekoKanji" : "仕方がありません",
+  "nekoKanjiHanViet" : "Sĩ Phương",
+  "nekoVietNamese" : "Không có cách nào khác./đành chịu vậy/ Chuyện đã rồi.",
+  "nekoEnglish" : "there is no other choice./ It cann't be helped.",
+  "nekoSound" : "仕方がありません"
+ },
+ {
+  "nekoJapanese" : "しばらくですね。",
+  "nekoLatin" : "shibarakudesune",
+  "nekoKanji" : "",
+  "nekoKanjiHanViet" : "",
+  "nekoVietNamese" : "Lâu không gặp nhỉ.",
+  "nekoEnglish" : "It's been a long time (since I last saw you)./Long time no see",
+  "nekoSound" : "しばらくですね"
+ },
+ {
+  "nekoJapanese" : "～でものみませんか。",
+  "nekoLatin" : "demonomimasenka",
+  "nekoKanji" : "～でも　飲みませんか。",
+  "nekoKanjiHanViet" : "Ẩm",
+  "nekoVietNamese" : "Anh/chị uống~ (cà-phê, rựu hay cái gì đó) nhé.",
+  "nekoEnglish" : "How about drinking ～ or something?",
+  "nekoSound" : "でも　飲みませんか"
+ },
+ {
+  "nekoJapanese" : "みないと。。。",
+  "nekoLatin" : "minaito",
+  "nekoKanji" : "見ないと。。。",
+  "nekoKanjiHanViet" : "Kiến",
+  "nekoVietNamese" : "Tôi phải xem",
+  "nekoEnglish" : "I've got to watch it.",
+  "nekoSound" : "見ないと"
+ },
+ {
+  "nekoJapanese" : "もちろん",
+  "nekoLatin" : "mochiron",
+  "nekoKanji" : "",
+  "nekoKanjiHanViet" : "",
+  "nekoVietNamese" : "tất nhiên",
+  "nekoEnglish" : "of course",
+  "nekoSound" : "もちろん"
+ },
+ {
+  "nekoJapanese" : "カンガル",
+  "nekoLatin" : "kangaru",
+  "nekoKanji" : "",
+  "nekoKanjiHanViet" : "",
+  "nekoVietNamese" : "kangaroo",
+  "nekoEnglish" : "con chuột túi",
+  "nekoSound" : "カンガル"
+ }
+]

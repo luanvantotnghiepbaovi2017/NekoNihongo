@@ -1,0 +1,290 @@
+[
+ {
+  "nekoJapanese" : "ききます (I) 「せんせいに～」",
+  "nekoLatin" : "kikimasu",
+  "nekoKanji" : "聞きます「先生に～」",
+  "nekoKanjiHanViet" : "Văn Tiên Sinh",
+  "nekoVietNamese" : "hỏi [giáo viên]",
+  "nekoEnglish" : "ask [the teacher]",
+  "nekoSound" : "ききます"
+ },
+ {
+  "nekoJapanese" : "まわします (I)",
+  "nekoLatin" : "mawashimasu",
+  "nekoKanji" : "回します",
+  "nekoKanjiHanViet" : "Hồi",
+  "nekoVietNamese" : "vặn (núm)",
+  "nekoEnglish" : "to turn",
+  "nekoSound" : "回します"
+ },
+ {
+  "nekoJapanese" : "ひきます (I)",
+  "nekoLatin" : "hikimasu",
+  "nekoKanji" : "引きます",
+  "nekoKanjiHanViet" : "Dẫn",
+  "nekoVietNamese" : "kéo",
+  "nekoEnglish" : "to pull",
+  "nekoSound" : "引きます"
+ },
+ {
+  "nekoJapanese" : "かえます (II)",
+  "nekoLatin" : "kaemasu",
+  "nekoKanji" : "変えます",
+  "nekoKanjiHanViet" : "Biến",
+  "nekoVietNamese" : "đổi",
+  "nekoEnglish" : "change",
+  "nekoSound" : "変えます"
+ },
+ {
+  "nekoJapanese" : "さわります (I) [ドアに～]",
+  "nekoLatin" : "sawarimasu",
+  "nekoKanji" : "触ります",
+  "nekoKanjiHanViet" : "Xúc",
+  "nekoVietNamese" : "sờ, chạm vào [cửa]",
+  "nekoEnglish" : "to touch, to feel [a door]",
+  "nekoSound" : "触ります"
+ },
+ {
+  "nekoJapanese" : "でます (II) 「おつりが～」",
+  "nekoLatin" : "demasu",
+  "nekoKanji" : "出ます「お釣りが～」",
+  "nekoKanjiHanViet" : "Xuất Điếu",
+  "nekoVietNamese" : "ra, đi ra [tiền thừa ~]",
+  "nekoEnglish" : "[change] come out",
+  "nekoSound" : "出ます"
+ },
+ {
+  "nekoJapanese" : "うごきます (I) 「とけいが～」",
+  "nekoLatin" : "ugokimasu",
+  "nekoKanji" : "動きます(時計が)",
+  "nekoKanjiHanViet" : "Động Thời Kế",
+  "nekoVietNamese" : "chuyển động, chạy [đồng hồ ~]",
+  "nekoEnglish" : "to move (motion), to stir, to shake, [a watch] move",
+  "nekoSound" : "動きます"
+ },
+ {
+  "nekoJapanese" : "あるきます (I) (みちを～)",
+  "nekoLatin" : "arukimasu",
+  "nekoKanji" : "歩きます(みちを～)",
+  "nekoKanjiHanViet" : "Bộ",
+  "nekoVietNamese" : "đi bộ [trên đường]",
+  "nekoEnglish" : "to walk [along a road]",
+  "nekoSound" : "歩きます"
+ },
+ {
+  "nekoJapanese" : "わたります (I) (はしを～)",
+  "nekoLatin" : "watarimasu",
+  "nekoKanji" : "渡ります(橋を～)",
+  "nekoKanjiHanViet" : "Độ Kiều",
+  "nekoVietNamese" : "qua, đi qua [cầu]",
+  "nekoEnglish" : "to cross over, to go across, cross [a bridge]",
+  "nekoSound" : "渡ります"
+ },
+ {
+  "nekoJapanese" : "きをつけます (II) (くるまに～)",
+  "nekoLatin" : "kiwotsukemasu",
+  "nekoKanji" : "気をつけます。(車に～)",
+  "nekoKanjiHanViet" : "Khí Xa",
+  "nekoVietNamese" : "chú ý, cẩn thận [với ô-tô]",
+  "nekoEnglish" : "pay attention [to car], take care",
+  "nekoSound" : "気をつけます"
+ },
+ {
+  "nekoJapanese" : "ひっこしします (III)",
+  "nekoLatin" : "hikkoshishimasu",
+  "nekoKanji" : "引っ越しします",
+  "nekoKanjiHanViet" : "Dẫn Việt",
+  "nekoVietNamese" : "chuyển nhà",
+  "nekoEnglish" : "to move (to a different house)",
+  "nekoSound" : "引っ越しします"
+ },
+ {
+  "nekoJapanese" : "でんきや",
+  "nekoLatin" : "denkiya",
+  "nekoKanji" : "電気屋",
+  "nekoKanjiHanViet" : "Điện Khí Ốc",
+  "nekoVietNamese" : "cửa hàng đồ điện",
+  "nekoEnglish" : "electrician",
+  "nekoSound" : "電気屋"
+ },
+ {
+  "nekoJapanese" : "～や",
+  "nekoLatin" : "ya",
+  "nekoKanji" : "～屋",
+  "nekoKanjiHanViet" : "Ốc",
+  "nekoVietNamese" : "cửa hàng ～",
+  "nekoEnglish" : "person of ～ shop",
+  "nekoSound" : "や"
+ },
+ {
+  "nekoJapanese" : "サイズ",
+  "nekoLatin" : "",
+  "nekoKanji" : "",
+  "nekoKanjiHanViet" : "",
+  "nekoVietNamese" : "cỡ, kích thước",
+  "nekoEnglish" : "size",
+  "nekoSound" : "サイズ"
+ },
+ {
+  "nekoJapanese" : "おと",
+  "nekoLatin" : "oto",
+  "nekoKanji" : "音",
+  "nekoKanjiHanViet" : "Âm",
+  "nekoVietNamese" : "âm thanh",
+  "nekoEnglish" : "sound",
+  "nekoSound" : "音"
+ },
+ {
+  "nekoJapanese" : "きかい",
+  "nekoLatin" : "kikai",
+  "nekoKanji" : "機械",
+  "nekoKanjiHanViet" : "Cơ Giới",
+  "nekoVietNamese" : "máy, máy móc",
+  "nekoEnglish" : "machine",
+  "nekoSound" : "機械"
+ },
+ {
+  "nekoJapanese" : "つまみ",
+  "nekoLatin" : "tsumami",
+  "nekoKanji" : "",
+  "nekoKanjiHanViet" : "",
+  "nekoVietNamese" : "núm vặn",
+  "nekoEnglish" : "knob, handle",
+  "nekoSound" : "つまみ"
+ },
+ {
+  "nekoJapanese" : "こしょう",
+  "nekoLatin" : "koshou",
+  "nekoKanji" : "故障",
+  "nekoKanjiHanViet" : "Cố Chướng",
+  "nekoVietNamese" : "hỏng (~します：bị hỏng)",
+  "nekoEnglish" : "breakdown (~します：breakdown)",
+  "nekoSound" : "故障"
+ },
+ {
+  "nekoJapanese" : "みち",
+  "nekoLatin" : "michi",
+  "nekoKanji" : "道",
+  "nekoKanjiHanViet" : "Đạo",
+  "nekoVietNamese" : "đường",
+  "nekoEnglish" : "road, way",
+  "nekoSound" : "道"
+ },
+ {
+  "nekoJapanese" : "こうさてん",
+  "nekoLatin" : "kousaten",
+  "nekoKanji" : "交差点",
+  "nekoKanjiHanViet" : "Giao Sai Điểm",
+  "nekoVietNamese" : "ngã tư",
+  "nekoEnglish" : "crossroad",
+  "nekoSound" : "交差点"
+ },
+ {
+  "nekoJapanese" : "しんごう",
+  "nekoLatin" : "shingou",
+  "nekoKanji" : "信号",
+  "nekoKanjiHanViet" : "Tín Hiệu",
+  "nekoVietNamese" : "đèn tín hiệu",
+  "nekoEnglish" : "traffic light",
+  "nekoSound" : "信号"
+ },
+ {
+  "nekoJapanese" : "かど",
+  "nekoLatin" : "kado",
+  "nekoKanji" : "角",
+  "nekoKanjiHanViet" : "Giác",
+  "nekoVietNamese" : "góc",
+  "nekoEnglish" : "corner",
+  "nekoSound" : "角"
+ },
+ {
+  "nekoJapanese" : "はし",
+  "nekoLatin" : "hashi",
+  "nekoKanji" : "橋",
+  "nekoKanjiHanViet" : "Kiều",
+  "nekoVietNamese" : "cầu",
+  "nekoEnglish" : "bridge",
+  "nekoSound" : "橋"
+ },
+ {
+  "nekoJapanese" : "ちゅうしゃじょう",
+  "nekoLatin" : "chuushajou",
+  "nekoKanji" : "駐車場",
+  "nekoKanjiHanViet" : "Trú Xa Trường",
+  "nekoVietNamese" : "bãi đỗ xe",
+  "nekoEnglish" : "parking lot, car park",
+  "nekoSound" : "駐車場"
+ },
+ {
+  "nekoJapanese" : "～め",
+  "nekoLatin" : "me",
+  "nekoKanji" : "～目",
+  "nekoKanjiHanViet" : "Mục",
+  "nekoVietNamese" : "thứ - , số - (biểu thị thứ tự)",
+  "nekoEnglish" : "the -th (indicating order)",
+  "nekoSound" : "目"
+ },
+ {
+  "nekoJapanese" : "「お」しょうがつ",
+  "nekoLatin" : "oshougatsu",
+  "nekoKanji" : "「お」正月",
+  "nekoKanjiHanViet" : "Chính Nguyệt",
+  "nekoVietNamese" : "Tết (Dương lịch)",
+  "nekoEnglish" : "New Year’s Day",
+  "nekoSound" : "お正月"
+ },
+ {
+  "nekoJapanese" : "ごちそうさま「でした」",
+  "nekoLatin" : "gochisousamadeshita",
+  "nekoKanji" : "",
+  "nekoKanjiHanViet" : "",
+  "nekoVietNamese" : "Xin cám ơn anh/chị đã đãi tôi bữa cơm. (câu nói dùng khi ăn xong bữa cơm)",
+  "nekoEnglish" : "That was delicious (said after eating or drinking)",
+  "nekoSound" : "ごちそうさまでした"
+ },
+ {
+  "nekoJapanese" : "たてもの",
+  "nekoLatin" : "tatemono",
+  "nekoKanji" : "建物",
+  "nekoKanjiHanViet" : "Kiến Vật",
+  "nekoVietNamese" : "tòa nhà",
+  "nekoEnglish" : "building",
+  "nekoSound" : "建物"
+ },
+ {
+  "nekoJapanese" : "がいこくじんとうろくしょう",
+  "nekoLatin" : "gaikokujintourokushou",
+  "nekoKanji" : "外国人登録証",
+  "nekoKanjiHanViet" : "Ngoại Quốc Nhân Đăng Lục Chứng",
+  "nekoVietNamese" : "thẻ đăng ký người nước ngoài, thẻ đăng ký ngoại kiều",
+  "nekoEnglish" : "alien registration card",
+  "nekoSound" : "外国人登録証"
+ },
+ {
+  "nekoJapanese" : "しょうとくたいし",
+  "nekoLatin" : "shoutokutaishi",
+  "nekoKanji" : "聖徳太子",
+  "nekoKanjiHanViet" : "Thánh Đức Thái Tử",
+  "nekoVietNamese" : "Thái tử Shotoku (574 – 622)",
+  "nekoEnglish" : "Prince Shotoku (574 – 622)",
+  "nekoSound" : "聖徳太子"
+ },
+ {
+  "nekoJapanese" : "ほうりゅうじ",
+  "nekoLatin" : "",
+  "nekoKanji" : "法隆寺",
+  "nekoKanjiHanViet" : "Pháp Long Tự",
+  "nekoVietNamese" : "Chùa Horyu-ji",
+  "nekoEnglish" : "Horyu-ji Temple",
+  "nekoSound" : "法隆寺"
+ },
+ {
+  "nekoJapanese" : "げんきちゃ",
+  "nekoLatin" : "genkicha",
+  "nekoKanji" : "元気茶",
+  "nekoKanjiHanViet" : "Nguyên Khí Trà",
+  "nekoVietNamese" : "tên một loại trà",
+  "nekoEnglish" : "fictitious tea",
+  "nekoSound" : "元気茶 "
+ }
+]

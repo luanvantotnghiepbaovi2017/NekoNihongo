@@ -1,0 +1,326 @@
+[
+ {
+  "nekoJapanese" : "おぼえます (II)",
+  "nekoLatin" : "oboemasu",
+  "nekoKanji" : "覚えます",
+  "nekoKanjiHanViet" : "Giác",
+  "nekoVietNamese" : "nhớ",
+  "nekoEnglish" : "to remember, memorize",
+  "nekoSound" : "覚えます"
+ },
+ {
+  "nekoJapanese" : "わすれます (II)",
+  "nekoLatin" : "wasuremasu",
+  "nekoKanji" : "忘れます",
+  "nekoKanjiHanViet" : "Vong",
+  "nekoVietNamese" : "quên",
+  "nekoEnglish" : "to forget",
+  "nekoSound" : "忘れます"
+ },
+ {
+  "nekoJapanese" : "なくします (I)",
+  "nekoLatin" : "nakushimasu",
+  "nekoKanji" : "無くします",
+  "nekoKanjiHanViet" : "Vô",
+  "nekoVietNamese" : "mất, đánh mất",
+  "nekoEnglish" : "to lose (something)",
+  "nekoSound" : "無くします"
+ },
+ {
+  "nekoJapanese" : "だします (I) (レポートをだします)",
+  "nekoLatin" : "dashimasu",
+  "nekoKanji" : "出します",
+  "nekoKanjiHanViet" : "Xuất",
+  "nekoVietNamese" : "nộp[bản/bài báo cáo]",
+  "nekoEnglish" : "hand in [a report]",
+  "nekoSound" : "出します"
+ },
+ {
+  "nekoJapanese" : "はらいます (I)",
+  "nekoLatin" : "haraimasu",
+  "nekoKanji" : "払います",
+  "nekoKanjiHanViet" : "Phất",
+  "nekoVietNamese" : "trả tiền",
+  "nekoEnglish" : "to pay",
+  "nekoSound" : "払います"
+ },
+ {
+  "nekoJapanese" : "かえします (I)",
+  "nekoLatin" : "kaeshimasu",
+  "nekoKanji" : "返します",
+  "nekoKanjiHanViet" : "Phản",
+  "nekoVietNamese" : "trả lại",
+  "nekoEnglish" : "to give back, to return",
+  "nekoSound" : "返します"
+ },
+ {
+  "nekoJapanese" : "でかけます (II)",
+  "nekoLatin" : "dekakemasu",
+  "nekoKanji" : "出かけます",
+  "nekoKanjiHanViet" : "Xuất",
+  "nekoVietNamese" : "ra ngoài",
+  "nekoEnglish" : "go out",
+  "nekoSound" : "出かけます"
+ },
+ {
+  "nekoJapanese" : "ぬぎます (I)",
+  "nekoLatin" : "nukimasu",
+  "nekoKanji" : "脱ぎます",
+  "nekoKanjiHanViet" : "Thoát",
+  "nekoVietNamese" : "cởi (quần áo, giầy)",
+  "nekoEnglish" : "to take off (clothes, shoes, etc.)",
+  "nekoSound" : "脱ぎます"
+ },
+ {
+  "nekoJapanese" : "もっていきます (I)",
+  "nekoLatin" : "motteimasu",
+  "nekoKanji" : "持って行きます",
+  "nekoKanjiHanViet" : "Trì Hành",
+  "nekoVietNamese" : "mang đi, mang theo",
+  "nekoEnglish" : "to take (something)",
+  "nekoSound" : "持って行きます"
+ },
+ {
+  "nekoJapanese" : "もってきます (III)",
+  "nekoLatin" : "mottekimasu",
+  "nekoKanji" : "持って来ます",
+  "nekoKanjiHanViet" : "Trì Lai",
+  "nekoVietNamese" : "mang đến",
+  "nekoEnglish" : "to bring (something)",
+  "nekoSound" : "持って来ます"
+ },
+ {
+  "nekoJapanese" : "しんぱいします (III)",
+  "nekoLatin" : "shinpaishimasu",
+  "nekoKanji" : "心配します",
+  "nekoKanjiHanViet" : "Tâm Phối",
+  "nekoVietNamese" : "lo lắng",
+  "nekoEnglish" : "to worry",
+  "nekoSound" : "心配します"
+ },
+ {
+  "nekoJapanese" : "しゅっちょうします (III)",
+  "nekoLatin" : "shucchoushimasu",
+  "nekoKanji" : "出張します",
+  "nekoKanjiHanViet" : "Xuất Trương",
+  "nekoVietNamese" : "làm thêm, làm quá giờ",
+  "nekoEnglish" : "go on a business trip",
+  "nekoSound" : "出張します"
+ },
+ {
+  "nekoJapanese" : "ざんぎょうします (III)",
+  "nekoLatin" : "zangyoushimasu",
+  "nekoKanji" : "残業します",
+  "nekoKanjiHanViet" : "Tàn Nghiệp",
+  "nekoVietNamese" : "làm ngoài giờ, làm thêm",
+  "nekoEnglish" : "work overtime",
+  "nekoSound" : "残業します"
+ },
+ {
+  "nekoJapanese" : "のみます (I) (くすりをのみます)",
+  "nekoLatin" : "nomimasu",
+  "nekoKanji" : "飲みます(薬を飲みます)",
+  "nekoKanjiHanViet" : "Ẩm Dược Ẩm",
+  "nekoVietNamese" : "uống [thuốc]",
+  "nekoEnglish" : "take [medicine]",
+  "nekoSound" : "飲みます"
+ },
+ {
+  "nekoJapanese" : "たいせつ「な」",
+  "nekoLatin" : "taisetsu",
+  "nekoKanji" : "大切「な」",
+  "nekoKanjiHanViet" : "Đại Thiết",
+  "nekoVietNamese" : "quan trọng, quý giá",
+  "nekoEnglish" : "important, precious",
+  "nekoSound" : "大切「な」"
+ },
+ {
+  "nekoJapanese" : "だいじょうぶ",
+  "nekoLatin" : "daijoubu",
+  "nekoKanji" : "大丈夫",
+  "nekoKanjiHanViet" : "Đại Trượng Phu",
+  "nekoVietNamese" : "không sao, không có vấn đề gì",
+  "nekoEnglish" : "all right, it’s ok",
+  "nekoSound" : "大丈夫"
+ },
+ {
+  "nekoJapanese" : "あぶない",
+  "nekoLatin" : "abunai",
+  "nekoKanji" : "危ない",
+  "nekoKanjiHanViet" : "Nguy",
+  "nekoVietNamese" : "nguy hiểm",
+  "nekoEnglish" : "dangerous",
+  "nekoSound" : "危ない"
+ },
+ {
+  "nekoJapanese" : "もんだい",
+  "nekoLatin" : "mondai",
+  "nekoKanji" : "問題",
+  "nekoKanjiHanViet" : "Vấn Đề",
+  "nekoVietNamese" : "vấn đề",
+  "nekoEnglish" : "question, problem, trouble",
+  "nekoSound" : "問題"
+ },
+ {
+  "nekoJapanese" : "こたえ",
+  "nekoLatin" : "kotae",
+  "nekoKanji" : "答え",
+  "nekoKanjiHanViet" : "Đáp",
+  "nekoVietNamese" : "câu trả lời",
+  "nekoEnglish" : "answer, response",
+  "nekoSound" : "答え"
+ },
+ {
+  "nekoJapanese" : "きんえん",
+  "nekoLatin" : "kinen",
+  "nekoKanji" : "禁煙",
+  "nekoKanjiHanViet" : "Cấm Yên",
+  "nekoVietNamese" : "cấm hút thuốc",
+  "nekoEnglish" : "non-smoking",
+  "nekoSound" : "禁煙"
+ },
+ {
+  "nekoJapanese" : "かぜ",
+  "nekoLatin" : "kaze",
+  "nekoKanji" : "風邪",
+  "nekoKanjiHanViet" : "Phong Tà",
+  "nekoVietNamese" : "cảm, cúm",
+  "nekoEnglish" : "cold, flu",
+  "nekoSound" : "風邪"
+ },
+ {
+  "nekoJapanese" : "ねつ",
+  "nekoLatin" : "netsu",
+  "nekoKanji" : "熱",
+  "nekoKanjiHanViet" : "Nhiệt",
+  "nekoVietNamese" : "sốt",
+  "nekoEnglish" : "fever",
+  "nekoSound" : "熱"
+ },
+ {
+  "nekoJapanese" : "[けんこう] ほけんしょう",
+  "nekoLatin" : "kenkou hokenshou",
+  "nekoKanji" : "[健康]保健証",
+  "nekoKanjiHanViet" : "Kiện Khang Bảo Kiện Chứng",
+  "nekoVietNamese" : "Thẻ bảo hiểm y tế",
+  "nekoEnglish" : "[health] insurance card",
+  "nekoSound" : "健康保健証"
+ },
+ {
+  "nekoJapanese" : "びょうき",
+  "nekoLatin" : "byouki",
+  "nekoKanji" : "病気",
+  "nekoKanjiHanViet" : "Bệnh Khí",
+  "nekoVietNamese" : "ốm, bệnh",
+  "nekoEnglish" : "illness, disease",
+  "nekoSound" : "病気"
+ },
+ {
+  "nekoJapanese" : "くすり",
+  "nekoLatin" : "kusuri",
+  "nekoKanji" : "薬",
+  "nekoKanjiHanViet" : "Dược",
+  "nekoVietNamese" : "thuốc",
+  "nekoEnglish" : "medicine",
+  "nekoSound" : "薬"
+ },
+ {
+  "nekoJapanese" : "おふろ",
+  "nekoLatin" : "ofuro",
+  "nekoKanji" : "お風呂",
+  "nekoKanjiHanViet" : "Phong Lữ",
+  "nekoVietNamese" : "bồn tắm",
+  "nekoEnglish" : "bath",
+  "nekoSound" : "お風呂"
+ },
+ {
+  "nekoJapanese" : "うわぎ",
+  "nekoLatin" : "uwagi",
+  "nekoKanji" : "上着",
+  "nekoKanjiHanViet" : "Thượng Trước",
+  "nekoVietNamese" : "áo khoác",
+  "nekoEnglish" : "jacket, outerwear",
+  "nekoSound" : "上着"
+ },
+ {
+  "nekoJapanese" : "したぎ",
+  "nekoLatin" : "shitagi",
+  "nekoKanji" : "下着",
+  "nekoKanjiHanViet" : "hạ trước",
+  "nekoVietNamese" : "quần áo lót",
+  "nekoEnglish" : "underwear",
+  "nekoSound" : "下着"
+ },
+ {
+  "nekoJapanese" : "せんせい",
+  "nekoLatin" : "sensei",
+  "nekoKanji" : "先生",
+  "nekoKanjiHanViet" : "Tiên Sinh",
+  "nekoVietNamese" : "bác sĩ (cách gọi bác sĩ)",
+  "nekoEnglish" : "doctor (used when addressing a medical doctor)",
+  "nekoSound" : "先生"
+ },
+ {
+  "nekoJapanese" : "に、さんにち",
+  "nekoLatin" : "ni san nichi",
+  "nekoKanji" : "二、三日",
+  "nekoKanjiHanViet" : "Nhị Tam Nhật",
+  "nekoVietNamese" : "vài ngày",
+  "nekoEnglish" : "a few days",
+  "nekoSound" : "二 三日"
+ },
+ {
+  "nekoJapanese" : "に、さん～",
+  "nekoLatin" : "ni san",
+  "nekoKanji" : "二、三～",
+  "nekoKanjiHanViet" : "Nhị Tam ～",
+  "nekoVietNamese" : "vài ～(～đơn vị đếm)",
+  "nekoEnglish" : "a few ～(～is a counter suffix)～",
+  "nekoSound" : "に、さん"
+ },
+ {
+  "nekoJapanese" : "～までに",
+  "nekoLatin" : "madeni",
+  "nekoKanji" : "",
+  "nekoKanjiHanViet" : "",
+  "nekoVietNamese" : "trước ～ (chỉ thời hạn)",
+  "nekoEnglish" : "before ～, by ～ (indicating time limit)",
+  "nekoSound" : "までに"
+ },
+ {
+  "nekoJapanese" : "ですから",
+  "nekoLatin" : "desukara",
+  "nekoKanji" : "",
+  "nekoKanjiHanViet" : "",
+  "nekoVietNamese" : "vì thế, vì vậy, do đó",
+  "nekoEnglish" : "therefore, so",
+  "nekoSound" : "ですから"
+ },
+ {
+  "nekoJapanese" : "いたい",
+  "nekoLatin" : "itai",
+  "nekoKanji" : "痛い",
+  "nekoKanjiHanViet" : "Thống",
+  "nekoVietNamese" : "đau",
+  "nekoEnglish" : "painful",
+  "nekoSound" : "痛い"
+ },
+ {
+  "nekoJapanese" : "のど",
+  "nekoLatin" : "nodo",
+  "nekoKanji" : "喉",
+  "nekoKanjiHanViet" : "Hầu",
+  "nekoVietNamese" : "họng, cổ họng",
+  "nekoEnglish" : "throat",
+  "nekoSound" : "喉"
+ },
+ {
+  "nekoJapanese" : "おだいじに",
+  "nekoLatin" : "odaijini",
+  "nekoKanji" : "お大事に",
+  "nekoKanjiHanViet" : "Đại Sự",
+  "nekoVietNamese" : "Anh/chị nhớ giữ gìn sức khỏe. (câu nói với người ốm hoặc bị bệnh)",
+  "nekoEnglish" : "take care of yourself (said to people who are ill)",
+  "nekoSound" : "お大事に"
+ }
+]

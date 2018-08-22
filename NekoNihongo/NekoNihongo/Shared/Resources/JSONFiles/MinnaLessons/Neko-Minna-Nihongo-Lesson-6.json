@@ -1,0 +1,254 @@
+[
+ {
+  "nekoJapanese" : "たちます (I)",
+  "nekoLatin" : "tachimasu",
+  "nekoKanji" : "立ちます",
+  "nekoKanjiHanViet" : "Lập",
+  "nekoVietNamese" : "đứng",
+  "nekoEnglish" : "to stand up",
+  "nekoSound" : "立ちます"
+ },
+ {
+  "nekoJapanese" : "すわります (I)",
+  "nekoLatin" : "suwarimasu",
+  "nekoKanji" : "座ります",
+  "nekoKanjiHanViet" : "Tọa",
+  "nekoVietNamese" : "ngồi",
+  "nekoEnglish" : "to sit down",
+  "nekoSound" : "座ります"
+ },
+ {
+  "nekoJapanese" : "つかいます (I)",
+  "nekoLatin" : "tsukaimasu",
+  "nekoKanji" : "使います",
+  "nekoKanjiHanViet" : "Sử",
+  "nekoVietNamese" : "dùng, sử dụng",
+  "nekoEnglish" : "to use",
+  "nekoSound" : "使います"
+ },
+ {
+  "nekoJapanese" : "おきます (I)",
+  "nekoLatin" : "okimasu",
+  "nekoKanji" : "置きます",
+  "nekoKanjiHanViet" : "Trí",
+  "nekoVietNamese" : "đặt, để",
+  "nekoEnglish" : "to put, to place",
+  "nekoSound" : "置きます"
+ },
+ {
+  "nekoJapanese" : "つくります (I)",
+  "nekoLatin" : "tsukurimasu",
+  "nekoKanji" : "作ります",
+  "nekoKanjiHanViet" : "Tác",
+  "nekoVietNamese" : "làm, chế tạo, sản xuất",
+  "nekoEnglish" : "to make, to produce",
+  "nekoSound" : "作ります"
+ },
+ {
+  "nekoJapanese" : "うります (I)",
+  "nekoLatin" : "urimasu",
+  "nekoKanji" : "売ります",
+  "nekoKanjiHanViet" : "Mại",
+  "nekoVietNamese" : "bán",
+  "nekoEnglish" : "to sell",
+  "nekoSound" : "売ります"
+ },
+ {
+  "nekoJapanese" : "しります (I)",
+  "nekoLatin" : "shirimasu",
+  "nekoKanji" : "知ります",
+  "nekoKanjiHanViet" : "Tri",
+  "nekoVietNamese" : "biết",
+  "nekoEnglish" : "get to know",
+  "nekoSound" : "知ります"
+ },
+ {
+  "nekoJapanese" : "すみます (I)",
+  "nekoLatin" : "sumimasu",
+  "nekoKanji" : "住みます",
+  "nekoKanjiHanViet" : "Trú",
+  "nekoVietNamese" : "sống, ở",
+  "nekoEnglish" : "be going to live",
+  "nekoSound" : "住みます"
+ },
+ {
+  "nekoJapanese" : "けんきゅうします (III)",
+  "nekoLatin" : "kenkyuushimasu",
+  "nekoKanji" : "研究します",
+  "nekoKanjiHanViet" : "Nghiên Cứu",
+  "nekoVietNamese" : "nghiên cứu",
+  "nekoEnglish" : "do research",
+  "nekoSound" : "研究します"
+ },
+ {
+  "nekoJapanese" : "しっています",
+  "nekoLatin" : "shitteimasu",
+  "nekoKanji" : "知っています",
+  "nekoKanjiHanViet" : "Tri",
+  "nekoVietNamese" : "biết",
+  "nekoEnglish" : "know",
+  "nekoSound" : "知っています"
+ },
+ {
+  "nekoJapanese" : "すんでいます (おおさかに～)",
+  "nekoLatin" : "sundeimasu",
+  "nekoKanji" : "住んでいます (大阪に～)",
+  "nekoKanjiHanViet" : "Trú",
+  "nekoVietNamese" : "sống [ở Osaka]",
+  "nekoEnglish" : "live [in Osaka]",
+  "nekoSound" : "住んでいます"
+ },
+ {
+  "nekoJapanese" : "しりょう",
+  "nekoLatin" : "shiryou",
+  "nekoKanji" : "資料",
+  "nekoKanjiHanViet" : "Tư Liệu",
+  "nekoVietNamese" : "tài liệu, tư liệu",
+  "nekoEnglish" : "materials, data",
+  "nekoSound" : "資料"
+ },
+ {
+  "nekoJapanese" : "カタログ",
+  "nekoLatin" : "katarogu",
+  "nekoKanji" : "",
+  "nekoKanjiHanViet" : "",
+  "nekoVietNamese" : "ca ta lô",
+  "nekoEnglish" : "catalog",
+  "nekoSound" : "カタログ"
+ },
+ {
+  "nekoJapanese" : "じこくひょう",
+  "nekoLatin" : "jikokuhyou",
+  "nekoKanji" : "時刻表",
+  "nekoKanjiHanViet" : "Thời Khắc Biểu",
+  "nekoVietNamese" : "bảng giờ tàu chạy",
+  "nekoEnglish" : "timetable",
+  "nekoSound" : "時刻表"
+ },
+ {
+  "nekoJapanese" : "ふく",
+  "nekoLatin" : "fuku",
+  "nekoKanji" : "服",
+  "nekoKanjiHanViet" : "Phục",
+  "nekoVietNamese" : "quần áo",
+  "nekoEnglish" : "clothes",
+  "nekoSound" : "服"
+ },
+ {
+  "nekoJapanese" : "せいひん",
+  "nekoLatin" : "seihin",
+  "nekoKanji" : "製品",
+  "nekoKanjiHanViet" : "Chế Phẩm",
+  "nekoVietNamese" : "sản phẩm",
+  "nekoEnglish" : "products, manufactured goods",
+  "nekoSound" : "製品"
+ },
+ {
+  "nekoJapanese" : "ソフト",
+  "nekoLatin" : "shiputo",
+  "nekoKanji" : "",
+  "nekoKanjiHanViet" : "",
+  "nekoVietNamese" : "phần mềm",
+  "nekoEnglish" : "software",
+  "nekoSound" : "ソフト"
+ },
+ {
+  "nekoJapanese" : "せんもん",
+  "nekoLatin" : "senmon",
+  "nekoKanji" : "専門",
+  "nekoKanjiHanViet" : "Chuyên Môn",
+  "nekoVietNamese" : "chuyên môn",
+  "nekoEnglish" : "speciality, field of study",
+  "nekoSound" : "専門"
+ },
+ {
+  "nekoJapanese" : "はいしゃ",
+  "nekoLatin" : "haisha",
+  "nekoKanji" : "歯医者",
+  "nekoKanjiHanViet" : "Xỉ Y Giả",
+  "nekoVietNamese" : "nha sĩ",
+  "nekoEnglish" : "dentist, dentist's",
+  "nekoSound" : "歯医者"
+ },
+ {
+  "nekoJapanese" : "とこや",
+  "nekoLatin" : "tokoya",
+  "nekoKanji" : "床屋",
+  "nekoKanjiHanViet" : "Sàng Ốc",
+  "nekoVietNamese" : "tiệm cắt tóc",
+  "nekoEnglish" : "barbershop",
+  "nekoSound" : "床屋 "
+ },
+ {
+  "nekoJapanese" : "プレイガイド",
+  "nekoLatin" : "pureigaido",
+  "nekoKanji" : "",
+  "nekoKanjiHanViet" : "",
+  "nekoVietNamese" : "quầy bán vé (trong nhà hát)",
+  "nekoEnglish" : "(theater) ticket agency",
+  "nekoSound" : "プレイガイド"
+ },
+ {
+  "nekoJapanese" : "どくしん",
+  "nekoLatin" : "dokushin",
+  "nekoKanji" : "独身",
+  "nekoKanjiHanViet" : "Độc Thân",
+  "nekoVietNamese" : "độc thân",
+  "nekoEnglish" : "single, un married",
+  "nekoSound" : "独身"
+ },
+ {
+  "nekoJapanese" : "とくに",
+  "nekoLatin" : "tokuni",
+  "nekoKanji" : "特に",
+  "nekoKanjiHanViet" : "Đặc",
+  "nekoVietNamese" : "đặc biệt",
+  "nekoEnglish" : "especially",
+  "nekoSound" : "特に"
+ },
+ {
+  "nekoJapanese" : "おもいだします (I)",
+  "nekoLatin" : "omoidashimasu",
+  "nekoKanji" : "思い出します",
+  "nekoKanjiHanViet" : "Tư Xuất",
+  "nekoVietNamese" : "nhớ lại, hồi tưởng",
+  "nekoEnglish" : "remember, recollect",
+  "nekoSound" : "思い出します"
+ },
+ {
+  "nekoJapanese" : "ごかぞく",
+  "nekoLatin" : "gokazoku",
+  "nekoKanji" : "ご家族",
+  "nekoKanjiHanViet" : "Gia Tộc",
+  "nekoVietNamese" : "gia đình (dùng cho người khác)",
+  "nekoEnglish" : "your family",
+  "nekoSound" : "ご家族"
+ },
+ {
+  "nekoJapanese" : "いらっしゃいます (I)",
+  "nekoLatin" : "irasshaimasu",
+  "nekoKanji" : "",
+  "nekoKanjiHanViet" : "",
+  "nekoVietNamese" : "thể kính trọng của 「います」",
+  "nekoEnglish" : "be (honorific equivalent of います)",
+  "nekoSound" : "いらっしゃいます"
+ },
+ {
+  "nekoJapanese" : "こうこう",
+  "nekoLatin" : "koukou",
+  "nekoKanji" : "高校",
+  "nekoKanjiHanViet" : "Cao Hiệu",
+  "nekoVietNamese" : "trường trung học phổ thông",
+  "nekoEnglish" : "senior high school",
+  "nekoSound" : "高校"
+ },
+ {
+  "nekoJapanese" : "にほんばし",
+  "nekoLatin" : "nihonbashi",
+  "nekoKanji" : "日本橋",
+  "nekoKanjiHanViet" : "Nhật Bản Kiều",
+  "nekoVietNamese" : "tên một khu phố buôn bán ở Osaka",
+  "nekoEnglish" : "name of a shopping district in Osaka",
+  "nekoSound" : "日本橋"
+ }
+]

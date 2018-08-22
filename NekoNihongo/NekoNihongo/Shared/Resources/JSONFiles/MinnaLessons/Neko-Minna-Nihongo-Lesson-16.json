@@ -1,0 +1,191 @@
+[
+ {
+  "nekoJapanese" : "くれます (II)",
+  "nekoLatin" : "kuremasu",
+  "nekoKanji" : "",
+  "nekoKanjiHanViet" : "",
+  "nekoVietNamese" : "cho, tặng (tôi)",
+  "nekoEnglish" : "give (me)",
+  "nekoSound" : "くれます"
+ },
+ {
+  "nekoJapanese" : "つれていきます (I)",
+  "nekoLatin" : "tsureteimasu",
+  "nekoKanji" : "連れて行きます",
+  "nekoKanjiHanViet" : "Liên Hành",
+  "nekoVietNamese" : "dẫn đi",
+  "nekoEnglish" : "take (someone)",
+  "nekoSound" : "連れて行きます"
+ },
+ {
+  "nekoJapanese" : "つれてきます (III)",
+  "nekoLatin" : "tsuretekimasu",
+  "nekoKanji" : "連れて来ます",
+  "nekoKanjiHanViet" : "Liên Lai",
+  "nekoVietNamese" : "dẫn đến",
+  "nekoEnglish" : "bring (someone)",
+  "nekoSound" : "連れて来ます"
+ },
+ {
+  "nekoJapanese" : "おくります (I) 「ひとを～」",
+  "nekoLatin" : "okurimasu",
+  "nekoKanji" : "送ります「人を～」",
+  "nekoKanjiHanViet" : "Tống Nhân",
+  "nekoVietNamese" : "đưa đi, đưa đến, tiễn [một ai đó]",
+  "nekoEnglish" : "escort [someone], go with",
+  "nekoSound" : "送ります"
+ },
+ {
+  "nekoJapanese" : "しょうかいします (III)",
+  "nekoLatin" : "shoukaishimasu",
+  "nekoKanji" : "紹介します",
+  "nekoKanjiHanViet" : "Thiệu Giới",
+  "nekoVietNamese" : "giới thiệu",
+  "nekoEnglish" : "introduce",
+  "nekoSound" : "紹介します"
+ },
+ {
+  "nekoJapanese" : "あんないします",
+  "nekoLatin" : "annaishimasu",
+  "nekoKanji" : "案内します",
+  "nekoKanjiHanViet" : "Án Nội",
+  "nekoVietNamese" : "hướng dẫn, giới thiệu, dẫn đường",
+  "nekoEnglish" : "show around, show the way",
+  "nekoSound" : "案内します"
+ },
+ {
+  "nekoJapanese" : "せつめいします",
+  "nekoLatin" : "setsumeishimasu",
+  "nekoKanji" : "説明します",
+  "nekoKanjiHanViet" : "Thuyết Minh",
+  "nekoVietNamese" : "giải thích, trình bày",
+  "nekoEnglish" : "explain",
+  "nekoSound" : "説明します"
+ },
+ {
+  "nekoJapanese" : "いれます (II) 「コーヒーを～」",
+  "nekoLatin" : "iremasu",
+  "nekoKanji" : "入れます「コーヒー入れます」",
+  "nekoKanjiHanViet" : "Nhập Nhập",
+  "nekoVietNamese" : "pha [cà-phê]",
+  "nekoEnglish" : "make (coffee)",
+  "nekoSound" : "入れます"
+ },
+ {
+  "nekoJapanese" : "おじいさん",
+  "nekoLatin" : "ojiisan",
+  "nekoKanji" : "",
+  "nekoKanjiHanViet" : "",
+  "nekoVietNamese" : "ông nội, ông ngoại",
+  "nekoEnglish" : "grandfather",
+  "nekoSound" : "おじいさん"
+ },
+ {
+  "nekoJapanese" : "おばあさん",
+  "nekoLatin" : "obaasan",
+  "nekoKanji" : "",
+  "nekoKanjiHanViet" : "",
+  "nekoVietNamese" : "bà nội, bà ngoại",
+  "nekoEnglish" : "grandmother",
+  "nekoSound" : "おばあさん"
+ },
+ {
+  "nekoJapanese" : "おじいちゃん",
+  "nekoLatin" : "ojiichan",
+  "nekoKanji" : "",
+  "nekoKanjiHanViet" : "",
+  "nekoVietNamese" : "ông",
+  "nekoEnglish" : "old man",
+  "nekoSound" : "おじいちゃん"
+ },
+ {
+  "nekoJapanese" : "おばあちゃん",
+  "nekoLatin" : "obaachan",
+  "nekoKanji" : "",
+  "nekoKanjiHanViet" : "",
+  "nekoVietNamese" : "bà",
+  "nekoEnglish" : "old woman",
+  "nekoSound" : "おばあちゃん"
+ },
+ {
+  "nekoJapanese" : "じゅんび",
+  "nekoLatin" : "junbi",
+  "nekoKanji" : "準備",
+  "nekoKanjiHanViet" : "Chuẩn Bị",
+  "nekoVietNamese" : "chuẩn bị [～します:chuẩn bị]",
+  "nekoEnglish" : "preparation [～します:prepare]",
+  "nekoSound" : "準備"
+ },
+ {
+  "nekoJapanese" : "いみ",
+  "nekoLatin" : "imi",
+  "nekoKanji" : "意味",
+  "nekoKanjiHanViet" : "Ý Vị",
+  "nekoVietNamese" : "ý nghĩa",
+  "nekoEnglish" : "meaning",
+  "nekoSound" : "意味"
+ },
+ {
+  "nekoJapanese" : "「お」かし",
+  "nekoLatin" : "okashi",
+  "nekoKanji" : "「お」菓子",
+  "nekoKanjiHanViet" : "Quả Tử",
+  "nekoVietNamese" : "bánh kẹo",
+  "nekoEnglish" : "sweets, snacks",
+  "nekoSound" : "お菓子"
+ },
+ {
+  "nekoJapanese" : "ぜんぶ",
+  "nekoLatin" : "zenbu",
+  "nekoKanji" : "全部",
+  "nekoKanjiHanViet" : "Toàn Bộ",
+  "nekoVietNamese" : "toàn bộ, tất cả",
+  "nekoEnglish" : "all",
+  "nekoSound" : "全部"
+ },
+ {
+  "nekoJapanese" : "じぶんで",
+  "nekoLatin" : "jibunde",
+  "nekoKanji" : "自分で",
+  "nekoKanjiHanViet" : "Tự Phân",
+  "nekoVietNamese" : "tự (mình)",
+  "nekoEnglish" : "(by) oneself",
+  "nekoSound" : "自分で"
+ },
+ {
+  "nekoJapanese" : "ほかに",
+  "nekoLatin" : "hokani",
+  "nekoKanji" : "他に",
+  "nekoKanjiHanViet" : "Tha",
+  "nekoVietNamese" : "ngoài ra, bên cạnh đó",
+  "nekoEnglish" : "besides",
+  "nekoSound" : "他に"
+ },
+ {
+  "nekoJapanese" : "「お」べんとう",
+  "nekoLatin" : "bentou",
+  "nekoKanji" : "「お」弁当",
+  "nekoKanjiHanViet" : "Biện Đương",
+  "nekoVietNamese" : "cơm hộp",
+  "nekoEnglish" : "lunch box",
+  "nekoSound" : "お弁当"
+ },
+ {
+  "nekoJapanese" : "ははのひ",
+  "nekoLatin" : "hahanohi",
+  "nekoKanji" : "母の日",
+  "nekoKanjiHanViet" : "Mẫu Nhật",
+  "nekoVietNamese" : "ngày của Mẹ",
+  "nekoEnglish" : "Mother’s day",
+  "nekoSound" : "母の日"
+ },
+ {
+  "nekoJapanese" : "ちちのひ",
+  "nekoLatin" : "chichinohi",
+  "nekoKanji" : "父の日",
+  "nekoKanjiHanViet" : "Phụ Nhật",
+  "nekoVietNamese" : "ngày của Cha",
+  "nekoEnglish" : "Father's day",
+  "nekoSound" : "父の日"
+ }
+]

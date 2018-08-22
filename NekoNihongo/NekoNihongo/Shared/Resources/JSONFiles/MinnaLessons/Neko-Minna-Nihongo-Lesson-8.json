@@ -1,0 +1,479 @@
+[
+ {
+  "nekoJapanese" : "のります (I) でんしゃにのります",
+  "nekoLatin" : "norimasu",
+  "nekoKanji" : "乗ります(電車に乗ります)",
+  "nekoKanjiHanViet" : "Thừa - Điện Xa Thừa",
+  "nekoVietNamese" : "đi, lên [tàu]",
+  "nekoEnglish" : "to ride, to get on (trains, etc.)",
+  "nekoSound" : "乗ります"
+ },
+ {
+  "nekoJapanese" : "のりかえます (II)",
+  "nekoLatin" : "norikaemasu",
+  "nekoKanji" : "乗り換えます",
+  "nekoKanjiHanViet" : "Thừa Hoán",
+  "nekoVietNamese" : "chuyển, đổi (tàu)",
+  "nekoEnglish" : "to change (trains, etc.)",
+  "nekoSound" : "乗り換えます"
+ },
+ {
+  "nekoJapanese" : "おります (II) でんしゃをおります",
+  "nekoLatin" : "orimasu",
+  "nekoKanji" : "降ります(電車を降ります)",
+  "nekoKanjiHanViet" : "Giáng",
+  "nekoVietNamese" : "xuống (tàu)",
+  "nekoEnglish" : "to get off (trains, etc.)",
+  "nekoSound" : "降ります"
+ },
+ {
+  "nekoJapanese" : "あびます (II) (シャワーをあびます)",
+  "nekoLatin" : "abimasu",
+  "nekoKanji" : "浴びます",
+  "nekoKanjiHanViet" : "Dục",
+  "nekoVietNamese" : "tắm [vòi hoa sen]",
+  "nekoEnglish" : "take [a shower]",
+  "nekoSound" : "浴びます"
+ },
+ {
+  "nekoJapanese" : "いれます (II)",
+  "nekoLatin" : "iremasu",
+  "nekoKanji" : "入れます",
+  "nekoKanjiHanViet" : "Nhập",
+  "nekoVietNamese" : "cho vào, bỏ vào",
+  "nekoEnglish" : "to put in, to insert",
+  "nekoSound" : "入れます"
+ },
+ {
+  "nekoJapanese" : "だします (I)",
+  "nekoLatin" : "dashimasu",
+  "nekoKanji" : "出します",
+  "nekoKanjiHanViet" : "Xuất",
+  "nekoVietNamese" : "lấy ra, rút (tiền)",
+  "nekoEnglish" : "to take out, to withdraw",
+  "nekoSound" : "出します"
+ },
+ {
+  "nekoJapanese" : "はいります (I) (大学にはいります)",
+  "nekoLatin" : "hairimasu",
+  "nekoKanji" : "入ります (大学に入ります)",
+  "nekoKanjiHanViet" : "Nhập - Đại Học Nhập",
+  "nekoVietNamese" : "vào, nhập học [đại học]",
+  "nekoEnglish" : "enter [university]",
+  "nekoSound" : "入ります"
+ },
+ {
+  "nekoJapanese" : "でます(II) (だいがくをでます)",
+  "nekoLatin" : "demasu",
+  "nekoKanji" : "出ます (大学を出ます)",
+  "nekoKanjiHanViet" : "Xuất - Đại Học Xuất",
+  "nekoVietNamese" : "ra, tốt nghiệp [đại học]",
+  "nekoEnglish" : "graduate from [university]",
+  "nekoSound" : "出ます"
+ },
+ {
+  "nekoJapanese" : "やめます (II)",
+  "nekoLatin" : "yamemasu",
+  "nekoKanji" : "止めます",
+  "nekoKanjiHanViet" : "Chỉ",
+  "nekoVietNamese" : "bỏ, từ bỏ, thôi [việc công ty]",
+  "nekoEnglish" : "quit or retire from [a company], stop, give up",
+  "nekoSound" : "止めます"
+ },
+ {
+  "nekoJapanese" : "おします (I)",
+  "nekoLatin" : "oshimasu",
+  "nekoKanji" : "押します",
+  "nekoKanjiHanViet" : "áp",
+  "nekoVietNamese" : "bấm, ấn (nút)",
+  "nekoEnglish" : "to push, to press",
+  "nekoSound" : "押します"
+ },
+ {
+  "nekoJapanese" : "わかい",
+  "nekoLatin" : "wakai",
+  "nekoKanji" : "若い",
+  "nekoKanjiHanViet" : "Nhược, Nhã",
+  "nekoVietNamese" : "trẻ",
+  "nekoEnglish" : "young",
+  "nekoSound" : "若い"
+ },
+ {
+  "nekoJapanese" : "ながい",
+  "nekoLatin" : "nagai",
+  "nekoKanji" : "長い",
+  "nekoKanjiHanViet" : "Trường",
+  "nekoVietNamese" : "dài",
+  "nekoEnglish" : "long",
+  "nekoSound" : "長い"
+ },
+ {
+  "nekoJapanese" : "みじかい",
+  "nekoLatin" : "mijikai",
+  "nekoKanji" : "短い",
+  "nekoKanjiHanViet" : "Đoản",
+  "nekoVietNamese" : "ngắn",
+  "nekoEnglish" : "short",
+  "nekoSound" : "短い"
+ },
+ {
+  "nekoJapanese" : "あかるい",
+  "nekoLatin" : "akarui",
+  "nekoKanji" : "明るい",
+  "nekoKanjiHanViet" : "Minh",
+  "nekoVietNamese" : "sáng",
+  "nekoEnglish" : "bright, light",
+  "nekoSound" : "明るい"
+ },
+ {
+  "nekoJapanese" : "くらい",
+  "nekoLatin" : "kurai",
+  "nekoKanji" : "暗い",
+  "nekoKanjiHanViet" : "Ám",
+  "nekoVietNamese" : "tối",
+  "nekoEnglish" : "dark",
+  "nekoSound" : "暗い"
+ },
+ {
+  "nekoJapanese" : "せがたかい",
+  "nekoLatin" : "segatakai",
+  "nekoKanji" : "背が高い",
+  "nekoKanjiHanViet" : "Bối Cao",
+  "nekoVietNamese" : "cao (dùng cho người)",
+  "nekoEnglish" : "tall (referring to person)",
+  "nekoSound" : "背が高い"
+ },
+ {
+  "nekoJapanese" : "あたまがいい",
+  "nekoLatin" : "atamagaii",
+  "nekoKanji" : "頭がいい",
+  "nekoKanjiHanViet" : "Đầu",
+  "nekoVietNamese" : "thông minh",
+  "nekoEnglish" : "clever, smart",
+  "nekoSound" : "頭がいい"
+ },
+ {
+  "nekoJapanese" : "からだ",
+  "nekoLatin" : "karada",
+  "nekoKanji" : "体",
+  "nekoKanjiHanViet" : "Thể",
+  "nekoVietNamese" : "người, cơ thể",
+  "nekoEnglish" : "body",
+  "nekoSound" : "体"
+ },
+ {
+  "nekoJapanese" : "あたま",
+  "nekoLatin" : "atama",
+  "nekoKanji" : "頭",
+  "nekoKanjiHanViet" : "Đầu",
+  "nekoVietNamese" : "đầu",
+  "nekoEnglish" : "head",
+  "nekoSound" : "頭"
+ },
+ {
+  "nekoJapanese" : "かみ",
+  "nekoLatin" : "kami",
+  "nekoKanji" : "髪",
+  "nekoKanjiHanViet" : "Phát",
+  "nekoVietNamese" : "tóc",
+  "nekoEnglish" : "hair",
+  "nekoSound" : "髪"
+ },
+ {
+  "nekoJapanese" : "かお",
+  "nekoLatin" : "kao",
+  "nekoKanji" : "顔",
+  "nekoKanjiHanViet" : "Nhan",
+  "nekoVietNamese" : "mặt",
+  "nekoEnglish" : "face",
+  "nekoSound" : "顔"
+ },
+ {
+  "nekoJapanese" : "め",
+  "nekoLatin" : "me",
+  "nekoKanji" : "目",
+  "nekoKanjiHanViet" : "Mục",
+  "nekoVietNamese" : "mắt",
+  "nekoEnglish" : "eye",
+  "nekoSound" : "目"
+ },
+ {
+  "nekoJapanese" : "くち",
+  "nekoLatin" : "kuchi",
+  "nekoKanji" : "口",
+  "nekoKanjiHanViet" : "Khẩu",
+  "nekoVietNamese" : "miệng",
+  "nekoEnglish" : "mouth",
+  "nekoSound" : "口"
+ },
+ {
+  "nekoJapanese" : "みみ",
+  "nekoLatin" : "mimi",
+  "nekoKanji" : "耳",
+  "nekoKanjiHanViet" : "Nhĩ",
+  "nekoVietNamese" : "tai",
+  "nekoEnglish" : "ear",
+  "nekoSound" : "耳"
+ },
+ {
+  "nekoJapanese" : "は",
+  "nekoLatin" : "ha",
+  "nekoKanji" : "歯",
+  "nekoKanjiHanViet" : "Xỉ",
+  "nekoVietNamese" : "răng",
+  "nekoEnglish" : "tooth",
+  "nekoSound" : "歯"
+ },
+ {
+  "nekoJapanese" : "おなか",
+  "nekoLatin" : "onaka",
+  "nekoKanji" : "お腹",
+  "nekoKanjiHanViet" : "Phục",
+  "nekoVietNamese" : "bụng",
+  "nekoEnglish" : "stomach",
+  "nekoSound" : "お腹"
+ },
+ {
+  "nekoJapanese" : "あし",
+  "nekoLatin" : "ashi",
+  "nekoKanji" : "足",
+  "nekoKanjiHanViet" : "Túc",
+  "nekoVietNamese" : "chân",
+  "nekoEnglish" : "leg, foot",
+  "nekoSound" : "足"
+ },
+ {
+  "nekoJapanese" : "サービス",
+  "nekoLatin" : "saabisu",
+  "nekoKanji" : "",
+  "nekoKanjiHanViet" : "",
+  "nekoVietNamese" : "dịch vụ",
+  "nekoEnglish" : "service",
+  "nekoSound" : "サービス"
+ },
+ {
+  "nekoJapanese" : "ジョギング",
+  "nekoLatin" : "jogingu",
+  "nekoKanji" : "",
+  "nekoKanjiHanViet" : "",
+  "nekoVietNamese" : "việc chạy bộ (~をします: chạy bộ)",
+  "nekoEnglish" : "jogging (~をします: jog)",
+  "nekoSound" : "ジョギング"
+ },
+ {
+  "nekoJapanese" : "シャワー",
+  "nekoLatin" : "shawaa",
+  "nekoKanji" : "",
+  "nekoKanjiHanViet" : "",
+  "nekoVietNamese" : "vòi hoa sen",
+  "nekoEnglish" : "shower",
+  "nekoSound" : "シャワー"
+ },
+ {
+  "nekoJapanese" : "みどり",
+  "nekoLatin" : "midori",
+  "nekoKanji" : "緑",
+  "nekoKanjiHanViet" : "Lục",
+  "nekoVietNamese" : "màu xanh lá cây",
+  "nekoEnglish" : "green",
+  "nekoSound" : "緑"
+ },
+ {
+  "nekoJapanese" : "「お」てら",
+  "nekoLatin" : "otera",
+  "nekoKanji" : "「お」寺",
+  "nekoKanjiHanViet" : "Tự",
+  "nekoVietNamese" : "chùa",
+  "nekoEnglish" : "Buddhist temple",
+  "nekoSound" : "お寺"
+ },
+ {
+  "nekoJapanese" : "じんじゃ",
+  "nekoLatin" : "jinja",
+  "nekoKanji" : "神社",
+  "nekoKanjiHanViet" : "Thần Xã",
+  "nekoVietNamese" : "đền thờ đạo thần",
+  "nekoEnglish" : "Shinto shrine",
+  "nekoSound" : "神社"
+ },
+ {
+  "nekoJapanese" : "りゅうがくせい",
+  "nekoLatin" : "ryuugakusei",
+  "nekoKanji" : "留学生",
+  "nekoKanjiHanViet" : "Lưu Học Sinh",
+  "nekoVietNamese" : "du học sinh",
+  "nekoEnglish" : "foreign student",
+  "nekoSound" : "留学生"
+ },
+ {
+  "nekoJapanese" : "～ばん",
+  "nekoLatin" : "ban",
+  "nekoKanji" : "～番",
+  "nekoKanjiHanViet" : "Phiên",
+  "nekoVietNamese" : "số ～",
+  "nekoEnglish" : "number ～",
+  "nekoSound" : "～番"
+ },
+ {
+  "nekoJapanese" : "どうやって",
+  "nekoLatin" : "douyatte",
+  "nekoKanji" : "",
+  "nekoKanjiHanViet" : "",
+  "nekoVietNamese" : "làm thế nào～",
+  "nekoEnglish" : "in what way, how",
+  "nekoSound" : "どうやって"
+ },
+ {
+  "nekoJapanese" : "どの～",
+  "nekoLatin" : "dono",
+  "nekoKanji" : "",
+  "nekoKanjiHanViet" : "",
+  "nekoVietNamese" : "cái nào～ (dùng với trường hợp từ ba thứ trở lên)",
+  "nekoEnglish" : "which～ (used for three or more)",
+  "nekoSound" : "どの"
+ },
+ {
+  "nekoJapanese" : "「いいえ。」まだまだです。",
+  "nekoLatin" : "madamadadesu",
+  "nekoKanji" : "",
+  "nekoKanjiHanViet" : "",
+  "nekoVietNamese" : "[không] tôi còn kém lắm. (cách nói khiêm nhường khi ai đó khen)",
+  "nekoEnglish" : "[No] I still have a long way to go",
+  "nekoSound" : "いいえ まだまだです"
+ },
+ {
+  "nekoJapanese" : "おひきだしですか。",
+  "nekoLatin" : "ohikidashidesuka",
+  "nekoKanji" : "お引き出しですか。",
+  "nekoKanjiHanViet" : "Dẫn Xuất",
+  "nekoVietNamese" : "Anh/Chị rút tiền à?",
+  "nekoEnglish" : "Are you making a withdrawal?",
+  "nekoSound" : "お引き出しですか"
+ },
+ {
+  "nekoJapanese" : "まず",
+  "nekoLatin" : "mazu",
+  "nekoKanji" : "",
+  "nekoKanjiHanViet" : "",
+  "nekoVietNamese" : "trước hết, đầu tiên",
+  "nekoEnglish" : "first of all",
+  "nekoSound" : "まず"
+ },
+ {
+  "nekoJapanese" : "キャッシュカード",
+  "nekoLatin" : "kyasshukaado",
+  "nekoKanji" : "",
+  "nekoKanjiHanViet" : "",
+  "nekoVietNamese" : "thẻ ngân hàng, thẻ ATM",
+  "nekoEnglish" : "cash dispensing card",
+  "nekoSound" : "キャッシュカード"
+ },
+ {
+  "nekoJapanese" : "あんしょうばんごう",
+  "nekoLatin" : "anshoubangou",
+  "nekoKanji" : "暗証番号",
+  "nekoKanjiHanViet" : "Ám Chứng Phiên Hiệu",
+  "nekoVietNamese" : "mã số bí mật (mật khẩu)",
+  "nekoEnglish" : "personal identification number (PIN)",
+  "nekoSound" : "暗証番号"
+ },
+ {
+  "nekoJapanese" : "つぎに",
+  "nekoLatin" : "tsugini",
+  "nekoKanji" : "次に",
+  "nekoKanjiHanViet" : "Thứ",
+  "nekoVietNamese" : "tiếp theo",
+  "nekoEnglish" : "next, as a next step",
+  "nekoSound" : "次に"
+ },
+ {
+  "nekoJapanese" : "きんがく",
+  "nekoLatin" : "kingaku",
+  "nekoKanji" : "金額",
+  "nekoKanjiHanViet" : "Kim Ngạch",
+  "nekoVietNamese" : "số tiền, khoản tiền",
+  "nekoEnglish" : "amount of money",
+  "nekoSound" : "金額"
+ },
+ {
+  "nekoJapanese" : "かくにん",
+  "nekoLatin" : "kakunin",
+  "nekoKanji" : "確認",
+  "nekoKanjiHanViet" : "Xác Nhận",
+  "nekoVietNamese" : "sự xác nhận, sự kiểm tra (～します：xác nhận)",
+  "nekoEnglish" : "confirmation(～します：confirm)",
+  "nekoSound" : "確認"
+ },
+ {
+  "nekoJapanese" : "ボタン",
+  "nekoLatin" : "botan",
+  "nekoKanji" : "",
+  "nekoKanjiHanViet" : "",
+  "nekoVietNamese" : "cái nút",
+  "nekoEnglish" : "button",
+  "nekoSound" : "ボタン"
+ },
+ {
+  "nekoJapanese" : "JR",
+  "nekoLatin" : "JR",
+  "nekoKanji" : "",
+  "nekoKanjiHanViet" : "",
+  "nekoVietNamese" : "Công ty đường sắt Nhật Bản",
+  "nekoEnglish" : "Japan Railway",
+  "nekoSound" : "JR"
+ },
+ {
+  "nekoJapanese" : "アジア",
+  "nekoLatin" : "ajia",
+  "nekoKanji" : "",
+  "nekoKanjiHanViet" : "",
+  "nekoVietNamese" : "châu Á",
+  "nekoEnglish" : "Asia",
+  "nekoSound" : "アジア"
+ },
+ {
+  "nekoJapanese" : "バンドン",
+  "nekoLatin" : "bandon",
+  "nekoKanji" : "",
+  "nekoKanjiHanViet" : "",
+  "nekoVietNamese" : "Bandung (ở Indonesia)",
+  "nekoEnglish" : "Bandung (in Indonesia)",
+  "nekoSound" : "バンドン"
+ },
+ {
+  "nekoJapanese" : "ベラクルス",
+  "nekoLatin" : "berakuruzu",
+  "nekoKanji" : "",
+  "nekoKanjiHanViet" : "",
+  "nekoVietNamese" : "Veracruz (ở Mexico)",
+  "nekoEnglish" : "Veracruz (in Mexico)",
+  "nekoSound" : "ベラクルス"
+ },
+ {
+  "nekoJapanese" : "フランケン",
+  "nekoLatin" : "furanken",
+  "nekoKanji" : "",
+  "nekoKanjiHanViet" : "",
+  "nekoVietNamese" : "Franken (ở Đức)",
+  "nekoEnglish" : "Franken (in Germany)",
+  "nekoSound" : "フランケン"
+ },
+ {
+  "nekoJapanese" : "ベトナム",
+  "nekoLatin" : "betonamu",
+  "nekoKanji" : "",
+  "nekoKanjiHanViet" : "",
+  "nekoVietNamese" : "Việt Nam",
+  "nekoEnglish" : "Vietnam",
+  "nekoSound" : "ベトナム"
+ },
+ {
+  "nekoJapanese" : "フエ",
+  "nekoLatin" : "fue",
+  "nekoKanji" : "",
+  "nekoKanjiHanViet" : "",
+  "nekoVietNamese" : "Huế",
+  "nekoEnglish" : "Hue (in Vietnam)",
+  "nekoSound" : "フエ"
+ }
+]

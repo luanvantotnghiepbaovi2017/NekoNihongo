@@ -1,0 +1,272 @@
+[
+ {
+  "nekoJapanese" : "のぼります (I) (やまに～)",
+  "nekoLatin" : "noborimasu",
+  "nekoKanji" : "登ります(山に～)",
+  "nekoKanjiHanViet" : "Đăng Sơn",
+  "nekoVietNamese" : "leo [núi]",
+  "nekoEnglish" : "to climb [a mountain]",
+  "nekoSound" : "登ります"
+ },
+ {
+  "nekoJapanese" : "とまります (I) (ホテルに～)",
+  "nekoLatin" : "tomarimasu",
+  "nekoKanji" : "泊まります(ホテルに～)",
+  "nekoKanjiHanViet" : "Bạc",
+  "nekoVietNamese" : "trọ [ở khách sạn]",
+  "nekoEnglish" : "to stay (at a place, e.g. a hotel)",
+  "nekoSound" : "泊まります"
+ },
+ {
+  "nekoJapanese" : "そうじします (III)",
+  "nekoLatin" : "soujishimasu",
+  "nekoKanji" : "掃除します",
+  "nekoKanjiHanViet" : "Tảo Trừ",
+  "nekoVietNamese" : "dọn vệ sinh",
+  "nekoEnglish" : "to clean (a room)",
+  "nekoSound" : "掃除します"
+ },
+ {
+  "nekoJapanese" : "せんたくします (III)",
+  "nekoLatin" : "sentakushimasu",
+  "nekoKanji" : "洗濯します",
+  "nekoKanjiHanViet" : "Tẩy Trạc",
+  "nekoVietNamese" : "giặt",
+  "nekoEnglish" : "to wash (clothes)",
+  "nekoSound" : "洗濯します"
+ },
+ {
+  "nekoJapanese" : "れんしゅうします (III)",
+  "nekoLatin" : "renshuushimasu",
+  "nekoKanji" : "練習します",
+  "nekoKanjiHanViet" : "Luyện Tập",
+  "nekoVietNamese" : "luyện tập, thực hành",
+  "nekoEnglish" : "to practice",
+  "nekoSound" : "練習します"
+ },
+ {
+  "nekoJapanese" : "なります (I)",
+  "nekoLatin" : "narimasu",
+  "nekoKanji" : "",
+  "nekoKanjiHanViet" : "",
+  "nekoVietNamese" : "trở thành, trở nên",
+  "nekoEnglish" : "become",
+  "nekoSound" : "なります"
+ },
+ {
+  "nekoJapanese" : "ねむい",
+  "nekoLatin" : "nemui",
+  "nekoKanji" : "眠い",
+  "nekoKanjiHanViet" : "Miên",
+  "nekoVietNamese" : "buồn ngủ",
+  "nekoEnglish" : "sleepy",
+  "nekoSound" : "眠い"
+ },
+ {
+  "nekoJapanese" : "つよい",
+  "nekoLatin" : "tsuyoi",
+  "nekoKanji" : "強い",
+  "nekoKanjiHanViet" : "Cường",
+  "nekoVietNamese" : "mạnh",
+  "nekoEnglish" : "strong",
+  "nekoSound" : "強い"
+ },
+ {
+  "nekoJapanese" : "よわい",
+  "nekoLatin" : "yowai",
+  "nekoKanji" : "弱い",
+  "nekoKanjiHanViet" : "Nhược",
+  "nekoVietNamese" : "yếu",
+  "nekoEnglish" : "weak",
+  "nekoSound" : "弱い"
+ },
+ {
+  "nekoJapanese" : "ちょうしが いい",
+  "nekoLatin" : "choushigaii",
+  "nekoKanji" : "調子がいい",
+  "nekoKanjiHanViet" : "Điều Tử",
+  "nekoVietNamese" : "trong tình trạng tốt",
+  "nekoEnglish" : "be in good condition",
+  "nekoSound" : "調子がいい"
+ },
+ {
+  "nekoJapanese" : "ちょうしが わるい",
+  "nekoLatin" : "choushigawarui",
+  "nekoKanji" : "調子が悪い",
+  "nekoKanjiHanViet" : "Điều Tử Ác",
+  "nekoVietNamese" : "trong tình trạng xấu",
+  "nekoEnglish" : "be in bad condition",
+  "nekoSound" : "調子が悪い"
+ },
+ {
+  "nekoJapanese" : "ちょうし",
+  "nekoLatin" : "choushi",
+  "nekoKanji" : "調子",
+  "nekoKanjiHanViet" : "Điều Tử",
+  "nekoVietNamese" : "tình trạng, trạng thái",
+  "nekoEnglish" : "condition",
+  "nekoSound" : "調子"
+ },
+ {
+  "nekoJapanese" : "ゴルフ",
+  "nekoLatin" : "gorufu",
+  "nekoKanji" : "",
+  "nekoKanjiHanViet" : "",
+  "nekoVietNamese" : "gôn (～をします:chơi gôn)",
+  "nekoEnglish" : "golf (～をします: play golf)",
+  "nekoSound" : "ゴルフ"
+ },
+ {
+  "nekoJapanese" : "すもう",
+  "nekoLatin" : "sumou",
+  "nekoKanji" : "相撲",
+  "nekoKanjiHanViet" : "Tướng Phác",
+  "nekoVietNamese" : "vật Sumo",
+  "nekoEnglish" : "sumo wrestling",
+  "nekoSound" : "相撲"
+ },
+ {
+  "nekoJapanese" : "パチンコ",
+  "nekoLatin" : "pachinko",
+  "nekoKanji" : "",
+  "nekoKanjiHanViet" : "",
+  "nekoVietNamese" : "trò chơi Pachinko (～をします:chơi trò chơi Pachinko)",
+  "nekoEnglish" : "pinball game (～をします: play pachinko)",
+  "nekoSound" : "パチンコ"
+ },
+ {
+  "nekoJapanese" : "おちゃ",
+  "nekoLatin" : "ocha",
+  "nekoKanji" : "お茶",
+  "nekoKanjiHanViet" : "Trà",
+  "nekoVietNamese" : "trà đạo",
+  "nekoEnglish" : "tea, ceremony",
+  "nekoSound" : "お茶"
+ },
+ {
+  "nekoJapanese" : "ひ",
+  "nekoLatin" : "hi",
+  "nekoKanji" : "日",
+  "nekoKanjiHanViet" : "Nhật",
+  "nekoVietNamese" : "ngày",
+  "nekoEnglish" : "day, date",
+  "nekoSound" : "日"
+ },
+ {
+  "nekoJapanese" : "いちど",
+  "nekoLatin" : "ichido",
+  "nekoKanji" : "一度",
+  "nekoKanjiHanViet" : "Nhất Độ",
+  "nekoVietNamese" : "một lần",
+  "nekoEnglish" : "once",
+  "nekoSound" : "一度"
+ },
+ {
+  "nekoJapanese" : "いちども",
+  "nekoLatin" : "ichidomo",
+  "nekoKanji" : "一度も",
+  "nekoKanjiHanViet" : "Nhất Độ",
+  "nekoVietNamese" : "chưa lần nào",
+  "nekoEnglish" : "never, not once (used with negatives)",
+  "nekoSound" : "一度も"
+ },
+ {
+  "nekoJapanese" : "だんだん",
+  "nekoLatin" : "dandan",
+  "nekoKanji" : "",
+  "nekoKanjiHanViet" : "",
+  "nekoVietNamese" : "dần dần",
+  "nekoEnglish" : "gradually",
+  "nekoSound" : "だんだん"
+ },
+ {
+  "nekoJapanese" : "おかげさまで。",
+  "nekoLatin" : "okagesamade",
+  "nekoKanji" : "",
+  "nekoKanjiHanViet" : "",
+  "nekoVietNamese" : "cám ơn anh/ chị (dùng để bày tỏ sự cám ơn khi nhận được sự giúp đỡ của ai đó)",
+  "nekoEnglish" : "thank you (used when expressing gratitude for help received)",
+  "nekoSound" : "おかげさまで"
+ },
+ {
+  "nekoJapanese" : "もうすぐ",
+  "nekoLatin" : "mousugu",
+  "nekoKanji" : "",
+  "nekoKanjiHanViet" : "",
+  "nekoVietNamese" : "sớm",
+  "nekoEnglish" : "soon",
+  "nekoSound" : "もうすぐ"
+ },
+ {
+  "nekoJapanese" : "かんぱい",
+  "nekoLatin" : "kanpai",
+  "nekoKanji" : "乾杯",
+  "nekoKanjiHanViet" : "Can Bôi",
+  "nekoVietNamese" : "nâng cốc!/cạn chén",
+  "nekoEnglish" : "cheers(!), bottoms up(!)",
+  "nekoSound" : "乾杯"
+ },
+ {
+  "nekoJapanese" : "じつは",
+  "nekoLatin" : "jitsuha",
+  "nekoKanji" : "実は",
+  "nekoKanjiHanViet" : "Thực",
+  "nekoVietNamese" : "thật ra là/sự tình là",
+  "nekoEnglish" : "actually, to tell the truth",
+  "nekoSound" : "実は"
+ },
+ {
+  "nekoJapanese" : "ダイエット",
+  "nekoLatin" : "daietto",
+  "nekoKanji" : "",
+  "nekoKanjiHanViet" : "",
+  "nekoVietNamese" : "việc ăn kiêng, chế độ giảm cân (～をします:ăn kiêng)",
+  "nekoEnglish" : "diet (～をします: go on a diet)",
+  "nekoSound" : "ダイエット"
+ },
+ {
+  "nekoJapanese" : "なんかいも。",
+  "nekoLatin" : "nankaimo",
+  "nekoKanji" : "何回も",
+  "nekoKanjiHanViet" : "Hà Hồi",
+  "nekoVietNamese" : "nhiều lần",
+  "nekoEnglish" : "many times",
+  "nekoSound" : "何回も"
+ },
+ {
+  "nekoJapanese" : "しかし",
+  "nekoLatin" : "shikashi",
+  "nekoKanji" : "",
+  "nekoKanjiHanViet" : "",
+  "nekoVietNamese" : "nhưng, tuy nhiên",
+  "nekoEnglish" : "however, but",
+  "nekoSound" : "しかし"
+ },
+ {
+  "nekoJapanese" : "むり「な」",
+  "nekoLatin" : "muri",
+  "nekoKanji" : "無理「な」",
+  "nekoKanjiHanViet" : "Vô Lí",
+  "nekoVietNamese" : "không thể, quá sức",
+  "nekoEnglish" : "excessive, impossible",
+  "nekoSound" : "無理"
+ },
+ {
+  "nekoJapanese" : "からだにいい",
+  "nekoLatin" : "karadaniii",
+  "nekoKanji" : "体にいい",
+  "nekoKanjiHanViet" : "Thể",
+  "nekoVietNamese" : "tốt cho sức khỏe",
+  "nekoEnglish" : "good for one's health",
+  "nekoSound" : "体にいい"
+ },
+ {
+  "nekoJapanese" : "ケーキ",
+  "nekoLatin" : "keeki",
+  "nekoKanji" : "",
+  "nekoKanjiHanViet" : "",
+  "nekoVietNamese" : "bánh ga-tô, bánh ngọt",
+  "nekoEnglish" : "cake",
+  "nekoSound" : "ケーキ"
+ }
+]

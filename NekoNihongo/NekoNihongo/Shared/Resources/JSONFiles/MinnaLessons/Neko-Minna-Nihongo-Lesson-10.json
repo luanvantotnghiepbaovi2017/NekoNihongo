@@ -1,0 +1,263 @@
+[
+ {
+  "nekoJapanese" : "できます (II)",
+  "nekoLatin" : "dekimasu",
+  "nekoKanji" : "出来ます",
+  "nekoKanjiHanViet" : "Xuất Lai",
+  "nekoVietNamese" : "có thể",
+  "nekoEnglish" : "to be able to, can",
+  "nekoSound" : "出来ます"
+ },
+ {
+  "nekoJapanese" : "あらいます (I)",
+  "nekoLatin" : "araimasu",
+  "nekoKanji" : "洗います",
+  "nekoKanjiHanViet" : "Tẩy",
+  "nekoVietNamese" : "rửa",
+  "nekoEnglish" : "to wash",
+  "nekoSound" : "洗います"
+ },
+ {
+  "nekoJapanese" : "ひきます (I)",
+  "nekoLatin" : "hikimasu",
+  "nekoKanji" : "弾きます",
+  "nekoKanjiHanViet" : "Đàn",
+  "nekoVietNamese" : "chơi (nhạc cụ)",
+  "nekoEnglish" : "to play (stringed instrument or piano, etc)",
+  "nekoSound" : "弾きます"
+ },
+ {
+  "nekoJapanese" : "うたいます (I)",
+  "nekoLatin" : "utaimasu",
+  "nekoKanji" : "歌います",
+  "nekoKanjiHanViet" : "Ca",
+  "nekoVietNamese" : "hát",
+  "nekoEnglish" : "to sing",
+  "nekoSound" : "歌います"
+ },
+ {
+  "nekoJapanese" : "あつめます (II)",
+  "nekoLatin" : "atsumemasu",
+  "nekoKanji" : "集めます",
+  "nekoKanjiHanViet" : "Tập",
+  "nekoVietNamese" : "sưu tầm, thu thập",
+  "nekoEnglish" : "to collect, to gather",
+  "nekoSound" : "集めます"
+ },
+ {
+  "nekoJapanese" : "すてます (II)",
+  "nekoLatin" : "sutemasu",
+  "nekoKanji" : "捨てます",
+  "nekoKanjiHanViet" : "Xả",
+  "nekoVietNamese" : "vứt, bỏ đi",
+  "nekoEnglish" : "to throw away",
+  "nekoSound" : "捨てます"
+ },
+ {
+  "nekoJapanese" : "かえます (II)",
+  "nekoLatin" : "kaemasu",
+  "nekoKanji" : "換えます",
+  "nekoKanjiHanViet" : "Hoán",
+  "nekoVietNamese" : "đổi",
+  "nekoEnglish" : "to exchange, to change",
+  "nekoSound" : "換えます"
+ },
+ {
+  "nekoJapanese" : "うんてんします (III)",
+  "nekoLatin" : "untenshimasu",
+  "nekoKanji" : "運転します",
+  "nekoKanjiHanViet" : "Vận Chuyển",
+  "nekoVietNamese" : "lái",
+  "nekoEnglish" : "to drive",
+  "nekoSound" : "運転します"
+ },
+ {
+  "nekoJapanese" : "よやくします (III)",
+  "nekoLatin" : "yoyakushimasu",
+  "nekoKanji" : "予約します",
+  "nekoKanjiHanViet" : "Dự Ước",
+  "nekoVietNamese" : "đặt chỗ, đặt trước",
+  "nekoEnglish" : "to reserve, to book",
+  "nekoSound" : "予約します"
+ },
+ {
+  "nekoJapanese" : "けんがくします (III)",
+  "nekoLatin" : "kengakushimasu",
+  "nekoKanji" : "見学します",
+  "nekoKanjiHanViet" : "Kiến Học",
+  "nekoVietNamese" : "thăm quan với mục đích học tập",
+  "nekoEnglish" : "to visit some place for study, to study by observation (field trip)",
+  "nekoSound" : "見学します"
+ },
+ {
+  "nekoJapanese" : "ピアノ",
+  "nekoLatin" : "piano",
+  "nekoKanji" : "",
+  "nekoKanjiHanViet" : "",
+  "nekoVietNamese" : "đàn Piano",
+  "nekoEnglish" : "piano",
+  "nekoSound" : "ピアノ"
+ },
+ {
+  "nekoJapanese" : "～メートル",
+  "nekoLatin" : "meetoru",
+  "nekoKanji" : "",
+  "nekoKanjiHanViet" : "",
+  "nekoVietNamese" : "～mét",
+  "nekoEnglish" : "～meter",
+  "nekoSound" : "メートル"
+ },
+ {
+  "nekoJapanese" : "こくさい～",
+  "nekoLatin" : "kokusai",
+  "nekoKanji" : "国際～",
+  "nekoKanjiHanViet" : "Quốc Tế",
+  "nekoVietNamese" : "～quốc tế",
+  "nekoEnglish" : "international～",
+  "nekoSound" : "国際"
+ },
+ {
+  "nekoJapanese" : "げんきん",
+  "nekoLatin" : "genkin",
+  "nekoKanji" : "現金",
+  "nekoKanjiHanViet" : "Hiện Kim",
+  "nekoVietNamese" : "tiền mặt",
+  "nekoEnglish" : "cash",
+  "nekoSound" : "現金"
+ },
+ {
+  "nekoJapanese" : "しゅみ",
+  "nekoLatin" : "shumi",
+  "nekoKanji" : "趣味",
+  "nekoKanjiHanViet" : "Thú Vị",
+  "nekoVietNamese" : "sở thích, thú vui",
+  "nekoEnglish" : "hobby",
+  "nekoSound" : "趣味"
+ },
+ {
+  "nekoJapanese" : "にっき",
+  "nekoLatin" : "nikki",
+  "nekoKanji" : "日記",
+  "nekoKanjiHanViet" : "Nhật Kí",
+  "nekoVietNamese" : "nhật ký",
+  "nekoEnglish" : "diary",
+  "nekoSound" : "日記"
+ },
+ {
+  "nekoJapanese" : "「お」いのり",
+  "nekoLatin" : "inori",
+  "nekoKanji" : "「お」祈り",
+  "nekoKanjiHanViet" : "Kì",
+  "nekoVietNamese" : "việc cầu nguyện (～をします：cầu nguyện)",
+  "nekoEnglish" : "prayer (～をします： pray)",
+  "nekoSound" : "お祈り"
+ },
+ {
+  "nekoJapanese" : "かちょう",
+  "nekoLatin" : "kachou",
+  "nekoKanji" : "課長",
+  "nekoKanjiHanViet" : "Khóa Trưởng",
+  "nekoVietNamese" : "tổ trưởng",
+  "nekoEnglish" : "tổ trưởng",
+  "nekoSound" : "課長"
+ },
+ {
+  "nekoJapanese" : "ぶちょう",
+  "nekoLatin" : "buchou",
+  "nekoKanji" : "部長",
+  "nekoKanjiHanViet" : "Bộ Trưởng",
+  "nekoVietNamese" : "trưởng phòng",
+  "nekoEnglish" : "department chief",
+  "nekoSound" : "部長"
+ },
+ {
+  "nekoJapanese" : "しゃちょう",
+  "nekoLatin" : "shachou",
+  "nekoKanji" : "社長",
+  "nekoKanjiHanViet" : "Xã Trưởng",
+  "nekoVietNamese" : "giám đốc",
+  "nekoEnglish" : "president of a company",
+  "nekoSound" : "社長"
+ },
+ {
+  "nekoJapanese" : "どうぶつ",
+  "nekoLatin" : "doubutsu",
+  "nekoKanji" : "動物",
+  "nekoKanjiHanViet" : "Động Vật",
+  "nekoVietNamese" : "động vật",
+  "nekoEnglish" : "animal",
+  "nekoSound" : "動物"
+ },
+ {
+  "nekoJapanese" : "うま",
+  "nekoLatin" : "uma",
+  "nekoKanji" : "馬",
+  "nekoKanjiHanViet" : "Mã",
+  "nekoVietNamese" : "ngựa",
+  "nekoEnglish" : "horse",
+  "nekoSound" : "馬"
+ },
+ {
+  "nekoJapanese" : "へえ",
+  "nekoLatin" : "hee",
+  "nekoKanji" : "",
+  "nekoKanjiHanViet" : "",
+  "nekoVietNamese" : "thế à! (dùng để biểu thị sự ngạc nhiên hoặc quan tâm)",
+  "nekoEnglish" : "Really! (used when expressing surprise)",
+  "nekoSound" : "へえ"
+ },
+ {
+  "nekoJapanese" : "それはおもしろいですね。",
+  "nekoLatin" : "sorehaomoshiroidesune",
+  "nekoKanji" : "それは面白いですね",
+  "nekoKanjiHanViet" : "Diện Bạch",
+  "nekoVietNamese" : "Hay thật nhỉ.",
+  "nekoEnglish" : "That must be interesting",
+  "nekoSound" : "それは面白いですね"
+ },
+ {
+  "nekoJapanese" : "なかなか",
+  "nekoLatin" : "nakanaka",
+  "nekoKanji" : "",
+  "nekoKanjiHanViet" : "",
+  "nekoVietNamese" : "khó mà~, không dễ, mãi mà (dùng với thể phủ định)",
+  "nekoEnglish" : "not easily (used with negatives)",
+  "nekoSound" : "なかなか"
+ },
+ {
+  "nekoJapanese" : "ぼくじょう",
+  "nekoLatin" : "bokujou",
+  "nekoKanji" : "牧場",
+  "nekoKanjiHanViet" : "Mục Trường",
+  "nekoVietNamese" : "trang trại chăn nuôi",
+  "nekoEnglish" : "ranch, stock farm",
+  "nekoSound" : "牧場"
+ },
+ {
+  "nekoJapanese" : "ほんとうですか。",
+  "nekoLatin" : "hontoudesuka",
+  "nekoKanji" : "本当ですか",
+  "nekoKanjiHanViet" : "Bản Đương",
+  "nekoVietNamese" : "Thật không ạ?",
+  "nekoEnglish" : "Really?",
+  "nekoSound" : "本当ですか"
+ },
+ {
+  "nekoJapanese" : "ぜひ",
+  "nekoLatin" : "zehi",
+  "nekoKanji" : "是非",
+  "nekoKanjiHanViet" : "Thị Phi",
+  "nekoVietNamese" : "nhất định, rất",
+  "nekoEnglish" : "by all means",
+  "nekoSound" : "是非"
+ },
+ {
+  "nekoJapanese" : "ビートルズ",
+  "nekoLatin" : "biitoruzu",
+  "nekoKanji" : "",
+  "nekoKanjiHanViet" : "",
+  "nekoVietNamese" : "Beatles, một band nhạc nổi tiếng nước Anh",
+  "nekoEnglish" : "the Beatles, famous British music group",
+  "nekoSound" : "ビートルズ"
+ }
+]

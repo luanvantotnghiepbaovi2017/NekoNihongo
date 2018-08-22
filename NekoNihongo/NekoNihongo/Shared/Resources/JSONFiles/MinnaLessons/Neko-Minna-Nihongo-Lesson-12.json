@@ -1,0 +1,263 @@
+[
+ {
+  "nekoJapanese" : "いります (I) (ビザが～)",
+  "nekoLatin" : "irimasu",
+  "nekoKanji" : "要ります",
+  "nekoKanjiHanViet" : "Yêu, Yếu",
+  "nekoVietNamese" : "cần [thị thực (visa)]",
+  "nekoEnglish" : "to need/require a visa",
+  "nekoSound" : "要ります"
+ },
+ {
+  "nekoJapanese" : "しらべます (II)",
+  "nekoLatin" : "shirabemasu",
+  "nekoKanji" : "調べます",
+  "nekoKanjiHanViet" : "Điều, Điệu",
+  "nekoVietNamese" : "tìm hiểu, điều tra, xem",
+  "nekoEnglish" : "to check, to investigate",
+  "nekoSound" : "調べます"
+ },
+ {
+  "nekoJapanese" : "なおします (I)",
+  "nekoLatin" : "naoshimasu",
+  "nekoKanji" : "直します",
+  "nekoKanjiHanViet" : "Trực",
+  "nekoVietNamese" : "sửa, chữa",
+  "nekoEnglish" : "to repair, to correct",
+  "nekoSound" : "直します"
+ },
+ {
+  "nekoJapanese" : "しゅうりします (III)",
+  "nekoLatin" : "shuurishimasu",
+  "nekoKanji" : "修理します",
+  "nekoKanjiHanViet" : "Tu Lí",
+  "nekoVietNamese" : "sửa chữa, tu sửa",
+  "nekoEnglish" : "to repair",
+  "nekoSound" : "修理します"
+ },
+ {
+  "nekoJapanese" : "でんわします (III)",
+  "nekoLatin" : "denwashimasu",
+  "nekoKanji" : "電話します",
+  "nekoKanjiHanViet" : "Điện Thoại",
+  "nekoVietNamese" : "gọi điện thoại",
+  "nekoEnglish" : "to phone",
+  "nekoSound" : "電話します"
+ },
+ {
+  "nekoJapanese" : "",
+  "nekoLatin" : "",
+  "nekoKanji" : "",
+  "nekoKanjiHanViet" : "",
+  "nekoVietNamese" : "",
+  "nekoEnglish" : "",
+  "nekoSound" : ""
+ },
+ {
+  "nekoJapanese" : "ぼく",
+  "nekoLatin" : "boku",
+  "nekoKanji" : "僕",
+  "nekoKanjiHanViet" : "Bộc",
+  "nekoVietNamese" : "tớ (cách xưng thân mật của nam giới, cùng nghĩa với [わたし])",
+  "nekoEnglish" : "I (me) (an informal equivalent of わたし used by men)",
+  "nekoSound" : "僕"
+ },
+ {
+  "nekoJapanese" : "きみ",
+  "nekoLatin" : "kimi",
+  "nekoKanji" : "君",
+  "nekoKanjiHanViet" : "Quân",
+  "nekoVietNamese" : "cậu, bạn (cách gọi thân mật dùng cho nam giới, cùng nghĩa với 「あなた」)",
+  "nekoEnglish" : "you (an informal equivalent of あなた used by men)",
+  "nekoSound" : "君"
+ },
+ {
+  "nekoJapanese" : "～くん",
+  "nekoLatin" : "kun",
+  "nekoKanji" : "～君",
+  "nekoKanjiHanViet" : "Quân",
+  "nekoVietNamese" : "anh~, cậu~ (cách gọi thân mật dùng cho nam giới, cùng nghĩa với 「～さん」)",
+  "nekoEnglish" : "Mr. (an informal equivalent of ～さん used by men)",
+  "nekoSound" : "くん"
+ },
+ {
+  "nekoJapanese" : "うん",
+  "nekoLatin" : "un",
+  "nekoKanji" : "",
+  "nekoKanjiHanViet" : "",
+  "nekoVietNamese" : "ừ (cách nói thân mật của 「はい」)",
+  "nekoEnglish" : "yes (an informal equivalent of はい)",
+  "nekoSound" : "うん"
+ },
+ {
+  "nekoJapanese" : "ううん",
+  "nekoLatin" : "uun",
+  "nekoKanji" : "",
+  "nekoKanjiHanViet" : "",
+  "nekoVietNamese" : "không (cách nói thân mật của 「いいえ」)",
+  "nekoEnglish" : "no (an informal equivalent of いいえ)",
+  "nekoSound" : "ううん"
+ },
+ {
+  "nekoJapanese" : "サラリーマン",
+  "nekoLatin" : "sarariiman",
+  "nekoKanji" : "",
+  "nekoKanjiHanViet" : "",
+  "nekoVietNamese" : "người làm việc cho các công ty",
+  "nekoEnglish" : "salaried worker, office worker",
+  "nekoSound" : "サラリーマン"
+ },
+ {
+  "nekoJapanese" : "ことば",
+  "nekoLatin" : "kotoba",
+  "nekoKanji" : "言葉",
+  "nekoKanjiHanViet" : "Ngôn Diệp",
+  "nekoVietNamese" : "từ, tiếng",
+  "nekoEnglish" : "word(s), language",
+  "nekoSound" : "言葉"
+ },
+ {
+  "nekoJapanese" : "ぶっか",
+  "nekoLatin" : "bukka",
+  "nekoKanji" : "物価",
+  "nekoKanjiHanViet" : "Vật Giá",
+  "nekoVietNamese" : "giá cả, mức giá, vật giá",
+  "nekoEnglish" : "commodity prices",
+  "nekoSound" : "物価"
+ },
+ {
+  "nekoJapanese" : "きもの",
+  "nekoLatin" : "kimono",
+  "nekoKanji" : "着物",
+  "nekoKanjiHanViet" : "Trước Vật",
+  "nekoVietNamese" : "Kimono (trang phục truyền thống của Nhật Bản)",
+  "nekoEnglish" : "Kimono (traditional Japanese attire)",
+  "nekoSound" : "着物"
+ },
+ {
+  "nekoJapanese" : "ビザ",
+  "nekoLatin" : "biza",
+  "nekoKanji" : "",
+  "nekoKanjiHanViet" : "",
+  "nekoVietNamese" : "thị thực, Visa",
+  "nekoEnglish" : "visa",
+  "nekoSound" : "ビザ"
+ },
+ {
+  "nekoJapanese" : "はじめ",
+  "nekoLatin" : "hajime",
+  "nekoKanji" : "初め",
+  "nekoKanjiHanViet" : "Sơ",
+  "nekoVietNamese" : "ban đầu, đầu tiên",
+  "nekoEnglish" : "the beginning",
+  "nekoSound" : "初め"
+ },
+ {
+  "nekoJapanese" : "おわり",
+  "nekoLatin" : "owari",
+  "nekoKanji" : "終わり",
+  "nekoKanjiHanViet" : "Chung",
+  "nekoVietNamese" : "kết thúc",
+  "nekoEnglish" : "the end",
+  "nekoSound" : "終わり"
+ },
+ {
+  "nekoJapanese" : "こっち",
+  "nekoLatin" : "kocchi",
+  "nekoKanji" : "",
+  "nekoKanjiHanViet" : "",
+  "nekoVietNamese" : "phía này, chỗ này (cách nói thân mật của 「こちら」)",
+  "nekoEnglish" : "this place/way/direction (close to speaker) [informal]",
+  "nekoSound" : "こっち"
+ },
+ {
+  "nekoJapanese" : "そっち",
+  "nekoLatin" : "socchi",
+  "nekoKanji" : "",
+  "nekoKanjiHanViet" : "",
+  "nekoVietNamese" : "phía đó, chỗ đó (cách nói thân mật của 「そちら」)",
+  "nekoEnglish" : "that place/way/direction (distant from speaker, close to listener) [informal]",
+  "nekoSound" : "そっち"
+ },
+ {
+  "nekoJapanese" : "あっち",
+  "nekoLatin" : "acchi",
+  "nekoKanji" : "",
+  "nekoKanjiHanViet" : "",
+  "nekoVietNamese" : "phía kia, chỗ kia (cách nói thân mật của 「あちら」)",
+  "nekoEnglish" : "that place/way/direction (distant from both speaker and listener) [informal]",
+  "nekoSound" : "あっち"
+ },
+ {
+  "nekoJapanese" : "どっち",
+  "nekoLatin" : "docchi",
+  "nekoKanji" : "",
+  "nekoKanjiHanViet" : "",
+  "nekoVietNamese" : "cái nào, phía nào, đâu (cách nói thân mật của 「どちら」)",
+  "nekoEnglish" : "which one (between two things), which way, where [informal]",
+  "nekoSound" : "どっち"
+ },
+ {
+  "nekoJapanese" : "このあいだ",
+  "nekoLatin" : "konoaida",
+  "nekoKanji" : "この間",
+  "nekoKanjiHanViet" : "Gian",
+  "nekoVietNamese" : "vừa rồi, hôm nọ",
+  "nekoEnglish" : "the other day",
+  "nekoSound" : "この間"
+ },
+ {
+  "nekoJapanese" : "～けど",
+  "nekoLatin" : "kedo",
+  "nekoKanji" : "",
+  "nekoKanjiHanViet" : "",
+  "nekoVietNamese" : "～,nhưng (cách nói thân mật của 「が」)",
+  "nekoEnglish" : "～,but (a informal equivalent of が)",
+  "nekoSound" : "けど"
+ },
+ {
+  "nekoJapanese" : "くにへかえるの？",
+  "nekoLatin" : "kunihekaeruno?",
+  "nekoKanji" : "国へ帰るの？",
+  "nekoKanjiHanViet" : "Quốc Quy",
+  "nekoVietNamese" : "Anh/chị có về nước không?",
+  "nekoEnglish" : "Are you going back to your country?",
+  "nekoSound" : "国へ帰るの？"
+ },
+ {
+  "nekoJapanese" : "どうするの？",
+  "nekoLatin" : "dousuruno?",
+  "nekoKanji" : "",
+  "nekoKanjiHanViet" : "",
+  "nekoVietNamese" : "Anh/ chị tính sao? Anh/chị sẽ làm gì?",
+  "nekoEnglish" : "What will you do?",
+  "nekoSound" : "どうするの？"
+ },
+ {
+  "nekoJapanese" : "どうしようかな。",
+  "nekoLatin" : "douushiyoukana",
+  "nekoKanji" : "",
+  "nekoKanjiHanViet" : "",
+  "nekoVietNamese" : "Tính sao đây nhỉ?/để tôi xem.",
+  "nekoEnglish" : "what shall I do?",
+  "nekoSound" : "どうしようかな。"
+ },
+ {
+  "nekoJapanese" : "よかったら",
+  "nekoLatin" : "yokattara",
+  "nekoKanji" : "",
+  "nekoKanjiHanViet" : "",
+  "nekoVietNamese" : "Nếu anh/chị thích thì",
+  "nekoEnglish" : "if you like",
+  "nekoSound" : "よかったら"
+ },
+ {
+  "nekoJapanese" : "いろいろ「な」",
+  "nekoLatin" : "iroiro",
+  "nekoKanji" : "",
+  "nekoKanjiHanViet" : "",
+  "nekoVietNamese" : "nhiều thứ",
+  "nekoEnglish" : "various",
+  "nekoSound" : "いろいろ"
+ }
+]
